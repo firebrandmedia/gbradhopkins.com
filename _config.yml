@@ -20,4 +20,4 @@ github_username:  firebrandmedia
 
 # Build settings
 markdown: kramdown
-future: BOOL
+future: TRUE
