@@ -17,5 +17,7 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: gbradhopkins
 github_username:  firebrandmedia
 
+
 # Build settings
 markdown: kramdown
+future: BOOL
