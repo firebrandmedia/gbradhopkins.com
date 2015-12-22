@@ -10,8 +10,8 @@ title: gbradhopkins.com
 email: me@gbradhopkins.com
 description: > # this means to ignore newlines until "baseurl:"
   An assortment of tutorials and thoughts on computers, web design, web services and life online.
-baseurl: "http://firebrandmedia.github.io/gbradhopkins.com" # the subpath of your site, e.g. /blog
-url: "http://firebrandmedia.github.io/gbradhopkins.com" # the base hostname & protocol for your site
+baseurl: "/gbradhopkins.com" # the subpath of your site, e.g. /blog
+url: "http://firebrandmedia.github.io/" # the base hostname & protocol for your site
 twitter_username: gbradhopkins
 github_username:  firebrandmedia
 
