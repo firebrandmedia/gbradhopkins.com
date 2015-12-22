@@ -5,7 +5,8 @@ date:   2013-06-25 10=30-00 -0500
 categories: PC Tutorials
 ---
 
-http://gbradhopkins.com/images/uploads/tutorials/iPod\_Video\_lg.JPG 
+![iPod Video Image]({{site.baseurl}}/images/iPod_Video_lg.JPG)
+
 *Update - 7/03/13 - [Macworld decided to one up me and provided their own, in-depth instruction guide on how to rip a DVD with handbrake. They go into a lot more detail than I did. Read mine first, and then, if you still can’t figure it out or need more help, check out their guide.][1]*
 
 If like me, you still have an iPod Video around, you may decide that you want to use it to store movies for when you travel, after all, you can hook it up to a TV using the video out cable so it makes a pretty good movie storage device.
@@ -67,12 +68,12 @@ Finally, go into the settings for your iPod and select the check box next to the
  [1]: http://www.macworld.com/article/1157590/how_to_rip_dvd_handbrake.html
  [2]: http://handbrake.fr/
  [3]: http://handbrake.fr/features.php
- [4]: http://gbradhopkins.com/images/uploads/tutorials/Handbrake_Step_1.jpg
- [5]: http://gbradhopkins.com/images/uploads/tutorials/Handbrake_Step_2.jpg
- [6]: http://gbradhopkins.com/images/uploads/tutorials/Handbrake_Step_3.jpg
- [7]: http://gbradhopkins.com/images/uploads/tutorials/Handbrake_Step_4.jpg
- [8]: http://gbradhopkins.com/images/uploads/tutorials/iTunes_Step_1.jpg
- [9]: http://gbradhopkins.com/images/uploads/tutorials/iTunes_Step_2.jpg
- [10]: http://gbradhopkins.com/images/uploads/tutorials/iTunes_Step_3.jpg
- [11]: http://gbradhopkins.com/images/uploads/tutorials/iTunes_Step_4.jpg
+ [4]: {{site.baseurl}}/images/Handbrake_Step_1.jpg
+ [5]: {{site.baseurl}}/images/Handbrake_Step_2.jpg
+ [6]: {{site.baseurl}}/images/Handbrake_Step_3.jpg
+ [7]: {{site.baseurl}}/images/Handbrake_Step_4.jpg
+ [8]: {{site.baseurl}}/images/iTunes_Step_1.jpg
+ [9]: {{site.baseurl}}/images/iTunes_Step_2.jpg
+ [10]: {{site.baseurl}}/images/iTunes_Step_3.jpg
+ [11]: {{site.baseurl}}/images/iTunes_Step_4.jpg
 

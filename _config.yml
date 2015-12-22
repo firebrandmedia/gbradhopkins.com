@@ -15,7 +15,18 @@ url: "http://firebrandmedia.github.io/" # the base hostname & protocol for your 
 twitter_username: gbradhopkins
 github_username:  firebrandmedia
 
-
 # Build settings
 markdown: kramdown
-future: FALSE
+
+# Default Settings
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      author: Brad Hopkins
+      authorbio: I bought my first computer - an Apple Performa 6320 - when I was in college and have been building websites ever since. I like long walks in Illustrator and candle lit dinners with ExpressionEngine.
+      authorphoto: /images/bio-gbradhopkins.jpg
+      layout: "post"
