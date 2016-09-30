@@ -6,9 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Not Seeing any Google Custom Search Engine Results in Analytics?&nbsp; Here&#8217;s the Fix!</title>
+  <title>Not Seeing any Google Custom Search Engine Results in Analytics?&nbsp; Here&#8217;s the Fix! | gbradhopkins.com</title>
   <meta name="description" content="I’m a big fan of and use it on most all of the sites that I build.  I recently installed a [Google Custom Search Engine (CSE)][1] to a [site][2] of mine and ...">
 
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Quattrocento|Titillium+Web:300,400,700,900" rel="stylesheet">
   <link rel="stylesheet" href="/gbradhopkins.com/css/main.css">
   <link rel="canonical" href="http://firebrandmedia.github.io//gbradhopkins.com/web/design/tutorials/2008/12/10/not-seeing-any-google-custom-search-engine-results-in-analytics-heres-the-f.html">
   <link rel="alternate" type="application/rss+xml" title="gbradhopkins.com" href="http://firebrandmedia.github.io//gbradhopkins.com/feed.xml">
@@ -24,6 +25,7 @@
     <a class="site-title" href="/gbradhopkins.com/">gbradhopkins.com</a>
 
     <nav class="site-nav">
+<!--
       <a href="#" class="menu-icon">
         <svg viewBox="0 0 18 15">
           <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
@@ -31,6 +33,7 @@
           <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
         </svg>
       </a>
+-->
 
       <div class="trigger">
         
@@ -62,7 +65,19 @@
   </header>
 
   <div class="post-content" itemprop="articleBody">
-      <p>Read this in about about 1  minute</p>
+      <p>I’m a big fan of and use it on most all of the sites that I build.  I recently installed a <a href="http://www.google.com/sitesearch/">Google Custom Search Engine (CSE)</a> to a <a href="http://www.inthepanhandle.com/">site</a> of mine and was hoping to use Google Analytics to track the searches that were performed on the site in the Google CSE.</p>
+
+<p>The problem is that after a couple days, there were still no results.  It was off to the Google CSE Discussion Group to search for the answer - and I found it.</p>
+
+<p>By the way, the Google CSE Discussion Group seems to not be monitored by anyone at Google or if it is, it’s not a priority to respond to queries.  But there are still answers to be found from fellow users.</p>
+
+<p>The answer I found was to edit the Profile Settings in Google Analytics for the site in question.  Now, I’m going to assume that you’ve set <strong>Site Search</strong> to ‘Do Track Site Search.’  If you haven’t, do that.  Next, you need to add a Query Parameter to the parameters that are already in place (term,search,query).  The query parameter that you want to add is ‘q’ (see image). Now hit ‘Save Changes.’</p>
+
+<p><img src="http://www.gbradhopkins.com/archives/Picture%205.png" alt="Picture 5.png" /></p>
+
+<p>That’s it.  Now, just wait for the results to be displayed in Google Analytics.</p>
+
+
    
   </div>
 
@@ -81,7 +96,7 @@
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li>gbradhopkins.com</li>
-          <li><a href="mailto:me@gbradhopkins.com">me@gbradhopkins.com</a></li>
+          <li><a href="mailto:"></a></li>
         </ul>
       </div>
 

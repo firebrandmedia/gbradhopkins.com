@@ -6,9 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Recovering Individual Files from Plesk Backup</title>
+  <title>Recovering Individual Files from Plesk Backup | gbradhopkins.com</title>
   <meta name="description" content="If you host your website on a server that runs Plesk as the Control Panel, and you actually make back-ups of your server, then at some point you are probably...">
 
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Quattrocento|Titillium+Web:300,400,700,900" rel="stylesheet">
   <link rel="stylesheet" href="/gbradhopkins.com/css/main.css">
   <link rel="canonical" href="http://firebrandmedia.github.io//gbradhopkins.com/internet/tutorials/2008/12/09/recovering-individual-files-from-plesk-backup.html">
   <link rel="alternate" type="application/rss+xml" title="gbradhopkins.com" href="http://firebrandmedia.github.io//gbradhopkins.com/feed.xml">
@@ -24,6 +25,7 @@
     <a class="site-title" href="/gbradhopkins.com/">gbradhopkins.com</a>
 
     <nav class="site-nav">
+<!--
       <a href="#" class="menu-icon">
         <svg viewBox="0 0 18 15">
           <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
@@ -31,6 +33,7 @@
           <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
         </svg>
       </a>
+-->
 
       <div class="trigger">
         
@@ -62,7 +65,29 @@
   </header>
 
   <div class="post-content" itemprop="articleBody">
-      <p>Read this in about about 1  minute</p>
+      <p>If you host your website on a server that runs Plesk as the Control Panel, and you actually make back-ups of your server, then at some point you are probably going to want to access the files located on the Plesk generated back-up.</p>
+
+<p>With some free software, it’s easier than you think.</p>
+
+<p>If you are a Mac user, then you are no doubt familiar with Stuffit Expander from Smith Micro.  This expander software was generally installed on every Mac for as long as I can remember. I don’t believe it is still part of the standard install but, no worries, it’s a free download (you just have to provide them with your email address).</p>
+
+<ol>
+  <li><a href="http://my.smithmicro.com/mac/stuffit/expander.html">download and install the Stuffit Expander software</a>.</li>
+  <li>Navigate to your local copy of your Plesk Backup file.</li>
+  <li>Right click on the Plesk Backup File and select Open With…  You will now need to navigate to the Stuffit Expander application that you installed in step 1 (you can find it in your Applications folder).</li>
+</ol>
+
+<p>That’s all there is to it.  Stuffit Expander should now begin decompressing the Plesk Backup file.  You will need to then decompress the individual files that contain your web files.  On mine the files that comprised my website were found in the ‘<em>domainname.com.httpdocs</em>’ folder.</p>
+
+<h2 id="not-a-mac-user">Not a Mac user?</h2>
+
+<p>You’re in luck!  Stuffit Expander is also available as a <a href="http://my.smithmicro.com/win/stuffit/index.html">free download for Windows</a>.  There is one caveat for Window’s users - you also need to install Microsoft .Net Framework (<a href="http://my.smithmicro.com/get.net/">Redirect from Smith Micro to the Microsoft .Net Framework download page</a>).</p>
+
+<h2 id="viewing-databasess">Viewing Databasess</h2>
+
+<p>As more and more sites are database driven you may also find that you need to view the database that holds your site together.  This is easy also.  Simply open the database file - mine was called directory.mysql - with a text editor (I used <a href="http://www.barebones.com/products/textwrangler/">TextWrangler</a>).  You can then browse or search the database file line by line to extract the data you need.</p>
+
+
    
   </div>
 
@@ -81,7 +106,7 @@
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li>gbradhopkins.com</li>
-          <li><a href="mailto:me@gbradhopkins.com">me@gbradhopkins.com</a></li>
+          <li><a href="mailto:"></a></li>
         </ul>
       </div>
 

@@ -1,11 +1,26 @@
 h1, h2 {
-    font-family: 'Codystar', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 h2 {
-    font-size: 150%;
-    color: #fff;
-    background-color: #FC471E;
-    padding: 0;
-    margin: 0;
+    font-size: 250%;
+    color: #E1202C;
+    padding: 2%;
+    margin-bottom: 1px;
+}
+
+.site-header {
+    padding: 20px;
+    border-bottom: 1px solid #E1202C;
+    color: #686768;
+}
+
+.site-title {
+    font-size: 100%;
+    float: left;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.site-nav {
+    float: right;
 }
