@@ -11,18 +11,18 @@ With some free software, it’s easier than you think.
 
 If you are a Mac user, then you are no doubt familiar with Stuffit Expander from Smith Micro.  This expander software was generally installed on every Mac for as long as I can remember. I don’t believe it is still part of the standard install but, no worries, it’s a free download (you just have to provide them with your email address).
 
-**First** - [download and install the Stuffit Expander software][1].
-
-**Second** - Navigate to your local copy of your Plesk Backup file.
-
-**Third** - Right click on the Plesk Backup File and select Open With…  You will now need to navigate to the Stuffit Expander application that you installed in step 1 (you can find it in your Applications folder). 
+1. [download and install the Stuffit Expander software][1].
+2. Navigate to your local copy of your Plesk Backup file.
+3. Right click on the Plesk Backup File and select Open With…  You will now need to navigate to the Stuffit Expander application that you installed in step 1 (you can find it in your Applications folder). 
 
 That’s all there is to it.  Stuffit Expander should now begin decompressing the Plesk Backup file.  You will need to then decompress the individual files that contain your web files.  On mine the files that comprised my website were found in the ‘*domainname.com.httpdocs*’ folder.
 
-**Not a Mac user?**  
+## Not a Mac user?
+
 You’re in luck!  Stuffit Expander is also available as a [free download for Windows][2].  There is one caveat for Window’s users - you also need to install Microsoft .Net Framework ([Redirect from Smith Micro to the Microsoft .Net Framework download page][3]).
 
-**Viewing Databases**  
+## Viewing Databasess
+
 As more and more sites are database driven you may also find that you need to view the database that holds your site together.  This is easy also.  Simply open the database file - mine was called directory.mysql - with a text editor (I used [TextWrangler][4]).  You can then browse or search the database file line by line to extract the data you need.
 
  [1]: http://my.smithmicro.com/mac/stuffit/expander.html
