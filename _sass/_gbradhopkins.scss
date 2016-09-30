@@ -19,7 +19,7 @@ h2 {
 }
 
 .site-title {
-    font-size: 100%;
+    font-size: 300%;
     font-family: 'Rubik', sans-serif;
     font-weight: 900;
 }
@@ -32,15 +32,28 @@ h2 {
     padding: 0;
 }
 
+.post-list {
+    border-top: 1px solid #fff;
+}
+
 .post-list li {
     list-style-type: none;
     margin: 0;
     padding: 0;
     text-align: center;
+    background-color: $brand-color;
+    padding: 10%;
+    color: #fff;
 }
 
 .post-list li:first-of-type {
-    background-color: #E1202C;
+    background-color: lighten($brand-color, 5%);
+    padding: 10%;
+    color: #fff;
+}
+
+.post-list li:last-of-type {
+    background-color: lighten($brand-color, 1%);
     padding: 10%;
     color: #fff;
 }
