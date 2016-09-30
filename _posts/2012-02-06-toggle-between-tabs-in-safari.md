@@ -5,7 +5,7 @@ date:   2012-02-06 08=49-33 -0500
 categories: Mac Tutorials
 ---
 
-![http://gbradhopkins.com/images/uploads/tutorials/tabs.JPG]
+![Safari Tabs](http://gbradhopkins.com/images/uploads/tutorials/tabs.JPG)
 Need a quick way to toggle between tabs in Safari using keyboard shortcuts? 
 
 I’m a big fan of keyboard shortcuts - anything that keeps my hands on the keyboard makes me happy, and more efficient - so when a friend asked if there was a way to toggle between open tabs I thought, “Why didn’t I think of that?”
