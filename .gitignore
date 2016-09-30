@@ -2,13 +2,4 @@
 .jekyll-metadata
 /config.codekit
 _config.yml
-_includes
-_layouts
-_plugins
-_posts
-_sass
-about.md
-css
-feed.xml
-images
-index.html
+_site
