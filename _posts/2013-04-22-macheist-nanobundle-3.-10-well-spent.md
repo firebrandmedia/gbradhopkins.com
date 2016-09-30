@@ -5,7 +5,7 @@ date:   2013-04-22 10=50-36 -0500
 categories: Mac Tutorials
 ---
 
-http://gbradhopkins.com/images/uploads/tutorials/MacHeist-Bundle-3.jpg 
+![MachHeist Bundle Image](http://gbradhopkins.com/images/uploads/tutorials/MacHeist-Bundle-3.jpg)
 I’ve always been a big fan of the [MacHeist][1] deals. The newest bundle (nanoBundle 3) is a great little bundle of apps for $10. Unfortunately, for me, most of the apps that I would want, I already own.
 
 The headliners are Fantastical (normally $20),  xScope ($30) and CleanMyMac 2 ($40). I use Fantastical and xScope all the time and CleanMyMac 2 is a well crafted app that helps get rid of useless files on your Mac.
