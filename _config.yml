@@ -31,6 +31,6 @@ defaults:
       type: "posts" # previously `post` in Jekyll 2.2.
     values:
       author: Brad Hopkins
-      authorbio: I bought my first computer - an Apple Performa 6320 - when I was in college and have been building websites ever since. These days I run [Firebrand Media](http://firebrand.media).
+      authorbio: I bought my first computer - an Apple Performa 6320 - when I was in college and have been building websites ever since. These days I run Firebrand Media.
       authorphoto: /images/bio-gbradhopkins.jpg
       layout: "post"
