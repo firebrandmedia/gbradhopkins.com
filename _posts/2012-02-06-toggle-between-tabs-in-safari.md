@@ -18,13 +18,13 @@ As it turns out, of course there is.
 
 **Toggle Forward**
 
-![Keyboard command for toggling forward - command-shift-]](http://www.gbradhopkins.com/article_images/2012/02_06/keyboard_forward_sm.jpg)
+![Keyboard command for toggling forward - command-shift-right bracket](http://www.gbradhopkins.com/article_images/2012/02_06/keyboard_forward_sm.jpg)
 
 Command - Shift - ]
 
 **Toggle Backward**
 
-![Keyboard command for toggling forward - command-shift-]](http://www.gbradhopkins.com/article_images/2012/02_06/keyboard_backward_sm.jpg)
+![Keyboard command for toggling forward - command-shift-left bracket](http://www.gbradhopkins.com/article_images/2012/02_06/keyboard_backward_sm.jpg)
 
 Command - Shift - [
 
