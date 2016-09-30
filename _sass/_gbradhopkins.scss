@@ -1,26 +1,47 @@
 h1, h2 {
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Quattrocento Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 h2 {
     font-size: 250%;
-    color: #E1202C;
-    padding: 2%;
+    padding: 2% 0;
     margin-bottom: 1px;
 }
 
 .site-header {
     padding: 20px;
-    border-bottom: 1px solid #E1202C;
+    border-bottom: 1px solid $brand-color;
     color: #686768;
+    width: 100%;
+    text-align: center;
 }
 
 .site-title {
     font-size: 100%;
-    float: left;
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 900;
 }
 
 .site-nav {
-    float: right;
+    
 }
+
+.wrapper {
+    padding: 0;
+}
+
+.post-list li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.post-list li:first-of-type {
+    background-color: #E1202C;
+    padding: 10%;
+    color: #fff;
+}
+
