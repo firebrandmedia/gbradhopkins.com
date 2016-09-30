@@ -22,7 +22,7 @@ kramdown:
   hard_wrap: false
 highlighter: rouge
 
-#Gems
+# Plugins
 gems: [jekyll_reading_time]
 
 # Default Settings
