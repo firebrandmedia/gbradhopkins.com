@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  "Switching gbradhopkins.com from ExpressionEngine to Jekyll"
+title:  "Moving gbradhopkins.com from ExpressionEngine to Jekyll"
 categories: Web Design Tutorials
 description: Thoughts, links and resources as I switch my personal site from EECMS to Jekyll
 ---
+
+Looking for something with a bit less overhead and an opportunity to play around with Git and Jekyll, I have decided to move my site from [ExpressionEngine](http://ellislab.com/expressionengine) - which I love - to [Jekyll](http://jekyllrb.com).
 
 ## Links of note
 

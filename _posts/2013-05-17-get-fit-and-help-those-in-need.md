@@ -3,10 +3,12 @@ layout: post
 title:  "Get Fit and Help Those In Need"
 date:   2013-05-17 09=30-07 -0500
 categories: Internet Tutorials
+image: ./images/charity_miles.jpg
 ---
 
-![Charity Miles image](http://gbradhopkins.com/images/uploads/tutorials/charity_miles.jpg)
 Generally speaking, getting in shape is a selfish endeavor. We usually try to get in shape because we want to look better or feel better about ourselves. I mean, we could say we’re doing it for our kids or for our loved ones but if we’re honest, it’s mostly about self-image. I don’t think there’s anything inherently wrong with that, although we can become obsessed with it and let vanity rule our lives, but let’s just assume that we’re not taking it that far.
+
+![Charity Miles image](http://gbradhopkins.com/images/uploads/tutorials/charity_miles.jpg)
 
 What if, in addition to trying to get in shape for our own selfish reasons, we could also help someone in need? That’s the concept behind [Charity Miles][1]. Charity Miles allows you to earn money for charity when you walk, run, or bike.
 

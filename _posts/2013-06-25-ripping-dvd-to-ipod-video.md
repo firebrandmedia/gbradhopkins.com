@@ -3,11 +3,11 @@ layout: post
 title:  "Ripping a DVD to iPod Video on Windows XP"
 date:   2013-06-25 10=30-00 -0500
 categories: PC Tutorials
+image: ./images/iPod_Video_lg.JPG
 ---
 
-![iPod Video Image]({{site.baseurl}}/images/iPod_Video_lg.JPG)
 
-*Update - 7/03/13 - [Macworld decided to one up me and provided their own, in-depth instruction guide on how to rip a DVD with handbrake. They go into a lot more detail than I did. Read mine first, and then, if you still can’t figure it out or need more help, check out their guide.][1]*
+Update - 7/03/13 - [Macworld decided to one up me and provided their own, in-depth instruction guide on how to rip a DVD with handbrake. They go into a lot more detail than I did. Read mine first, and then, if you still can’t figure it out or need more help, check out their guide.][1]
 
 If like me, you still have an iPod Video around, you may decide that you want to use it to store movies for when you travel, after all, you can hook it up to a TV using the video out cable so it makes a pretty good movie storage device.
 

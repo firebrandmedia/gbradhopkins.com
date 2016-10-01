@@ -3,10 +3,12 @@ layout: post
 title:  "Internet Privacy Links"
 date:   2013-04-30 20=46-01 -0500
 categories: Internet Tutorials
+image: ./images/internet_privacy.jpg
 ---
 
-![Privacy Image](http://gbradhopkins.com/images/uploads/tutorials/internet_privacy.jpg)
 Internet privacy and the way companies like Facebook, Google and Twitter use our data has been on my mind recently. Here are a collection of links related to those topics. At some point, I’m going to pull it all together and express my feelings on this important topic. For the time being, these are as much for me as they are for anyone finding them here on this page.
+
+![Privacy Image](http://gbradhopkins.com/images/uploads/tutorials/internet_privacy.jpg)
 
 *   [Fix Tracking:][1] How-to stop getting tracked in your Browser.
 *   [Why Privacy Matters Even if You Have ‘Nothing to Hide’][2]

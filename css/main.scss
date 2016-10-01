@@ -28,6 +28,7 @@ img {
 body {
     margin: 0;
     padding: 0;
+    border-top: 3px solid RGBA(22, 132, 246, 1);
 }
 
 ul {
@@ -38,6 +39,12 @@ ul {
 li {
     margin: 0;
     padding: 0;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)

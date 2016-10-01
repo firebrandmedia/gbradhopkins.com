@@ -9,15 +9,14 @@ layout: default
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-          {{ post.excerpt }}
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <article>
+            {% if post.image %}<img class="post-image" src="{{ post.image }}">{% endif %}
+            <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+            <span class="post-meta">{{ post.excerpt  | remove: '<p>' | remove: '</p>'}} &#8226; {{ post.date | date: "%b %-d, %Y" }}</span>
+          </article>
       </li>
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
