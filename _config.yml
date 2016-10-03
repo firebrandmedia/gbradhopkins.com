@@ -9,7 +9,7 @@
 title: gbradhopkins.com
 email: 
 description: > # this means to ignore newlines until "baseurl:"
-  An assortment of tutorials and thoughts on computers, web design, web services and life online.
+  An assortment of tutorials and thoughts on computers, web design and how the internet impacts daily life.
 baseurl: "/gbradhopkins.com" # the subpath of your site, e.g. /blog
 url: "http://firebrandmedia.github.io/" # the base hostname & protocol for your site
 twitter_username: gbradhopkins
@@ -21,7 +21,9 @@ kramdown:
   input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
   hard_wrap: false
 highlighter: rouge
-paginate: 10
+
+gems: [jekyll-paginate]
+paginate: 5
 
 # Default Settings
 
