@@ -137,6 +137,10 @@ h2 {
     background-color: lighten($brand-color, 32%);
 }
 
+.post-list li:last-of-type {
+    border-bottom: 1px solid $brand-color;
+}
+
 .post-list article {
     border: 1px solid RGBA(241, 241, 241, 0.20);
     padding: 10%;
@@ -171,10 +175,40 @@ h2 {
     margin: 0 35% 5% 35%;
 }
 
+.pagination {
+    text-align: center;
+    padding: 20px 0;
+    background-color: RGBA(22, 132, 246, 1);
+    color: #fff;
+    font-family: 'Quattrocento Sans', sans-serif;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.pagination a:link {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 10px 10px 5px;
+    border-radius: 25px;
+    margin: 0 0 0 20px;
+}
+
+.pagination a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+.pagination a:hover {
+    color: #fff;
+    text-decoration: none;
+    background: #fff;
+}
+
 .site-footer {
     padding: 5% 0;
     text-align: center;
-    border-top: 5px solid $brand-color;
+    border-top: 1px solid $brand-color;
     font-family: 'Rubik', sans-serif;
 }
 
