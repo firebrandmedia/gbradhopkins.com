@@ -23,7 +23,8 @@ kramdown:
 highlighter: rouge
 
 gems: [jekyll-paginate]
-paginate: 10
+paginate: 5
+paginator_path: "_site/page:num"
 
 # Default Settings
 

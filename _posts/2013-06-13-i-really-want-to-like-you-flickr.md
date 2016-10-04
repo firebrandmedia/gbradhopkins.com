@@ -8,7 +8,7 @@ image: ./images/Flickr-Bar.jpg
 
 I'm a big fan of Flickr. Or, at least I was. If I had to describe our relationship I would describe it as complicated. I'm not a huge fan of the new layout but I can live with it.
 
-![Yahoo! Universal Header](images/Flickr-Bar.jpg)
+![Yahoo! Universal Header](/images/Flickr-Bar.jpg)
 
 What I can't live with is the new Yahoo! toolbar that I'm seeing on one of my Flickr accounts - highlighted in red in the image above. This is a premium account. I paid for it. Even when the distinguishing features - namely, lots of space - were added to the standard account, I didn't downgrade it.
 
