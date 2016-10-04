@@ -30,4 +30,6 @@ We can then review the list of changes and if satisfied, move to the next step.
 
 `git push `
 
-That's it. All done.
+That's it. All done. The files are now commited to the repository that we've been working in.
+
+Next up, how to access that repository from another computer to continue working on it.
