@@ -14,7 +14,7 @@ $spacing-unit:     30px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
-$brand-color:      #E1202C;
+$brand-color:      #282C34;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -28,7 +28,7 @@ img {
 body {
     margin: 0;
     padding: 0;
-    border-top: 3px solid RGBA(22, 132, 246, 1);
+    border-top: 3px solid #CF8E53;
 }
 
 ul {

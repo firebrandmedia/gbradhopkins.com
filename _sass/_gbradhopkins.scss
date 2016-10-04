@@ -161,10 +161,11 @@ h2 {
     color: RGBA(241, 241, 241, 0.5);
 }
 
-.post-meta {
+article .post-meta {
     font-family: 'Quattrocento', serif;
     font-size: 100%;
     text-align: center;
+    border-top: none;
 }
 
 .post-image {
@@ -178,7 +179,7 @@ h2 {
 .pagination {
     text-align: center;
     padding: 20px 0;
-    background-color: RGBA(22, 132, 246, 1);
+    background-color: #627685;
     color: #fff;
     font-family: 'Quattrocento Sans', sans-serif;
     border-top: 1px solid #fff;
@@ -205,6 +206,84 @@ h2 {
     background: #fff;
 }
 
+.post {
+    margin: 0 auto;
+    padding: 5% 20%;
+    font-family: 'Quattrocento', serif;
+    color: RGBA(171, 178, 186, 1.00);
+    background: RGBA(40, 44, 52, 1.00);
+}
+
+.post a:link {
+    color: RGBA(207, 142, 83, 1.00);
+    border-bottom: 1px solid;
+    text-decoration: none;
+}
+
+.post a:visited {
+    color: RGBA(207, 142, 83, 1.00);
+    border-bottom: 1px solid;
+    text-decoration: none;
+}
+
+.post a:hover {
+    color: RGBA(84, 182, 193, 1.00);
+    border-bottom: 1px solid;
+    text-decoration: none;
+}
+
+.post h2 {
+    font-size: 150%;
+    color: RGBA(208, 87, 74, 1.00);
+    margin-left: -30px;
+}
+
+.post h2::before {
+    font-size: 80%;
+    color: RGBA(208, 87, 74, 1.00);
+    content: "##";
+    padding-right: 5px;
+}
+
+.post p {
+    line-height: 1.5em;
+}
+
+.post ul {
+    
+}
+
+.post li {
+    list-style-type: circle;
+    margin-left: 30px;
+    padding: 7px 0;
+    line-height: 1.5em;
+    color: RGBA(84, 182, 193, 1.00);
+}
+
+.post img {
+    border: 1ps solid lighten($grey-color, 20%);
+    border-radius: 5px;
+}
+
+.post .post-meta {
+    padding: 20px 0;
+    margin: 0 auto;
+    width: 80%;
+    color: RGBA(146, 202, 75, 1.00);
+}
+
+h1.post-title {
+    text-align: center;
+    color: RGBA(146, 202, 75, 1.00);
+    border-bottom: 1px solid RGBA(208, 87, 74, 1.00);
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 0 30px 0;
+    font-weight: 800;
+    font-size: 250%;
+}
+
 .site-footer {
     padding: 5% 0;
     text-align: center;
@@ -213,19 +292,19 @@ h2 {
 }
 
 .site-footer a:link {
-    color: RGBA(22, 132, 246, 1);
+    color: #627685;
     text-decoration: none;
-    border-bottom: 1px solid RGBA(22, 132, 246, 1);
+    border-bottom: 1px solid #627685;
 }
 
 .site-footer a:visited {
-    color: RGBA(22, 132, 246, 1);
+    color: #627685;
     text-decoration: none;
-    border-bottom: 1px solid RGBA(22, 132, 246, 1);
+    border-bottom: 1px solid #627685;
 }
 
 .site-footer a:hover {
-    color: RGBA(22, 132, 246, 1);
+    color: #627685;
     text-decoration: none;
     border-bottom: none;
 }

@@ -59,11 +59,34 @@
 <h2 id="links-of-note">Links of note</h2>
 
 <ul>
+  <li><a href="https://expressionengine.stackexchange.com/questions/515/what-is-the-best-method-for-exporting-channel-entries-as-a-spreadsheet">Exporting entries from EECMS to an HTML file</a></li>
   <li><a href="https://milanaryal.com/writing-and-formatting-with-markdown/">Formatting Markdown in Jekyll</a></li>
   <li><a href="http://gitref.org/basic/#add">Git Reference Guide</a> - Basics of commiting and pushing content.</li>
   <li><a href="http://epwebtech.com/blog/2015/08/17/jekyll-resources-and-links.html">Jekyll Links and Resources</a> - A list of resources that I pulled together for a talk that I gave back in 2015.</li>
   <li><a href="http://epwebtech.com/blog/2015/08/18/publishing-site-to-github.html">Publishing a Jekyll Site on Gituhub</a> - Notes on publishing a Jekyll site on Github from the same talk.</li>
 </ul>
+
+<h2 id="code">Code</h2>
+
+<p>Here is the template that I used to export all of my entries from EECMS to an HTML file. This file exports each entry as a field in a table.</p>
+
+<p>`<?php
+    header("Content-type: application/vnd.ms-excel");
+header("Content-Disposition: attachment; filename=gbradhopkins-entries-exports.xls");
+header("Pragma: no-cache");
+header("Expires: 0");
+?></p>
+<table>
+<tbody>
+{exp:channel:entries channel='tutorials' limit='500' disable="categories|member_data|pagination|trackbacks"}
+    <tr>
+	    <td valign="top">{title}</td>
+            <td>{tutorial_body}</td><td>{tutorial_image}</td><td>{tutorial_hero_image}</td>
+    </tr>
+{/exp:channel:entries}
+</tbody>
+`
+</table>
 
    
   </div>
@@ -75,7 +98,7 @@
 
     <footer class="site-footer">
 
-    <p><strong><a href="/gbradhopkins.com/">gbradhopkins.com</a></strong> &#8226; Since 2001 &#8226; An assortment of tutorials and thoughts on computers, web design and how the internet impacts daily life.
+    <p><strong><a href="/gbradhopkins.com/">gbradhopkins.com</a></strong> &#8226; Since 2001 &#8226; An assortment of tutorials and thoughts on computers, web design and how the internet impacts us all.
 </p>
 
 </footer>
