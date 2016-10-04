@@ -7,9 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Moving gbradhopkins.com from ExpressionEngine to Jekyll | gbradhopkins.com</title>
-  <meta name="description" content="Looking for something with a bit less overhead and an opportunity to play around with Git and Jekyll, I have decided to move my site from ExpressionEngine - ...">
+  <meta name="description" content="Looking for something with a bit less overhead and an opportunity to play around with Git, Markdown and Jekyll, I have decided to move my site from Expressio...">
 
-  <link href="https://fonts.googleapis.com/css?family=Quattrocento|Quattrocento+Sans:400,700|Rubik:400,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700|Rubik:300,400,900" rel="stylesheet">
   <link href="https://file.myfontastic.com/HtdDgr9qYvgwoniccpdu3F/icons.css" rel="stylesheet">
   <link rel="stylesheet" href="/gbradhopkins.com/css/responsive-nav.css">
   <link rel="stylesheet" href="/gbradhopkins.com/css/main.css">
@@ -54,7 +54,7 @@
   </header>
 
   <div class="post-content" itemprop="articleBody">
-      <p>Looking for something with a bit less overhead and an opportunity to play around with Git and Jekyll, I have decided to move my site from <a href="http://ellislab.com/expressionengine">ExpressionEngine</a> - which I love - to <a href="http://jekyllrb.com">Jekyll</a>.</p>
+      <p>Looking for something with a bit less overhead and an opportunity to play around with Git, Markdown and Jekyll, I have decided to move my site from <a href="http://ellislab.com/expressionengine">ExpressionEngine</a> - which I love - to <a href="http://jekyllrb.com">Jekyll</a>.</p>
 
 <h2 id="links-of-note">Links of note</h2>
 
@@ -70,23 +70,23 @@
 
 <p>Here is the template that I used to export all of my entries from EECMS to an HTML file. This file exports each entry as a field in a table.</p>
 
-<p>`<?php
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;?php
     header("Content-type: application/vnd.ms-excel");
 header("Content-Disposition: attachment; filename=gbradhopkins-entries-exports.xls");
 header("Pragma: no-cache");
 header("Expires: 0");
-?></p>
-<table>
-<tbody>
+?&gt;
+&lt;table&gt;
+&lt;tbody&gt;
 {exp:channel:entries channel='tutorials' limit='500' disable="categories|member_data|pagination|trackbacks"}
-    <tr>
-	    <td valign="top">{title}</td>
-            <td>{tutorial_body}</td><td>{tutorial_image}</td><td>{tutorial_hero_image}</td>
-    </tr>
+    &lt;tr&gt;
+	    &lt;td valign="top"&gt;{title}&lt;/td&gt;
+            &lt;td&gt;{tutorial_body}&lt;/td&gt;&lt;td&gt;{tutorial_image}&lt;/td&gt;&lt;td&gt;{tutorial_hero_image}&lt;/td&gt;
+    &lt;/tr&gt;
 {/exp:channel:entries}
-</tbody>
-`
-</table>
+&lt;/tbody&gt;
+</code></pre>
+</div>
 
    
   </div>

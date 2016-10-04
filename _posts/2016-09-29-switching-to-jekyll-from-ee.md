@@ -5,7 +5,7 @@ categories: Web Design Tutorials
 description: Thoughts, links and resources as I switch my personal site from EECMS to Jekyll
 ---
 
-Looking for something with a bit less overhead and an opportunity to play around with Git and Jekyll, I have decided to move my site from [ExpressionEngine](http://ellislab.com/expressionengine) - which I love - to [Jekyll](http://jekyllrb.com).
+Looking for something with a bit less overhead and an opportunity to play around with Git, Markdown and Jekyll, I have decided to move my site from [ExpressionEngine](http://ellislab.com/expressionengine) - which I love - to [Jekyll](http://jekyllrb.com).
 
 ## Links of note
 
@@ -19,7 +19,8 @@ Looking for something with a bit less overhead and an opportunity to play around
 
 Here is the template that I used to export all of my entries from EECMS to an HTML file. This file exports each entry as a field in a table.
 
-`<?php
+```
+<?php
     header("Content-type: application/vnd.ms-excel");
 header("Content-Disposition: attachment; filename=gbradhopkins-entries-exports.xls");
 header("Pragma: no-cache");
@@ -34,4 +35,4 @@ header("Expires: 0");
     </tr>
 {/exp:channel:entries}
 </tbody>
-`
+```

@@ -13,7 +13,7 @@ h2 {
 
 .site-header {
     padding: 20px 0;
-    border-bottom: 1px solid $brand-color;
+    border-bottom: 1px solid #54B6C1;
     color: #686768;
     width: 100%;
     text-align: center;
@@ -52,9 +52,13 @@ h2 {
 .site-title {
     font-size: 250%;
     font-family: 'Rubik', sans-serif;
-    font-weight: 900;
+    font-weight: 300;
     float: left;
     padding: 0 0 0 30px;
+}
+
+.site-title::first-letter {
+    color: RGBA(208, 87, 74, 1.00);
 }
 
 .nav-collapse {
@@ -162,7 +166,7 @@ h2 {
 }
 
 article .post-meta {
-    font-family: 'Quattrocento', serif;
+    font-family: 'quattrocento sans', serif;
     font-size: 100%;
     text-align: center;
     border-top: none;
@@ -208,8 +212,9 @@ article .post-meta {
 
 .post {
     margin: 0 auto;
-    padding: 5% 20%;
-    font-family: 'Quattrocento', serif;
+    padding: 5% 30%;
+    font-size: 120%;
+    font-family: 'quattrocento sans', serif;
     color: RGBA(171, 178, 186, 1.00);
     background: RGBA(40, 44, 52, 1.00);
 }
@@ -235,7 +240,9 @@ article .post-meta {
 .post h2 {
     font-size: 150%;
     color: RGBA(208, 87, 74, 1.00);
-    margin-left: -30px;
+    margin-left: -40px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
 }
 
 .post h2::before {
@@ -246,11 +253,12 @@ article .post-meta {
 }
 
 .post p {
-    line-height: 1.5em;
+    line-height: 1.9em;
+    padding: 15px 0;
 }
 
 .post ul {
-    
+    padding: 15px 0;
 }
 
 .post li {
@@ -266,28 +274,39 @@ article .post-meta {
     border-radius: 5px;
 }
 
+.post code {
+    border-left: 5px solid #92CA4B;
+    padding: 10px 40px;
+    display: block;
+    word-wrap: break-word;
+    color: #D0574A;
+}
+
 .post .post-meta {
-    padding: 20px 0;
+    padding: 10px 0;
     margin: 0 auto;
     width: 80%;
-    color: RGBA(146, 202, 75, 1.00);
+    color: RGBA(208, 87, 74, 0.5);
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
 }
 
 h1.post-title {
     text-align: center;
-    color: RGBA(146, 202, 75, 1.00);
-    border-bottom: 1px solid RGBA(208, 87, 74, 1.00);
-    width: 80%;
+    color: RGBA(208, 87, 74, 1.00);
+    border-bottom: 1px solid RGBA(208, 87, 74, 0.5);
+    width: 100%;
     margin: 0 auto;
-    padding: 10px 0 30px 0;
-    font-weight: 800;
-    font-size: 250%;
+    padding: 10px 0 10px 0;
+    font-weight: 300;
+    font-size: 200%;
+    font-family: 'Rubik', sans-serif;
 }
 
 .site-footer {
     padding: 5% 0;
     text-align: center;
-    border-top: 1px solid $brand-color;
+    border-top: 1px solid #54B6C1;
     font-family: 'Rubik', sans-serif;
 }
 
