@@ -19,20 +19,10 @@ This is an optional command. It simply shows what has changed and results in som
 
 ```
 	modified:   _includes/head.html
-	modified:   _posts/2016-09-29-git-commit-workflow.md
-	modified:   _posts/2016-09-29-switching-to-jekyll-from-ee.md
 	modified:   _sass/_gbradhopkins.scss
-	modified:   _site/internet/tutorials/2008/12/09/recovering-individual-files-from-plesk-backup.html
-	modified:   _site/internet/tutorials/2013/04/30/internet-privacy-links.html
-	modified:   _site/internet/tutorials/2013/05/17/get-fit-and-help-those-in-need.html
-	modified:   _site/mac/tutorials/2012/02/06/toggle-between-tabs-in-safari.html
-	modified:   _site/mac/tutorials/2013/04/22/macheist-nanobundle-3.-10-well-spent.html
-	modified:   _site/pc/tutorials/2013/06/25/ripping-dvd-to-ipod-video.html
-	modified:   _site/web/design/tutorials/2008/12/10/not-seeing-any-google-custom-search-engine-results-in-analytics-heres-the-f.html
-	modified:   _site/web/design/tutorials/2016/09/29/git-commit-workflow.html
-	modified:   _site/web/design/tutorials/2016/09/29/switching-to-jekyll-from-ee.html
 	modified:   css/main.scss
 ```
+We can then review the list of changes and if satisfied, move to the next step.
 
 `git add .`
 
