@@ -22,7 +22,8 @@ kramdown:
   hard_wrap: false
 highlighter: rouge
 
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, jekyll-redirect-from]
+
 paginate: 10
 paginator_path: "/gbradhopkins.com/page:num/"
 

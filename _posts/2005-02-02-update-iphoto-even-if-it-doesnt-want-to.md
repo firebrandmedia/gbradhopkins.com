@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "Update iPhoto - Even if it doesn&#8217;t want to!"
+date:   2005-02-02 17-48-37 -0500
+categories: Mac Tutorials
+---
+
+Apple released an update to [iPhoto 5][1] today [version 5.01] which solves some issues ![][2]that some users were having (me included). According to the release notes, the update "addresses issues with upgrading iPhoto 4 libraries, dragging albums into folders, importing MPEG 4 movies, and also includes a number of other minor fixes." The update is available via the software update menu, in most cases. In some cases, it’s not recognizing the new update is available. None of my computers showed the update as being available. In this tutorial, I’ll show you how to solve this minor problem and get the newest version of iPhoto.
+
+Navigate to the receipts folder [Hard Drive/Library/Recipts]. Next, find all of the iPhoto files located in that folder [see image below]. As you can see in the image below I had four files related to iPhoto [iPhoto.pkg, iPhotoContent.pkg, iPhotoUpdate401.pkg, iPhotoUpdate403.pkg]. To make the update work, drag those files out of the receipts folder and put them some place safe (desktop is fine).
+
+![][3]
+
+Now that you’ve moved those files, open the software update and check for the new software. It should now recognize the update. Go ahead and update the software as you normally would. Test the software to make sure it works. Update complete. I then trashed those old iPhoto files that were removed from the receipts folder. (I’m not necessarily recommending that you do the same. You can, or you can just throw them back in the receipts folder. They shouldn’t do any harm.)
+
+UPDATE:
+
+After about an hour of testing, I’ve found that some of the bugs that plagued the 5.0 version remain in the 5.01 version. Particularly the bug that kills iPhoto when you are trying to create books and then leave the application. Upon returing to the app, and clicking on the book to continue editing, iPhoto quits. The only solution that I’ve found for this is to select all of the photos for the book, start editing, and stick with it until you have completed the book and placed the order. This is not really a big deal since prior versions of iPhoto didn’t allow you to save the books to finish editing later. Or maybe it did? I can’t remember. It’s been a while since I created a book in iPhoto 4.
+
+UPDATE 2:
+
+I posted this hint at MacosXhints.com and they recommend putting the old receipts back in the receipts folder.
+
+ [1]: http://www.apple.com/ilife/iphoto/
+ [2]: http://www.gbradhopkins.com/images/mac/iPhoto/iPhoto-logo.gif
+ [3]: http://www.gbradhopkins.com/images/mac/iPhoto/iPhoto-update/receipts.gif
+

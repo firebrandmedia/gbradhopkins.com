@@ -3,6 +3,8 @@ layout: post
 title:  "Recovering Individual Files from Plesk Backup"
 date:   2008-12-09 23-29-07 -0500
 categories: Internet Tutorials
+redirect_from:
+  - /internet/tutorial/recovering-individual-files-from-plesk-backup
 ---
 
 If you host your website on a server that runs Plesk as the Control Panel, and you actually make back-ups of your server, then at some point you are probably going to want to access the files located on the Plesk generated back-up.
