@@ -23,8 +23,8 @@ kramdown:
 highlighter: rouge
 
 gems: [jekyll-paginate]
-paginate: 5
-paginator_path: "/gbradhopkins.com/page:num"
+paginate: 10
+paginator_path: "/gbradhopkins.com/page:num/"
 
 # Default Settings
 

@@ -214,22 +214,22 @@ article .post-meta {
     text-align: center;
     padding: 20px 0;
     background-color: lighten($brand-color, 11%);
-    color: #fff;
+    color: RGBA(208, 87, 74, 0.5);
     font-family: 'Quattrocento Sans', sans-serif;
     border-bottom: 1px solid #fff;
 }
 
 .pagination a:link {
-    color: #fff;
+    color: RGBA(241, 241, 241, 0.40);
     text-decoration: none;
     border: 1px solid RGBA(241, 241, 241, 0.20);
     padding: 10px 10px 5px;
     border-radius: 25px;
-    margin: 0 0 0 20px;
+    margin: 0 20px;
 }
 
 .pagination a:visited {
-    color: #fff;
+    color: RGBA(241, 241, 241, 0.40);
     text-decoration: none;
 }
 
