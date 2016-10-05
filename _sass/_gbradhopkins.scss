@@ -52,13 +52,20 @@ h2 {
 
 .site-header ul {
     margin: 0;
-    padding: 5% 30px 0 0;
+    padding: 7% 30px 0 0;
 }
 
 .site-header li {
     display: inline;
     margin: 0;
     padding: 0;
+    padding: 0 8px;
+}
+
+.nav-collapse {
+    width: 100%;
+    border-top: 1px solid lighten($brand-color, 50%);
+    margin-top: 18px;
 }
 
 .site-title {
@@ -87,8 +94,29 @@ h2 {
 
 @media screen and (min-width: $width-tablet) {
     
+    .site-header i {
+        font-size: 150%;
+    }
+    
     .site-title {
         font-size: 250%;
+    }
+    
+    .site-header ul {
+        float: right;
+        padding: 0;
+        margin: 15px 20px 0 0;
+        text-align: right;
+    }
+    
+    .site-header li {
+        padding: 0 5px;
+    }
+    
+    .nav-collapse {
+        width: 40%;
+        border-top: none;
+        margin-top: 0;
     }
     
 }
