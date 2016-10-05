@@ -195,16 +195,27 @@ article .post-meta {
     border-top: none;
 }
 
+.post-list h2 {
+    font-size: 120%;
+}
+
 .post-image {
-    border-radius: 50%;
-    border: 5px solid RGBA(241, 241, 241, 0.20);
-    width: 150px;
-    height: 150px;
-    margin: 0 35% 5% 35%;
+    display: none;
 }
 
 @media screen and (min-width: $width-tablet) {
+    .post-image {
+        border-radius: 50%;
+        border: 5px solid RGBA(241, 241, 241, 0.20);
+        width: 150px;
+        height: 150px;
+        margin: 0 35% 5% 35%;
+        display: inline-block;
+    }
     
+    .post-list h2 {
+    font-size: 250%;
+    }
 }
 
 /* PAGINATION STYLES
