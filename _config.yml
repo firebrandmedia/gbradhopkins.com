@@ -24,7 +24,7 @@ highlighter: rouge
 
 gems: [jekyll-paginate]
 paginate: 5
-paginator_path: "_site/page:num"
+paginator_path: "/gbradhopkins.com/page:num"
 
 # Default Settings
 
