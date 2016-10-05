@@ -20,6 +20,11 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
+$width-tablet: 640px;
+$width-desktop: 900px;
+$width-1200: 1200px;
+$width-widescreen: 1500px;
+
 img {
     width: 100%;
     height: auto;

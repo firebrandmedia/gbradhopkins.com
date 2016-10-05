@@ -64,15 +64,31 @@
 
 <p><code class="highlighter-rouge">git status</code></p>
 
-<p>This is an optional command. It simply shows what has changed.</p>
+<p>This is an optional command. It simply shows what has changed and results in something like this:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>modified:   _includes/head.html
+modified:   _sass/_gbradhopkins.scss
+modified:   css/main.scss
+</code></pre>
+</div>
+<p>We can then review the list of changes and if satisfied, move to the next step.</p>
 
 <p><code class="highlighter-rouge">git add .</code></p>
 
 <p><code class="highlighter-rouge">git commit -m 'Commit message here'</code></p>
 
+<p>After adding our commit message and hitting enter, we receive a message indicating what we’ve done (or are about to do).</p>
+
+<p><code class="highlighter-rouge">
+[gh-pages c5656de] git article update
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+</code></p>
+
 <p><code class="highlighter-rouge">git push </code></p>
 
-<p>That’s it. All done.</p>
+<p>That’s it. All done. The files are now commited to the repository that we’ve been working in.</p>
+
+<p>Next up, how to access that repository from another computer to continue working on it.</p>
 
    
   </div>

@@ -18,15 +18,22 @@ After creating or editing a file, run the following commands in the Terminal.
 This is an optional command. It simply shows what has changed and results in something like this:
 
 ```
-	modified:   _includes/head.html
-	modified:   _sass/_gbradhopkins.scss
-	modified:   css/main.scss
+modified:   _includes/head.html
+modified:   _sass/_gbradhopkins.scss
+modified:   css/main.scss
 ```
 We can then review the list of changes and if satisfied, move to the next step.
 
 `git add .`
 
 `git commit -m 'Commit message here'`
+
+After adding our commit message and hitting enter, we receive a message indicating what we've done (or are about to do).
+
+```
+[gh-pages c5656de] git article update
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+ ```
 
 `git push `
 
