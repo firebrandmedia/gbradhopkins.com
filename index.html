@@ -25,7 +25,7 @@ layout: default
   {% else %}
     <span class="previous"></span>
   {% endif %}
-  <span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
+  <span class="page_number ">page {{ paginator.page }} of {{ paginator.total_pages }}</span>
   {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="next"><i class="icon-forward"></i></a>
   {% else %}
