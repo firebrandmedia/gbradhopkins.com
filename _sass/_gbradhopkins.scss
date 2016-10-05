@@ -165,7 +165,7 @@ h2 {
 }
 
 .post-list li:last-of-type {
-    border-bottom: 1px solid $brand-color;
+    border-bottom: 1px solid RGBA(241, 241, 241, 0.20);
 }
 
 .post-list article {
@@ -213,17 +213,16 @@ article .post-meta {
 .pagination {
     text-align: center;
     padding: 20px 0;
-    background-color: #627685;
+    background-color: lighten($brand-color, 11%);
     color: #fff;
     font-family: 'Quattrocento Sans', sans-serif;
-    border-top: 1px solid #fff;
     border-bottom: 1px solid #fff;
 }
 
 .pagination a:link {
     color: #fff;
     text-decoration: none;
-    border: 1px solid;
+    border: 1px solid RGBA(241, 241, 241, 0.20);
     padding: 10px 10px 5px;
     border-radius: 25px;
     margin: 0 0 0 20px;
@@ -241,7 +240,7 @@ article .post-meta {
 .pagination a:hover {
     color: #fff;
     text-decoration: none;
-    background: #D0574A;
+    background: #54B6C1;
 }
 
 /* ARTICLE PAGE STYLES
