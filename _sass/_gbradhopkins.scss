@@ -109,7 +109,7 @@ h2 {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    text-align: center;
+    text-align: left;
     background-color: $brand-color;
     padding: 10%;
     color: #fff;
@@ -191,12 +191,13 @@ h2 {
 article .post-meta {
     font-family: 'quattrocento sans', serif;
     font-size: 100%;
-    text-align: center;
+    text-align: left;
     border-top: none;
 }
 
 .post-list h2 {
     font-size: 120%;
+    text-align: center;
 }
 
 .post-image {
@@ -214,7 +215,11 @@ article .post-meta {
     }
     
     .post-list h2 {
-    font-size: 250%;
+        font-size: 250%;
+    }
+    
+    article .post-meta {
+        text-align: center;
     }
 }
 
