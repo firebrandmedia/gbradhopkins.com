@@ -5,7 +5,7 @@ categories: Web Design Tutorials
 description: Thoughts, links and resources as I switch my personal site from EECMS to Jekyll
 ---
 
-Looking for something with a bit less overhead and an opportunity to play around with Git, Markdown and Jekyll, I have decided to move my site from [ExpressionEngine](http://ellislab.com/expressionengine) - which I love - to [Jekyll](http://jekyllrb.com).
+Looking for an opportunity to play around with Git, Markdown and Jekyll, I have decided to move my site from [ExpressionEngine](http://ellislab.com/expressionengine) - which I love and use on most projects - to [Jekyll](http://jekyllrb.com), a static site generator.
 
 ## Links of note
 
@@ -17,7 +17,7 @@ Looking for something with a bit less overhead and an opportunity to play around
 
 ## Code
 
-Here is the template that I used to export all of my entries from EECMS to an HTML file. This file exports each entry as a field in a table.
+Here is the template that I used to export all of my entries from EECMS to an HTML file. This file exports each entry as a field in a table. Because most of my entries were old and no longer relevant, I am using this as more of a time capsule so that in the future I can look back at what I wrote.
 
 ```
 <?php

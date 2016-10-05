@@ -336,7 +336,7 @@ h1.post-title {
 @media screen and (min-width: $width-tablet) {
     
     .post {
-        padding: 5% 30%;
+        padding: 5% 15%;
     }
     
     .post h2 {
@@ -378,33 +378,40 @@ h1.post-title {
     
 }
 
+@media screen and (min-width: $width-desktop) {
+    .post {
+        padding: 5% 25%;
+    }
+}
+
 /* FOOTER STYLES
 -----------------------------*/
 
 .site-footer {
     padding: 5% 0;
     text-align: center;
-    border-top: 1px solid #54B6C1;
+    border-top: 3px solid #54B6C1;
     font-family: 'Rubik', sans-serif;
     font-weight: 300;
+    line-height: 1.5em;
 }
 
 .site-footer a:link {
-    color: #627685;
+    color: #54B6C1;
     text-decoration: none;
-    border-bottom: 1px solid #627685;
 }
 
 .site-footer a:visited {
-    color: #627685;
+    color: #54B6C1;
     text-decoration: none;
     border-bottom: 1px solid #627685;
 }
 
 .site-footer a:hover {
-    color: #627685;
+    color: lighter(#54B6C1, 40%);
     text-decoration: none;
     border-bottom: none;
+    border-bottom: 1px solid;
 }
 
 .site-footer p {
