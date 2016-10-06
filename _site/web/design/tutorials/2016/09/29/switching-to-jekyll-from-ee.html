@@ -74,21 +74,11 @@
 
 <p><code class="highlighter-rouge">sudo gem install jekyll</code></p>
 
-<h2 id="links-of-note">Links of note</h2>
-
-<ul>
-  <li><a href="https://expressionengine.stackexchange.com/questions/515/what-is-the-best-method-for-exporting-channel-entries-as-a-spreadsheet">Exporting entries from EECMS to an HTML file</a></li>
-  <li><a href="https://milanaryal.com/writing-and-formatting-with-markdown/">Formatting Markdown in Jekyll</a></li>
-  <li><a href="http://gitref.org/basic/#add">Git Reference Guide</a> - Basics of commiting and pushing content.</li>
-  <li><a href="http://epwebtech.com/blog/2015/08/17/jekyll-resources-and-links.html">Jekyll Links and Resources</a> - A list of resources that I pulled together for a talk that I gave back in 2015.</li>
-  <li><a href="http://epwebtech.com/blog/2015/08/18/publishing-site-to-github.html">Publishing a Jekyll Site on Gituhub</a> - Notes on publishing a Jekyll site on Github from the same talk.</li>
-</ul>
-
-<h2 id="code">Code</h2>
+<h2 id="exporting-entries">Exporting Entries</h2>
 
 <p>In addition to creating a blog in Jekyll, I wanted to move all/some of my posts from EECMS.</p>
 
-<p>Here is the template that I used to export all of my entries from EECMS to an HTML file. This file exports each entry as a field in a table. Because most of my entries were old and no longer relevant, I am using this as more of a time capsule so that in the future I can look back at what I wrote.</p>
+<p>Here is the template that I used to export all of my entries from EECMS to a single HTML file. This file exports each entry as a field in a table. Because most of my entries were old and no longer relevant, I am using this as more of a time capsule so that in the future I can look back at what I wrote.</p>
 
 <div class="highlighter-rouge"><pre class="highlight"><code>&lt;?php
     header("Content-type: application/vnd.ms-excel");
@@ -107,6 +97,76 @@ header("Expires: 0");
 &lt;/tbody&gt;
 </code></pre>
 </div>
+
+<h2 id="exporting-individual-entries">Exporting Individual Entries</h2>
+
+<p>For most, exporting a single file that includes every entry is probably not practical and, honestly if I could figure it out, I wanted to maintain the entries as individual files as well.</p>
+
+<p>The thing I love most about ExpressionEngine is the ability to format and display your data however you need. Using two templates I was able to:</p>
+
+<ul>
+  <li>List all of my entries with the naming convention that Jekyll requires - “Year-Month-Day-Title.md”</li>
+  <li>Click a link to download each entry formatted for Jekyll with the frontmatter already in place - layout, title, categories, date, custom image field for hero images</li>
+</ul>
+
+<p><strong>List of Entries Template</strong></p>
+
+<p>This is a very simple template but it gets the job done, creating a list of entries with links to download the individual files.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;ul&gt;
+{exp:channel:entries channel="tutorials|reviews" dynamic="off" disable="member_data|pagination"}
+&lt;li&gt;&lt;a href="{title_permalink='exports/post'}" target="blank"&gt;{entry_date format='%Y-%m-%d'}-{url_title}.md&lt;/a&gt;&lt;/li&gt;
+{/exp:channel:entries}
+&lt;/ul&gt;
+</code></pre>
+</div>
+
+<p><strong>Entry Download Template</strong></p>
+
+<p>Clicking on the entry link from the list above, fires the template below which initiates the download process. If you are trying to use this template, make sure you turn on ‘Allow PHP’ in the template preferences in EE.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="p">{</span><span class="err">exp:channel:entries</span><span class="w"> </span><span class="err">channel=</span><span class="nt">"tutorials|reviews"</span><span class="w"> </span><span class="err">disable=</span><span class="nt">"member_data|pagination"</span><span class="err">}</span><span class="w">
+</span><span class="err">&lt;?php</span><span class="w">
+</span><span class="err">header(</span><span class="s2">"Content-type: text/markdown; charset=UTF-8"</span><span class="err">);</span><span class="w">
+</span><span class="err">header(</span><span class="s2">"Content-Disposition: attachment; filename={entry_date format='%Y-%m-%d'}-{url_title}.md"</span><span class="err">);</span><span class="w">
+</span><span class="err">header(</span><span class="s2">"Pragma: no-cache"</span><span class="err">);</span><span class="w">
+</span><span class="err">header(</span><span class="s2">"Expires: 0"</span><span class="err">);</span><span class="w">
+</span><span class="err">?&gt;</span><span class="w">
+</span><span class="err">---</span><span class="w">
+</span><span class="err">layout:</span><span class="w"> </span><span class="err">post</span><span class="w">
+</span><span class="err">title:</span><span class="w">  </span><span class="s2">"{title}"</span><span class="w">
+</span><span class="err">date:</span><span class="w">   </span><span class="p">{</span><span class="err">entry_date</span><span class="w"> </span><span class="err">format='%Y-%m-%d</span><span class="w"> </span><span class="err">%H-%i-%s'</span><span class="p">}</span><span class="w"> </span><span class="mi">-0500</span><span class="w">
+</span><span class="err">categories:</span><span class="w"> </span><span class="p">{</span><span class="err">categories</span><span class="p">}{</span><span class="err">category_name</span><span class="p">}{</span><span class="err">/categories</span><span class="p">}</span><span class="w">
+</span><span class="p">{</span><span class="err">if</span><span class="w"> </span><span class="err">tutorial_hero_image</span><span class="p">}</span><span class="err">image:</span><span class="w"> </span><span class="p">{</span><span class="err">tutorial_hero_image</span><span class="p">}{</span><span class="err">/if</span><span class="p">}</span><span class="w">
+</span><span class="p">{</span><span class="err">if</span><span class="w"> </span><span class="err">review_hero_image</span><span class="p">}</span><span class="err">image:</span><span class="w"> </span><span class="p">{</span><span class="err">review_hero_image</span><span class="p">}{</span><span class="err">/if</span><span class="p">}</span><span class="w">
+</span><span class="err">---</span><span class="w">
+
+</span><span class="p">{</span><span class="err">exp:marker:tomarkdown</span><span class="p">}</span><span class="w">
+</span><span class="p">{</span><span class="err">tutorial_hero_image</span><span class="p">}</span><span class="w">
+
+</span><span class="p">{</span><span class="err">tutorial_body</span><span class="p">}</span><span class="w">
+
+</span><span class="p">{</span><span class="err">tutorial_image</span><span class="p">}</span><span class="w">
+
+</span><span class="p">{</span><span class="err">review_body</span><span class="p">}</span><span class="w">
+</span><span class="p">{</span><span class="err">/exp:marker:tomarkdown</span><span class="p">}</span><span class="w">
+
+</span><span class="p">{</span><span class="err">/exp:channel:entries</span><span class="p">}</span><span class="w">
+</span></code></pre>
+</div>
+
+<p>The one thing I couldn’t figure out was how to download the file with the .md file extension. Using the above code downloads a file with .md.html as the file extension. I simply used a renaming app to batch rename all of the files to .md.</p>
+
+<h2 id="links-of-note">Links of note</h2>
+
+<ul>
+  <li><a href="https://expressionengine.stackexchange.com/questions/515/what-is-the-best-method-for-exporting-channel-entries-as-a-spreadsheet">Exporting entries from EECMS to an HTML file</a></li>
+  <li><a href="https://devot-ee.com/add-ons/marker">Marker Add-on for EECMS to convert entries to Markdown</a></li>
+  <li><a href="https://milanaryal.com/writing-and-formatting-with-markdown/">Formatting Markdown in Jekyll</a></li>
+  <li><a href="http://gitref.org/basic/#add">Git Reference Guide</a> - Basics of commiting and pushing content.</li>
+  <li><a href="http://epwebtech.com/blog/2015/08/17/jekyll-resources-and-links.html">Jekyll Links and Resources</a> - A list of resources that I pulled together for a talk that I gave back in 2015.</li>
+  <li><a href="http://epwebtech.com/blog/2015/08/18/publishing-site-to-github.html">Publishing a Jekyll Site on Gituhub</a> - Notes on publishing a Jekyll site on Github from the same talk.</li>
+</ul>
 
    
   </div>

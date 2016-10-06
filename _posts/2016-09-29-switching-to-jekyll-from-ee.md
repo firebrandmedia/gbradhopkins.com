@@ -25,19 +25,11 @@ If you run into an error, first make sure that you have Xcode installed. If Xcod
 
 `sudo gem install jekyll`
 
-## Links of note
-
-- [Exporting entries from EECMS to an HTML file](https://expressionengine.stackexchange.com/questions/515/what-is-the-best-method-for-exporting-channel-entries-as-a-spreadsheet)
-- [Formatting Markdown in Jekyll](https://milanaryal.com/writing-and-formatting-with-markdown/)
-- [Git Reference Guide](http://gitref.org/basic/#add) - Basics of commiting and pushing content.
-- [Jekyll Links and Resources](http://epwebtech.com/blog/2015/08/17/jekyll-resources-and-links.html) - A list of resources that I pulled together for a talk that I gave back in 2015.
-- [Publishing a Jekyll Site on Gituhub](http://epwebtech.com/blog/2015/08/18/publishing-site-to-github.html) - Notes on publishing a Jekyll site on Github from the same talk.
-
-## Code
+## Exporting Entries
 
 In addition to creating a blog in Jekyll, I wanted to move all/some of my posts from EECMS.
 
-Here is the template that I used to export all of my entries from EECMS to an HTML file. This file exports each entry as a field in a table. Because most of my entries were old and no longer relevant, I am using this as more of a time capsule so that in the future I can look back at what I wrote.
+Here is the template that I used to export all of my entries from EECMS to a single HTML file. This file exports each entry as a field in a table. Because most of my entries were old and no longer relevant, I am using this as more of a time capsule so that in the future I can look back at what I wrote.
 
 ```
 <?php
@@ -56,3 +48,69 @@ header("Expires: 0");
 {/exp:channel:entries}
 </tbody>
 ```
+
+## Exporting Individual Entries
+
+For most, exporting a single file that includes every entry is probably not practical and, honestly if I could figure it out, I wanted to maintain the entries as individual files as well.
+
+The thing I love most about ExpressionEngine is the ability to format and display your data however you need. Using two templates I was able to:
+
+- List all of my entries with the naming convention that Jekyll requires - "Year-Month-Day-Title.md"
+- Click a link to download each entry formatted for Jekyll with the frontmatter already in place - layout, title, categories, date, custom image field for hero images
+
+<strong>List of Entries Template</strong>
+
+This is a very simple template but it gets the job done, creating a list of entries with links to download the individual files.
+
+```
+<ul>
+{exp:channel:entries channel="tutorials|reviews" dynamic="off" disable="member_data|pagination"}
+<li><a href="{title_permalink='exports/post'}" target="blank">{entry_date format='%Y-%m-%d'}-{url_title}.md</a></li>
+{/exp:channel:entries}
+</ul>
+```
+
+<strong>Entry Download Template</strong>
+
+Clicking on the entry link from the list above, fires the template below which initiates the download process. If you are trying to use this template, make sure you turn on 'Allow PHP' in the template preferences in EE.
+
+```
+{exp:channel:entries channel="tutorials|reviews" disable="member_data|pagination"}
+<?php
+header("Content-type: text/markdown; charset=UTF-8");
+header("Content-Disposition: attachment; filename={entry_date format='%Y-%m-%d'}-{url_title}.md");
+header("Pragma: no-cache");
+header("Expires: 0");
+?>
+---
+layout: post
+title:  "{title}"
+date:   {entry_date format='%Y-%m-%d %H-%i-%s'} -0500
+categories: {categories}{category_name}{/categories}
+{if tutorial_hero_image}image: {tutorial_hero_image}{/if}
+{if review_hero_image}image: {review_hero_image}{/if}
+---
+
+{exp:marker:tomarkdown}
+{tutorial_hero_image}
+
+{tutorial_body}
+
+{tutorial_image}
+
+{review_body}
+{/exp:marker:tomarkdown}
+
+{/exp:channel:entries}
+```
+
+The one thing I couldn't figure out was how to download the file with the .md file extension. Using the above code downloads a file with .md.html as the file extension. I simply used a renaming app to batch rename all of the files to .md.
+
+## Links of note
+
+- [Exporting entries from EECMS to an HTML file](https://expressionengine.stackexchange.com/questions/515/what-is-the-best-method-for-exporting-channel-entries-as-a-spreadsheet)
+- [Marker Add-on for EECMS to convert entries to Markdown](https://devot-ee.com/add-ons/marker)
+- [Formatting Markdown in Jekyll](https://milanaryal.com/writing-and-formatting-with-markdown/)
+- [Git Reference Guide](http://gitref.org/basic/#add) - Basics of commiting and pushing content.
+- [Jekyll Links and Resources](http://epwebtech.com/blog/2015/08/17/jekyll-resources-and-links.html) - A list of resources that I pulled together for a talk that I gave back in 2015.
+- [Publishing a Jekyll Site on Gituhub](http://epwebtech.com/blog/2015/08/18/publishing-site-to-github.html) - Notes on publishing a Jekyll site on Github from the same talk.
