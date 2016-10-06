@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Printer Sharing with Rendezvous"
+date:   2004-10-14 00-00-33 -0500
+categories: Mac Tutorials
+---
+
+I had a problem.
+I have an Airport Network, with an iMac in my kitchen. My main computer, a PowerMac G5, is downstairs. I also have a PowerBook that roams around the house. The printer, a Hewlett Packard Officejet D135, is connected to the G5. 
+
+**The Problem** : Any time that I wanted to print from the iMac or the PowerBook, I had to save the file and transfer it to the PowerMac and then print from there.
+
+**The Solution**: MacOS 10.2 (and later) has a technology called Rendezvous that helps computers see each other over a network (overly simplified). This technology has helped my two computers see each other (prior to 10.2 I had problems with the two seeing each other on the Airport Network). And that is the first step to any good relationship, er… printer sharing.
+
+In MacOS 10.2, Apple has added the ability to share a printer. In the system preferences, under Sharing, there is now a Services Tab. Here you can turn on things like File Sharing, Web Sharing, FTP access and most importantly, Printer Sharing.
+
+![][1]
+
+Apple has really simplified the process. Simply 1) turn on Printer Sharing by checking the box next to it. 2) Make sure that your printer is connected. 3) Make sure both computers are on. That’s it. Print away!
+
+ [1]: http://www.gbradhopkins.com/images/mac/printer-sharing/services-tab.jpg
+
