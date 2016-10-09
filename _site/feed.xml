@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gbradhopkins.com</title>
+    <description>An assortment of tutorials and thoughts on computers, web design and how the internet impacts us all.
+</description>
+    <link>http://gbradhopkins.com/</link>
+    <atom:link href="http://gbradhopkins.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 08 Oct 2016 21:19:20 -0400</pubDate>
+    <lastBuildDate>Sat, 08 Oct 2016 21:19:20 -0400</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Moving gbradhopkins.com from ExpressionEngine to Jekyll</title>
+        <description>&lt;p&gt;Looking for an opportunity to play around with Git, Markdown and Jekyll, I have decided to move my site from &lt;a href=&quot;http://ellislab.com/expressionengine&quot;&gt;ExpressionEngine (EECMS)&lt;/a&gt; - which I love and use on most projects - to &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;, a static site generator.&lt;/p&gt;
+
+&lt;h2 id=&quot;static-site-generator&quot;&gt;Static Site Generator?&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;What is a static site generator and why would you want to use it?&lt;/em&gt; I’m glad you asked. A static site generator takes a template directory containing raw text files in various formats, runs it through a converter and a renderer, and spits out a complete, ready-to-publish static website suitable for serving with your favorite web server.&lt;/p&gt;
+
+&lt;p&gt;A static website doesn’t require a database which can increase security and will typically load faster. Although, there are plenty of ways to slow down a static site.&lt;/p&gt;
+
+&lt;h2 id=&quot;caveat&quot;&gt;Caveat&lt;/h2&gt;
+
+&lt;p&gt;Back in 2015, &lt;a href=&quot;http://epwebtech.com/events/2015/08/12/getting-started-with-jekyll.html&quot;&gt;I gave a talk on creating websites with Jekyll.&lt;/a&gt; My first caveat was that you need to use the terminal / command line interface (CLI). I knew that would be a dealbreaker for some people but if you can overcome your fear of the terminal, using Jekyll can help make you more comfortable with a CLI.&lt;/p&gt;
+
+&lt;h2 id=&quot;installing-jekyll-on-a-mac&quot;&gt;Installing Jekyll on a Mac&lt;/h2&gt;
+
+&lt;p&gt;For the full installation guide, &lt;a href=&quot;https://jekyllrb.com/docs/installation/&quot;&gt;check out the Jekyll install documentation&lt;/a&gt;. Here is my quick overview.&lt;/p&gt;
+
+&lt;p&gt;First make sure that you have Xcode installed. It’s a free download from the app store&lt;/p&gt;
+
+&lt;p&gt;Using the terminal / command line, run the following command to install Jekyll.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;gem install jekyll&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;If you run into an error, first make sure that you have Xcode installed. If Xcode is installed, try installing Jekyll again with this command (which will require that you supply the password for your computer).&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo gem install jekyll&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;exporting-entries&quot;&gt;Exporting Entries&lt;/h2&gt;
+
+&lt;p&gt;In addition to creating a blog in Jekyll, I wanted to move all/some of my posts from EECMS.&lt;/p&gt;
+
+&lt;p&gt;Here is the template that I used to export all of my entries from EECMS to a single HTML file. This file exports each entry as a field in a table. Because most of my entries were old and no longer relevant, I am using this as more of a time capsule so that in the future I can look back at what I wrote.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;?php
+    header(&quot;Content-type: application/vnd.ms-excel&quot;);
+header(&quot;Content-Disposition: attachment; filename=gbradhopkins-entries-exports.xls&quot;);
+header(&quot;Pragma: no-cache&quot;);
+header(&quot;Expires: 0&quot;);
+?&amp;gt;
+&amp;lt;table&amp;gt;
+&amp;lt;tbody&amp;gt;
+{exp:channel:entries channel=&#39;tutorials&#39; limit=&#39;500&#39; disable=&quot;categories|member_data|pagination|trackbacks&quot;}
+    &amp;lt;tr&amp;gt;
+	    &amp;lt;td valign=&quot;top&quot;&amp;gt;{title}&amp;lt;/td&amp;gt;
+            &amp;lt;td&amp;gt;{tutorial_body}&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;{tutorial_image}&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;{tutorial_hero_image}&amp;lt;/td&amp;gt;
+    &amp;lt;/tr&amp;gt;
+{/exp:channel:entries}
+&amp;lt;/tbody&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;exporting-individual-entries&quot;&gt;Exporting Individual Entries&lt;/h2&gt;
+
+&lt;p&gt;For most, exporting a single file that includes every entry is probably not practical and, honestly if I could figure it out, I wanted to maintain the entries as individual files as well.&lt;/p&gt;
+
+&lt;p&gt;The thing I love most about ExpressionEngine is the ability to format and display your data however you need. Using two templates I was able to:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;List all of my entries with the naming convention that Jekyll requires - “Year-Month-Day-Title.md”&lt;/li&gt;
+  &lt;li&gt;Click a link to download each entry formatted for Jekyll with the frontmatter already in place - layout, title, categories, date, custom image field for hero images&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;List of Entries Template&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This is a very simple template but it gets the job done, creating a list of entries with links to download the individual files.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;ul&amp;gt;
+{exp:channel:entries channel=&quot;tutorials|reviews&quot; dynamic=&quot;off&quot; disable=&quot;member_data|pagination&quot;}
+&amp;lt;li&amp;gt;&amp;lt;a href=&quot;{title_permalink=&#39;exports/post&#39;}&quot; target=&quot;blank&quot;&amp;gt;{entry_date format=&#39;%Y-%m-%d&#39;}-{url_title}.md&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+{/exp:channel:entries}
+&amp;lt;/ul&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Entry Download Template&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Clicking on the entry link from the list above, fires the template below which initiates the download process. If you are trying to use this template, make sure you turn on ‘Allow PHP’ in the template preferences in EE.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;exp:channel:entries&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;channel=&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;tutorials|reviews&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;disable=&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;member_data|pagination&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;?php&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;header(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Content-type: text/markdown; charset=UTF-8&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;);&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;header(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Content-Disposition: attachment; filename={entry_date format=&#39;%Y-%m-%d&#39;}-{url_title}.md&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;);&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;header(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Pragma: no-cache&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;);&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;header(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Expires: 0&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;);&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;?&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;---&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;layout:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;title:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;{title}&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;date:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;   &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;entry_date&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;format=&#39;%Y-%m-%d&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%H-%i-%s&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;-0500&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;categories:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;categories&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;category_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/categories&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;tutorial_hero_image&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;image:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;tutorial_hero_image&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;review_hero_image&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;image:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;review_hero_image&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;---&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;exp:marker:tomarkdown&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;tutorial_hero_image&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;tutorial_body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;tutorial_image&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;review_body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/exp:marker:tomarkdown&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/exp:channel:entries&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The one thing I couldn’t figure out was how to download the file with the .md file extension. Using the above code downloads a file with .md.html as the file extension. I simply used a renaming app to batch rename all of the files to .md.&lt;/p&gt;
+
+&lt;h2 id=&quot;links-of-note&quot;&gt;Links of note&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://expressionengine.stackexchange.com/questions/515/what-is-the-best-method-for-exporting-channel-entries-as-a-spreadsheet&quot;&gt;Exporting entries from EECMS to an HTML file&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://devot-ee.com/add-ons/marker&quot;&gt;Marker Add-on for EECMS to convert entries to Markdown&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://milanaryal.com/writing-and-formatting-with-markdown/&quot;&gt;Formatting Markdown in Jekyll&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://gitref.org/basic/#add&quot;&gt;Git Reference Guide&lt;/a&gt; - Basics of commiting and pushing content.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://epwebtech.com/blog/2015/08/17/jekyll-resources-and-links.html&quot;&gt;Jekyll Links and Resources&lt;/a&gt; - A list of resources that I pulled together for a talk that I gave back in 2015.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://epwebtech.com/blog/2015/08/18/publishing-site-to-github.html&quot;&gt;Publishing a Jekyll Site on Gituhub&lt;/a&gt; - Notes on publishing a Jekyll site on Github from the same talk.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 29 Sep 2016 00:00:00 -0400</pubDate>
+        <link>http://gbradhopkins.com/web/design/tutorials/2016/09/29/switching-to-jekyll-from-ee.html</link>
+        <guid isPermaLink="true">http://gbradhopkins.com/web/design/tutorials/2016/09/29/switching-to-jekyll-from-ee.html</guid>
+        
+        
+        <category>Web</category>
+        
+        <category>Design</category>
+        
+        <category>Tutorials</category>
+        
+      </item>
+    
+      <item>
+        <title>Git Commit Workflow</title>
+        <description>&lt;p&gt;I’m writing this down for me. Not you.&lt;/p&gt;
+
+&lt;p&gt;These are the steps for commiting new or updated content to my &lt;a href=&quot;https://github.com/firebrandmedia&quot;&gt;Github account&lt;/a&gt;. As I use Git more, hopefully these will become muscle memory and I’ll no longer need this document. Until then…&lt;/p&gt;
+
+&lt;h2 id=&quot;commands-for-pushing-content&quot;&gt;Commands for pushing content&lt;/h2&gt;
+
+&lt;p&gt;After creating or editing a file, run the following commands in the Terminal.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git status&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This is an optional command. It simply shows what has changed and results in something like this:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;modified:   _includes/head.html
+modified:   _sass/_gbradhopkins.scss
+modified:   css/main.scss
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;We can then review the list of changes and if satisfied, move to the next step.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git add .&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git commit -m &#39;Commit message here&#39;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;After adding our commit message and hitting enter, we receive a message indicating what we’ve done (or are about to do).&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
+[gh-pages c5656de] git article update
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git push &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;That’s it. All done. The files are now commited to the repository that we’ve been working in.&lt;/p&gt;
+
+&lt;p&gt;Next up, how to access that repository from another computer to continue working on it.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 29 Sep 2016 00:00:00 -0400</pubDate>
+        <link>http://gbradhopkins.com/web/design/tutorials/2016/09/29/git-commit-workflow.html</link>
+        <guid isPermaLink="true">http://gbradhopkins.com/web/design/tutorials/2016/09/29/git-commit-workflow.html</guid>
+        
+        
+        <category>Web</category>
+        
+        <category>Design</category>
+        
+        <category>Tutorials</category>
+        
+      </item>
+    
+      <item>
+        <title>Ripping a DVD to iPod Video on Windows XP</title>
+        <description>&lt;p&gt;Update - 7/03/13 - &lt;a href=&quot;http://www.macworld.com/article/1157590/how_to_rip_dvd_handbrake.html&quot;&gt;Macworld decided to one up me and provided their own, in-depth instruction guide on how to rip a DVD with handbrake. They go into a lot more detail than I did. Read mine first, and then, if you still can’t figure it out or need more help, check out their guide.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If like me, you still have an iPod Video around, you may decide that you want to use it to store movies for when you travel, after all, you can hook it up to a TV using the video out cable so it makes a pretty good movie storage device.&lt;/p&gt;
+
+&lt;h3 id=&quot;enter-handbrake&quot;&gt;Enter Handbrake&lt;/h3&gt;
+
+&lt;p&gt;“HandBrake is a tool for converting video from nearly any format to a selection of modern, widely supported codecs.” Best of all, it’s free.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://handbrake.fr/&quot;&gt;Handbrake&lt;/a&gt; has a &lt;a href=&quot;http://handbrake.fr/features.php&quot;&gt;number of features&lt;/a&gt; that you can use to tweak your video to your liking and export in the format that you need. In addition to the ability to specify your export settings, Handbrake has a number of built in pre-sets that allow for one-click setting of the export. Primarily, I use Handbrake to rip DVDs which I play through my AppleTV so I just use the appropriate AppleTV export preset.&lt;/p&gt;
+
+&lt;h3 id=&quot;using-handbrake&quot;&gt;Using Handbrake&lt;/h3&gt;
+
+&lt;p&gt;In the following steps, I’m going to show you how to export video for iPod Video and then add it to iTunes but it’s basically the same for any Apple device (iPhone, iPod Touch, AppleTV).&lt;/p&gt;
+
+&lt;p&gt;First, you need to download and install Handbrake. This will also install the .NET framework if it is not already installed.&lt;/p&gt;
+
+&lt;p&gt;Once Handbrake is installed, the process is pretty straightforward.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Select the Preset.&lt;/strong&gt; Select iPod (or whichever your destination device is). If you select iPod, make sure that iPod 5G Support is enabled via the Output Settings checkbox.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/Handbrake_Step_1.jpg&quot; alt=&quot;Step 1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Select the Source.&lt;/strong&gt; Click on the source icon, and then select Open Folder. You will now browse My Computer and find the name of the DVD in the device list. In the screenshot below, I selected the DVD, A Bugs Life to rip and then click on OK.&lt;/p&gt;
+
+&lt;p&gt;Handbrake will then scan the source for the video to be ripped.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/Handbrake_Step_2.jpg&quot; alt=&quot;Step 2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Next, give the file a name - ie. A Bugs Life&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/Handbrake_Step_3.jpg&quot; alt=&quot;Step 3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally, click on the Start button.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/Handbrake_Step_4.jpg&quot; alt=&quot;Step 4&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Handbrake will now rip the DVD to the desktop.&lt;/p&gt;
+
+&lt;p&gt;Once Handbrake has completed the encoding process, the file will be on your desktop - or the destination location that you selected. Once ripped, using the iPod 5G settings, the .MP4 file is around 542MB.&lt;/p&gt;
+
+&lt;p&gt;Now, you can drag the .MP4 file into your iTunes library.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/iTunes_Step_1.jpg&quot; alt=&quot;iTunes Step 1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You may notice that the movie is not showing up in your Movies directory in iTunes. That’s because the video that was exported is categorized as a “Home Video” so it is found in the Home Videos directory.&lt;/p&gt;
+
+&lt;p&gt;To change this, right click on the movie and select “Get Info.” &lt;em&gt;I’m doing this on a Mac so I’m not sure what it is on Windows but I would guess that it is similar.&lt;/em&gt; Under “Media Kind” select Movie instead of Home Video.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/iTunes_Step_2.jpg&quot; alt=&quot;iTunes Step 2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now, your ripped video will should be displayed under Movies.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/iTunes_Step_3.jpg&quot; alt=&quot;iTunes Step 3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally, go into the settings for your iPod and select the check box next to the movie to indicate that it should be synched to your device. Now, hit “Apply” and the movie will be synched to the iPod.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/iTunes_Step_4.jpg&quot; alt=&quot;iTunes Step 4&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 25 Jun 2013 00:00:00 -0400</pubDate>
+        <link>http://gbradhopkins.com/pc/tutorials/2013/06/25/ripping-dvd-to-ipod-video.html</link>
+        <guid isPermaLink="true">http://gbradhopkins.com/pc/tutorials/2013/06/25/ripping-dvd-to-ipod-video.html</guid>
+        
+        
+        <category>PC</category>
+        
+        <category>Tutorials</category>
+        
+      </item>
+    
+      <item>
+        <title>I really want to like you Flickr</title>
+        <description>&lt;p&gt;I’m a big fan of Flickr. Or, at least I was. If I had to describe our relationship I would describe it as complicated. I’m not a huge fan of the new layout but I can live with it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/Flickr-Bar.jpg&quot; alt=&quot;Yahoo! Universal Header&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;What I can’t live with is the new Yahoo! toolbar that I’m seeing on one of my Flickr accounts - highlighted in red in the image above. This is a premium account. I paid for it. Even when the distinguishing features - namely, lots of space - were added to the standard account, I didn’t downgrade it.&lt;/p&gt;
+
+&lt;p&gt;Another feature of a premium account was the fact that there are no ads. I consider this an ad. It’s not adding to my experience. It’s pushing other Yahoo! services and links. I don’t need that.&lt;/p&gt;
+
+&lt;p&gt;So far, I’m only seeing this on one of my accounts so I’ll monitor it and see where it goes. Needless to say, I don’t like the direction that it’s heading.&lt;/p&gt;
+
+&lt;p&gt;For further reading, check out some of the Flickr Forum discussions on the new “Yahoo! Universal Header”&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.flickr.com/help/forum/en-us/72157633459717740/&quot;&gt;http://www.flickr.com/help/forum/en-us/72157633459717740/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.flickr.com/help/forum/en-us/72157633201655378/&quot;&gt;http://www.flickr.com/help/forum/en-us/72157633201655378/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 13 Jun 2013 00:00:00 -0400</pubDate>
+        <link>http://gbradhopkins.com/tech-annoyances/2013/06/13/i-really-want-to-like-you-flickr.html</link>
+        <guid isPermaLink="true">http://gbradhopkins.com/tech-annoyances/2013/06/13/i-really-want-to-like-you-flickr.html</guid>
+        
+        
+        <category>tech-annoyances</category>
+        
+      </item>
+    
+      <item>
+        <title>Get Fit and Help Those In Need</title>
+        <description>&lt;p&gt;Generally speaking, getting in shape is a selfish endeavor. We usually try to get in shape because we want to look better or feel better about ourselves. I mean, we could say we’re doing it for our kids or for our loved ones but if we’re honest, it’s mostly about self-image. I don’t think there’s anything inherently wrong with that, although we can become obsessed with it and let vanity rule our lives, but let’s just assume that we’re not taking it that far.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://gbradhopkins.com/images/uploads/tutorials/charity_miles.jpg&quot; alt=&quot;Charity Miles image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;What if, in addition to trying to get in shape for our own selfish reasons, we could also help someone in need? That’s the concept behind &lt;a href=&quot;http://www.charitymiles.org/&quot;&gt;Charity Miles&lt;/a&gt;. Charity Miles allows you to earn money for charity when you walk, run, or bike.&lt;/p&gt;
+
+&lt;p&gt;I first heard about Charity Miles at South by Southwest. I participated in the daily Brooks Cowboy Run and someone handed me a postcard on my way back to my hotel following a run. If you’ve ever been to SxSW before, then you know that you are inundated with people trying to get you to check out their new app, product or service. So, I stuffed the postcard in my bag when I got back to my hotel and forgot about it. Last week, I was cleaning out my bag in preparation for a meeting and I found the postcard. I decided to check out Charity Miles, so I downloaded the app and checked out the website.&lt;/p&gt;
+
+&lt;p&gt;How does it work?&lt;/p&gt;
+
+&lt;p&gt;From the Charity Miles website: “Ready to become a sponsored athlete? Simply turn on the app, choose a charity, and press start. As you exercise, we’ll track your distance and the money earned. When you’re finished, accept your sponsorship, spread the word, and we’ll send you a note confirming your good work. It’s as easy as this: get moving. Bikers earn 10¢ a mile and walkers and runners earn 25¢ a mile, up to our initial $1,000,000 sponsorship pool.”&lt;/p&gt;
+
+&lt;p&gt;As a dedicated Nike+ user, my typical running routine is to either use the Nike+ app on my phone or use the Nike+ app on my iPod touch in conjunction with the Zombies, Run! app. So, instead of using the Nike+ app or the Zombies, Run! app, I have started to use the Charity Miles app in conjunction with my iPod touch. (I’ve got to keep logging those Nike+ miles!)&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;For me, the best feature is the ability to see the direct impact of each run, walk or bike… my 2.361 mile run with Feeding America selected as the charity accounted for 4.72 meals to hungry people.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So far, my experience with the Charity Miles app has been pretty good, although, the first time I used it it crashed and I lost my run. Not a good way to start - especially since it was a 4 mile run. Since that first experience, the app has been solid and I’ve been able to see the value in using the app as a way to help charitable organizations without any extra effort on my part.&lt;/p&gt;
+
+&lt;p&gt;Current organizations include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;VisionSpring&lt;/li&gt;
+  &lt;li&gt;every mother counts&lt;/li&gt;
+  &lt;li&gt;Feeding America&lt;/li&gt;
+  &lt;li&gt;Autism Speaks&lt;/li&gt;
+  &lt;li&gt;Wounded Warrior Project&lt;/li&gt;
+  &lt;li&gt;Stand Up To Cancer&lt;/li&gt;
+  &lt;li&gt;Achilles International&lt;/li&gt;
+  &lt;li&gt;The Michael J. Fox Foundation&lt;/li&gt;
+  &lt;li&gt;Red&lt;/li&gt;
+  &lt;li&gt;World Food Programme&lt;/li&gt;
+  &lt;li&gt;The Nature Conservancy&lt;/li&gt;
+  &lt;li&gt;ASPCA&lt;/li&gt;
+  &lt;li&gt;Habitat for Humanity&lt;/li&gt;
+  &lt;li&gt;Leukemia &amp;amp; Lymphoma Society&lt;/li&gt;
+  &lt;li&gt;Partnership for a Healthier America&lt;/li&gt;
+  &lt;li&gt;Pencils of Promise&lt;/li&gt;
+  &lt;li&gt;Girl Up&lt;/li&gt;
+  &lt;li&gt;Shot @ Life&lt;/li&gt;
+  &lt;li&gt;NothingButNets.net&lt;/li&gt;
+  &lt;li&gt;IronMan Foundation&lt;/li&gt;
+  &lt;li&gt;DoSomething.org&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As you can see, whether you want to help out here in the US or internationally, there are plenty of charities to choose from.&lt;/p&gt;
+
+&lt;p&gt;For me, the best feature is the ability to see the direct impact of each run, walk or bike. In addition to showing how long or how far you ran, there is an impact screen that shows the direct impact of your workout. For example, my 2.361 mile run with Feeding America selected as the charity accounted for 4.72 meals to hungry people while my 1.775 mile run with Habitat for Humanity as the selected charity accounted for 4.44 pieces of lumber.&lt;/p&gt;
+
+&lt;p&gt;At the end of each run, you also have the chance to share your run via Twitter or Facebook, sharing your run with not only your friends, but also the organization that you supported.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I ran 1.775 @&lt;a href=&quot;https://twitter.com/charitymiles&quot;&gt;charitymiles&lt;/a&gt; for @&lt;a href=&quot;https://twitter.com/habitat_org&quot;&gt;habitat_org&lt;/a&gt;. &lt;a href=&quot;https://twitter.com/search/%23EveryMileMatters&quot;&gt;#EveryMileMatters&lt;/a&gt;— Brad Hopkins (@gbradhopkins)&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;https://twitter.com/gbradhopkins/status/335203585304440832&quot;&gt;May 17, 2013&lt;/a&gt;
+So, are you looking for a little extra motivation? Tired of running from zombies? I’d recommend giving the &lt;a href=&quot;http://www.charitymiles.org/&quot;&gt;Charity Miles&lt;/a&gt; app a try. It’s available for iOS and Android.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Fri, 17 May 2013 00:00:00 -0400</pubDate>
+        <link>http://gbradhopkins.com/internet/tutorials/2013/05/17/get-fit-and-help-those-in-need.html</link>
+        <guid isPermaLink="true">http://gbradhopkins.com/internet/tutorials/2013/05/17/get-fit-and-help-those-in-need.html</guid>
+        
+        
+        <category>Internet</category>
+        
+        <category>Tutorials</category>
+        
+      </item>
+    
+      <item>
+        <title>GIF Brewery</title>
+        <description>&lt;p&gt;GIFs are everywhere. I remember building animated GIFs frame by frame in Photoshop using that timeline at the bottom of the screen and hating every minute of it. Now, it has become some sort of art form? How did this happen? Apps, I guess. And, faster internet. Oh well, who am I to reject a novel art form?&lt;/p&gt;
+
+&lt;p&gt;Looking (well, not actually looking) for a way to to create GIFs, I stumbled upon &lt;a href=&quot;http://gifbrewery.com/&quot;&gt;GIF Brewery&lt;/a&gt;, a $4.99 app (available on the Mac App Store) for converting video to GIFs. Beyond just converting a video clip to a GIF, GIF Brewery allows you to fine tune your GIF by cropping, resizing, adding captions (with start and end times), adjusting colors, applying filters and sharpening the image.&lt;/p&gt;
+
+&lt;p&gt;I decided to test out GIF Brewery by converting a video clip from Little League Day at Oriole Park into a GIF. On Little League day, all of the local Little Leagues bring their kids to the ballpark and they parade around the field, high-fiving players and fans. As the coach of my daughter’s team, I was able to parade around with her and record it. The original clip was about 3 minutes long but with GIF Brewery, I was able to trim it down to the 23 seconds when she was walking by the dugout giving high-fives to the Orioles players. This is done by setting Start / End points.&lt;/p&gt;
+
+&lt;p&gt;In addition to trimming the video, I also added captions, naming each player that she high-fives. Captions can also be given Start / End points. I then set the GIF duration (Frame Count) to 250 frames and created the GIF. Initially, I was thinking of frame count as frame rate and I set it for 25. That gave me a choppy 25 frame GIF. I quickly realized my error, adjusted the setting to 250 frames and then created it again. In an effort to shrink the file size further, I finally settled on 130 frames which was just enough to not make it look like a turn of the century silent film.&lt;/p&gt;
+
+&lt;p&gt;Just for comparison, the original video (1920 x 1080) weighed in at 53MB while the GIF (740 x 417) is 21MB.&lt;/p&gt;
+
+&lt;p&gt;For fun, I decided to use to color adjustment tools to create the turn of the century silent film version which weighs in at 9MB.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://gbradhopkins.com/images/uploads/reviews/Abby_High_5s_bw.gif&quot; alt=&quot;Silent Film Version&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The GIF Brewery interface is really straightforward and easy to grasp. Options for captions and GIF properties open in new palettes. Your project can be saved, allowing you to go back to it later and make adjustments.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://gbradhopkins.com/images/uploads/reviews/GIFBrewery_interface.jpg&quot; alt=&quot;GIF Brewery Interface&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;At this time, you can’t build animations frame by frame, it only supports converting video to GIF. Personally, I’m fine with that.&lt;/p&gt;
+
+&lt;p&gt;There are some negative reviews in the Mac App store which talk about crashes but I haven’t experienced it. I’ll keep this tool handy. I can see it becoming useful for both work (reviews, product walkthroughs) and fun.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 10 May 2013 00:00:00 -0400</pubDate>
+        <link>http://gbradhopkins.com/reviews/2013/05/10/gif-brewery.html</link>
+        <guid isPermaLink="true">http://gbradhopkins.com/reviews/2013/05/10/gif-brewery.html</guid>
+        
+        
+        <category>Reviews</category>
+        
+      </item>
+    
+      <item>
+        <title>Internet Privacy Links</title>
+        <description>&lt;p&gt;Internet privacy and the way companies like Facebook, Google and Twitter use our data has been on my mind recently. Here are a collection of links related to those topics. At some point, I’m going to pull it all together and express my feelings on this important topic. For the time being, these are as much for me as they are for anyone finding them here on this page.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://gbradhopkins.com/images/uploads/tutorials/internet_privacy.jpg&quot; alt=&quot;Privacy Image&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://fixtracking.com/&quot;&gt;Fix Tracking:&lt;/a&gt; How-to stop getting tracked in your Browser.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://chronicle.com/article/Why-Privacy-Matters-Even-if/127461/&quot;&gt;Why Privacy Matters Even if You Have ‘Nothing to Hide’&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://online.wsj.com/article/SB10001424127887324482504578453223207072376.html?mod=rss_Technology&quot;&gt;Online Ads Can Now Follow You Home&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Photo Credit: &lt;a href=&quot;http://www.flickr.com/photos/doegox/8016617207/sizes/l/in/photostream/&quot;&gt;http://www.flickr.com/photos/doegox/8016617207/sizes/l/in/photostream/&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 30 Apr 2013 00:00:00 -0400</pubDate>
+        <link>http://gbradhopkins.com/internet/tutorials/2013/04/30/internet-privacy-links.html</link>
+        <guid isPermaLink="true">http://gbradhopkins.com/internet/tutorials/2013/04/30/internet-privacy-links.html</guid>
+        
+        
+        <category>Internet</category>
+        
+        <category>Tutorials</category>
+        
+      </item>
+    
+      <item>
+        <title>MacHeist nanoBundle 3. $10 well spent.</title>
+        <description>&lt;p&gt;I’ve always been a big fan of the &lt;a href=&quot;http://macheist.com/&quot;&gt;MacHeist&lt;/a&gt; deals. The newest bundle (nanoBundle 3) is a great little bundle of apps for $10. Unfortunately, for me, most of the apps that I would want, I already own.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./images/MacHeist-Bundle-3.jpg&quot; alt=&quot;MachHeist Bundle Image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The headliners are Fantastical (normally $20),  xScope ($30) and CleanMyMac 2 ($40). I use Fantastical and xScope all the time and CleanMyMac 2 is a well crafted app that helps get rid of useless files on your Mac.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://flexibits.com/fantastical&quot;&gt;Fantastical&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Fantastical is a great little menu-bar calendar that not only allows you to view your upcoming events, but also allows you to add events to your calendar using natural language. So, instead of filling in a series of form fields to add an event to your calendar, you can type in “Meeting with client at 3PM tomorrow at the coffee shop” and Fantastical will add it to your calendar.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://iconfactory.com/software/xscope&quot;&gt;xScope&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;xScope, from The Iconfactory, is a set of measuring tools geared toward design and development. My favorite tools are the Ruler - a ruler to measure items on-screen, Guides - similar to the guides you can create in Illustrator and Photoshop but instead of limited to a single application, they float above all of your windows allowing you to keep things in alignment no matter what app you are using. I also frequently use Dimensions, a simple measuring tool that automatically measures the space between objects simply by moving your pointer around the screen.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://macpaw.com/cleanmymac&quot;&gt;CleanMyMac 2&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;CleanMyMac is one of those applications that you don’t really think about until you need it. The big benefit of CleanMyMac has always been finding and deleting unnecessary files on your Mac. In version 2, they have added some really useful features like iPhoto Cleanup which optimizes and reduces the size of you photo library by removing unneeded service copies of images, Trash Cleanup which empties all system Trash folders of your Mac’s internal and external drives, and Uninstaller which allows you to select apps to uninstall completely or reset to their initial state. All of this is done in a beautiful interface with a robust help system to help you understand what you are about to do.&lt;/p&gt;
+
+&lt;p&gt;In addition to those three apps, which will more than justify the price, the bundle also includes some interesting apps that I am not familiar with but may need to check out - &lt;a href=&quot;http://www.clarify-it.com/&quot;&gt;Clarify&lt;/a&gt; (Clarify makes it easy to create gorgeous tutorials and how-to’s.), &lt;a href=&quot;http://www.airserver.com/&quot;&gt;AirServer&lt;/a&gt; (Beam music and videos from your iPhone or iPad to your Mac!) and Path Finder (If you’ve ever wished that the Finder supported tabs like a web browser, &lt;a href=&quot;http://cocoatech.com/pathfinder/&quot;&gt;Path Finder&lt;/a&gt; is the tool for you.)&lt;/p&gt;
+
+&lt;p&gt;In addition to a terrific bundle of apps, &lt;a href=&quot;http://macheist.com/#charity&quot;&gt;10% of your purchase goes to the charity of your choice&lt;/a&gt; (from a list of charities that they have selected).&lt;/p&gt;
+
+&lt;p&gt;All in all, this is a great deal, and I think I’ve talked myself into buying the bundle.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 22 Apr 2013 00:00:00 -0400</pubDate>
+        <link>http://gbradhopkins.com/mac/tutorials/2013/04/22/macheist-nanobundle-3.-10-well-spent.html</link>
+        <guid isPermaLink="true">http://gbradhopkins.com/mac/tutorials/2013/04/22/macheist-nanobundle-3.-10-well-spent.html</guid>
+        
+        
+        <category>Mac</category>
+        
+        <category>Tutorials</category>
+        
+      </item>
+    
+      <item>
+        <title>Toggle Between Browser Tabs via Keyboard Shortcuts</title>
+        <description>&lt;p&gt;Need a quick way to toggle between tabs in Safari using keyboard shortcuts?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./images/tabs.JPG&quot; alt=&quot;Safari Tabs&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’m a big fan of keyboard shortcuts - anything that keeps my hands on the keyboard makes me happy, and more efficient - so when a friend asked if there was a way to toggle between open tabs I thought, “Why didn’t I think of that?”&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Anything that keeps my hands on the keyboard makes me happy, and more efficient!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I often have between 5 and 10 browser tabs open at a time and switching between them using using the touchpad is decidedly inefficient.&lt;/p&gt;
+
+&lt;p&gt;As it turns out, of course there is.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Toggle Forward&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.gbradhopkins.com/article_images/2012/02_06/keyboard_forward_sm.jpg&quot; alt=&quot;Keyboard command for toggling forward - command-shift-right bracket&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Command - Shift - ]&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Toggle Backward&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.gbradhopkins.com/article_images/2012/02_06/keyboard_backward_sm.jpg&quot; alt=&quot;Keyboard command for toggling forward - command-shift-left bracket&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Command - Shift - [&lt;/p&gt;
+
+&lt;p&gt;This keyboard combination also works in Firefox and Chrome as well.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 06 Feb 2012 00:00:00 -0500</pubDate>
+        <link>http://gbradhopkins.com/mac/tutorials/2012/02/06/toggle-between-tabs-in-safari.html</link>
+        <guid isPermaLink="true">http://gbradhopkins.com/mac/tutorials/2012/02/06/toggle-between-tabs-in-safari.html</guid>
+        
+        
+        <category>Mac</category>
+        
+        <category>Tutorials</category>
+        
+      </item>
+    
+      <item>
+        <title>Not Seeing any Google Custom Search Engine Results in Analytics?&amp;nbsp; Here&amp;#8217;s the Fix!</title>
+        <description>&lt;p&gt;I’m a big fan of and use it on most all of the sites that I build.  I recently installed a &lt;a href=&quot;http://www.google.com/sitesearch/&quot;&gt;Google Custom Search Engine (CSE)&lt;/a&gt; to a &lt;a href=&quot;http://www.inthepanhandle.com/&quot;&gt;site&lt;/a&gt; of mine and was hoping to use Google Analytics to track the searches that were performed on the site in the Google CSE.&lt;/p&gt;
+
+&lt;p&gt;The problem is that after a couple days, there were still no results.  It was off to the Google CSE Discussion Group to search for the answer - and I found it.&lt;/p&gt;
+
+&lt;p&gt;By the way, the Google CSE Discussion Group seems to not be monitored by anyone at Google or if it is, it’s not a priority to respond to queries.  But there are still answers to be found from fellow users.&lt;/p&gt;
+
+&lt;p&gt;The answer I found was to edit the Profile Settings in Google Analytics for the site in question.  Now, I’m going to assume that you’ve set &lt;strong&gt;Site Search&lt;/strong&gt; to ‘Do Track Site Search.’  If you haven’t, do that.  Next, you need to add a Query Parameter to the parameters that are already in place (term,search,query).  The query parameter that you want to add is ‘q’ (see image). Now hit ‘Save Changes.’&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.gbradhopkins.com/archives/Picture%205.png&quot; alt=&quot;Picture 5.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;That’s it.  Now, just wait for the results to be displayed in Google Analytics.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 10 Dec 2008 00:00:00 -0500</pubDate>
+        <link>http://gbradhopkins.com/web/design/tutorials/2008/12/10/not-seeing-any-google-custom-search-engine-results-in-analytics-heres-the-f.html</link>
+        <guid isPermaLink="true">http://gbradhopkins.com/web/design/tutorials/2008/12/10/not-seeing-any-google-custom-search-engine-results-in-analytics-heres-the-f.html</guid>
+        
+        
+        <category>Web</category>
+        
+        <category>Design</category>
+        
+        <category>Tutorials</category>
+        
+      </item>
+    
+  </channel>
+</rss>

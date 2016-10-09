@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Obfuscate Your Email Address | gbradhopkins.com</title>
+  <meta name="description" content="Email Obfuscating? What the heck is email obfuscating and how can it help me avoid SPAM in my inbox?">
+
+  <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700|Rubik:300,400,900" rel="stylesheet">
+  <link href="https://file.myfontastic.com/HtdDgr9qYvgwoniccpdu3F/icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/responsive-nav.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://gbradhopkins.com/web/design/tutorials/2004/11/10/obfuscate-your-email-address.html">
+  <link rel="alternate" type="application/rss+xml" title="gbradhopkins.com" href="http://gbradhopkins.com/feed.xml">
+    
+<!-- JS -->
+  <script src="/css/responsive-nav.min.js"></script>
+</head>
+
+
+  <body>
+
+    <header class="site-header group">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">gbradhopkins.com</a>
+    <nav class="nav-collapse">
+      <ul>
+        <li><a href="/feed.xml" title="Subscribe to the RSS feed"><i class="icon-rss"></i> </a></li>
+        <li><a href="https://twitter.com/gbradhopkins" title="Follow me on Twitter"><i class="icon-twitter"></i> </a></li>
+        <li><a href="http://dribbble.com/firebrandmedia" title="Sometimes I post work on Dribbble"><i class="icon-dribbble"></i> </a></li>
+        <li><a href="https://github.com/firebrandmedia" title="My Github account"><i class="icon-github-square"></i></a></li>
+        <li><a href="http://www.linkedin.com/in/gbradhopkins/" title="My LinkedIn Profile"><i class="icon-linkedin"></i></a></li>
+        <li><a href="http://firebrand.media" title="My Business Website - Firebrand.Media"><i class="icon-firebrand-media-logo"></i></a></li>
+      </ul>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Obfuscate Your Email Address</h1>
+    <p class="post-meta"><time datetime="2004-11-10T00:00:00-05:00" itemprop="datePublished">Nov 10, 2004</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+      <p>Email Obfuscating? What the heck is email obfuscating and how can it help me avoid SPAM in my inbox?</p>
+
+<p>Obfuscate means : To make so confused or opaque as to be difficult to perceive or understand [<a href="http://dictionary.reference.com/search?q=obfuscate">dictionary.com</a>].<br />
+When you obfuscate your email address on a web page you make it hard for a spider to harvest it. Spider? Harvest? Spiders are programs that work their way around the internet harvesting (collecting) information. Some spiders, like search engine spiders, are good. Others, like email spiders (also called spambots) are bad.</p>
+
+<p>Email spiders scour the internet looking for one thing; Email Addresses. When they find one, they add it to their list. That list eventually becomes part of some CD-ROM that is sold to Spammers. The Spammer then uses that CD-ROM to flood your in box with junk email.</p>
+
+<p>The question is “How can we protect our email address while maintaining the ability to interact with our visitors?”</p>
+
+<p>The Answer: Obfuscate your email address. In this tutorial I’ll give you various resources for combatting SPAM.</p>
+
+<p>To Javascript or not to Javascript, that is the question.</p>
+
+<p>There are basically two different ways of obfuscating your email address. One is to insert some Javascript code in place of your email, the other is to use plain text that converts your email address into a series of numeric encodings.</p>
+
+<p>Javascript: Javascript is the more secure of the two methods because spiders are unable to process the script that contains your email address. The only downside to Javascript is that old (primitive) browsers or those with Javascript turned off will not have access to your email address. From what I’ve seen and heard somewhere between 10 and 20% of users will not have Javascript capable browsers (or they will have it turned off).</p>
+
+<p>Javascript Email Obfuscation Sites [Both of these site will help you generate the Javascript that you will then paste into the HTML of your page.]:</p>
+
+<ul>
+  <li><a href="http://www.evolt.org/article/Spam_Proofing_Your_Website/20/41849/index.html">SPAM Proofing Your Web Site : evolt.org</a>
+    <ul>
+      <li>
+        <p><a href="http://www.healyourchurchwebsite.com/obfuscator/">Heal Your Church Web Site Anti-spam Email Obfuscator</a>
+&lt;/ul&gt;</p>
+
+        <p>Sample Javascript Code created with the Heal Your Church Web Site Obfuscator:</p>
+
+        <table>
+          <tbody>
+            <tr>
+              <td><a href="javascript:var e1=’%6d%61c.%63%6f%6d’,e2=’&#109;&#097;&#105;&#108;&#116;&#111;&#058;%20’, e3=’&#098;%72&#097;%64hopki&#110;&#115;’;var e0=e2+e3+’%40’+e1;(window.location?window.location.replace(e0):document.write(e0));" title="&#069;&#109;&#097;&#105;&#108;&#032;&#065;&#100;&#100;&#114;&#101;&#115;&#115;&#032;&#079;&#098;&#102;&#117;&#115;&#099;&#097;&#116;&#101;&#100;&#032;&#087;&#105;&#116;&#104;&#032;&#074;&#097;&#118;&#097;&#115;&#099;&#114;&#105;&#112;&#116;">Email Me</a></td>
+            </tr>
+            <tr>
+              <td> </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p>Result of the code:</p>
+
+        <table>
+          <tbody>
+            <tr>
+              <td><a href="javascript:var e1='%6d%61c.%63%6f%6d',e2='mailto:%20', e3='b%72a%64hopkins';var e0=e2+e3+'%40'+e1;(window.location?window.location.replace(e0):document.write(e0));" title="Email Address Obfuscated With Javascript">Email Me</a></td>
+            </tr>
+            <tr>
+              <td> </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p>Plain Text: An easier way to obscure your email address is to use plain text. There are a couple of different methods you can use.</p>
+
+        <p>One way, which you may have seen while browsing, is to type your email address in a way that users have to type it into the address field before sending you a message. It usually will look something like this:</p>
+
+        <table>
+          <tbody>
+            <tr>
+              <td>brad at mac dot com</td>
+            </tr>
+            <tr>
+              <td> </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p>Keep in mind that this decreases usability a bit because users can no longer just click a link that takes them right to their email program.</p>
+
+        <p>Another way is to use a program like that found on the <a href="http://www.safeemail.org/">Stop SPAM : Spambot Prevention</a> web site. Using that web site generates the following code which can then be pasted into the HTML of your site.</p>
+
+        <table>
+          <tbody>
+            <tr>
+              <td>bradhopkins@mac.com</td>
+            </tr>
+            <tr>
+              <td> </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p>Result of the code:</p>
+
+        <table>
+          <tbody>
+            <tr>
+              <td>bradhopkins@mac.com</td>
+            </tr>
+            <tr>
+              <td> </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p>Finally, you could use the Email Obfuscator at the <a href="http://alicorna.com/cgi/obfuscator.cgi">Alicorna.com</a> web site. This is also a plain text generator but unlike the Stop SPAM site, Alicorna’s code also adds the mailto link so the email address is a clickable link.</p>
+
+        <p>Sample Code (<a href="http://alicorna.com/cgi/obfuscator.cgi">Alicorna.com</a>)</p>
+
+        <table>
+          <tbody>
+            <tr>
+              <td><a href="mailto:&#98;&#114;a&#100;h&#111;&#112;k&#105;&#110;&#115;&#64;m&#97;&#99;.&#99;&#111;&#109;">bradhopkins@mac.com</a></td>
+            </tr>
+            <tr>
+              <td> </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p>Result of the code:</p>
+
+        <table>
+          <tbody>
+            <tr>
+              <td><a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#037;&#050;&#054;&#035;&#057;&#056;&#059;&#037;&#050;&#054;&#035;&#049;&#049;&#052;&#059;&#097;&#037;&#050;&#054;&#035;&#049;&#048;&#048;&#059;&#104;&#037;&#050;&#054;&#035;&#049;&#049;&#049;&#059;&#037;&#050;&#054;&#035;&#049;&#049;&#050;&#059;&#107;&#037;&#050;&#054;&#035;&#049;&#048;&#053;&#059;&#037;&#050;&#054;&#035;&#049;&#049;&#048;&#059;&#037;&#050;&#054;&#035;&#049;&#049;&#053;&#059;&#037;&#050;&#054;&#035;&#054;&#052;&#059;&#109;&#037;&#050;&#054;&#035;&#057;&#055;&#059;&#037;&#050;&#054;&#035;&#057;&#057;&#059;&#046;&#037;&#050;&#054;&#035;&#057;&#057;&#059;&#037;&#050;&#054;&#035;&#049;&#049;&#049;&#059;&#037;&#050;&#054;&#035;&#049;&#048;&#057;&#059;">bradhopkins@mac.com</a></td>
+            </tr>
+            <tr>
+              <td> </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p>All of these methods will work to some degree. You have to judge which will work best for you. With SPAM as prevalent as it is, you have to be diligent when it comes to guarding that email address.</p>
+
+        <ul>
+          <li><a href="http://news.com.com/2100-1024-5189340.html?tag=cd.top">Happy spamiversary : CNET News.com</a>
+            <ul>
+              <li><a href="http://www.evolt.org/article/Spam_Proofing_Your_Website/20/41849/index.html">SPAM Proofing Your Web Site : evolt.org</a>
+                <ul>
+                  <li><a href="http://www.safeemail.org/">Stop SPAM : Spambot Prevention : safeemail.org</a>
+                    <ul>
+                      <li><a href="http://www.healyourchurchwebsite.com/obfuscator/">Heal Your Church Web Site Anti-spam Email Obfuscator</a>
+                        <ul>
+                          <li><a href="http://alicorna.com/cgi/obfuscator.cgi">Email Obfuscator : Alicorna.com</a>
+&lt;/ul&gt;&lt;/p&gt;</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+
+   
+  </div>
+
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+    <p><a href="/">gbradhopkins.com</a> &#8226; Since 2001 &#8226; An assortment of tutorials and thoughts on computers, web design and how the internet impacts us all.
+</p>
+
+</footer>
+
+
+      
+    <script>
+      var nav = responsiveNav(".nav-collapse", { // Selector
+      animate: true, // Boolean: Use CSS3 transitions, true or false
+      transition: 284, // Integer: Speed of the transition, in milliseconds
+      label: "&#9776;", // String: Label for the navigation toggle
+      insert: "before", // String: Insert the toggle before or after the navigation
+      customToggle: "", // Selector: Specify the ID of a custom toggle
+      closeOnNavClick: false, // Boolean: Close the navigation when one of the links are clicked
+      openPos: "relative", // String: Position of the opened nav, relative or static
+      navClass: "nav-collapse", // String: Default CSS class. If changed, you need to edit the CSS too!
+      navActiveClass: "js-nav-active", // String: Class that is added to  element when nav is active
+      jsClass: "js", // String: 'JS enabled' class which is added to  element
+      init: function(){}, // Function: Init callback
+      open: function(){}, // Function: Open callback
+      close: function(){} // Function: Close callback
+    });
+    </script>
+      
+      <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-137822-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </body>
+
+</html>

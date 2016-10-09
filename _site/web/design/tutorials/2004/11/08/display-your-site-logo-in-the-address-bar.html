@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Display Your Site Logo in the Address Bar | gbradhopkins.com</title>
+  <meta name="description" content="How do you display your web site logo in the address bar? Use favicon, a bit of code and this tutorial.">
+
+  <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700|Rubik:300,400,900" rel="stylesheet">
+  <link href="https://file.myfontastic.com/HtdDgr9qYvgwoniccpdu3F/icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/responsive-nav.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://gbradhopkins.com/web/design/tutorials/2004/11/08/display-your-site-logo-in-the-address-bar.html">
+  <link rel="alternate" type="application/rss+xml" title="gbradhopkins.com" href="http://gbradhopkins.com/feed.xml">
+    
+<!-- JS -->
+  <script src="/css/responsive-nav.min.js"></script>
+</head>
+
+
+  <body>
+
+    <header class="site-header group">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">gbradhopkins.com</a>
+    <nav class="nav-collapse">
+      <ul>
+        <li><a href="/feed.xml" title="Subscribe to the RSS feed"><i class="icon-rss"></i> </a></li>
+        <li><a href="https://twitter.com/gbradhopkins" title="Follow me on Twitter"><i class="icon-twitter"></i> </a></li>
+        <li><a href="http://dribbble.com/firebrandmedia" title="Sometimes I post work on Dribbble"><i class="icon-dribbble"></i> </a></li>
+        <li><a href="https://github.com/firebrandmedia" title="My Github account"><i class="icon-github-square"></i></a></li>
+        <li><a href="http://www.linkedin.com/in/gbradhopkins/" title="My LinkedIn Profile"><i class="icon-linkedin"></i></a></li>
+        <li><a href="http://firebrand.media" title="My Business Website - Firebrand.Media"><i class="icon-firebrand-media-logo"></i></a></li>
+      </ul>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Display Your Site Logo in the Address Bar</h1>
+    <p class="post-meta"><time datetime="2004-11-08T00:00:00-05:00" itemprop="datePublished">Nov 8, 2004</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+      <p>How do you display your web site logo in the address bar? Use favicon, a bit of code and this tutorial.</p>
+
+<p>What is favicon? Favicon is a custom site logo that can be added to your web site. This logo shows up in the address bar and can add a professional look to your site. See image below. <em>note - some browsers do not support favicon.</em></p>
+
+<p><img src="http://www.gbradhopkins.com/images/webdesign/favicon/Netscape-screenshot.gif" alt="" /></p>
+
+<p>gbradhopkins.com favicon in Netscape 7</p>
+
+<p>Adding favicon to your site is a fairly simple, two step process.</p>
+
+<p><strong>Create the file</strong> : First, you must create the favicon file. This file has to be a .ico (windows icon) file with dimensions of 16 x 16 pixels. <em>I used <a href="http://www.versiontracker.com/dyn/moreinfo/macosx/11559">Graphic Converter</a> (Mac) to create my .ico file but there are many programs available that will do the job (search for .ico at <a href="http://www.download.com">download.com</a>).</em></p>
+
+<p><strong>Implementing</strong> : Option 1) If you have root access then you can simply put the .ico file in the root level of your web site. This is the easiest way and will ensure that every page in your site will have the icon. When using this method, the file must be named favicon.ico.</p>
+
+<p>Option 2) If you do not have root access, then you can add a small snippet of code to each page that you would like the icon to be displayed on.</p>
+
+<p><em><link rel="SHORTCUT ICON" href="/~your_directory/logo.ico" /></em></p>
+
+<p>Add this code between the &lt;HEAD&gt; and &lt;/HEAD&gt; tags of your page, replacing <em>/~your_directory/logo.ico,</em> with the location and name of your .ico file. Using this method, you can name the file anything you like and can use different files for different sections of your site.</p>
+
+
+   
+  </div>
+
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+    <p><a href="/">gbradhopkins.com</a> &#8226; Since 2001 &#8226; An assortment of tutorials and thoughts on computers, web design and how the internet impacts us all.
+</p>
+
+</footer>
+
+
+      
+    <script>
+      var nav = responsiveNav(".nav-collapse", { // Selector
+      animate: true, // Boolean: Use CSS3 transitions, true or false
+      transition: 284, // Integer: Speed of the transition, in milliseconds
+      label: "&#9776;", // String: Label for the navigation toggle
+      insert: "before", // String: Insert the toggle before or after the navigation
+      customToggle: "", // Selector: Specify the ID of a custom toggle
+      closeOnNavClick: false, // Boolean: Close the navigation when one of the links are clicked
+      openPos: "relative", // String: Position of the opened nav, relative or static
+      navClass: "nav-collapse", // String: Default CSS class. If changed, you need to edit the CSS too!
+      navActiveClass: "js-nav-active", // String: Class that is added to  element when nav is active
+      jsClass: "js", // String: 'JS enabled' class which is added to  element
+      init: function(){}, // Function: Init callback
+      open: function(){}, // Function: Open callback
+      close: function(){} // Function: Close callback
+    });
+    </script>
+      
+      <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-137822-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </body>
+
+</html>
