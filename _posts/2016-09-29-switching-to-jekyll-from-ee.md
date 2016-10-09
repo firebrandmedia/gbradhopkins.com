@@ -9,9 +9,7 @@ Looking for an opportunity to play around with Git, Markdown and Jekyll, I have 
 
 ## Static Site Generator?
 
-*What is a static site generator and why would you want to use it?* I'm glad you asked.
-
-A static site generator takes a template directory containing raw text files in various formats, runs it through a converter and a renderer, and spits out a complete, ready-to-publish static website suitable for serving with your favorite web server.
+*What is a static site generator and why would you want to use it?* I'm glad you asked. A static site generator takes a template directory containing raw text files in various formats, runs it through a converter and a renderer, and spits out a complete, ready-to-publish static website suitable for serving with your favorite web server.
 
 A static website doesn't require a database which can increase security and will typically load faster. Although, there are plenty of ways to slow down a static site.
 
