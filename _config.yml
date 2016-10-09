@@ -40,7 +40,7 @@ defaults:
       authorphoto: /images/bio-gbradhopkins.jpg
       layout: "post"
       
-      sitemap:
+sitemap:
     file: "/sitemap.xml"
     exclude:
         - "/atom.xml"

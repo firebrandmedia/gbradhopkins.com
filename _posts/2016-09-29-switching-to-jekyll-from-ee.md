@@ -17,9 +17,11 @@ A static website doesn't require a database which can increase security and will
 
 Back in 2015, [I gave a talk on creating websites with Jekyll.](http://epwebtech.com/events/2015/08/12/getting-started-with-jekyll.html) My first caveat was that you need to use the terminal / command line interface (CLI). I knew that would be a dealbreaker for some people but if you can overcome your fear of the terminal, using Jekyll can help make you more comfortable with a CLI.
 
-## Installing Jekyll
+## Installing Jekyll on a Mac
 
 For the full installation guide, [check out the Jekyll install documentation](https://jekyllrb.com/docs/installation/). Here is my quick overview.
+
+First make sure that you have Xcode installed. It's a free download from the app store
 
 Using the terminal / command line, run the following command to install Jekyll.
 
