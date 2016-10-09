@@ -9,6 +9,10 @@ Looking for an opportunity to play around with Git, Markdown and Jekyll, I have 
 
 ## Static Site Generator?
 
+What is a static site generator? A static site generator takes a template directory containing raw text files in various formats, runs it through a converter and a renderer, and spits out a complete, ready-to-publish static website suitable for serving with your favorite web server.
+
+A static website doesn't require a database which can increase security and will typically load faster. Although, there are plenty of ways to slow down a static site.
+
 ## Caveat
 
 Back in 2015, [I gave a talk on creating websites with Jekyll.](http://epwebtech.com/events/2015/08/12/getting-started-with-jekyll.html) My first caveat was that you need to use the terminal / command line interface (CLI). I knew that would be a dealbreaker for some people but if you can overcome your fear of the terminal, using Jekyll can help make you more comfortable with a CLI.
