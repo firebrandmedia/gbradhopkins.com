@@ -1,40 +1,4 @@
-<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
-
-<h4>A PHP Error was encountered</h4>
-
-<p>Severity: Notice</p>
-<p>Message:  Undefined offset: 0</p>
-<p>Filename: marker/markdownify_extra.php</p>
-<p>Line Number: 288</p>
-
-</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
-
-<h4>A PHP Error was encountered</h4>
-
-<p>Severity: Notice</p>
-<p>Message:  Undefined offset: 0</p>
-<p>Filename: marker/markdownify_extra.php</p>
-<p>Line Number: 288</p>
-
-</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
-
-<h4>A PHP Error was encountered</h4>
-
-<p>Severity: Notice</p>
-<p>Message:  Undefined offset: 0</p>
-<p>Filename: marker/markdownify_extra.php</p>
-<p>Line Number: 288</p>
-
-</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
-
-<h4>A PHP Error was encountered</h4>
-
-<p>Severity: Notice</p>
-<p>Message:  Undefined offset: 0</p>
-<p>Filename: marker/markdownify_extra.php</p>
-<p>Line Number: 288</p>
-
-</div>---
+---
 layout: post
 title:  "Adding Album Art to iTunes Using Clutter"
 date:   2004-11-02 07-20-09 -0500

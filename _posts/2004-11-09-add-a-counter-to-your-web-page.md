@@ -1,13 +1,4 @@
-<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
-
-<h4>A PHP Error was encountered</h4>
-
-<p>Severity: Notice</p>
-<p>Message:  Undefined offset: 0</p>
-<p>Filename: marker/markdownify_extra.php</p>
-<p>Line Number: 288</p>
-
-</div>---
+---
 layout: post
 title:  "Add a Counter to Your Web Page"
 date:   2004-11-09 13-55-24 -0500

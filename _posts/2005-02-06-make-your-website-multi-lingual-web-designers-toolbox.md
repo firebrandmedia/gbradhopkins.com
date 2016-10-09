@@ -1,13 +1,4 @@
-<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
-
-<h4>A PHP Error was encountered</h4>
-
-<p>Severity: User Warning</p>
-<p>Message:  buffer was not flushed, this is a bug. please report!</p>
-<p>Filename: marker/markdownify.php</p>
-<p>Line Number: 330</p>
-
-</div>---
+---
 layout: post
 title:  "Make Your Website - Multi-Lingual [Web Designers Toolbox]"
 date:   2005-02-06 17-24-58 -0500

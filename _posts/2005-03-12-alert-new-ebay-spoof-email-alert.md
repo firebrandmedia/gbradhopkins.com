@@ -1,13 +1,4 @@
-<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
-
-<h4>A PHP Error was encountered</h4>
-
-<p>Severity: Warning</p>
-<p>Message:  call_user_func() expects parameter 1 to be a valid callback, class 'Markdownify_Extra' does not have a method 'flushStacked_ul'</p>
-<p>Filename: marker/markdownify.php</p>
-<p>Line Number: 392</p>
-
-</div>---
+---
 layout: post
 title:  "ALERT *NEW EBAY SPOOF EMAIL* ALERT"
 date:   2005-03-12 08-54-53 -0500

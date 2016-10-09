@@ -1,22 +1,4 @@
-<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
-
-<h4>A PHP Error was encountered</h4>
-
-<p>Severity: Notice</p>
-<p>Message:  Undefined index: linkID</p>
-<p>Filename: marker/markdownify.php</p>
-<p>Line Number: 695</p>
-
-</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
-
-<h4>A PHP Error was encountered</h4>
-
-<p>Severity: Notice</p>
-<p>Message:  Undefined index: linkID</p>
-<p>Filename: marker/markdownify.php</p>
-<p>Line Number: 695</p>
-
-</div>---
+---
 layout: post
 title:  "Join the Political Fray with iTunes"
 date:   2004-09-23 16-24-58 -0500

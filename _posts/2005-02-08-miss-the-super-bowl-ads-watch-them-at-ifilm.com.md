@@ -1,13 +1,4 @@
-<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
-
-<h4>A PHP Error was encountered</h4>
-
-<p>Severity: Notice</p>
-<p>Message:  Undefined index: linkID</p>
-<p>Filename: marker/markdownify.php</p>
-<p>Line Number: 695</p>
-
-</div>---
+---
 layout: post
 title:  "Miss the Super Bowl Ads? Watch them at IFILM.com"
 date:   2005-02-08 03-10-30 -0500
