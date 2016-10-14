@@ -22,7 +22,7 @@ kramdown:
   hard_wrap: false
 highlighter: rouge
 
-gems: [jekyll-paginate, jekyll-sitemap]
+gems: [jekyll-sitemap]
 
 
 paginate: 10
@@ -41,13 +41,3 @@ defaults:
       authorphoto: /images/bio-gbradhopkins.jpg
       layout: "post"
       
-sitemap:
-    file: "/sitemap.xml"
-    exclude:
-        - "/atom.xml"
-        - "/feed.xml"
-        - "/feed/index.xml"
-    include_posts:
-        - "/index.html"
-    change_frequency_name: "change_frequency"
-    priority_name: "priority"
