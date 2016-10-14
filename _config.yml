@@ -22,7 +22,7 @@ kramdown:
   hard_wrap: false
 highlighter: rouge
 
-gems: [jekyll-sitemap]
+gems: jekyll-paginate, jekyll-sitemap
 
 
 paginate: 10
