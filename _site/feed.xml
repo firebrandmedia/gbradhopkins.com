@@ -6,9 +6,9 @@
 </description>
     <link>http://gbradhopkins.com/</link>
     <atom:link href="http://gbradhopkins.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 14 Oct 2016 10:33:57 -0400</pubDate>
-    <lastBuildDate>Fri, 14 Oct 2016 10:33:57 -0400</lastBuildDate>
-    <generator>Jekyll v3.0.1</generator>
+    <pubDate>Fri, 14 Oct 2016 10:44:02 -0400</pubDate>
+    <lastBuildDate>Fri, 14 Oct 2016 10:44:02 -0400</lastBuildDate>
+    <generator>Jekyll v3.3.0</generator>
     
       <item>
         <title>Moving gbradhopkins.com from ExpressionEngine to Jekyll</title>
@@ -52,7 +52,7 @@ header(&quot;Expires: 0&quot;);
 ?&amp;gt;
 &amp;lt;table&amp;gt;
 &amp;lt;tbody&amp;gt;
-{exp:channel:entries channel=&#39;tutorials&#39; limit=&#39;500&#39; disable=&quot;categories|member_data|pagination|trackbacks&quot;}
+{exp:channel:entries channel='tutorials' limit='500' disable=&quot;categories|member_data|pagination|trackbacks&quot;}
     &amp;lt;tr&amp;gt;
 	    &amp;lt;td valign=&quot;top&quot;&amp;gt;{title}&amp;lt;/td&amp;gt;
             &amp;lt;td&amp;gt;{tutorial_body}&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;{tutorial_image}&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;{tutorial_hero_image}&amp;lt;/td&amp;gt;
@@ -79,7 +79,7 @@ header(&quot;Expires: 0&quot;);
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;ul&amp;gt;
 {exp:channel:entries channel=&quot;tutorials|reviews&quot; dynamic=&quot;off&quot; disable=&quot;member_data|pagination&quot;}
-&amp;lt;li&amp;gt;&amp;lt;a href=&quot;{title_permalink=&#39;exports/post&#39;}&quot; target=&quot;blank&quot;&amp;gt;{entry_date format=&#39;%Y-%m-%d&#39;}-{url_title}.md&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;&amp;lt;a href=&quot;{title_permalink='exports/post'}&quot; target=&quot;blank&quot;&amp;gt;{entry_date format='%Y-%m-%d'}-{url_title}.md&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
 {/exp:channel:entries}
 &amp;lt;/ul&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
@@ -92,14 +92,14 @@ header(&quot;Expires: 0&quot;);
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;exp:channel:entries&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;channel=&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;tutorials|reviews&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;disable=&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;member_data|pagination&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;?php&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;header(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Content-type: text/markdown; charset=UTF-8&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;);&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;header(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Content-Disposition: attachment; filename={entry_date format=&#39;%Y-%m-%d&#39;}-{url_title}.md&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;);&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;header(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Content-Disposition: attachment; filename={entry_date format='%Y-%m-%d'}-{url_title}.md&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;);&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;header(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Pragma: no-cache&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;);&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;header(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Expires: 0&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;);&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;?&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;---&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;layout:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;title:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;{title}&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;date:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;   &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;entry_date&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;format=&#39;%Y-%m-%d&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%H-%i-%s&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;-0500&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;date:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;   &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;entry_date&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;format='%Y-%m-%d&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%H-%i-%s'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;-0500&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;categories:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;categories&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;category_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/categories&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;tutorial_hero_image&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;image:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;tutorial_hero_image&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;review_hero_image&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;image:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;review_hero_image&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
@@ -168,7 +168,7 @@ modified:   css/main.scss
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git add .&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git commit -m &#39;Commit message here&#39;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git commit -m 'Commit message here'&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;After adding our commit message and hitting enter, we receive a message indicating what we’ve done (or are about to do).&lt;/p&gt;
 
