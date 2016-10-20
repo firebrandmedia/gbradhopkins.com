@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Make Your Web Site Searchable | gbradhopkins.com</title>
+  <meta name="description" content="">
+
+  <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700|Rubik:300,400,900" rel="stylesheet">
+  <link href="https://file.myfontastic.com/HtdDgr9qYvgwoniccpdu3F/icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/responsive-nav.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="gbradhopkins.com/2004/11/10/make-your-web-site-searchable.html">
+  <link rel="alternate" type="application/rss+xml" title="gbradhopkins.com" href="gbradhopkins.com/feed.xml">
+
+<!-- JS -->
+  <script src="/css/responsive-nav.min.js"></script>
+</head>
+
+
+  <body>
+
+    <header class="site-header group">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">gbradhopkins.com</a>
+    <nav class="nav-collapse">
+      <ul>
+        <li><a href="/feed.xml" title="Subscribe to the RSS feed"><i class="icon-rss"></i> </a></li>
+        <li><a href="https://twitter.com/gbradhopkins" title="Follow me on Twitter"><i class="icon-twitter"></i> </a></li>
+        <li><a href="http://dribbble.com/firebrandmedia" title="Sometimes I post work on Dribbble"><i class="icon-dribbble"></i> </a></li>
+        <li><a href="https://github.com/firebrandmedia" title="My Github account"><i class="icon-github-square"></i></a></li>
+        <li><a href="http://www.linkedin.com/in/gbradhopkins/" title="My LinkedIn Profile"><i class="icon-linkedin"></i></a></li>
+        <li><a href="http://firebrand.media" title="My Business Website - Firebrand.Media"><i class="icon-firebrand-media-logo"></i></a></li>
+      </ul>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Make Your Web Site Searchable</h1>
+    <p class="post-meta"><time datetime="2004-11-10T00:00:00-05:00" itemprop="datePublished">Nov 10, 2004</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+      <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined offset: 0</p>
+<p>Filename: marker/markdownify_extra.php</p>
+<p>Line Number: 288</p>
+
+</div>
+<hr />
+<p>layout: post
+title:  “Make your web site searchable”
+date:   2004-11-10 11-46-22 -0500
+categories: Web Design Tutorials
+—</p>
+
+<p>The ability to search a site is probably one of the most useful features you can add to your site. Especially if your site has a number of pages. If you have a very basic site with a handful of pages then you probably don’t want to even bother with it.</p>
+
+<p>There are a number of free services that help you to quickly and efficiently add search capability to your site. The one that I prefer and am going to use is by <a href="http://www.atomz.com">Atomz.com</a>. It is free, has no banners or advertising and can be set to index (scan your site for updated files) your site at intervals that you determine. A very nice feature.</p>
+
+<p>Like all online services you will have to sign up for an account. This process involves you providing minimal information and is very quick.</p>
+
+<p>You will then have to set up an account for the site you wish to make searchable. This can be done at the ‘Accounts’ page. You will need to have the URL that your site resides at [http://homepage.mac.com/bradhopkins is my URL], a title for the site, a category to describe the site and your time zone. This completes the account set up.</p>
+
+<p>Another nice feature provided by <a href="http://www.atomz.com">Atomz.com</a> is that you can set up searches for multiple sites and manage all of them from a single page.</p>
+
+<p>Your next step is to select ‘HTML’ from the list of choices. Here you have two options <a href="http://www.atomz.com">1</a> standard search : the user puts in keywords to search for, and [2] advanced: the user provides information like keywords, date modified, where the file should reside, etc. Either way the process is the same [but the code will be different].</p>
+
+<p>Once you decide which search you like better [I like standard for its simplicity] then you simply copy the code straight from the page.</p>
+
+<p>| *&lt;!—Atomz Search HTML for g.Brad.hopkins—&gt;&lt;form method="get" action="http://search.atomz.com/search/"&gt;&lt;input size=15 name=”sp-q”&gt;<br /><br />
+&lt;input type=submit value=”Search”&gt;&lt;input type=hidden name=”sp-a” value=”sp1000190a”&gt;&lt;/form&gt;</p>
+<ul>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td> </td>
+        </tr>
+        <tr>
+          <td> </td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ul>
+
+<p>This code will then be pasted directly into your web page. Some HTML editors have trouble pasting HTML code from other applications. If the HTML code appears on your web page as text, then copy-and-paste from this page to a simple text editor, then copy-and-paste again from the simple text editor to your HTML editor. (You can use “notepad” on Windows or “Simple Text” on a Macintosh as a simple text editor.)</p>
+
+<p>If the text box is too wide for your design, just reduce its width by changing the size parameter of the “sp-q” input tag in the HTML code for your search form.</p>
+
+<p>Once you have pasted the code into your site you then have to tell atomz.com to index your site. You can set it up to only index on your command, or you can have it index on a schedule. I chose on command and will probably go back later and set up a schedule for indexing.</p>
+
+<p>Simply select ‘Full Index’ and it will tell you when your site was last craweled [indexed] and how many pages were indexed. You will see a button down the page that says ‘index now’ and you click that and it begins indexing [as indicated by the countdown from 20 to 0].</p>
+
+<p>Upon completion of the indexing it will say ‘click here now’. At that point you are done and your site is now searchable. If you get a result of 0 pages then you may want to check to be sure that you typed your URL correctly.</p>
+
+
+
+  </div>
+
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+    <p><a href="/">gbradhopkins.com</a> &#8226; Since 2001 &#8226; An assortment of tutorials and thoughts on computers, web design and how the internet impacts us all.
+</p>
+
+</footer>
+
+
+
+    <script>
+      var nav = responsiveNav(".nav-collapse", { // Selector
+      animate: true, // Boolean: Use CSS3 transitions, true or false
+      transition: 284, // Integer: Speed of the transition, in milliseconds
+      label: "&#9776;", // String: Label for the navigation toggle
+      insert: "before", // String: Insert the toggle before or after the navigation
+      customToggle: "", // Selector: Specify the ID of a custom toggle
+      closeOnNavClick: false, // Boolean: Close the navigation when one of the links are clicked
+      openPos: "relative", // String: Position of the opened nav, relative or static
+      navClass: "nav-collapse", // String: Default CSS class. If changed, you need to edit the CSS too!
+      navActiveClass: "js-nav-active", // String: Class that is added to  element when nav is active
+      jsClass: "js", // String: 'JS enabled' class which is added to  element
+      init: function(){}, // Function: Init callback
+      open: function(){}, // Function: Open callback
+      close: function(){} // Function: Close callback
+    });
+    </script>
+  </body>
+
+</html>
