@@ -4,31 +4,45 @@
     <title>gbradhopkins.com</title>
     <description>An assortment of tutorials and thoughts on computers, web design and how the internet impacts us all.
 </description>
-    <link>http://gbradhopkins.com/</link>
-    <atom:link href="http://gbradhopkins.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 04 Nov 2016 23:23:54 -0400</pubDate>
-    <lastBuildDate>Fri, 04 Nov 2016 23:23:54 -0400</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 05 Nov 2016 00:30:29 -0400</pubDate>
+    <lastBuildDate>Sat, 05 Nov 2016 00:30:29 -0400</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
         <title>Moving gbradhopkins.com from ExpressionEngine to Jekyll</title>
-        <description>&lt;p&gt;Looking for an opportunity to play around with Git, Markdown and Jekyll, I have decided to move my site from &lt;a href=&quot;http://ellislab.com/expressionengine&quot;&gt;ExpressionEngine (EECMS)&lt;/a&gt; - which I love and use on most projects - to &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;, a static site generator.&lt;/p&gt;
+        <description>&lt;p&gt;Looking for an opportunity to play around with Git, Markdown and Jekyll, I have decided to move &lt;a href=&quot;http://gbradhopkins.com&quot;&gt;this site&lt;/a&gt; from &lt;a href=&quot;http://ellislab.com/expressionengine&quot;&gt;ExpressionEngine (EECMS)&lt;/a&gt; - which I love and use on most projects - to &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;, a static site generator.&lt;/p&gt;
 
 &lt;h2 id=&quot;static-site-generator&quot;&gt;Static Site Generator?&lt;/h2&gt;
 
-&lt;p&gt;&lt;em&gt;What is a static site generator and why would you want to use it?&lt;/em&gt; I’m glad you asked. A static site generator takes a template directory containing raw text files in various formats, runs it through a converter and a renderer, and spits out a complete, ready-to-publish static website suitable for serving with your favorite web server.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;What is a static site generator and why would you want to use it?&lt;/em&gt; I’m glad you asked.&lt;/p&gt;
 
-&lt;p&gt;A static website doesn’t require a database which can increase security and will typically load faster. Although, there are plenty of ways to slow down a static site.&lt;/p&gt;
+&lt;p&gt;A static site generator takes a template directory containing raw text files in various formats, runs it through a converter and a renderer, and spits out a complete, ready-to-publish static website suitable for serving with your favorite web server, or even for free using Github Pages (more on that later).&lt;/p&gt;
+
+&lt;p&gt;A static website doesn’t require a database, which can increase security and will typically load faster. &lt;em&gt;Although, there are plenty of ways to slow down a static site.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;In addition to increased security and speed, Jekyll also creates a local server for testing purposes. Every time you make a change to a file or post, you can preview the change locally before pushing the site live. This is a great time saver, especially when testing a responsive design or a blog post.&lt;/p&gt;
+
+&lt;p&gt;Finally, if you are using Jekyll, and have a Github account, you can host your site for free using &lt;a href=&quot;https://pages.github.com&quot;&gt;Github Pages&lt;/a&gt;. You can even use your own domain - as I’m doing here.&lt;/p&gt;
+
+&lt;p&gt;Of course, there are some restrictions, one being that many of the Jekyll plugins that are available can’t be used because Github runs Jekyll in safe mode. Another restriction that I found is the lack of a .htaccess file, meaning that I couldn’t redirect my pages from their old URL to their new URL. One way that I tried to overcome this was by creating a sitemap and submitting it to Google, using the Google Search Console (formerly Webmaster Tools).&lt;/p&gt;
 
 &lt;h2 id=&quot;caveat&quot;&gt;Caveat&lt;/h2&gt;
 
-&lt;p&gt;Back in 2015, &lt;a href=&quot;http://epwebtech.com/events/2015/08/12/getting-started-with-jekyll.html&quot;&gt;I gave a talk on creating websites with Jekyll.&lt;/a&gt; My first caveat was that you need to use the terminal / command line interface (CLI). I knew that would be a dealbreaker for some people but if you can overcome your fear of the terminal, using Jekyll can help make you more comfortable with a CLI.&lt;/p&gt;
+&lt;p&gt;Besides the restrictions mentioned above, there is another major caveat regarding the usage of Jekyll.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Command Line&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Back in 2015, &lt;a href=&quot;http://epwebtech.com/events/2015/08/12/getting-started-with-jekyll.html&quot;&gt;I gave a talk on creating websites with Jekyll.&lt;/a&gt; My first caveat was that you need to use the terminal / command line interface (CLI). I knew that would be a dealbreaker for some people but, if you can overcome your fear of the terminal, using Jekyll can help make you more comfortable with a CLI.&lt;/p&gt;
+
+&lt;p&gt;Now that we’ve got the why and why not out of the way, let’s get started.&lt;/p&gt;
 
 &lt;h2 id=&quot;installing-jekyll-on-a-mac&quot;&gt;Installing Jekyll on a Mac&lt;/h2&gt;
 
 &lt;p&gt;For the full installation guide, &lt;a href=&quot;https://jekyllrb.com/docs/installation/&quot;&gt;check out the Jekyll install documentation&lt;/a&gt;. Here is my quick overview.&lt;/p&gt;
 
-&lt;p&gt;First make sure that you have Xcode installed. It’s a free download from the app store&lt;/p&gt;
+&lt;p&gt;First make sure that you have &lt;a href=&quot;https://itunes.apple.com/us/app/xcode/id497799835&quot;&gt;Xcode&lt;/a&gt; installed. It’s a free download from the app store.&lt;/p&gt;
 
 &lt;p&gt;Using the terminal / command line, run the following command to install Jekyll.&lt;/p&gt;
 
@@ -38,11 +52,15 @@
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo gem install jekyll&lt;/code&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;exporting-entries&quot;&gt;Exporting Entries&lt;/h2&gt;
+&lt;p&gt;If everything goes well, Jekyll will now be installed on your computer and you can start using it.&lt;/p&gt;
+
+&lt;p&gt;I’m not going to get into the ‘how’ of designing a site with Jekyll. That may be a later blog entry but for now I’m more concerned with the transition from ExpressionEngine to Jekyll.&lt;/p&gt;
+
+&lt;h2 id=&quot;bulk-entry-export&quot;&gt;Bulk Entry Export&lt;/h2&gt;
 
 &lt;p&gt;In addition to creating a blog in Jekyll, I wanted to move all/some of my posts from EECMS.&lt;/p&gt;
 
-&lt;p&gt;Here is the template that I used to export all of my entries from EECMS to a single HTML file. This file exports each entry as a field in a table. Because most of my entries were old and no longer relevant, I am using this as more of a time capsule so that in the future I can look back at what I wrote.&lt;/p&gt;
+&lt;p&gt;I’ll admit, what follows is a bit of a cheat. I wanted to export my entries from EECMS to Jekyll but I just couldn’t figure out how without putting in a bunch of time that I didn’t have. So, instead, I came up with the following solution that I used to export &lt;em&gt;ALL&lt;/em&gt; of my entries from EECMS to a single HTML file. This file exports each entry as a field in a table. Because most of my entries were old and no longer relevant, I was satisfied to use this as more of a time capsule, or archive, so that in the future I can look back at what I wrote.&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;?php
     header(&quot;Content-type: application/vnd.ms-excel&quot;);
@@ -69,8 +87,8 @@ header(&quot;Expires: 0&quot;);
 &lt;p&gt;The thing I love most about ExpressionEngine is the ability to format and display your data however you need. Using two templates I was able to:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;List all of my entries with the naming convention that Jekyll requires - “Year-Month-Day-Title.md”&lt;/li&gt;
-  &lt;li&gt;Click a link to download each entry formatted for Jekyll with the frontmatter already in place - layout, title, categories, date, custom image field for hero images&lt;/li&gt;
+  &lt;li&gt;List all of my entries with the naming convention that Jekyll requires - “Year-Month-Day-Title.md” - I was set on using Markdown so the .md format was important.&lt;/li&gt;
+  &lt;li&gt;Click a link to download each entry formatted for Jekyll with the &lt;a href=&quot;https://pages.github.com&quot;&gt;front matter&lt;/a&gt; already in place - layout, title, categories, date, custom image field for hero images.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;List of Entries Template&lt;/strong&gt;&lt;/p&gt;
@@ -121,6 +139,8 @@ header(&quot;Expires: 0&quot;);
 
 &lt;p&gt;The one thing I couldn’t figure out was how to download the file with the .md file extension. Using the above code downloads a file with .md.html as the file extension. I simply used a renaming app to batch rename all of the files to .md.&lt;/p&gt;
 
+&lt;p&gt;I then dropped the files in my _posts directory, rebuilt my site and pushed the changes to my Github account.&lt;/p&gt;
+
 &lt;h2 id=&quot;links-of-note&quot;&gt;Links of note&lt;/h2&gt;
 
 &lt;ul&gt;
@@ -130,11 +150,12 @@ header(&quot;Expires: 0&quot;);
   &lt;li&gt;&lt;a href=&quot;http://gitref.org/basic/#add&quot;&gt;Git Reference Guide&lt;/a&gt; - Basics of commiting and pushing content.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://epwebtech.com/blog/2015/08/17/jekyll-resources-and-links.html&quot;&gt;Jekyll Links and Resources&lt;/a&gt; - A list of resources that I pulled together for a talk that I gave back in 2015.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://epwebtech.com/blog/2015/08/18/publishing-site-to-github.html&quot;&gt;Publishing a Jekyll Site on Gituhub&lt;/a&gt; - Notes on publishing a Jekyll site on Github from the same talk.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://reyhan.org/2013/03/jekyll-archive-without-plugins.html&quot;&gt;Creating Jekyll Archives with using Plugins&lt;/a&gt; - A great snippet of code that allows you to list your entires by year and date. You can view &lt;a href=&quot;http://reyhan.org/2013/03/jekyll-archive-without-plugins.html&quot;&gt;my site archives template&lt;/a&gt; that is based on this code.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Thu, 29 Sep 2016 00:00:00 -0400</pubDate>
-        <link>http://gbradhopkins.com/web/design/tutorials/2016/09/29/switching-to-jekyll-from-ee.html</link>
-        <guid isPermaLink="true">http://gbradhopkins.com/web/design/tutorials/2016/09/29/switching-to-jekyll-from-ee.html</guid>
+        <link>http://localhost:4000/web/design/tutorials/2016/09/29/switching-to-jekyll-from-ee.html</link>
+        <guid isPermaLink="true">http://localhost:4000/web/design/tutorials/2016/09/29/switching-to-jekyll-from-ee.html</guid>
         
         
         <category>Web</category>
@@ -184,8 +205,8 @@ modified:   css/main.scss
 &lt;p&gt;Next up, how to access that repository from another computer to continue working on it.&lt;/p&gt;
 </description>
         <pubDate>Thu, 29 Sep 2016 00:00:00 -0400</pubDate>
-        <link>http://gbradhopkins.com/web/design/tutorials/2016/09/29/git-commit-workflow.html</link>
-        <guid isPermaLink="true">http://gbradhopkins.com/web/design/tutorials/2016/09/29/git-commit-workflow.html</guid>
+        <link>http://localhost:4000/web/design/tutorials/2016/09/29/git-commit-workflow.html</link>
+        <guid isPermaLink="true">http://localhost:4000/web/design/tutorials/2016/09/29/git-commit-workflow.html</guid>
         
         
         <category>Web</category>
@@ -258,8 +279,8 @@ modified:   css/main.scss
 
 </description>
         <pubDate>Tue, 25 Jun 2013 00:00:00 -0400</pubDate>
-        <link>http://gbradhopkins.com/pc/tutorials/2013/06/25/ripping-dvd-to-ipod-video.html</link>
-        <guid isPermaLink="true">http://gbradhopkins.com/pc/tutorials/2013/06/25/ripping-dvd-to-ipod-video.html</guid>
+        <link>http://localhost:4000/pc/tutorials/2013/06/25/ripping-dvd-to-ipod-video.html</link>
+        <guid isPermaLink="true">http://localhost:4000/pc/tutorials/2013/06/25/ripping-dvd-to-ipod-video.html</guid>
         
         
         <category>PC</category>
@@ -288,8 +309,8 @@ modified:   css/main.scss
 &lt;/ul&gt;
 </description>
         <pubDate>Thu, 13 Jun 2013 00:00:00 -0400</pubDate>
-        <link>http://gbradhopkins.com/tech-annoyances/2013/06/13/i-really-want-to-like-you-flickr.html</link>
-        <guid isPermaLink="true">http://gbradhopkins.com/tech-annoyances/2013/06/13/i-really-want-to-like-you-flickr.html</guid>
+        <link>http://localhost:4000/tech-annoyances/2013/06/13/i-really-want-to-like-you-flickr.html</link>
+        <guid isPermaLink="true">http://localhost:4000/tech-annoyances/2013/06/13/i-really-want-to-like-you-flickr.html</guid>
         
         
         <category>tech-annoyances</category>
@@ -359,8 +380,8 @@ So, are you looking for a little extra motivation? Tired of running from zombies
 
 </description>
         <pubDate>Fri, 17 May 2013 00:00:00 -0400</pubDate>
-        <link>http://gbradhopkins.com/internet/tutorials/2013/05/17/get-fit-and-help-those-in-need.html</link>
-        <guid isPermaLink="true">http://gbradhopkins.com/internet/tutorials/2013/05/17/get-fit-and-help-those-in-need.html</guid>
+        <link>http://localhost:4000/internet/tutorials/2013/05/17/get-fit-and-help-those-in-need.html</link>
+        <guid isPermaLink="true">http://localhost:4000/internet/tutorials/2013/05/17/get-fit-and-help-those-in-need.html</guid>
         
         
         <category>Internet</category>
@@ -395,8 +416,8 @@ So, are you looking for a little extra motivation? Tired of running from zombies
 
 </description>
         <pubDate>Fri, 10 May 2013 00:00:00 -0400</pubDate>
-        <link>http://gbradhopkins.com/reviews/2013/05/10/gif-brewery.html</link>
-        <guid isPermaLink="true">http://gbradhopkins.com/reviews/2013/05/10/gif-brewery.html</guid>
+        <link>http://localhost:4000/reviews/2013/05/10/gif-brewery.html</link>
+        <guid isPermaLink="true">http://localhost:4000/reviews/2013/05/10/gif-brewery.html</guid>
         
         
         <category>Reviews</category>
@@ -419,8 +440,8 @@ So, are you looking for a little extra motivation? Tired of running from zombies
 
 </description>
         <pubDate>Tue, 30 Apr 2013 00:00:00 -0400</pubDate>
-        <link>http://gbradhopkins.com/internet/tutorials/2013/04/30/internet-privacy-links.html</link>
-        <guid isPermaLink="true">http://gbradhopkins.com/internet/tutorials/2013/04/30/internet-privacy-links.html</guid>
+        <link>http://localhost:4000/internet/tutorials/2013/04/30/internet-privacy-links.html</link>
+        <guid isPermaLink="true">http://localhost:4000/internet/tutorials/2013/04/30/internet-privacy-links.html</guid>
         
         
         <category>Internet</category>
@@ -457,8 +478,8 @@ So, are you looking for a little extra motivation? Tired of running from zombies
 
 </description>
         <pubDate>Mon, 22 Apr 2013 00:00:00 -0400</pubDate>
-        <link>http://gbradhopkins.com/mac/tutorials/2013/04/22/macheist-nanobundle-3.-10-well-spent.html</link>
-        <guid isPermaLink="true">http://gbradhopkins.com/mac/tutorials/2013/04/22/macheist-nanobundle-3.-10-well-spent.html</guid>
+        <link>http://localhost:4000/mac/tutorials/2013/04/22/macheist-nanobundle-3.-10-well-spent.html</link>
+        <guid isPermaLink="true">http://localhost:4000/mac/tutorials/2013/04/22/macheist-nanobundle-3.-10-well-spent.html</guid>
         
         
         <category>Mac</category>
@@ -469,9 +490,9 @@ So, are you looking for a little extra motivation? Tired of running from zombies
     
       <item>
         <title>Toggle Between Browser Tabs via Keyboard Shortcuts</title>
-        <description>&lt;p&gt;Need a quick way to toggle between tabs in Safari using keyboard shortcuts?&lt;/p&gt;
+        <description>&lt;p&gt;Need a quick way to toggle between tabs in Safari (or, pretty much any other browser) using keyboard shortcuts?&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;./images/tabs.JPG&quot; alt=&quot;Safari Tabs&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/tabs.JPG&quot; alt=&quot;Safari Tabs&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I’m a big fan of keyboard shortcuts - anything that keeps my hands on the keyboard makes me happy, and more efficient - so when a friend asked if there was a way to toggle between open tabs I thought, “Why didn’t I think of that?”&lt;/p&gt;
 
@@ -485,21 +506,17 @@ So, are you looking for a little extra motivation? Tired of running from zombies
 
 &lt;p&gt;&lt;strong&gt;Toggle Forward&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://www.gbradhopkins.com/article_images/2012/02_06/keyboard_forward_sm.jpg&quot; alt=&quot;Keyboard command for toggling forward - command-shift-right bracket&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Command - Shift - ]&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Command - Shift - ]&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Toggle Backward&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://www.gbradhopkins.com/article_images/2012/02_06/keyboard_backward_sm.jpg&quot; alt=&quot;Keyboard command for toggling forward - command-shift-left bracket&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Command - Shift - [&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Command - Shift - [&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;This keyboard combination also works in Firefox and Chrome as well.&lt;/p&gt;
 </description>
         <pubDate>Mon, 06 Feb 2012 00:00:00 -0500</pubDate>
-        <link>http://gbradhopkins.com/mac/tutorials/2012/02/06/toggle-between-tabs-in-safari.html</link>
-        <guid isPermaLink="true">http://gbradhopkins.com/mac/tutorials/2012/02/06/toggle-between-tabs-in-safari.html</guid>
+        <link>http://localhost:4000/mac/tutorials/2012/02/06/toggle-between-tabs-in-safari.html</link>
+        <guid isPermaLink="true">http://localhost:4000/mac/tutorials/2012/02/06/toggle-between-tabs-in-safari.html</guid>
         
         
         <category>Mac</category>
@@ -524,8 +541,8 @@ So, are you looking for a little extra motivation? Tired of running from zombies
 
 </description>
         <pubDate>Wed, 10 Dec 2008 00:00:00 -0500</pubDate>
-        <link>http://gbradhopkins.com/web/design/tutorials/2008/12/10/not-seeing-any-google-custom-search-engine-results-in-analytics-heres-the-f.html</link>
-        <guid isPermaLink="true">http://gbradhopkins.com/web/design/tutorials/2008/12/10/not-seeing-any-google-custom-search-engine-results-in-analytics-heres-the-f.html</guid>
+        <link>http://localhost:4000/web/design/tutorials/2008/12/10/not-seeing-any-google-custom-search-engine-results-in-analytics-heres-the-f.html</link>
+        <guid isPermaLink="true">http://localhost:4000/web/design/tutorials/2008/12/10/not-seeing-any-google-custom-search-engine-results-in-analytics-heres-the-f.html</guid>
         
         
         <category>Web</category>

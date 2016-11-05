@@ -6,9 +6,9 @@ categories: Mac Tutorials
 image: ./images/tabs.JPG
 ---
 
-Need a quick way to toggle between tabs in Safari using keyboard shortcuts? 
+Need a quick way to toggle between tabs in Safari (or, pretty much any other browser) using keyboard shortcuts? 
 
-![Safari Tabs](./images/tabs.JPG)
+![Safari Tabs](/images/tabs.JPG)
 
 I’m a big fan of keyboard shortcuts - anything that keeps my hands on the keyboard makes me happy, and more efficient - so when a friend asked if there was a way to toggle between open tabs I thought, “Why didn’t I think of that?”
 
@@ -20,14 +20,10 @@ As it turns out, of course there is.
 
 **Toggle Forward**
 
-![Keyboard command for toggling forward - command-shift-right bracket](http://www.gbradhopkins.com/article_images/2012/02_06/keyboard_forward_sm.jpg)
-
-Command - Shift - ]
+`Command - Shift - ]`
 
 **Toggle Backward**
 
-![Keyboard command for toggling forward - command-shift-left bracket](http://www.gbradhopkins.com/article_images/2012/02_06/keyboard_backward_sm.jpg)
-
-Command - Shift - [
+`Command - Shift - [`
 
 This keyboard combination also works in Firefox and Chrome as well.

@@ -7,14 +7,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Moving gbradhopkins.com from ExpressionEngine to Jekyll | gbradhopkins.com</title>
-  <meta name="description" content="Looking for an opportunity to play around with Git, Markdown and Jekyll, I have decided to move my site from ExpressionEngine (EECMS) - which I love and use ...">
+  <meta name="description" content="Looking for an opportunity to play around with Git, Markdown and Jekyll, I have decided to move this site from ExpressionEngine (EECMS) - which I love and us...">
 
   <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700|Rubik:300,400,900" rel="stylesheet">
   <link href="https://file.myfontastic.com/HtdDgr9qYvgwoniccpdu3F/icons.css" rel="stylesheet">
   <link rel="stylesheet" href="/css/responsive-nav.css">
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://gbradhopkins.com/web/design/tutorials/2016/09/29/switching-to-jekyll-from-ee.html">
-  <link rel="alternate" type="application/rss+xml" title="gbradhopkins.com" href="http://gbradhopkins.com/feed.xml">
+  <link rel="canonical" href="http://localhost:4000/web/design/tutorials/2016/09/29/switching-to-jekyll-from-ee.html">
+  <link rel="alternate" type="application/rss+xml" title="gbradhopkins.com" href="http://localhost:4000/feed.xml">
     
 <!-- JS -->
   <script src="/css/responsive-nav.min.js"></script>
@@ -30,6 +30,7 @@
     <a class="site-title" href="/">gbradhopkins.com</a>
     <nav class="nav-collapse">
       <ul>
+        <li><a href="/archive.html" title="gBradhopkins.com Archives"><i class="icon-archives"></i> </a></li>
         <li><a href="/feed.xml" title="Subscribe to the RSS feed"><i class="icon-rss"></i> </a></li>
         <li><a href="https://twitter.com/gbradhopkins" title="Follow me on Twitter"><i class="icon-twitter"></i> </a></li>
         <li><a href="http://dribbble.com/firebrandmedia" title="Sometimes I post work on Dribbble"><i class="icon-dribbble"></i> </a></li>
@@ -54,23 +55,37 @@
   </header>
 
   <div class="post-content" itemprop="articleBody">
-      <p>Looking for an opportunity to play around with Git, Markdown and Jekyll, I have decided to move my site from <a href="http://ellislab.com/expressionengine">ExpressionEngine (EECMS)</a> - which I love and use on most projects - to <a href="http://jekyllrb.com">Jekyll</a>, a static site generator.</p>
+      <p>Looking for an opportunity to play around with Git, Markdown and Jekyll, I have decided to move <a href="http://gbradhopkins.com">this site</a> from <a href="http://ellislab.com/expressionengine">ExpressionEngine (EECMS)</a> - which I love and use on most projects - to <a href="http://jekyllrb.com">Jekyll</a>, a static site generator.</p>
 
 <h2 id="static-site-generator">Static Site Generator?</h2>
 
-<p><em>What is a static site generator and why would you want to use it?</em> I’m glad you asked. A static site generator takes a template directory containing raw text files in various formats, runs it through a converter and a renderer, and spits out a complete, ready-to-publish static website suitable for serving with your favorite web server.</p>
+<p><em>What is a static site generator and why would you want to use it?</em> I’m glad you asked.</p>
 
-<p>A static website doesn’t require a database which can increase security and will typically load faster. Although, there are plenty of ways to slow down a static site.</p>
+<p>A static site generator takes a template directory containing raw text files in various formats, runs it through a converter and a renderer, and spits out a complete, ready-to-publish static website suitable for serving with your favorite web server, or even for free using Github Pages (more on that later).</p>
+
+<p>A static website doesn’t require a database, which can increase security and will typically load faster. <em>Although, there are plenty of ways to slow down a static site.</em></p>
+
+<p>In addition to increased security and speed, Jekyll also creates a local server for testing purposes. Every time you make a change to a file or post, you can preview the change locally before pushing the site live. This is a great time saver, especially when testing a responsive design or a blog post.</p>
+
+<p>Finally, if you are using Jekyll, and have a Github account, you can host your site for free using <a href="https://pages.github.com">Github Pages</a>. You can even use your own domain - as I’m doing here.</p>
+
+<p>Of course, there are some restrictions, one being that many of the Jekyll plugins that are available can’t be used because Github runs Jekyll in safe mode. Another restriction that I found is the lack of a .htaccess file, meaning that I couldn’t redirect my pages from their old URL to their new URL. One way that I tried to overcome this was by creating a sitemap and submitting it to Google, using the Google Search Console (formerly Webmaster Tools).</p>
 
 <h2 id="caveat">Caveat</h2>
 
-<p>Back in 2015, <a href="http://epwebtech.com/events/2015/08/12/getting-started-with-jekyll.html">I gave a talk on creating websites with Jekyll.</a> My first caveat was that you need to use the terminal / command line interface (CLI). I knew that would be a dealbreaker for some people but if you can overcome your fear of the terminal, using Jekyll can help make you more comfortable with a CLI.</p>
+<p>Besides the restrictions mentioned above, there is another major caveat regarding the usage of Jekyll.</p>
+
+<p><strong>The Command Line</strong></p>
+
+<p>Back in 2015, <a href="http://epwebtech.com/events/2015/08/12/getting-started-with-jekyll.html">I gave a talk on creating websites with Jekyll.</a> My first caveat was that you need to use the terminal / command line interface (CLI). I knew that would be a dealbreaker for some people but, if you can overcome your fear of the terminal, using Jekyll can help make you more comfortable with a CLI.</p>
+
+<p>Now that we’ve got the why and why not out of the way, let’s get started.</p>
 
 <h2 id="installing-jekyll-on-a-mac">Installing Jekyll on a Mac</h2>
 
 <p>For the full installation guide, <a href="https://jekyllrb.com/docs/installation/">check out the Jekyll install documentation</a>. Here is my quick overview.</p>
 
-<p>First make sure that you have Xcode installed. It’s a free download from the app store</p>
+<p>First make sure that you have <a href="https://itunes.apple.com/us/app/xcode/id497799835">Xcode</a> installed. It’s a free download from the app store.</p>
 
 <p>Using the terminal / command line, run the following command to install Jekyll.</p>
 
@@ -80,11 +95,15 @@
 
 <p><code class="highlighter-rouge">sudo gem install jekyll</code></p>
 
-<h2 id="exporting-entries">Exporting Entries</h2>
+<p>If everything goes well, Jekyll will now be installed on your computer and you can start using it.</p>
+
+<p>I’m not going to get into the ‘how’ of designing a site with Jekyll. That may be a later blog entry but for now I’m more concerned with the transition from ExpressionEngine to Jekyll.</p>
+
+<h2 id="bulk-entry-export">Bulk Entry Export</h2>
 
 <p>In addition to creating a blog in Jekyll, I wanted to move all/some of my posts from EECMS.</p>
 
-<p>Here is the template that I used to export all of my entries from EECMS to a single HTML file. This file exports each entry as a field in a table. Because most of my entries were old and no longer relevant, I am using this as more of a time capsule so that in the future I can look back at what I wrote.</p>
+<p>I’ll admit, what follows is a bit of a cheat. I wanted to export my entries from EECMS to Jekyll but I just couldn’t figure out how without putting in a bunch of time that I didn’t have. So, instead, I came up with the following solution that I used to export <em>ALL</em> of my entries from EECMS to a single HTML file. This file exports each entry as a field in a table. Because most of my entries were old and no longer relevant, I was satisfied to use this as more of a time capsule, or archive, so that in the future I can look back at what I wrote.</p>
 
 <div class="highlighter-rouge"><pre class="highlight"><code>&lt;?php
     header("Content-type: application/vnd.ms-excel");
@@ -111,8 +130,8 @@ header("Expires: 0");
 <p>The thing I love most about ExpressionEngine is the ability to format and display your data however you need. Using two templates I was able to:</p>
 
 <ul>
-  <li>List all of my entries with the naming convention that Jekyll requires - “Year-Month-Day-Title.md”</li>
-  <li>Click a link to download each entry formatted for Jekyll with the frontmatter already in place - layout, title, categories, date, custom image field for hero images</li>
+  <li>List all of my entries with the naming convention that Jekyll requires - “Year-Month-Day-Title.md” - I was set on using Markdown so the .md format was important.</li>
+  <li>Click a link to download each entry formatted for Jekyll with the <a href="https://pages.github.com">front matter</a> already in place - layout, title, categories, date, custom image field for hero images.</li>
 </ul>
 
 <p><strong>List of Entries Template</strong></p>
@@ -163,6 +182,8 @@ header("Expires: 0");
 
 <p>The one thing I couldn’t figure out was how to download the file with the .md file extension. Using the above code downloads a file with .md.html as the file extension. I simply used a renaming app to batch rename all of the files to .md.</p>
 
+<p>I then dropped the files in my _posts directory, rebuilt my site and pushed the changes to my Github account.</p>
+
 <h2 id="links-of-note">Links of note</h2>
 
 <ul>
@@ -172,10 +193,19 @@ header("Expires: 0");
   <li><a href="http://gitref.org/basic/#add">Git Reference Guide</a> - Basics of commiting and pushing content.</li>
   <li><a href="http://epwebtech.com/blog/2015/08/17/jekyll-resources-and-links.html">Jekyll Links and Resources</a> - A list of resources that I pulled together for a talk that I gave back in 2015.</li>
   <li><a href="http://epwebtech.com/blog/2015/08/18/publishing-site-to-github.html">Publishing a Jekyll Site on Gituhub</a> - Notes on publishing a Jekyll site on Github from the same talk.</li>
+  <li><a href="http://reyhan.org/2013/03/jekyll-archive-without-plugins.html">Creating Jekyll Archives with using Plugins</a> - A great snippet of code that allows you to list your entires by year and date. You can view <a href="http://reyhan.org/2013/03/jekyll-archive-without-plugins.html">my site archives template</a> that is based on this code.</li>
 </ul>
 
    
   </div>
+    
+<div class="postnavigation">
+      
+        <i class="icon-back"></i><a class="prev" href="/web/design/tutorials/2016/09/29/git-commit-workflow.html"> Git Commit Workflow</a>
+      
+    <strong><i class="icon-grid"></i></strong>
+      
+</div>
 
 </article>
 
