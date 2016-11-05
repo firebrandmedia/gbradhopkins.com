@@ -4,10 +4,10 @@
     <title>gbradhopkins.com</title>
     <description>An assortment of tutorials and thoughts on computers, web design and how the internet impacts us all.
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 05 Nov 2016 00:30:29 -0400</pubDate>
-    <lastBuildDate>Sat, 05 Nov 2016 00:30:29 -0400</lastBuildDate>
+    <link>http://gbradhopkins.com/</link>
+    <atom:link href="http://gbradhopkins.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 05 Nov 2016 00:36:08 -0400</pubDate>
+    <lastBuildDate>Sat, 05 Nov 2016 00:36:08 -0400</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
@@ -154,8 +154,8 @@ header(&quot;Expires: 0&quot;);
 &lt;/ul&gt;
 </description>
         <pubDate>Thu, 29 Sep 2016 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/web/design/tutorials/2016/09/29/switching-to-jekyll-from-ee.html</link>
-        <guid isPermaLink="true">http://localhost:4000/web/design/tutorials/2016/09/29/switching-to-jekyll-from-ee.html</guid>
+        <link>http://gbradhopkins.com/web/design/tutorials/2016/09/29/switching-to-jekyll-from-ee.html</link>
+        <guid isPermaLink="true">http://gbradhopkins.com/web/design/tutorials/2016/09/29/switching-to-jekyll-from-ee.html</guid>
         
         
         <category>Web</category>
@@ -205,8 +205,8 @@ modified:   css/main.scss
 &lt;p&gt;Next up, how to access that repository from another computer to continue working on it.&lt;/p&gt;
 </description>
         <pubDate>Thu, 29 Sep 2016 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/web/design/tutorials/2016/09/29/git-commit-workflow.html</link>
-        <guid isPermaLink="true">http://localhost:4000/web/design/tutorials/2016/09/29/git-commit-workflow.html</guid>
+        <link>http://gbradhopkins.com/web/design/tutorials/2016/09/29/git-commit-workflow.html</link>
+        <guid isPermaLink="true">http://gbradhopkins.com/web/design/tutorials/2016/09/29/git-commit-workflow.html</guid>
         
         
         <category>Web</category>
@@ -279,8 +279,8 @@ modified:   css/main.scss
 
 </description>
         <pubDate>Tue, 25 Jun 2013 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/pc/tutorials/2013/06/25/ripping-dvd-to-ipod-video.html</link>
-        <guid isPermaLink="true">http://localhost:4000/pc/tutorials/2013/06/25/ripping-dvd-to-ipod-video.html</guid>
+        <link>http://gbradhopkins.com/pc/tutorials/2013/06/25/ripping-dvd-to-ipod-video.html</link>
+        <guid isPermaLink="true">http://gbradhopkins.com/pc/tutorials/2013/06/25/ripping-dvd-to-ipod-video.html</guid>
         
         
         <category>PC</category>
@@ -309,8 +309,8 @@ modified:   css/main.scss
 &lt;/ul&gt;
 </description>
         <pubDate>Thu, 13 Jun 2013 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/tech-annoyances/2013/06/13/i-really-want-to-like-you-flickr.html</link>
-        <guid isPermaLink="true">http://localhost:4000/tech-annoyances/2013/06/13/i-really-want-to-like-you-flickr.html</guid>
+        <link>http://gbradhopkins.com/tech-annoyances/2013/06/13/i-really-want-to-like-you-flickr.html</link>
+        <guid isPermaLink="true">http://gbradhopkins.com/tech-annoyances/2013/06/13/i-really-want-to-like-you-flickr.html</guid>
         
         
         <category>tech-annoyances</category>
@@ -380,8 +380,8 @@ So, are you looking for a little extra motivation? Tired of running from zombies
 
 </description>
         <pubDate>Fri, 17 May 2013 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/internet/tutorials/2013/05/17/get-fit-and-help-those-in-need.html</link>
-        <guid isPermaLink="true">http://localhost:4000/internet/tutorials/2013/05/17/get-fit-and-help-those-in-need.html</guid>
+        <link>http://gbradhopkins.com/internet/tutorials/2013/05/17/get-fit-and-help-those-in-need.html</link>
+        <guid isPermaLink="true">http://gbradhopkins.com/internet/tutorials/2013/05/17/get-fit-and-help-those-in-need.html</guid>
         
         
         <category>Internet</category>
@@ -416,8 +416,8 @@ So, are you looking for a little extra motivation? Tired of running from zombies
 
 </description>
         <pubDate>Fri, 10 May 2013 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/reviews/2013/05/10/gif-brewery.html</link>
-        <guid isPermaLink="true">http://localhost:4000/reviews/2013/05/10/gif-brewery.html</guid>
+        <link>http://gbradhopkins.com/reviews/2013/05/10/gif-brewery.html</link>
+        <guid isPermaLink="true">http://gbradhopkins.com/reviews/2013/05/10/gif-brewery.html</guid>
         
         
         <category>Reviews</category>
@@ -440,8 +440,8 @@ So, are you looking for a little extra motivation? Tired of running from zombies
 
 </description>
         <pubDate>Tue, 30 Apr 2013 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/internet/tutorials/2013/04/30/internet-privacy-links.html</link>
-        <guid isPermaLink="true">http://localhost:4000/internet/tutorials/2013/04/30/internet-privacy-links.html</guid>
+        <link>http://gbradhopkins.com/internet/tutorials/2013/04/30/internet-privacy-links.html</link>
+        <guid isPermaLink="true">http://gbradhopkins.com/internet/tutorials/2013/04/30/internet-privacy-links.html</guid>
         
         
         <category>Internet</category>
@@ -478,8 +478,8 @@ So, are you looking for a little extra motivation? Tired of running from zombies
 
 </description>
         <pubDate>Mon, 22 Apr 2013 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/mac/tutorials/2013/04/22/macheist-nanobundle-3.-10-well-spent.html</link>
-        <guid isPermaLink="true">http://localhost:4000/mac/tutorials/2013/04/22/macheist-nanobundle-3.-10-well-spent.html</guid>
+        <link>http://gbradhopkins.com/mac/tutorials/2013/04/22/macheist-nanobundle-3.-10-well-spent.html</link>
+        <guid isPermaLink="true">http://gbradhopkins.com/mac/tutorials/2013/04/22/macheist-nanobundle-3.-10-well-spent.html</guid>
         
         
         <category>Mac</category>
@@ -515,8 +515,8 @@ So, are you looking for a little extra motivation? Tired of running from zombies
 &lt;p&gt;This keyboard combination also works in Firefox and Chrome as well.&lt;/p&gt;
 </description>
         <pubDate>Mon, 06 Feb 2012 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/mac/tutorials/2012/02/06/toggle-between-tabs-in-safari.html</link>
-        <guid isPermaLink="true">http://localhost:4000/mac/tutorials/2012/02/06/toggle-between-tabs-in-safari.html</guid>
+        <link>http://gbradhopkins.com/mac/tutorials/2012/02/06/toggle-between-tabs-in-safari.html</link>
+        <guid isPermaLink="true">http://gbradhopkins.com/mac/tutorials/2012/02/06/toggle-between-tabs-in-safari.html</guid>
         
         
         <category>Mac</category>
@@ -541,8 +541,8 @@ So, are you looking for a little extra motivation? Tired of running from zombies
 
 </description>
         <pubDate>Wed, 10 Dec 2008 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/web/design/tutorials/2008/12/10/not-seeing-any-google-custom-search-engine-results-in-analytics-heres-the-f.html</link>
-        <guid isPermaLink="true">http://localhost:4000/web/design/tutorials/2008/12/10/not-seeing-any-google-custom-search-engine-results-in-analytics-heres-the-f.html</guid>
+        <link>http://gbradhopkins.com/web/design/tutorials/2008/12/10/not-seeing-any-google-custom-search-engine-results-in-analytics-heres-the-f.html</link>
+        <guid isPermaLink="true">http://gbradhopkins.com/web/design/tutorials/2008/12/10/not-seeing-any-google-custom-search-engine-results-in-analytics-heres-the-f.html</guid>
         
         
         <category>Web</category>
