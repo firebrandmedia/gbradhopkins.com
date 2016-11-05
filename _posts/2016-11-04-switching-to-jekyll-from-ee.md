@@ -140,4 +140,4 @@ I then dropped the files in my _posts directory, rebuilt my site and pushed the 
 - [Git Reference Guide](http://gitref.org/basic/#add) - Basics of commiting and pushing content.
 - [Jekyll Links and Resources](http://epwebtech.com/blog/2015/08/17/jekyll-resources-and-links.html) - A list of resources that I pulled together for a talk that I gave back in 2015.
 - [Publishing a Jekyll Site on Gituhub](http://epwebtech.com/blog/2015/08/18/publishing-site-to-github.html) - Notes on publishing a Jekyll site on Github from the same talk.
-- [Creating Jekyll Archives with using Plugins](http://reyhan.org/2013/03/jekyll-archive-without-plugins.html) - A great snippet of code that allows you to list your entires by year and date. You can view [my site archives template](http://reyhan.org/2013/03/jekyll-archive-without-plugins.html) that is based on this code.
+- [Creating Jekyll Archives with using Plugins](http://reyhan.org/2013/03/jekyll-archive-without-plugins.html) - A great snippet of code that allows you to list your entires by year and date. You can view [my site archives template](http://gbradhopkins.com/archive.html) that is based on this code.
