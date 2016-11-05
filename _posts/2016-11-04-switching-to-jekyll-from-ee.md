@@ -132,6 +132,12 @@ The one thing I couldn't figure out was how to download the file with the .md fi
 
 I then dropped the files in my _posts directory, rebuilt my site and pushed the changes to my Github account.
 
+## One More Thing…
+
+Remember to run `jekyll build` after you make changes to your site. Whether it be a post, config file, css file… whatever. This command rebuilds your site and all changes are made and regenerated to the static site files found in the _site directory.
+
+Remember, `jekyll build` and the push the site to Git, your server… wherever. 
+
 ## Links of note
 
 - [Exporting entries from EECMS to an HTML file](https://expressionengine.stackexchange.com/questions/515/what-is-the-best-method-for-exporting-channel-entries-as-a-spreadsheet)

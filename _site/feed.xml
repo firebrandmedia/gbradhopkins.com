@@ -6,8 +6,8 @@
 </description>
     <link>http://gbradhopkins.com/</link>
     <atom:link href="http://gbradhopkins.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 05 Nov 2016 01:05:59 -0400</pubDate>
-    <lastBuildDate>Sat, 05 Nov 2016 01:05:59 -0400</lastBuildDate>
+    <pubDate>Sat, 05 Nov 2016 01:12:54 -0400</pubDate>
+    <lastBuildDate>Sat, 05 Nov 2016 01:12:54 -0400</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
@@ -141,6 +141,12 @@ header(&quot;Expires: 0&quot;);
 
 &lt;p&gt;I then dropped the files in my _posts directory, rebuilt my site and pushed the changes to my Github account.&lt;/p&gt;
 
+&lt;h2 id=&quot;one-more-thing&quot;&gt;One More Thing…&lt;/h2&gt;
+
+&lt;p&gt;Remember to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll build&lt;/code&gt; after you make changes to your site. Whether it be a post, config file, css file… whatever. This command rebuilds your site and all changes are made and regenerated to the static site files found in the _site directory.&lt;/p&gt;
+
+&lt;p&gt;Remember, &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll build&lt;/code&gt; and the push the site to Git, your server… wherever.&lt;/p&gt;
+
 &lt;h2 id=&quot;links-of-note&quot;&gt;Links of note&lt;/h2&gt;
 
 &lt;ul&gt;
@@ -150,7 +156,7 @@ header(&quot;Expires: 0&quot;);
   &lt;li&gt;&lt;a href=&quot;http://gitref.org/basic/#add&quot;&gt;Git Reference Guide&lt;/a&gt; - Basics of commiting and pushing content.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://epwebtech.com/blog/2015/08/17/jekyll-resources-and-links.html&quot;&gt;Jekyll Links and Resources&lt;/a&gt; - A list of resources that I pulled together for a talk that I gave back in 2015.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://epwebtech.com/blog/2015/08/18/publishing-site-to-github.html&quot;&gt;Publishing a Jekyll Site on Gituhub&lt;/a&gt; - Notes on publishing a Jekyll site on Github from the same talk.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://reyhan.org/2013/03/jekyll-archive-without-plugins.html&quot;&gt;Creating Jekyll Archives with using Plugins&lt;/a&gt; - A great snippet of code that allows you to list your entires by year and date. You can view &lt;a href=&quot;http://reyhan.org/2013/03/jekyll-archive-without-plugins.html&quot;&gt;my site archives template&lt;/a&gt; that is based on this code.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://reyhan.org/2013/03/jekyll-archive-without-plugins.html&quot;&gt;Creating Jekyll Archives with using Plugins&lt;/a&gt; - A great snippet of code that allows you to list your entires by year and date. You can view &lt;a href=&quot;http://gbradhopkins.com/archive.html&quot;&gt;my site archives template&lt;/a&gt; that is based on this code.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Fri, 04 Nov 2016 00:00:00 -0400</pubDate>
