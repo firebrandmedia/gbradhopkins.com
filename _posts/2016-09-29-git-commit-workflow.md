@@ -5,7 +5,7 @@ categories: Web Design Tutorials
 description: Common git commands for pushing content to my Github account
 ---
 
-I'm writing this down for me. Not you.
+I'm writing this down for me because I'm sure that at some point I'm going to forget a command or two and I'll need to reference this list. Looking for a Git GUI? Check out [Tower](https://www.git-tower.com), a great Git client for Mac and Windows that I use for most of my dev work.
 
 These are the steps for commiting new or updated content to my [Github account](https://github.com/firebrandmedia). As I use Git more, hopefully these will become muscle memory and I'll no longer need this document. Until then…
 

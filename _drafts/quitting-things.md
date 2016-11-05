@@ -10,4 +10,5 @@ Sometimes, quitting stuff is easier than you think. Here are some things that I'
 - NFL
 - MLB, more specifically, watching Orioles games
 - Walmart
-- 
+- Facebook
+- Being an Apple fanboy
