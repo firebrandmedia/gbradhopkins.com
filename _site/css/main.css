@@ -253,7 +253,7 @@ article .post-meta {
   border: 1px solid;
   padding: 40px;
   margin: 20px auto;
-  width: 80%;
+  width: 70%;
   display: block; }
 
 .postnavigation a:visited {
@@ -278,7 +278,10 @@ article .post-meta {
     padding: 20px 0;
     text-align: center;
     line-height: 1.7em;
-    background: RGBA(40, 44, 52, 1); } }
+    background: RGBA(40, 44, 52, 1); }
+
+  .postnavigation a:link {
+    width: 50%; } }
 /* ARTICLE PAGE STYLES
 -----------------------------*/
 .post {
