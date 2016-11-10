@@ -242,7 +242,29 @@ article .post-meta {
   padding: 20px 0;
   text-align: center;
   line-height: 1.7em;
-  background: RGBA(40, 44, 52, 1); }
+  background: RGBA(40, 44, 52, 1);
+  color: RGBA(207, 142, 83, 1);
+  font-family: 'Quattrocento Sans', sans-serif; }
+
+.postnavigation a:link {
+  color: RGBA(207, 142, 83, 1);
+  border-bottom: 1px solid;
+  text-decoration: none;
+  border: 1px solid;
+  padding: 40px;
+  margin: 20px auto;
+  width: 80%;
+  display: block; }
+
+.postnavigation a:visited {
+  color: RGBA(207, 142, 83, 1);
+  border-bottom: 1px solid;
+  text-decoration: none; }
+
+.postnavigation a:hover {
+  color: RGBA(84, 182, 193, 1);
+  border-bottom: 1px solid;
+  text-decoration: none; }
 
 @media screen and (min-width: 640px) {
   .pagination a:hover {

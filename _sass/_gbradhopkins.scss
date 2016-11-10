@@ -278,16 +278,41 @@ article .post-meta {
 }
 
 .postnavigation {
-        width: 100%;
-        margin: 0 auto;
-        padding: 20px 0;
-        text-align: center;
-        line-height: 1.7em;
-        background: RGBA(40, 44, 52, 1.00);
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+    line-height: 1.7em;
+    background: RGBA(40, 44, 52, 1.00);
+    color: RGBA(207, 142, 83, 1.00);
+    font-family: 'Quattrocento Sans', sans-serif;
 }
 
-.postnavigation a {
+.postnavigation a:link {
+    color: RGBA(207, 142, 83, 1.00);
+    border-bottom: 1px solid;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 40px;
+    margin: 20px auto;
+    width: 80%;
+    display: block;
+}
 
+.postnavigation .prev {
+    
+}
+
+.postnavigation a:visited {
+    color: RGBA(207, 142, 83, 1.00);
+    border-bottom: 1px solid;
+    text-decoration: none;
+}
+
+.postnavigation a:hover {
+    color: RGBA(84, 182, 193, 1.00);
+    border-bottom: 1px solid;
+    text-decoration: none;
 }
 
 @media screen and (min-width: $width-tablet) {
