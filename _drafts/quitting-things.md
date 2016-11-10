@@ -9,6 +9,8 @@ Sometimes, quitting stuff is easier than you think. Here are some things that I'
 
 - NFL
 - MLB, more specifically, watching Orioles games
+- NASCAR
 - Walmart
 - Facebook
 - Being an Apple fanboy
+- iOS 10
