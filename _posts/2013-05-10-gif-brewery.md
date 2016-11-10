@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "GIF Brewery"
+title:  "Review: GIF Brewery"
 date:   2013-05-10 11-33-06 -0500
+description: A review of GIF Brewery, a great little app for creating GIFs
 categories: Reviews
 image: http://gbradhopkins.com/images/uploads/reviews/Abby_High_5s_small.gif
 ---

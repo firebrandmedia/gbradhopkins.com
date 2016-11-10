@@ -6,8 +6,8 @@
 </description>
     <link>http://gbradhopkins.com/</link>
     <atom:link href="http://gbradhopkins.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 05 Nov 2016 01:12:54 -0400</pubDate>
-    <lastBuildDate>Sat, 05 Nov 2016 01:12:54 -0400</lastBuildDate>
+    <pubDate>Wed, 09 Nov 2016 21:42:20 -0500</pubDate>
+    <lastBuildDate>Wed, 09 Nov 2016 21:42:20 -0500</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
@@ -173,8 +173,8 @@ header(&quot;Expires: 0&quot;);
       </item>
     
       <item>
-        <title>Git Commit Workflow</title>
-        <description>&lt;p&gt;I’m writing this down for me because I’m sure that at some point I’m going to forget a command or two and I’ll need to reference this list. Looking for a Git GUI? Check out &lt;a href=&quot;https://www.git-tower.com&quot;&gt;Tower&lt;/a&gt;, a great Git client for Mac and Windows that I use for most of my dev work.&lt;/p&gt;
+        <title>Basic Git Commands</title>
+        <description>&lt;p&gt;Generally, I don’t use the command line to interact with my version controlled client accounts. In most cases, I prefer to use &lt;a href=&quot;https://www.git-tower.com&quot;&gt;Tower&lt;/a&gt;, a great Git client for Mac and Windows but in the case of gbradhopkins.com, I decided to use the command line as a way of becoming more familiar with it. Below are the basic commands that I use to push content to my Github account.&lt;/p&gt;
 
 &lt;p&gt;These are the steps for commiting new or updated content to my &lt;a href=&quot;https://github.com/firebrandmedia&quot;&gt;Github account&lt;/a&gt;. As I use Git more, hopefully these will become muscle memory and I’ll no longer need this document. Until then…&lt;/p&gt;
 
@@ -397,7 +397,7 @@ So, are you looking for a little extra motivation? Tired of running from zombies
       </item>
     
       <item>
-        <title>GIF Brewery</title>
+        <title>Review: GIF Brewery</title>
         <description>&lt;p&gt;GIFs are everywhere. I remember building animated GIFs frame by frame in Photoshop using that timeline at the bottom of the screen and hating every minute of it. Now, it has become some sort of art form? How did this happen? Apps, I guess. And, faster internet. Oh well, who am I to reject a novel art form?&lt;/p&gt;
 
 &lt;p&gt;Looking (well, not actually looking) for a way to to create GIFs, I stumbled upon &lt;a href=&quot;http://gifbrewery.com/&quot;&gt;GIF Brewery&lt;/a&gt;, a $4.99 app (available on the Mac App Store) for converting video to GIFs. Beyond just converting a video clip to a GIF, GIF Brewery allows you to fine tune your GIF by cropping, resizing, adding captions (with start and end times), adjusting colors, applying filters and sharpening the image.&lt;/p&gt;
