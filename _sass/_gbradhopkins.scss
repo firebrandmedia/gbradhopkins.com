@@ -277,9 +277,20 @@ article .post-meta {
     text-decoration: none;
 }
 
-@media screen and (min-width: $width-tablet) {
-    
+.postnavigation {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 0;
+        text-align: center;
+        line-height: 1.7em;
+        background: RGBA(40, 44, 52, 1.00);
 }
+
+.postnavigation a {
+
+}
+
+@media screen and (min-width: $width-tablet) {
 
     .pagination a:hover {
         color: #fff;
@@ -288,11 +299,17 @@ article .post-meta {
     }
 
     .postnavigation {
-        width: 150%;
-        margin-left: -15%;
-        margin-right: -15%;
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 0;
         text-align: center;
         line-height: 1.7em;
+        background: RGBA(40, 44, 52, 1.00);
+    }
+
+    .postnavigation a {
+        
+    }
 }
 
 /* ARTICLE PAGE STYLES

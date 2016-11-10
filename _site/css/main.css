@@ -236,18 +236,27 @@ article .post-meta {
   color: RGBA(241, 241, 241, 0.4);
   text-decoration: none; }
 
-.pagination a:hover {
-  color: #fff;
-  text-decoration: none;
-  background: #54B6C1; }
-
 .postnavigation {
-  width: 150%;
-  margin-left: -15%;
-  margin-right: -15%;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 0;
   text-align: center;
-  line-height: 1.7em; }
+  line-height: 1.7em;
+  background: RGBA(40, 44, 52, 1); }
 
+@media screen and (min-width: 640px) {
+  .pagination a:hover {
+    color: #fff;
+    text-decoration: none;
+    background: #54B6C1; }
+
+  .postnavigation {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+    line-height: 1.7em;
+    background: RGBA(40, 44, 52, 1); } }
 /* ARTICLE PAGE STYLES
 -----------------------------*/
 .post {

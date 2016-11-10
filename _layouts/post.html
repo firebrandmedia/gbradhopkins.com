@@ -12,7 +12,9 @@ layout: default
       {{ page.content }}
    
   </div>
-    
+
+</article>
+
 <div class="postnavigation">
       {% if page.previous.url %}
         <i class="icon-back"></i><a class="prev" href="{{page.previous.url}}"> {{page.previous.title}}</a>
@@ -22,5 +24,3 @@ layout: default
         <a class="next" href="{{page.next.url}}">{{page.next.title}}</a> <i class="icon-forward"></i>
       {% endif %}
 </div>
-
-</article>
