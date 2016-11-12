@@ -6,9 +6,48 @@
 </description>
     <link>http://gbradhopkins.com/</link>
     <atom:link href="http://gbradhopkins.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 12 Nov 2016 16:45:38 -0500</pubDate>
-    <lastBuildDate>Sat, 12 Nov 2016 16:45:38 -0500</lastBuildDate>
+    <pubDate>Sat, 12 Nov 2016 16:48:02 -0500</pubDate>
+    <lastBuildDate>Sat, 12 Nov 2016 16:48:02 -0500</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
+    
+      <item>
+        <title>The One Feature That Keeps Me On Evernote</title>
+        <description>&lt;p&gt;I’m a big fan of Evernote. So much so, that in &lt;a href=&quot;http://firebrand.media/blog/article/why_i_write_in_evernote&quot;&gt;a previous entry on my business blog&lt;/a&gt;, I outlined the reasons that I thought Evernote was the best software for writing (among other things).&lt;/p&gt;
+
+&lt;p&gt;But, Evernote has made some changes (as software companies have a tendency to do), the most concerning of which is the &lt;a href=&quot;https://help.evernote.com/hc/en-us/articles/226885427-FAQ-About-Migration-to-Google-Cloud-Platform&quot;&gt;migration of data to the Google Cloud Platform&lt;/a&gt;. Say what you will about the advantages of the cloud, in the end it boils down to the fact that my data is on someone else’s computer. It is not lost on me that this was always the case. But, now we’ve got another layer of separation between me and my data. So, instead of relying on someone else, I’d like to own and control as much of my data as possible.&lt;/p&gt;
+
+&lt;p&gt;With that in mind, I’ve started to explore alternative solutions for many of the cloud based products that I use. As always, the question is, “Does the alternative solution have a practical workflow?” Is it something I can use reliably? The next most important question is “Have I become so reliant on a particular aspect of the current service - in this case Evernote - that it is impractical to change the way I work?”&lt;/p&gt;
+
+&lt;p&gt;##DS Note, an Alternative to Evernote&lt;/p&gt;
+
+&lt;p&gt;The Evernote alternative that I am testing is DS Note, a package of the &lt;a href=&quot;https://www.synology.com/en-us/dsm/6.0/features&quot;&gt;Synology DiskStation&lt;/a&gt; that I have installed on my &lt;a href=&quot;https://iosafe.com/products-216nas-overview&quot;&gt;ioSafe&lt;/a&gt; Network Attached Server (NAS). The ioSafe is a water &lt;em&gt;and&lt;/em&gt; fire proof NAS. Primarily, I have been using it to automatically back up photos from my phones (both iOS and Android) using the DS Photo package. To a lesser extent, I am also using it to store files, a la Dropbox, using the Cloudstation package. There are &lt;a href=&quot;https://www.synology.com/en-us/dsm/app_packages/all_app&quot;&gt;a number of packages available&lt;/a&gt;, most with corresponding mobile apps. In fact, if my workflow didn’t include a desktop computer, the one key feature that is keeping me with Evernote would probably be solved.&lt;/p&gt;
+
+&lt;p&gt;##One Key Feature - Email to Evernote&lt;/p&gt;
+
+&lt;p&gt;This is it. The deal breaker. With all &lt;a href=&quot;https://evernote.com/upgrade/?tier=plus&quot;&gt;paid Evernote accounts&lt;/a&gt;, you get a custom email address allowing you to forward email messages to your account. You can even file them to a specific notebook by adding @notebook-name to the end of the subject line. This has been a huge timesaver for me, as one of my primary uses of Evernote is to store business receipts. Most receipts are in the form of an email which I simply annotate with whatever reference info I need and then forward it to the @receipts notebook in Evernote.&lt;/p&gt;
+
+&lt;p&gt;There is no feature like this for DS Note.&lt;/p&gt;
+
+&lt;p&gt;##Close but no cigar&lt;/p&gt;
+
+&lt;p&gt;In the open, I mentioned that if my workflow didn’t include the desktop I may be able to make DS Note work. With DS Note mobile app installed on a device, DS Note is an option in any share sheet (see image below). This allows me to create a new note from any email - taking place of the “Email to Evernote” feature that is such a deal breaker for me. It would mean a change in how I work because I’d need to manage any emails that I want to save as notes through a mobile device. I’ve started testing this to see if it is a workable solution. We’ll see.&lt;/p&gt;
+
+&lt;p&gt;![DS Note in the Spark Email share sheet][/images/DS-Note-share-sheet.png “DS Note in the Spark Email share sheet”]&lt;/p&gt;
+
+&lt;p&gt;##Final Thoughts&lt;/p&gt;
+
+&lt;p&gt;I’m sure there are other Evernote features that have no counterpart in DS Note including &lt;a href=&quot;https://evernote.com/webclipper/&quot;&gt;web clipper&lt;/a&gt; (although, if you’re a Chrome user - I’m not - then you’re in luck because there is a &lt;a href=&quot;https://chrome.google.com/webstore/detail/synology-web-clipper/pcfbfimijgibligmbglggnbiobgjgmbk&quot;&gt;Synology Web Clipper app&lt;/a&gt; for Chrome), search for text in images, pdfs and handwritten notes, and &lt;a href=&quot;https://blog.evernote.com/blog/2014/05/14/meetings-done-right/&quot;&gt;presentation mode&lt;/a&gt; which I’ve found handy at times. Personally, none of these are deal breakers the way that Email to Evernote is for me.&lt;/p&gt;
+
+&lt;p&gt;I like the idea of having control of all of my data but if it’s too difficult to actually manage the data, what’s the point?&lt;/p&gt;
+</description>
+        <pubDate>Sat, 12 Nov 2016 00:00:00 -0500</pubDate>
+        <link>http://gbradhopkins.com/software/2016/11/12/why-I-cant-switch-to-ds-note-from-evernote.html</link>
+        <guid isPermaLink="true">http://gbradhopkins.com/software/2016/11/12/why-I-cant-switch-to-ds-note-from-evernote.html</guid>
+        
+        
+        <category>software</category>
+        
+      </item>
     
       <item>
         <title>Moving gbradhopkins.com from ExpressionEngine to Jekyll</title>
@@ -526,34 +565,6 @@ So, are you looking for a little extra motivation? Tired of running from zombies
         
         
         <category>Mac</category>
-        
-        <category>Tutorials</category>
-        
-      </item>
-    
-      <item>
-        <title>Not Seeing any Google Custom Search Engine Results in Analytics?&amp;nbsp; Here&amp;#8217;s the Fix!</title>
-        <description>&lt;p&gt;I’m a big fan of and use it on most all of the sites that I build.  I recently installed a &lt;a href=&quot;http://www.google.com/sitesearch/&quot;&gt;Google Custom Search Engine (CSE)&lt;/a&gt; to a &lt;a href=&quot;http://www.inthepanhandle.com/&quot;&gt;site&lt;/a&gt; of mine and was hoping to use Google Analytics to track the searches that were performed on the site in the Google CSE.&lt;/p&gt;
-
-&lt;p&gt;The problem is that after a couple days, there were still no results.  It was off to the Google CSE Discussion Group to search for the answer - and I found it.&lt;/p&gt;
-
-&lt;p&gt;By the way, the Google CSE Discussion Group seems to not be monitored by anyone at Google or if it is, it’s not a priority to respond to queries.  But there are still answers to be found from fellow users.&lt;/p&gt;
-
-&lt;p&gt;The answer I found was to edit the Profile Settings in Google Analytics for the site in question.  Now, I’m going to assume that you’ve set &lt;strong&gt;Site Search&lt;/strong&gt; to ‘Do Track Site Search.’  If you haven’t, do that.  Next, you need to add a Query Parameter to the parameters that are already in place (term,search,query).  The query parameter that you want to add is ‘q’ (see image). Now hit ‘Save Changes.’&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://www.gbradhopkins.com/archives/Picture%205.png&quot; alt=&quot;Picture 5.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;That’s it.  Now, just wait for the results to be displayed in Google Analytics.&lt;/p&gt;
-
-</description>
-        <pubDate>Wed, 10 Dec 2008 00:00:00 -0500</pubDate>
-        <link>http://gbradhopkins.com/web/design/tutorials/2008/12/10/not-seeing-any-google-custom-search-engine-results-in-analytics-heres-the-f.html</link>
-        <guid isPermaLink="true">http://gbradhopkins.com/web/design/tutorials/2008/12/10/not-seeing-any-google-custom-search-engine-results-in-analytics-heres-the-f.html</guid>
-        
-        
-        <category>Web</category>
-        
-        <category>Design</category>
         
         <category>Tutorials</category>
         
