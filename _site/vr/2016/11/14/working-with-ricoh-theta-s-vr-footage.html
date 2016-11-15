@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Working with Ricoh Theta S VR Footage | gbradhopkins.com</title>
+  <meta name="description" content="The process for working with Ricoh Theta S VR files requires a couple intermediate steps before you can import the footage into Premiere. I can’t speak to an...">
+
+  <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700|Rubik:300,400,900" rel="stylesheet">
+  <link href="https://file.myfontastic.com/HtdDgr9qYvgwoniccpdu3F/icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/responsive-nav.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://gbradhopkins.com/vr/2016/11/14/working-with-ricoh-theta-s-vr-footage.html">
+  <link rel="alternate" type="application/rss+xml" title="gbradhopkins.com" href="http://gbradhopkins.com/feed.xml">
+    
+<!-- JS -->
+  <script src="/css/responsive-nav.min.js"></script>
+</head>
+
+
+  <body>
+
+    <header class="site-header group">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">gbradhopkins.com</a>
+    <nav class="nav-collapse">
+      <ul>
+        <li><a href="/archive.html" title="gBradhopkins.com Archives"><i class="icon-archives"></i> </a></li>
+        <li><a href="/feed.xml" title="Subscribe to the RSS feed"><i class="icon-rss"></i> </a></li>
+        <li><a href="https://twitter.com/gbradhopkins" title="Follow me on Twitter"><i class="icon-twitter"></i> </a></li>
+        <li><a href="http://dribbble.com/firebrandmedia" title="Sometimes I post work on Dribbble"><i class="icon-dribbble"></i> </a></li>
+        <li><a href="https://github.com/firebrandmedia" title="My Github account"><i class="icon-github-square"></i></a></li>
+        <li><a href="http://www.linkedin.com/in/gbradhopkins/" title="My LinkedIn Profile"><i class="icon-linkedin"></i></a></li>
+        <li><a href="http://firebrand.media" title="My Business Website - Firebrand.Media"><i class="icon-firebrand-media-logo"></i></a></li>
+      </ul>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Working with Ricoh Theta S VR Footage</h1>
+    <p class="post-meta"><time datetime="2016-11-14T00:00:00-05:00" itemprop="datePublished">Nov 14, 2016</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+      <p>The process for working with Ricoh Theta S VR files requires a couple intermediate steps before you can import the footage into Premiere. I can’t speak to any other editing software but I would expect it to be the case for others as well.</p>
+
+<h2 id="what-is-vr-and-why-should-i-care">What is VR and why should I care?</h2>
+
+<p>I’m guessing that since you are here, you probably know what VR is and are looking for the answer to a specific question. If that’s the case. You can skip this intro section and get right to the article.</p>
+
+<p>For those that don’t know what VR is, here is a brief explanation.</p>
+
+<p>VR stands for <a href="https://en.wikipedia.org/wiki/Virtual_reality">Virtual Reality</a>. You may have seen ads for VR headsets, in which people with giant headsets grasp at thin air and talk about how amazing it is. For the purposes of this article, we’re going to talk about VR as 360 degree video. Consumer priced camera’s like the <a href="http://amzn.to/2fABZfS">Ricoh Theta S</a> can record 360 degrees of footage, allowing you to pan around as the video is playing. You can also pause the video and pan around to look at some specific item or area that has been captured. It’s really pretty interesting. Best of all, you don’t need a special headset. Most VR can be viewed using your smartphone (especially when uploaded to YouTube), allowing you to pan around by simply changing the direction that your phone is facing.</p>
+
+<p>Here is a rough, sample video of a <a href="https://www.youtube.com/watch?v=K508tGvjkEs">walkthrough of my office</a>, that I created with the Ricoh Theta S. To view the video in VR you must use a supported browser - Chrome or Firefox. Or, you can use your mobile device and the YouTube app.</p>
+
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+<div class="embed-container"><iframe src="https://www.youtube.com/embed//K508tGvjkEs" frameborder="0" allowfullscreen=""></iframe></div>
+
+<p>Finally, if you want to use a headset, try a <a href="http://amzn.to/2fPhdK8">Google Cardboard compatible headset</a>. They are pretty cheap and allow you to get a good idea for what VR is all about.</p>
+
+<p>Now that we know what VR is. It’s time to get started.</p>
+
+<h2 id="getting-the-files-off-the-camera">Getting the files off the camera</h2>
+
+<p>Using the Theta S mobile app, you can save your VR files directly to your device (iPhone or iPad) and then import them using the Photos app. I prefer to connect the Ricoh camera to my Mac and import them using the Image Capture app. This seems like a more straightforward process to me. The camera doesn’t mount on the desktop when plugged into the Mac, like a GoPro or other camera would, so we need to use the Image Capture app where the camera will show up in your list of devices. Once it shows up, you can then import the files to the location of your choice.</p>
+
+<p>If you try to use the imported files as-is they will show up as two spherical images side by side.</p>
+
+<p><img src="/images/vr-spherical-images.png" alt="Screen capture of spherical images" title="Screen capture of video directly from the Ricoh Theta S" /></p>
+
+<p>Not what we want. So begins the process of converting - processing - and injecting our files to make them usable.</p>
+
+<p>Before importing into our video editor, we need to convert the files. We can do this using the <a href="https://theta360.com/en/support/download/">Ricoh Theta app</a>. There are a number of apps available on the download page, including a live streaming app and the mobile apps. We will be using the “<a href="https://theta360.com/en/about/application/pc.html">Basic App</a>.” <em>I was somewhat surprised to find that the Basic App was an Adobe AIR application. I’m not sure why that surprised me. I guess it’s because I hadn’t seen an Adobe AIR app in a while.</em> So, if you don’t have Adobe AIR installed, you will be prompted to download and install that before proceeding.</p>
+
+<h2 id="top-and-bottom-orientation-correction">Top and Bottom Orientation Correction?</h2>
+
+<p>In addition to converting the files to a format that can be edited in Premiere, the app also corrects top and bottom orientation in your VR files. Whether you are working with VR files in Premiere or simply uploading to YouTube, you will want to correct the orientation. As I worked through how to prepare files for Premiere, I went through a process of trial and error and was surprised to see that the orientation was incorrect when I uploaded my first VR file to YouTube. Initially, I thought it was a problem with the camera. Then I realized that this needed to be corrected using the Ricoh software.</p>
+
+<p><em>As a side note, if you are uploading directly to YouTube, Ricoh provides instructions for an <a href="https://theta360.com/en/howto-youtube/">upload to YouTube workflow</a>.</em></p>
+
+<h2 id="conversion-process">Conversion Process</h2>
+
+<p>The conversion process is pretty straightforward. Open the Theta App and drop the files that you want to convert on to the main window. You will then be able to select the location to save the converted file, provide a new name and enable top / bottom correction. Depending on the size of the files to be converted, the process can take a while.</p>
+
+<p>For comparison, I have uploaded a raw file from the Ricoh camera and a converted file to YouTube.</p>
+
+<p><a href="https://youtu.be/TTKe1Im5Gy4">Raw File from Ricoh Theta S</a></p>
+
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+<div class="embed-container"><iframe src="https://www.youtube.com/embed//TTKe1Im5Gy4" frameborder="0" allowfullscreen=""></iframe></div>
+
+<p><a href="https://www.youtube.com/watch?v=25WfsXS3Ofc">File converted with Ricoh App</a></p>
+
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+<div class="embed-container"><iframe src="https://www.youtube.com/embed/25WfsXS3Ofc" frameborder="0" allowfullscreen=""></iframe></div>
+
+<p>As you can see, the file converted with the Ricoh App is the only one that displays properly.</p>
+
+<h2 id="importing-into-premiere-finally">Importing into Premiere (Finally)</h2>
+
+<p>Once the file is converted, you are ready to import it into Premiere and start editing. Editing a VR clip in Premiere is basically the same as with a non-VR video clip. To make previewing your VR content more natural, you will want to enable VR Video display in either the Program or Source monitor. This allows you to pan around your VR the way you would when viewing the video on YouTube. You can read more about this in the <a href="https://helpx.adobe.com/premiere-pro/kb/work-with-vr.html">Working with immersive VR video</a> article on the Adobe Help site.</p>
+
+<h2 id="exporting-from-premiere">Exporting from Premiere</h2>
+
+<p>Once you have finished editing your video in Premiere, the export process is largely unchanged. If you scroll through the settings, you will notice that there is a VR checkbox which should be ticked. Adobe also recommends that you select “Stretch to Fill” in the Source Scaling option.</p>
+
+<blockquote>
+  <p>Regardless of the Format and Preset you select, be certain to change the Source Scaling option in the Export Settings dialog box to Stretch To Fill. If you don’t change this option, you are likely to introduce either letterbox or pillars to the exported video, which breaks the seam of the sphere and distorts it. <a href="https://helpx.adobe.com/premiere-pro/kb/work-with-vr.html">- Working with immersive VR video</a></p>
+</blockquote>
+
+<p>As you can see in the video below, I didn’t use the “Stretch to Fill” option and there is a hole (black area) in the video if you pan down as if looking at the floor..</p>
+
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+<div class="embed-container"><iframe src="https://www.youtube.com/embed/EJUzrqhfe2g" frameborder="0" allowfullscreen=""></iframe></div>
+
+<p>Once you change those settings, export the file.</p>
+
+<h2 id="injecting-meta-data">Injecting Meta Data</h2>
+
+<p>Now that we have the exported file from Premiere, we have one final step which requires another app, this one called <a href="https://support.google.com/jump/answer/7044297?hl=en">Spatial Media Metadata Injector</a> which adds metadata to the file allowing YouTube to recognize it as a spherical file.</p>
+
+<p>Again, this app is very straightforward. Simply open the app, select the file, tick the “My video is spherical (360)” checkbox and hit “Inject metadata.” Once the app finishes, you are now ready to upload the app to YouTube. Once the video has been uploaded to YouTube you can use your web browser (currently Chrome and Firefox are compatible with YouTube VR videos), phone (YouTube app) or a VR Viewer like Google Cardboard to explore the VR video.</p>
+
+<p>Obviously, it would be a lot easier if you didn’t have to run your video file through multiple apps to prep it for viewing. I would assume that as the VR format matures and becomes more mainstream, tools like Premiere will do a better job of handling all of these steps. In the mean time, it’s a small price to pay for such an interesting technology.</p>
+
+      
+      <p>Have a question? Found this useful? Let me know on Twitter, <a href="https://twitter.com/gbradhopkins" title="@gbradhopkins on Twitter">@gbradhopkins</a>.</p>
+   
+  </div>
+
+</article>
+
+<div class="postnavigation">
+      
+        <i class="icon-back"></i><a class="prev" href="/software/2016/11/12/why-I-cant-switch-to-ds-note-from-evernote.html"> The One Feature That Keeps Me On Evernote</a>
+      
+    
+      
+</div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+    <p><a href="/">gbradhopkins.com</a> &#8226; Since 2001 &#8226; An assortment of tutorials and thoughts on computers, web design and how the internet impacts us all.
+</p>
+
+</footer>
+
+
+      
+    <script>
+      var nav = responsiveNav(".nav-collapse", { // Selector
+      animate: true, // Boolean: Use CSS3 transitions, true or false
+      transition: 284, // Integer: Speed of the transition, in milliseconds
+      label: "&#9776;", // String: Label for the navigation toggle
+      insert: "before", // String: Insert the toggle before or after the navigation
+      customToggle: "", // Selector: Specify the ID of a custom toggle
+      closeOnNavClick: false, // Boolean: Close the navigation when one of the links are clicked
+      openPos: "relative", // String: Position of the opened nav, relative or static
+      navClass: "nav-collapse", // String: Default CSS class. If changed, you need to edit the CSS too!
+      navActiveClass: "js-nav-active", // String: Class that is added to  element when nav is active
+      jsClass: "js", // String: 'JS enabled' class which is added to  element
+      init: function(){}, // Function: Init callback
+      open: function(){}, // Function: Open callback
+      close: function(){} // Function: Close callback
+    });
+    </script>
+      
+      <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-137822-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </body>
+
+</html>

@@ -339,6 +339,13 @@ article .post-meta {
   word-wrap: break-word;
   color: #D0574A; }
 
+.post blockquote {
+  color: #D0574A;
+  border-left: 10px solid;
+  padding: 0 0 0 30px;
+  margin-left: -13%;
+  margin-right: 0%; }
+
 .post .post-meta {
   padding: 10px 0;
   margin: 0 auto;

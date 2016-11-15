@@ -23,7 +23,7 @@ There is no feature like this for DS Note.
 
 ## Close but no cigar
 
-In the open, I mentioned that if my workflow didn't include the desktop I may be able to make DS Note work. With DS Note mobile app installed on a device, DS Note is an option in any share sheet (see image below). This allows me to create a new note from any email - taking place of the "Email to Evernote" feature that is such a deal breaker for me. It would mean a change in how I work because I'd need to manage any emails that I want to save as notes through a mobile device. I've started testing this to see if it is a workable solution. We'll see.
+In the open, I mentioned that if my workflow didn't include the desktop I may be able to make DS Note work. With the DS Note mobile app installed on a device, DS Note is an option in any share sheet (see image below). This allows me to create a new note from any email - taking place of the "Email to Evernote" feature that is such a deal breaker for me. It would mean a change in how I work because I'd need to manage any emails that I want to save as notes through a mobile device. I've started testing this to see if it is a workable solution. We'll see.
 
 ![DS Note in the Spark Email share sheet](/images/DS-Note-share-sheet.PNG "DS Note in the Spark Email share sheet")
 
