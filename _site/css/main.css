@@ -191,7 +191,8 @@ article .post-meta {
   font-family: 'quattrocento sans', serif;
   font-size: 100%;
   text-align: center;
-  border-top: none; }
+  border-top: none;
+  line-height: 1.8em; }
 
 .post-list h2 {
   font-size: 120%;
@@ -213,7 +214,8 @@ article .post-meta {
     font-size: 250%; }
 
   article .post-meta {
-    text-align: center; } }
+    text-align: center;
+    font-size: 150%; } }
 /* PAGINATION STYLES
 -----------------------------*/
 .pagination {
