@@ -93,6 +93,9 @@ h2 {
 .wrapper {
   padding: 0; }
 
+.nav-text {
+  display: none; }
+
 @media screen and (min-width: 640px) {
   .site-header i {
     font-size: 150%; }
