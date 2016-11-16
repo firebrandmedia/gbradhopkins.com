@@ -43,7 +43,7 @@ I think Fluid is great if you are trying to follow along with a tutorial while w
 
 You've probably heard of Tor even if you don't know exactly what it is. Tor, based on Mozilla, allows you to browse the web anonymously. You may think, "Wait, can't I just open a private window in Chrome / Safari / Firefox?" Yes, but that doesn't necessarily protect your anonymity. Tor protects your anonymity by relaying your requests through their network. 
 
-In the screen capture below, you can see that even using a private window, my IP address and location are readily available. But, by using Tor (bottom window), my IP and location are anonymized.
+In the screen capture below, you can see that even using a private window (middle browser window), my IP address and location are readily available. But, by using Tor (bottom window), my IP and location are anonymized.
 
 !["Screen capture showing anonymized IP address using Tor vs a Private Window"](/images/browser-private-ip-tor.png "Screen capture showing anonymized IP address using Tor vs a Private Window")
 
