@@ -39,7 +39,7 @@ I think Fluid is great if you are trying to follow along with a tutorial while w
 
 - [Fluid Browser](http://fluidbrowser.com)
 
-## [Tor]
+## Tor
 
 You've probably heard of Tor even if you don't know exactly what it is. Tor, based on Mozilla, allows you to browse the web anonymously. You may think, "Wait, can't I just open a private window in Chrome / Safari / Firefox?" Yes, but that doesn't necessarily protect your anonymity. Tor protects your anonymity by relaying your requests through their network. 
 
