@@ -6,9 +6,48 @@
 </description>
     <link>http://gbradhopkins.com/</link>
     <atom:link href="http://gbradhopkins.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 15 Nov 2016 23:39:39 -0500</pubDate>
-    <lastBuildDate>Tue, 15 Nov 2016 23:39:39 -0500</lastBuildDate>
+    <pubDate>Sat, 19 Nov 2016 20:23:04 -0500</pubDate>
+    <lastBuildDate>Sat, 19 Nov 2016 20:23:04 -0500</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
+    
+      <item>
+        <title>Only certain keys working on your Mac keyboard? This may be the solution.</title>
+        <description>&lt;p&gt;My daughter decided to confound me this afternoon by hitting the option key 5 times on our MacMini. She did this accidentally, but once she did, the keyboard no longer worked in its normal way. Unbeknownst to me, she enabled Mouse Keys.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-are-mouse-keys&quot;&gt;What Are Mouse Keys?&lt;/h2&gt;
+
+&lt;p&gt;Mouse Keys allow you to use your keyboard to move your pointer around the screen instead of a mouse or trackpad.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“When Mouse Keys is enabled with one of these keyboards, you can use the keys 7,8,9, U, I, O, J, K, L, M, and ‘.’ (period) to control movement of the mouse pointer and mouse clicking, but other numbers, letters, and keys cannot be used. (Keyboards with no numeric keypad or Num Lock key include: Apple Wireless Keyboard (2007), the built-in keyboard on MacBook (Late 2007) or newer, MacBook Air, or MacBook Pro (Early 2008), or newer.) The following keys will continue to operate normally when Mouse Keys is enabled: Esc, Function keys, Eject, Delete, Tab, Shift, fn, Control, Option, Command, and the arrow keys.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I had no idea such a feature existed and was racking my brain to figure out what the issue was. I restarted several times, disconnected the keyboard (bluetooth), zapped the &lt;a href=&quot;https://support.apple.com/en-us/HT204063&quot;&gt;NVRAM&lt;/a&gt; and tried various other types of voodoo to no avail. Finally, I stumbled upon an article from &lt;a href=&quot;https://www.cnet.com/news/mac-keyboard-not-working-mouse-keys-may-be-activated/&quot;&gt;2009 on CNet&lt;/a&gt; which described my issue.&lt;/p&gt;
+
+&lt;h2 id=&quot;enabline--disabling-mouse-keys&quot;&gt;Enabline / Disabling Mouse Keys&lt;/h2&gt;
+
+&lt;p&gt;If you have no intention of ever using Mouse Keys, I’d recommend disabling it altogether. Not surprisingly, the option is found under Accessibility, which seems to be a treasure trove of goodies to enhance (or, impair) your computer.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/mouse-keys-1.png&quot; alt=&quot;&amp;quot;Accessibility Menu Screen Capture&amp;quot;&quot; title=&quot;Accessibility Menu&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once you are in the Accessibility system preference pane, click on ‘Mouse &amp;amp; Trackpad’ to show the check-box for enabling / disabling Mouse Keys.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/mouse-keys-2.png&quot; alt=&quot;&amp;quot;Mouse &amp;amp; Trackpad Preference Pane Screen Capture&amp;quot;&quot; title=&quot;Mouse &amp;amp; Trackpad Preference Pane Screen Capture&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ticking the checkbox enables Mouse Keys and reneders your keyboard otherwise useless. To set the option for enabling by tapping ‘option’ 5 times, click on the options button.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/mouse-keys-3.png&quot; alt=&quot;&amp;quot;Mouse &amp;amp; Trackpad Preference Pane Screen Capture&amp;quot;&quot; title=&quot;Mouse &amp;amp; Trackpad Preference Pane Screen Capture&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s a bit disappointing that they don’t actually indicate the keys to use to move the pointer around the screen. Without the guide of which keys to use, this feature seems less helpful than it could be.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 19 Nov 2016 00:00:00 -0500</pubDate>
+        <link>http://gbradhopkins.com/software/2016/11/19/turn-on-off-keyboard-keys-mac.html</link>
+        <guid isPermaLink="true">http://gbradhopkins.com/software/2016/11/19/turn-on-off-keyboard-keys-mac.html</guid>
+        
+        
+        <category>software</category>
+        
+      </item>
     
       <item>
         <title>My Five Favorite Alternative Browsers</title>
@@ -653,32 +692,6 @@ So, are you looking for a little extra motivation? Tired of running from zombies
         
         
         <category>Reviews</category>
-        
-      </item>
-    
-      <item>
-        <title>Internet Privacy Links</title>
-        <description>&lt;p&gt;Internet privacy and the way companies like Facebook, Google and Twitter use our data has been on my mind recently. Here are a collection of links related to those topics. At some point, I’m going to pull it all together and express my feelings on this important topic. For the time being, these are as much for me as they are for anyone finding them here on this page.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://gbradhopkins.com/images/uploads/tutorials/internet_privacy.jpg&quot; alt=&quot;Privacy Image&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://fixtracking.com/&quot;&gt;Fix Tracking:&lt;/a&gt; How-to stop getting tracked in your Browser.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://chronicle.com/article/Why-Privacy-Matters-Even-if/127461/&quot;&gt;Why Privacy Matters Even if You Have ‘Nothing to Hide’&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://online.wsj.com/article/SB10001424127887324482504578453223207072376.html?mod=rss_Technology&quot;&gt;Online Ads Can Now Follow You Home&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Photo Credit: &lt;a href=&quot;http://www.flickr.com/photos/doegox/8016617207/sizes/l/in/photostream/&quot;&gt;http://www.flickr.com/photos/doegox/8016617207/sizes/l/in/photostream/&lt;/a&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 30 Apr 2013 00:00:00 -0400</pubDate>
-        <link>http://gbradhopkins.com/internet/tutorials/2013/04/30/internet-privacy-links.html</link>
-        <guid isPermaLink="true">http://gbradhopkins.com/internet/tutorials/2013/04/30/internet-privacy-links.html</guid>
-        
-        
-        <category>Internet</category>
-        
-        <category>Tutorials</category>
         
       </item>
     
