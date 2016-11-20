@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Only certain keys working on your Mac keyboard? This may be the solution."
-categories: software
+categories: mac
 description: Only certain keys working on your keyboard? Command and Tab working while others aren't? Here is the solution.
 ---
 
