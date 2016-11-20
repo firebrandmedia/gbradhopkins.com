@@ -5,7 +5,7 @@ categories: software
 description: Only certain keys working on your keyboard? Command and Tab working while others aren't? Here is the solution.
 ---
 
-My daughter decided to confound me this afternoon by hitting the option key 5 times on our MacMini. She did this accidentally, but once she did, the keyboard no longer worked in its normal way. Unbeknownst to me, she enabled Mouse Keys.
+My daughter decided to confound me this afternoon by hitting the option key 5 times on our MacMini. She did this accidentally, and without knowing that she did, but once she did, the keyboard no longer worked in its normal way. Unbeknownst to me, she enabled Mouse Keys.
 
 ## What Are Mouse Keys?
 

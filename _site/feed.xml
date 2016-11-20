@@ -6,13 +6,13 @@
 </description>
     <link>http://gbradhopkins.com/</link>
     <atom:link href="http://gbradhopkins.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 19 Nov 2016 20:23:04 -0500</pubDate>
-    <lastBuildDate>Sat, 19 Nov 2016 20:23:04 -0500</lastBuildDate>
+    <pubDate>Sat, 19 Nov 2016 20:34:48 -0500</pubDate>
+    <lastBuildDate>Sat, 19 Nov 2016 20:34:48 -0500</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
         <title>Only certain keys working on your Mac keyboard? This may be the solution.</title>
-        <description>&lt;p&gt;My daughter decided to confound me this afternoon by hitting the option key 5 times on our MacMini. She did this accidentally, but once she did, the keyboard no longer worked in its normal way. Unbeknownst to me, she enabled Mouse Keys.&lt;/p&gt;
+        <description>&lt;p&gt;My daughter decided to confound me this afternoon by hitting the option key 5 times on our MacMini. She did this accidentally, and without knowing that she did, but once she did, the keyboard no longer worked in its normal way. Unbeknownst to me, she enabled Mouse Keys.&lt;/p&gt;
 
 &lt;h2 id=&quot;what-are-mouse-keys&quot;&gt;What Are Mouse Keys?&lt;/h2&gt;
 
@@ -91,11 +91,11 @@
   &lt;li&gt;&lt;a href=&quot;http://fluidbrowser.com&quot;&gt;Fluid Browser&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;tor&quot;&gt;[Tor]&lt;/h2&gt;
+&lt;h2 id=&quot;tor&quot;&gt;Tor&lt;/h2&gt;
 
 &lt;p&gt;You’ve probably heard of Tor even if you don’t know exactly what it is. Tor, based on Mozilla, allows you to browse the web anonymously. You may think, “Wait, can’t I just open a private window in Chrome / Safari / Firefox?” Yes, but that doesn’t necessarily protect your anonymity. Tor protects your anonymity by relaying your requests through their network.&lt;/p&gt;
 
-&lt;p&gt;In the screen capture below, you can see that even using a private window, my IP address and location are readily available. But, by using Tor (bottom window), my IP and location are anonymized.&lt;/p&gt;
+&lt;p&gt;In the screen capture below, you can see that even using a private window (middle browser window), my IP address and location are readily available. But, by using Tor (bottom window), my IP and location are anonymized.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/browser-private-ip-tor.png&quot; alt=&quot;&amp;quot;Screen capture showing anonymized IP address using Tor vs a Private Window&amp;quot;&quot; title=&quot;Screen capture showing anonymized IP address using Tor vs a Private Window&quot; /&gt;&lt;/p&gt;
 
