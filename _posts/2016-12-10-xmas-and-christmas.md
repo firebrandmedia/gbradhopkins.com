@@ -24,4 +24,4 @@ But what Hecataeus says, that Exmas and Crissmas are the same, is not credible. 
 
 _An essay written by C. S. Lewis entitled "Xmas and Christmas: A Lost Chapter from Herodotus."_
 
-This is short story always makes me stop and think about how we have distorted the Christmas season.
+This short story always makes me stop and think about how we have distorted the Christmas season.
