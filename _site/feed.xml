@@ -4,11 +4,37 @@
     <title>gbradhopkins.com</title>
     <description>An assortment of tutorials and thoughts on computers, web design and how the internet impacts us all.
 </description>
-    <link>http://gbradhopkins.com/</link>
-    <atom:link href="http://gbradhopkins.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 10 Dec 2016 17:54:21 -0500</pubDate>
-    <lastBuildDate>Sat, 10 Dec 2016 17:54:21 -0500</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 08 Feb 2017 07:01:24 -0500</pubDate>
+    <lastBuildDate>Wed, 08 Feb 2017 07:01:24 -0500</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
+    
+      <item>
+        <title>More Git Commands</title>
+        <description>&lt;p&gt;In a previous entry, I wrote about my use of Git and how I preferred to use a Git client (Tower) as opposed to the command line. In that entry, I listed some &lt;a href=&quot;http://gbradhopkins.com/web/design/tutorials/2016/09/29/git-commit-workflow.html&quot;&gt;basic Git commands&lt;/a&gt;. These were the basic commands that I needed to push content to the repository for this site.&lt;/p&gt;
+
+&lt;p&gt;Since then, I’ve been transitioning to the command line for more and more of my commits. I recently picked up the so-far, excellent book by David Demaree, &lt;a href=&quot;https://abookapart.com/products/git-for-humans&quot;&gt;Git for Humans&lt;/a&gt; from A Book Apart. In this book, I’ve started to add some commands to my toolbox. I have decided to list the new commands that I am using, here, as much as a resource for myself, as anything else. Personally, I find that I run a few commands frequently but then forget some of the less used commands. This will be my go-to reference.&lt;/p&gt;
+
+&lt;p&gt;Since we’re using the command line, these commands may not necessarily be specific to Git, but can be used with Git. If you are looking for tutorials on Git, check out the excellent &lt;a href=&quot;https://www.atlassian.com/git/tutorials/what-is-git&quot;&gt;Git tutorials from Atlassian&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;git-commands&quot;&gt;Git Commands&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mkdir&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Creates a new directory or folder within the directory that you are already in.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 08 Feb 2017 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/web/design/2017/02/08/more-git-commands.html</link>
+        <guid isPermaLink="true">http://localhost:4000/web/design/2017/02/08/more-git-commands.html</guid>
+        
+        
+        <category>web</category>
+        
+        <category>design</category>
+        
+      </item>
     
       <item>
         <title>Exmas and Crissmas</title>
@@ -35,8 +61,8 @@
 &lt;p&gt;This short story always makes me stop and think about how we have distorted the Christmas season.&lt;/p&gt;
 </description>
         <pubDate>Sat, 10 Dec 2016 00:00:00 -0500</pubDate>
-        <link>http://gbradhopkins.com/2016/12/10/xmas-and-christmas.html</link>
-        <guid isPermaLink="true">http://gbradhopkins.com/2016/12/10/xmas-and-christmas.html</guid>
+        <link>http://localhost:4000/2016/12/10/xmas-and-christmas.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/12/10/xmas-and-christmas.html</guid>
         
         
       </item>
@@ -72,8 +98,8 @@
 &lt;p&gt;It’s a bit disappointing that they don’t actually indicate the keys to use to move the pointer around the screen. Without the guide of which keys to use, this feature seems less helpful than it could be.&lt;/p&gt;
 </description>
         <pubDate>Sat, 19 Nov 2016 00:00:00 -0500</pubDate>
-        <link>http://gbradhopkins.com/mac/2016/11/19/turn-on-off-keyboard-keys-mac.html</link>
-        <guid isPermaLink="true">http://gbradhopkins.com/mac/2016/11/19/turn-on-off-keyboard-keys-mac.html</guid>
+        <link>http://localhost:4000/mac/2016/11/19/turn-on-off-keyboard-keys-mac.html</link>
+        <guid isPermaLink="true">http://localhost:4000/mac/2016/11/19/turn-on-off-keyboard-keys-mac.html</guid>
         
         
         <category>mac</category>
@@ -166,8 +192,8 @@
 &lt;p&gt;I feel like this is a great time to experiment with alternative browsers. There seems to be a lot of vibrancy in the browser community. It’s work exploring what else is out there. At the very least, it may reinforce your love of a particular browser.&lt;/p&gt;
 </description>
         <pubDate>Tue, 15 Nov 2016 00:00:00 -0500</pubDate>
-        <link>http://gbradhopkins.com/software/2016/11/15/alternative-browsers.html</link>
-        <guid isPermaLink="true">http://gbradhopkins.com/software/2016/11/15/alternative-browsers.html</guid>
+        <link>http://localhost:4000/software/2016/11/15/alternative-browsers.html</link>
+        <guid isPermaLink="true">http://localhost:4000/software/2016/11/15/alternative-browsers.html</guid>
         
         
         <category>software</category>
@@ -259,8 +285,8 @@
 &lt;p&gt;Obviously, it would be a lot easier if you didn’t have to run your video file through multiple apps to prep it for viewing. I would assume that as the VR format matures and becomes more mainstream, tools like Premiere will do a better job of handling all of these steps. In the mean time, it’s a small price to pay for such an interesting technology.&lt;/p&gt;
 </description>
         <pubDate>Mon, 14 Nov 2016 00:00:00 -0500</pubDate>
-        <link>http://gbradhopkins.com/vr/2016/11/14/working-with-ricoh-theta-s-vr-footage.html</link>
-        <guid isPermaLink="true">http://gbradhopkins.com/vr/2016/11/14/working-with-ricoh-theta-s-vr-footage.html</guid>
+        <link>http://localhost:4000/vr/2016/11/14/working-with-ricoh-theta-s-vr-footage.html</link>
+        <guid isPermaLink="true">http://localhost:4000/vr/2016/11/14/working-with-ricoh-theta-s-vr-footage.html</guid>
         
         
         <category>vr</category>
@@ -298,8 +324,8 @@
 &lt;p&gt;I like the idea of having control of all of my data but if it’s too difficult to actually manage the data, what’s the point?&lt;/p&gt;
 </description>
         <pubDate>Sat, 12 Nov 2016 00:00:00 -0500</pubDate>
-        <link>http://gbradhopkins.com/software/2016/11/12/why-I-cant-switch-to-ds-note-from-evernote.html</link>
-        <guid isPermaLink="true">http://gbradhopkins.com/software/2016/11/12/why-I-cant-switch-to-ds-note-from-evernote.html</guid>
+        <link>http://localhost:4000/software/2016/11/12/why-I-cant-switch-to-ds-note-from-evernote.html</link>
+        <guid isPermaLink="true">http://localhost:4000/software/2016/11/12/why-I-cant-switch-to-ds-note-from-evernote.html</guid>
         
         
         <category>software</category>
@@ -456,8 +482,8 @@ header(&quot;Expires: 0&quot;);
 &lt;/ul&gt;
 </description>
         <pubDate>Fri, 04 Nov 2016 00:00:00 -0400</pubDate>
-        <link>http://gbradhopkins.com/web/design/tutorials/2016/11/04/switching-to-jekyll-from-ee.html</link>
-        <guid isPermaLink="true">http://gbradhopkins.com/web/design/tutorials/2016/11/04/switching-to-jekyll-from-ee.html</guid>
+        <link>http://localhost:4000/web/design/tutorials/2016/11/04/switching-to-jekyll-from-ee.html</link>
+        <guid isPermaLink="true">http://localhost:4000/web/design/tutorials/2016/11/04/switching-to-jekyll-from-ee.html</guid>
         
         
         <category>Web</category>
@@ -507,8 +533,8 @@ modified:   css/main.scss
 &lt;p&gt;Next up, how to access that repository from another computer to continue working on it.&lt;/p&gt;
 </description>
         <pubDate>Thu, 29 Sep 2016 00:00:00 -0400</pubDate>
-        <link>http://gbradhopkins.com/web/design/tutorials/2016/09/29/git-commit-workflow.html</link>
-        <guid isPermaLink="true">http://gbradhopkins.com/web/design/tutorials/2016/09/29/git-commit-workflow.html</guid>
+        <link>http://localhost:4000/web/design/tutorials/2016/09/29/git-commit-workflow.html</link>
+        <guid isPermaLink="true">http://localhost:4000/web/design/tutorials/2016/09/29/git-commit-workflow.html</guid>
         
         
         <category>Web</category>
@@ -581,8 +607,8 @@ modified:   css/main.scss
 
 </description>
         <pubDate>Tue, 25 Jun 2013 00:00:00 -0400</pubDate>
-        <link>http://gbradhopkins.com/pc/tutorials/2013/06/25/ripping-dvd-to-ipod-video.html</link>
-        <guid isPermaLink="true">http://gbradhopkins.com/pc/tutorials/2013/06/25/ripping-dvd-to-ipod-video.html</guid>
+        <link>http://localhost:4000/pc/tutorials/2013/06/25/ripping-dvd-to-ipod-video.html</link>
+        <guid isPermaLink="true">http://localhost:4000/pc/tutorials/2013/06/25/ripping-dvd-to-ipod-video.html</guid>
         
         
         <category>PC</category>
@@ -611,84 +637,11 @@ modified:   css/main.scss
 &lt;/ul&gt;
 </description>
         <pubDate>Thu, 13 Jun 2013 00:00:00 -0400</pubDate>
-        <link>http://gbradhopkins.com/tech-annoyances/2013/06/13/i-really-want-to-like-you-flickr.html</link>
-        <guid isPermaLink="true">http://gbradhopkins.com/tech-annoyances/2013/06/13/i-really-want-to-like-you-flickr.html</guid>
+        <link>http://localhost:4000/tech-annoyances/2013/06/13/i-really-want-to-like-you-flickr.html</link>
+        <guid isPermaLink="true">http://localhost:4000/tech-annoyances/2013/06/13/i-really-want-to-like-you-flickr.html</guid>
         
         
         <category>tech-annoyances</category>
-        
-      </item>
-    
-      <item>
-        <title>Get Fit and Help Those In Need</title>
-        <description>&lt;p&gt;Generally speaking, getting in shape is a selfish endeavor. We usually try to get in shape because we want to look better or feel better about ourselves. I mean, we could say we’re doing it for our kids or for our loved ones but if we’re honest, it’s mostly about self-image. I don’t think there’s anything inherently wrong with that, although we can become obsessed with it and let vanity rule our lives, but let’s just assume that we’re not taking it that far.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://gbradhopkins.com/images/uploads/tutorials/charity_miles.jpg&quot; alt=&quot;Charity Miles image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;What if, in addition to trying to get in shape for our own selfish reasons, we could also help someone in need? That’s the concept behind &lt;a href=&quot;http://www.charitymiles.org/&quot;&gt;Charity Miles&lt;/a&gt;. Charity Miles allows you to earn money for charity when you walk, run, or bike.&lt;/p&gt;
-
-&lt;p&gt;I first heard about Charity Miles at South by Southwest. I participated in the daily Brooks Cowboy Run and someone handed me a postcard on my way back to my hotel following a run. If you’ve ever been to SxSW before, then you know that you are inundated with people trying to get you to check out their new app, product or service. So, I stuffed the postcard in my bag when I got back to my hotel and forgot about it. Last week, I was cleaning out my bag in preparation for a meeting and I found the postcard. I decided to check out Charity Miles, so I downloaded the app and checked out the website.&lt;/p&gt;
-
-&lt;p&gt;How does it work?&lt;/p&gt;
-
-&lt;p&gt;From the Charity Miles website: “Ready to become a sponsored athlete? Simply turn on the app, choose a charity, and press start. As you exercise, we’ll track your distance and the money earned. When you’re finished, accept your sponsorship, spread the word, and we’ll send you a note confirming your good work. It’s as easy as this: get moving. Bikers earn 10¢ a mile and walkers and runners earn 25¢ a mile, up to our initial $1,000,000 sponsorship pool.”&lt;/p&gt;
-
-&lt;p&gt;As a dedicated Nike+ user, my typical running routine is to either use the Nike+ app on my phone or use the Nike+ app on my iPod touch in conjunction with the Zombies, Run! app. So, instead of using the Nike+ app or the Zombies, Run! app, I have started to use the Charity Miles app in conjunction with my iPod touch. (I’ve got to keep logging those Nike+ miles!)&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;For me, the best feature is the ability to see the direct impact of each run, walk or bike… my 2.361 mile run with Feeding America selected as the charity accounted for 4.72 meals to hungry people.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;So far, my experience with the Charity Miles app has been pretty good, although, the first time I used it it crashed and I lost my run. Not a good way to start - especially since it was a 4 mile run. Since that first experience, the app has been solid and I’ve been able to see the value in using the app as a way to help charitable organizations without any extra effort on my part.&lt;/p&gt;
-
-&lt;p&gt;Current organizations include:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;VisionSpring&lt;/li&gt;
-  &lt;li&gt;every mother counts&lt;/li&gt;
-  &lt;li&gt;Feeding America&lt;/li&gt;
-  &lt;li&gt;Autism Speaks&lt;/li&gt;
-  &lt;li&gt;Wounded Warrior Project&lt;/li&gt;
-  &lt;li&gt;Stand Up To Cancer&lt;/li&gt;
-  &lt;li&gt;Achilles International&lt;/li&gt;
-  &lt;li&gt;The Michael J. Fox Foundation&lt;/li&gt;
-  &lt;li&gt;Red&lt;/li&gt;
-  &lt;li&gt;World Food Programme&lt;/li&gt;
-  &lt;li&gt;The Nature Conservancy&lt;/li&gt;
-  &lt;li&gt;ASPCA&lt;/li&gt;
-  &lt;li&gt;Habitat for Humanity&lt;/li&gt;
-  &lt;li&gt;Leukemia &amp;amp; Lymphoma Society&lt;/li&gt;
-  &lt;li&gt;Partnership for a Healthier America&lt;/li&gt;
-  &lt;li&gt;Pencils of Promise&lt;/li&gt;
-  &lt;li&gt;Girl Up&lt;/li&gt;
-  &lt;li&gt;Shot @ Life&lt;/li&gt;
-  &lt;li&gt;NothingButNets.net&lt;/li&gt;
-  &lt;li&gt;IronMan Foundation&lt;/li&gt;
-  &lt;li&gt;DoSomething.org&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;As you can see, whether you want to help out here in the US or internationally, there are plenty of charities to choose from.&lt;/p&gt;
-
-&lt;p&gt;For me, the best feature is the ability to see the direct impact of each run, walk or bike. In addition to showing how long or how far you ran, there is an impact screen that shows the direct impact of your workout. For example, my 2.361 mile run with Feeding America selected as the charity accounted for 4.72 meals to hungry people while my 1.775 mile run with Habitat for Humanity as the selected charity accounted for 4.44 pieces of lumber.&lt;/p&gt;
-
-&lt;p&gt;At the end of each run, you also have the chance to share your run via Twitter or Facebook, sharing your run with not only your friends, but also the organization that you supported.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I ran 1.775 @&lt;a href=&quot;https://twitter.com/charitymiles&quot;&gt;charitymiles&lt;/a&gt; for @&lt;a href=&quot;https://twitter.com/habitat_org&quot;&gt;habitat_org&lt;/a&gt;. &lt;a href=&quot;https://twitter.com/search/%23EveryMileMatters&quot;&gt;#EveryMileMatters&lt;/a&gt;— Brad Hopkins (@gbradhopkins)&lt;/p&gt;
-
-  &lt;p&gt;&lt;a href=&quot;https://twitter.com/gbradhopkins/status/335203585304440832&quot;&gt;May 17, 2013&lt;/a&gt;
-So, are you looking for a little extra motivation? Tired of running from zombies? I’d recommend giving the &lt;a href=&quot;http://www.charitymiles.org/&quot;&gt;Charity Miles&lt;/a&gt; app a try. It’s available for iOS and Android.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-</description>
-        <pubDate>Fri, 17 May 2013 00:00:00 -0400</pubDate>
-        <link>http://gbradhopkins.com/internet/tutorials/2013/05/17/get-fit-and-help-those-in-need.html</link>
-        <guid isPermaLink="true">http://gbradhopkins.com/internet/tutorials/2013/05/17/get-fit-and-help-those-in-need.html</guid>
-        
-        
-        <category>Internet</category>
-        
-        <category>Tutorials</category>
         
       </item>
     
