@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Internet Privacy Links"
+title:  "Internet Privacy Links, Updated"
 date:   2017-10-03 20=46-01 -0500
 categories: Internet Tutorials
 image: ./images/internet_privacy.jpg
