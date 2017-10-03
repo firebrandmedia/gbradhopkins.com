@@ -4,11 +4,43 @@
     <title>gbradhopkins.com</title>
     <description>An assortment of tutorials and thoughts on computers, web design and how the internet impacts us all.
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 08 Feb 2017 07:01:24 -0500</pubDate>
-    <lastBuildDate>Wed, 08 Feb 2017 07:01:24 -0500</lastBuildDate>
-    <generator>Jekyll v3.3.0</generator>
+    <link>http://gbradhopkins.com/</link>
+    <atom:link href="http://gbradhopkins.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 03 Oct 2017 10:07:30 -0400</pubDate>
+    <lastBuildDate>Tue, 03 Oct 2017 10:07:30 -0400</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Internet Privacy Links</title>
+        <description>&lt;p&gt;Originally published on April 30, 2013, I have updated this article and will continue to update it.&lt;/p&gt;
+
+&lt;p&gt;Internet privacy and the way companies like Facebook, Google and Twitter use our data has been on my mind recently. Here are a collection of links related to those topics. At some point, I’m going to pull it all together and express my feelings on this important topic. For the time being, these are as much for me as they are for anyone finding them here on this page.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://gbradhopkins.com/images/uploads/tutorials/internet_privacy.jpg&quot; alt=&quot;Privacy Image&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://fixtracking.com/&quot;&gt;Fix Tracking:&lt;/a&gt; How-to stop getting tracked in your Browser.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://chronicle.com/article/Why-Privacy-Matters-Even-if/127461/&quot;&gt;Why Privacy Matters Even if You Have ‘Nothing to Hide’&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://online.wsj.com/article/SB10001424127887324482504578453223207072376.html?mod=rss_Technology&quot;&gt;Online Ads Can Now Follow You Home&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://arstechnica.com/information-technology/2017/03/how-isps-can-sell-your-web-history-and-how-to-stop-them/&quot;&gt;How ISPs can sell your Web history—and how to stop them&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://duckduckgo.com&quot;&gt;DuckDuckGo Web Browser&lt;/a&gt; An alternative to Google. Great results and they take you privacy seriously.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lifehacker.com/5940565/why-you-should-start-using-a-vpn-and-how-to-choose-the-best-one-for-your-needs&quot;&gt;Why you need a VPN&lt;/a&gt; A VPN secures your computer’s internet connection to guarantee that all of the data you’re sending and receiving is encrypted and secured from prying eyes.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://thebestvpn.com&quot;&gt;VPNs Ranked&lt;/a&gt; 30+ different VPNs by their speed, reliability and logging policy&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Photo Credit: &lt;a href=&quot;http://www.flickr.com/photos/doegox/8016617207/sizes/l/in/photostream/&quot;&gt;http://www.flickr.com/photos/doegox/8016617207/sizes/l/in/photostream/&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 30 Sep 2017 00:00:00 -0400</pubDate>
+        <link>http://gbradhopkins.com/internet/tutorials/2017/09/30/internet-privacy-links.html</link>
+        <guid isPermaLink="true">http://gbradhopkins.com/internet/tutorials/2017/09/30/internet-privacy-links.html</guid>
+        
+        
+        <category>Internet</category>
+        
+        <category>Tutorials</category>
+        
+      </item>
     
       <item>
         <title>More Git Commands</title>
@@ -26,8 +58,8 @@
 
 </description>
         <pubDate>Wed, 08 Feb 2017 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/web/design/2017/02/08/more-git-commands.html</link>
-        <guid isPermaLink="true">http://localhost:4000/web/design/2017/02/08/more-git-commands.html</guid>
+        <link>http://gbradhopkins.com/web/design/2017/02/08/more-git-commands.html</link>
+        <guid isPermaLink="true">http://gbradhopkins.com/web/design/2017/02/08/more-git-commands.html</guid>
         
         
         <category>web</category>
@@ -61,8 +93,8 @@
 &lt;p&gt;This short story always makes me stop and think about how we have distorted the Christmas season.&lt;/p&gt;
 </description>
         <pubDate>Sat, 10 Dec 2016 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2016/12/10/xmas-and-christmas.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/12/10/xmas-and-christmas.html</guid>
+        <link>http://gbradhopkins.com/2016/12/10/xmas-and-christmas.html</link>
+        <guid isPermaLink="true">http://gbradhopkins.com/2016/12/10/xmas-and-christmas.html</guid>
         
         
       </item>
@@ -98,8 +130,8 @@
 &lt;p&gt;It’s a bit disappointing that they don’t actually indicate the keys to use to move the pointer around the screen. Without the guide of which keys to use, this feature seems less helpful than it could be.&lt;/p&gt;
 </description>
         <pubDate>Sat, 19 Nov 2016 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/mac/2016/11/19/turn-on-off-keyboard-keys-mac.html</link>
-        <guid isPermaLink="true">http://localhost:4000/mac/2016/11/19/turn-on-off-keyboard-keys-mac.html</guid>
+        <link>http://gbradhopkins.com/mac/2016/11/19/turn-on-off-keyboard-keys-mac.html</link>
+        <guid isPermaLink="true">http://gbradhopkins.com/mac/2016/11/19/turn-on-off-keyboard-keys-mac.html</guid>
         
         
         <category>mac</category>
@@ -192,8 +224,8 @@
 &lt;p&gt;I feel like this is a great time to experiment with alternative browsers. There seems to be a lot of vibrancy in the browser community. It’s work exploring what else is out there. At the very least, it may reinforce your love of a particular browser.&lt;/p&gt;
 </description>
         <pubDate>Tue, 15 Nov 2016 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/software/2016/11/15/alternative-browsers.html</link>
-        <guid isPermaLink="true">http://localhost:4000/software/2016/11/15/alternative-browsers.html</guid>
+        <link>http://gbradhopkins.com/software/2016/11/15/alternative-browsers.html</link>
+        <guid isPermaLink="true">http://gbradhopkins.com/software/2016/11/15/alternative-browsers.html</guid>
         
         
         <category>software</category>
@@ -285,8 +317,8 @@
 &lt;p&gt;Obviously, it would be a lot easier if you didn’t have to run your video file through multiple apps to prep it for viewing. I would assume that as the VR format matures and becomes more mainstream, tools like Premiere will do a better job of handling all of these steps. In the mean time, it’s a small price to pay for such an interesting technology.&lt;/p&gt;
 </description>
         <pubDate>Mon, 14 Nov 2016 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/vr/2016/11/14/working-with-ricoh-theta-s-vr-footage.html</link>
-        <guid isPermaLink="true">http://localhost:4000/vr/2016/11/14/working-with-ricoh-theta-s-vr-footage.html</guid>
+        <link>http://gbradhopkins.com/vr/2016/11/14/working-with-ricoh-theta-s-vr-footage.html</link>
+        <guid isPermaLink="true">http://gbradhopkins.com/vr/2016/11/14/working-with-ricoh-theta-s-vr-footage.html</guid>
         
         
         <category>vr</category>
@@ -324,8 +356,8 @@
 &lt;p&gt;I like the idea of having control of all of my data but if it’s too difficult to actually manage the data, what’s the point?&lt;/p&gt;
 </description>
         <pubDate>Sat, 12 Nov 2016 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/software/2016/11/12/why-I-cant-switch-to-ds-note-from-evernote.html</link>
-        <guid isPermaLink="true">http://localhost:4000/software/2016/11/12/why-I-cant-switch-to-ds-note-from-evernote.html</guid>
+        <link>http://gbradhopkins.com/software/2016/11/12/why-I-cant-switch-to-ds-note-from-evernote.html</link>
+        <guid isPermaLink="true">http://gbradhopkins.com/software/2016/11/12/why-I-cant-switch-to-ds-note-from-evernote.html</guid>
         
         
         <category>software</category>
@@ -482,8 +514,8 @@ header(&quot;Expires: 0&quot;);
 &lt;/ul&gt;
 </description>
         <pubDate>Fri, 04 Nov 2016 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/web/design/tutorials/2016/11/04/switching-to-jekyll-from-ee.html</link>
-        <guid isPermaLink="true">http://localhost:4000/web/design/tutorials/2016/11/04/switching-to-jekyll-from-ee.html</guid>
+        <link>http://gbradhopkins.com/web/design/tutorials/2016/11/04/switching-to-jekyll-from-ee.html</link>
+        <guid isPermaLink="true">http://gbradhopkins.com/web/design/tutorials/2016/11/04/switching-to-jekyll-from-ee.html</guid>
         
         
         <category>Web</category>
@@ -533,8 +565,8 @@ modified:   css/main.scss
 &lt;p&gt;Next up, how to access that repository from another computer to continue working on it.&lt;/p&gt;
 </description>
         <pubDate>Thu, 29 Sep 2016 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/web/design/tutorials/2016/09/29/git-commit-workflow.html</link>
-        <guid isPermaLink="true">http://localhost:4000/web/design/tutorials/2016/09/29/git-commit-workflow.html</guid>
+        <link>http://gbradhopkins.com/web/design/tutorials/2016/09/29/git-commit-workflow.html</link>
+        <guid isPermaLink="true">http://gbradhopkins.com/web/design/tutorials/2016/09/29/git-commit-workflow.html</guid>
         
         
         <category>Web</category>
@@ -607,41 +639,13 @@ modified:   css/main.scss
 
 </description>
         <pubDate>Tue, 25 Jun 2013 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/pc/tutorials/2013/06/25/ripping-dvd-to-ipod-video.html</link>
-        <guid isPermaLink="true">http://localhost:4000/pc/tutorials/2013/06/25/ripping-dvd-to-ipod-video.html</guid>
+        <link>http://gbradhopkins.com/pc/tutorials/2013/06/25/ripping-dvd-to-ipod-video.html</link>
+        <guid isPermaLink="true">http://gbradhopkins.com/pc/tutorials/2013/06/25/ripping-dvd-to-ipod-video.html</guid>
         
         
         <category>PC</category>
         
         <category>Tutorials</category>
-        
-      </item>
-    
-      <item>
-        <title>I really want to like you Flickr</title>
-        <description>&lt;p&gt;I’m a big fan of Flickr. Or, at least I was. If I had to describe our relationship I would describe it as complicated. I’m not a huge fan of the new layout but I can live with it.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/Flickr-Bar.jpg&quot; alt=&quot;Yahoo! Universal Header&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;What I can’t live with is the new Yahoo! toolbar that I’m seeing on one of my Flickr accounts - highlighted in red in the image above. This is a premium account. I paid for it. Even when the distinguishing features - namely, lots of space - were added to the standard account, I didn’t downgrade it.&lt;/p&gt;
-
-&lt;p&gt;Another feature of a premium account was the fact that there are no ads. I consider this an ad. It’s not adding to my experience. It’s pushing other Yahoo! services and links. I don’t need that.&lt;/p&gt;
-
-&lt;p&gt;So far, I’m only seeing this on one of my accounts so I’ll monitor it and see where it goes. Needless to say, I don’t like the direction that it’s heading.&lt;/p&gt;
-
-&lt;p&gt;For further reading, check out some of the Flickr Forum discussions on the new “Yahoo! Universal Header”&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.flickr.com/help/forum/en-us/72157633459717740/&quot;&gt;http://www.flickr.com/help/forum/en-us/72157633459717740/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.flickr.com/help/forum/en-us/72157633201655378/&quot;&gt;http://www.flickr.com/help/forum/en-us/72157633201655378/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 13 Jun 2013 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/tech-annoyances/2013/06/13/i-really-want-to-like-you-flickr.html</link>
-        <guid isPermaLink="true">http://localhost:4000/tech-annoyances/2013/06/13/i-really-want-to-like-you-flickr.html</guid>
-        
-        
-        <category>tech-annoyances</category>
         
       </item>
     
