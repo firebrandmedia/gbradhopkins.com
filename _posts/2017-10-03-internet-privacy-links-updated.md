@@ -19,6 +19,7 @@ Internet privacy and the way companies like Facebook, Google and Twitter use our
 *   [DuckDuckGo Web Browser][5] An alternative to Google. Great results and they take you privacy seriously.
 *   [Why you need a VPN][6] A VPN secures your computer’s internet connection to guarantee that all of the data you’re sending and receiving is encrypted and secured from prying eyes.
 *   [VPNs Ranked][7] 30+ different VPNs by their speed, reliability and logging policy
+*   [Are you ready? Here is all the data Facebook and Google have on you][8] This is eye-opening. I don't know if I'm more concerned with how they'd use the information or how someone else would.
 
 
 Photo Credit: <http://www.flickr.com/photos/doegox/8016617207/sizes/l/in/photostream/>
@@ -30,5 +31,4 @@ Photo Credit: <http://www.flickr.com/photos/doegox/8016617207/sizes/l/in/photost
  [5]: https://duckduckgo.com
  [6]: https://lifehacker.com/5940565/why-you-should-start-using-a-vpn-and-how-to-choose-the-best-one-for-your-needs
  [7]: https://thebestvpn.com
- 
-
+ [8]: https://www.theguardian.com/commentisfree/2018/mar/28/all-the-data-facebook-google-has-on-you-privacy
