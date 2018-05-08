@@ -4,11 +4,58 @@
     <title>gbradhopkins.com</title>
     <description>An assortment of tutorials and thoughts on computers, web design and how the internet impacts us all.
 </description>
-    <link>http://gbradhopkins.com/</link>
-    <atom:link href="http://gbradhopkins.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 03 Oct 2017 10:15:16 -0400</pubDate>
-    <lastBuildDate>Tue, 03 Oct 2017 10:15:16 -0400</lastBuildDate>
-    <generator>Jekyll v3.2.1</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 08 May 2018 12:52:23 -0400</pubDate>
+    <lastBuildDate>Tue, 08 May 2018 12:52:23 -0400</lastBuildDate>
+    <generator>Jekyll v3.8.1</generator>
+    
+      <item>
+        <title>Remember that Nike running watch you bought? Sorry, we killed it.</title>
+        <description>&lt;p&gt;&lt;img src=&quot;./images/nike-watch-history.JPG&quot; alt=&quot;Nike Sportwatch Image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ve been a dedicated user of running products in the Nike ecosystem since the original launch of the &lt;a href=&quot;https://en.wikipedia.org/wiki/Nike%2B&quot;&gt;Nike+&lt;/a&gt; back in May of 2006. In that time, I’ve logged over 4400 miles using various devices, including the Nike+ iPod, Nike+ Smartwatch and now, the Nike Run Club app. It’s safe to say that I’m committed to Nike products.&lt;/p&gt;
+
+&lt;p&gt;On June 11, 2013 I ordered a &lt;a href=&quot;https://amzn.to/2rrkcPW&quot;&gt;Nike+ SportWatch GPS Powered by TomTom ($168.27)&lt;/a&gt;. This was around the time that smartwatches were starting to come on the market. I remember wearing my sportwatch to my son’s field day and being asked if it was a smartwatch.&lt;/p&gt;
+
+&lt;p&gt;Initially, I used the Nike+ smartwatch almost exclusively but, after a bad experience in which a number of runs were not synchronized properly, I began to use the watch less frequently. I still used it on occassion, primarily when I wanted to get out and run without my phone (or, when the phone didn’t have a sufficient charge).&lt;/p&gt;
+
+&lt;p&gt;On April 16, 2018, I received the following email from Nike:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Subject: Some of our apps and devices are retiring&lt;/p&gt;
+
+  &lt;p&gt;To provide the best experience possible, we are retiring the devices and apps listed below, effective from April 30, 2018. After that date &amp;gt;they will no longer sync or retain data, but you can keep tracking your runs and workouts with the newest versions of the Nike Run Club app, Nike Training Club app or Apple Watch Nike+. Thank you for your ongoing passion and support.&lt;/p&gt;
+
+  &lt;p&gt;Devices and Apps Impacted&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;Nike+ Connect software&lt;/li&gt;
+    &lt;li&gt;Nike+ SportWatch&lt;/li&gt;
+    &lt;li&gt;Nike+ SportBand&lt;/li&gt;
+    &lt;li&gt;Nike+ FuelBand&lt;/li&gt;
+    &lt;li&gt;Nike+ iPod&lt;/li&gt;
+    &lt;li&gt;Nike Run Club app version 4.8.7 and lower (iOS and Android)&lt;/li&gt;
+    &lt;li&gt;Nike Training app version 4.4 and lower (iOS and Android)&lt;/li&gt;
+    &lt;li&gt;Nike+ Fuel App (iOS and Android)&lt;/li&gt;
+    &lt;li&gt;Nike+ Move App (iOS only)&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;p&gt;Visit our &lt;a href=&quot;http://help-en-us.nike.com/app/answer/article/why-cant-i-sync/a_id/73247/country/us&quot;&gt;FAQ&lt;/a&gt; page for more information on this change &amp;gt;and how it will affect you.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The watch still works. You can tell time with it and track your runs, but they’ll no longer synchronize with your Nike account.&lt;/p&gt;
+
+&lt;p&gt;I guess we call this progress.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 08 May 2018 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/gripes/2018/05/08/nike-watch-retirement.html</link>
+        <guid isPermaLink="true">http://localhost:4000/gripes/2018/05/08/nike-watch-retirement.html</guid>
+        
+        
+        <category>Gripes</category>
+        
+      </item>
     
       <item>
         <title>Internet Privacy Links, Updated</title>
@@ -26,14 +73,15 @@
   &lt;li&gt;&lt;a href=&quot;https://duckduckgo.com&quot;&gt;DuckDuckGo Web Browser&lt;/a&gt; An alternative to Google. Great results and they take you privacy seriously.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://lifehacker.com/5940565/why-you-should-start-using-a-vpn-and-how-to-choose-the-best-one-for-your-needs&quot;&gt;Why you need a VPN&lt;/a&gt; A VPN secures your computer’s internet connection to guarantee that all of the data you’re sending and receiving is encrypted and secured from prying eyes.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://thebestvpn.com&quot;&gt;VPNs Ranked&lt;/a&gt; 30+ different VPNs by their speed, reliability and logging policy&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.theguardian.com/commentisfree/2018/mar/28/all-the-data-facebook-google-has-on-you-privacy&quot;&gt;Are you ready? Here is all the data Facebook and Google have on you&lt;/a&gt; This is eye-opening. I don’t know if I’m more concerned with how they’d use the information or how someone else would.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Photo Credit: &lt;a href=&quot;http://www.flickr.com/photos/doegox/8016617207/sizes/l/in/photostream/&quot;&gt;http://www.flickr.com/photos/doegox/8016617207/sizes/l/in/photostream/&lt;/a&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Tue, 03 Oct 2017 00:00:00 -0400</pubDate>
-        <link>http://gbradhopkins.com/internet/tutorials/2017/10/03/internet-privacy-links-updated.html</link>
-        <guid isPermaLink="true">http://gbradhopkins.com/internet/tutorials/2017/10/03/internet-privacy-links-updated.html</guid>
+        <pubDate>Tue, 24 Apr 2018 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/internet/tutorials/2018/04/24/internet-privacy-links-updated.html</link>
+        <guid isPermaLink="true">http://localhost:4000/internet/tutorials/2018/04/24/internet-privacy-links-updated.html</guid>
         
         
         <category>Internet</category>
@@ -58,8 +106,8 @@
 
 </description>
         <pubDate>Wed, 08 Feb 2017 00:00:00 -0500</pubDate>
-        <link>http://gbradhopkins.com/web/design/2017/02/08/more-git-commands.html</link>
-        <guid isPermaLink="true">http://gbradhopkins.com/web/design/2017/02/08/more-git-commands.html</guid>
+        <link>http://localhost:4000/web/design/2017/02/08/more-git-commands.html</link>
+        <guid isPermaLink="true">http://localhost:4000/web/design/2017/02/08/more-git-commands.html</guid>
         
         
         <category>web</category>
@@ -93,8 +141,8 @@
 &lt;p&gt;This short story always makes me stop and think about how we have distorted the Christmas season.&lt;/p&gt;
 </description>
         <pubDate>Sat, 10 Dec 2016 00:00:00 -0500</pubDate>
-        <link>http://gbradhopkins.com/2016/12/10/xmas-and-christmas.html</link>
-        <guid isPermaLink="true">http://gbradhopkins.com/2016/12/10/xmas-and-christmas.html</guid>
+        <link>http://localhost:4000/2016/12/10/xmas-and-christmas.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/12/10/xmas-and-christmas.html</guid>
         
         
       </item>
@@ -130,8 +178,8 @@
 &lt;p&gt;It’s a bit disappointing that they don’t actually indicate the keys to use to move the pointer around the screen. Without the guide of which keys to use, this feature seems less helpful than it could be.&lt;/p&gt;
 </description>
         <pubDate>Sat, 19 Nov 2016 00:00:00 -0500</pubDate>
-        <link>http://gbradhopkins.com/mac/2016/11/19/turn-on-off-keyboard-keys-mac.html</link>
-        <guid isPermaLink="true">http://gbradhopkins.com/mac/2016/11/19/turn-on-off-keyboard-keys-mac.html</guid>
+        <link>http://localhost:4000/mac/2016/11/19/turn-on-off-keyboard-keys-mac.html</link>
+        <guid isPermaLink="true">http://localhost:4000/mac/2016/11/19/turn-on-off-keyboard-keys-mac.html</guid>
         
         
         <category>mac</category>
@@ -224,8 +272,8 @@
 &lt;p&gt;I feel like this is a great time to experiment with alternative browsers. There seems to be a lot of vibrancy in the browser community. It’s work exploring what else is out there. At the very least, it may reinforce your love of a particular browser.&lt;/p&gt;
 </description>
         <pubDate>Tue, 15 Nov 2016 00:00:00 -0500</pubDate>
-        <link>http://gbradhopkins.com/software/2016/11/15/alternative-browsers.html</link>
-        <guid isPermaLink="true">http://gbradhopkins.com/software/2016/11/15/alternative-browsers.html</guid>
+        <link>http://localhost:4000/software/2016/11/15/alternative-browsers.html</link>
+        <guid isPermaLink="true">http://localhost:4000/software/2016/11/15/alternative-browsers.html</guid>
         
         
         <category>software</category>
@@ -317,8 +365,8 @@
 &lt;p&gt;Obviously, it would be a lot easier if you didn’t have to run your video file through multiple apps to prep it for viewing. I would assume that as the VR format matures and becomes more mainstream, tools like Premiere will do a better job of handling all of these steps. In the mean time, it’s a small price to pay for such an interesting technology.&lt;/p&gt;
 </description>
         <pubDate>Mon, 14 Nov 2016 00:00:00 -0500</pubDate>
-        <link>http://gbradhopkins.com/vr/2016/11/14/working-with-ricoh-theta-s-vr-footage.html</link>
-        <guid isPermaLink="true">http://gbradhopkins.com/vr/2016/11/14/working-with-ricoh-theta-s-vr-footage.html</guid>
+        <link>http://localhost:4000/vr/2016/11/14/working-with-ricoh-theta-s-vr-footage.html</link>
+        <guid isPermaLink="true">http://localhost:4000/vr/2016/11/14/working-with-ricoh-theta-s-vr-footage.html</guid>
         
         
         <category>vr</category>
@@ -356,8 +404,8 @@
 &lt;p&gt;I like the idea of having control of all of my data but if it’s too difficult to actually manage the data, what’s the point?&lt;/p&gt;
 </description>
         <pubDate>Sat, 12 Nov 2016 00:00:00 -0500</pubDate>
-        <link>http://gbradhopkins.com/software/2016/11/12/why-I-cant-switch-to-ds-note-from-evernote.html</link>
-        <guid isPermaLink="true">http://gbradhopkins.com/software/2016/11/12/why-I-cant-switch-to-ds-note-from-evernote.html</guid>
+        <link>http://localhost:4000/software/2016/11/12/why-I-cant-switch-to-ds-note-from-evernote.html</link>
+        <guid isPermaLink="true">http://localhost:4000/software/2016/11/12/why-I-cant-switch-to-ds-note-from-evernote.html</guid>
         
         
         <category>software</category>
@@ -416,23 +464,22 @@
 
 &lt;p&gt;I’ll admit, what follows is a bit of a cheat. I wanted to export my entries from EECMS to Jekyll but I just couldn’t figure out how without putting in a bunch of time that I didn’t have. So, instead, I came up with the following solution that I used to export &lt;em&gt;ALL&lt;/em&gt; of my entries from EECMS to a single HTML file. This file exports each entry as a field in a table. Because most of my entries were old and no longer relevant, I was satisfied to use this as more of a time capsule, or archive, so that in the future I can look back at what I wrote.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;?php
-    header(&quot;Content-type: application/vnd.ms-excel&quot;);
-header(&quot;Content-Disposition: attachment; filename=gbradhopkins-entries-exports.xls&quot;);
-header(&quot;Pragma: no-cache&quot;);
-header(&quot;Expires: 0&quot;);
-?&amp;gt;
-&amp;lt;table&amp;gt;
-&amp;lt;tbody&amp;gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Content-type: application/vnd.ms-excel&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Content-Disposition: attachment; filename=gbradhopkins-entries-exports.xls&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Pragma: no-cache&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Expires: 0&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;?&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;table&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;tbody&amp;gt;&lt;/span&gt;
 {exp:channel:entries channel='tutorials' limit='500' disable=&quot;categories|member_data|pagination|trackbacks&quot;}
-    &amp;lt;tr&amp;gt;
-	    &amp;lt;td valign=&quot;top&quot;&amp;gt;{title}&amp;lt;/td&amp;gt;
-            &amp;lt;td&amp;gt;{tutorial_body}&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;{tutorial_image}&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;{tutorial_hero_image}&amp;lt;/td&amp;gt;
-    &amp;lt;/tr&amp;gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+	    &lt;span class=&quot;nt&quot;&gt;&amp;lt;td&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;valign=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;top&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;{title}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;{tutorial_body}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&lt;/span&gt;{tutorial_image}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&lt;/span&gt;{tutorial_hero_image}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
 {/exp:channel:entries}
-&amp;lt;/tbody&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/tbody&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;exporting-individual-entries&quot;&gt;Exporting Individual Entries&lt;/h2&gt;
 
@@ -449,47 +496,45 @@ header(&quot;Expires: 0&quot;);
 
 &lt;p&gt;This is a very simple template but it gets the job done, creating a list of entries with links to download the individual files.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;ul&amp;gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;ul&amp;gt;
 {exp:channel:entries channel=&quot;tutorials|reviews&quot; dynamic=&quot;off&quot; disable=&quot;member_data|pagination&quot;}
 &amp;lt;li&amp;gt;&amp;lt;a href=&quot;{title_permalink='exports/post'}&quot; target=&quot;blank&quot;&amp;gt;{entry_date format='%Y-%m-%d'}-{url_title}.md&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
 {/exp:channel:entries}
 &amp;lt;/ul&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;strong&gt;Entry Download Template&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Clicking on the entry link from the list above, fires the template below which initiates the download process. If you are trying to use this template, make sure you turn on ‘Allow PHP’ in the template preferences in EE.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;exp:channel:entries&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;channel=&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;tutorials|reviews&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;disable=&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;member_data|pagination&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;?php&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;header(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Content-type: text/markdown; charset=UTF-8&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;);&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;header(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Content-Disposition: attachment; filename={entry_date format='%Y-%m-%d'}-{url_title}.md&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;);&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;header(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Pragma: no-cache&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;);&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;header(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Expires: 0&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;);&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;?&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;---&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;layout:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;title:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;{title}&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;date:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;   &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;entry_date&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;format='%Y-%m-%d&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%H-%i-%s'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;-0500&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;categories:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;categories&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;category_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/categories&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;tutorial_hero_image&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;image:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;tutorial_hero_image&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;review_hero_image&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;image:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;review_hero_image&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;---&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{exp:channel:entries channel=&quot;tutorials|reviews&quot; disable=&quot;member_data|pagination&quot;}
+&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Content-type: text/markdown; charset=UTF-8&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Content-Disposition: attachment; filename={entry_date format='%Y-%m-%d'}-&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;url_title&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.md&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Pragma: no-cache&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Expires: 0&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;?&amp;gt;&lt;/span&gt;
+---
+layout: post
+title:  &quot;{title}&quot;
+date:   {entry_date format='%Y-%m-%d %H-%i-%s'} -0500
+categories: {categories}{category_name}{/categories}
+{if tutorial_hero_image}image: {tutorial_hero_image}{/if}
+{if review_hero_image}image: {review_hero_image}{/if}
+---
 
-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;exp:marker:tomarkdown&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;tutorial_hero_image&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+{exp:marker:tomarkdown}
+{tutorial_hero_image}
 
-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;tutorial_body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+{tutorial_body}
 
-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;tutorial_image&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+{tutorial_image}
 
-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;review_body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/exp:marker:tomarkdown&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+{review_body}
+{/exp:marker:tomarkdown}
 
-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/exp:channel:entries&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+{/exp:channel:entries}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;The one thing I couldn’t figure out was how to download the file with the .md file extension. Using the above code downloads a file with .md.html as the file extension. I simply used a renaming app to batch rename all of the files to .md.&lt;/p&gt;
 
@@ -514,8 +559,8 @@ header(&quot;Expires: 0&quot;);
 &lt;/ul&gt;
 </description>
         <pubDate>Fri, 04 Nov 2016 00:00:00 -0400</pubDate>
-        <link>http://gbradhopkins.com/web/design/tutorials/2016/11/04/switching-to-jekyll-from-ee.html</link>
-        <guid isPermaLink="true">http://gbradhopkins.com/web/design/tutorials/2016/11/04/switching-to-jekyll-from-ee.html</guid>
+        <link>http://localhost:4000/web/design/tutorials/2016/11/04/switching-to-jekyll-from-ee.html</link>
+        <guid isPermaLink="true">http://localhost:4000/web/design/tutorials/2016/11/04/switching-to-jekyll-from-ee.html</guid>
         
         
         <category>Web</category>
@@ -540,11 +585,10 @@ header(&quot;Expires: 0&quot;);
 
 &lt;p&gt;This is an optional command. It simply shows what has changed and results in something like this:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;modified:   _includes/head.html
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;modified:   _includes/head.html
 modified:   _sass/_gbradhopkins.scss
 modified:   css/main.scss
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;We can then review the list of changes and if satisfied, move to the next step.&lt;/p&gt;
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git add .&lt;/code&gt;&lt;/p&gt;
@@ -553,10 +597,9 @@ modified:   css/main.scss
 
 &lt;p&gt;After adding our commit message and hitting enter, we receive a message indicating what we’ve done (or are about to do).&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
-[gh-pages c5656de] git article update
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[gh-pages c5656de] git article update
  1 file changed, 3 insertions(+), 1 deletion(-)
-&lt;/code&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git push &lt;/code&gt;&lt;/p&gt;
 
@@ -565,85 +608,13 @@ modified:   css/main.scss
 &lt;p&gt;Next up, how to access that repository from another computer to continue working on it.&lt;/p&gt;
 </description>
         <pubDate>Thu, 29 Sep 2016 00:00:00 -0400</pubDate>
-        <link>http://gbradhopkins.com/web/design/tutorials/2016/09/29/git-commit-workflow.html</link>
-        <guid isPermaLink="true">http://gbradhopkins.com/web/design/tutorials/2016/09/29/git-commit-workflow.html</guid>
+        <link>http://localhost:4000/web/design/tutorials/2016/09/29/git-commit-workflow.html</link>
+        <guid isPermaLink="true">http://localhost:4000/web/design/tutorials/2016/09/29/git-commit-workflow.html</guid>
         
         
         <category>Web</category>
         
         <category>Design</category>
-        
-        <category>Tutorials</category>
-        
-      </item>
-    
-      <item>
-        <title>Ripping a DVD to iPod Video on Windows XP</title>
-        <description>&lt;p&gt;Update - 7/03/13 - &lt;a href=&quot;http://www.macworld.com/article/1157590/how_to_rip_dvd_handbrake.html&quot;&gt;Macworld decided to one up me and provided their own, in-depth instruction guide on how to rip a DVD with handbrake. They go into a lot more detail than I did. Read mine first, and then, if you still can’t figure it out or need more help, check out their guide.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;If like me, you still have an iPod Video around, you may decide that you want to use it to store movies for when you travel, after all, you can hook it up to a TV using the video out cable so it makes a pretty good movie storage device.&lt;/p&gt;
-
-&lt;h3 id=&quot;enter-handbrake&quot;&gt;Enter Handbrake&lt;/h3&gt;
-
-&lt;p&gt;“HandBrake is a tool for converting video from nearly any format to a selection of modern, widely supported codecs.” Best of all, it’s free.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://handbrake.fr/&quot;&gt;Handbrake&lt;/a&gt; has a &lt;a href=&quot;http://handbrake.fr/features.php&quot;&gt;number of features&lt;/a&gt; that you can use to tweak your video to your liking and export in the format that you need. In addition to the ability to specify your export settings, Handbrake has a number of built in pre-sets that allow for one-click setting of the export. Primarily, I use Handbrake to rip DVDs which I play through my AppleTV so I just use the appropriate AppleTV export preset.&lt;/p&gt;
-
-&lt;h3 id=&quot;using-handbrake&quot;&gt;Using Handbrake&lt;/h3&gt;
-
-&lt;p&gt;In the following steps, I’m going to show you how to export video for iPod Video and then add it to iTunes but it’s basically the same for any Apple device (iPhone, iPod Touch, AppleTV).&lt;/p&gt;
-
-&lt;p&gt;First, you need to download and install Handbrake. This will also install the .NET framework if it is not already installed.&lt;/p&gt;
-
-&lt;p&gt;Once Handbrake is installed, the process is pretty straightforward.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Select the Preset.&lt;/strong&gt; Select iPod (or whichever your destination device is). If you select iPod, make sure that iPod 5G Support is enabled via the Output Settings checkbox.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/Handbrake_Step_1.jpg&quot; alt=&quot;Step 1&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Select the Source.&lt;/strong&gt; Click on the source icon, and then select Open Folder. You will now browse My Computer and find the name of the DVD in the device list. In the screenshot below, I selected the DVD, A Bugs Life to rip and then click on OK.&lt;/p&gt;
-
-&lt;p&gt;Handbrake will then scan the source for the video to be ripped.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/Handbrake_Step_2.jpg&quot; alt=&quot;Step 2&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Next, give the file a name - ie. A Bugs Life&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/Handbrake_Step_3.jpg&quot; alt=&quot;Step 3&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Finally, click on the Start button.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/Handbrake_Step_4.jpg&quot; alt=&quot;Step 4&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Handbrake will now rip the DVD to the desktop.&lt;/p&gt;
-
-&lt;p&gt;Once Handbrake has completed the encoding process, the file will be on your desktop - or the destination location that you selected. Once ripped, using the iPod 5G settings, the .MP4 file is around 542MB.&lt;/p&gt;
-
-&lt;p&gt;Now, you can drag the .MP4 file into your iTunes library.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/iTunes_Step_1.jpg&quot; alt=&quot;iTunes Step 1&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;You may notice that the movie is not showing up in your Movies directory in iTunes. That’s because the video that was exported is categorized as a “Home Video” so it is found in the Home Videos directory.&lt;/p&gt;
-
-&lt;p&gt;To change this, right click on the movie and select “Get Info.” &lt;em&gt;I’m doing this on a Mac so I’m not sure what it is on Windows but I would guess that it is similar.&lt;/em&gt; Under “Media Kind” select Movie instead of Home Video.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/iTunes_Step_2.jpg&quot; alt=&quot;iTunes Step 2&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Now, your ripped video will should be displayed under Movies.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/iTunes_Step_3.jpg&quot; alt=&quot;iTunes Step 3&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Finally, go into the settings for your iPod and select the check box next to the movie to indicate that it should be synched to your device. Now, hit “Apply” and the movie will be synched to the iPod.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/iTunes_Step_4.jpg&quot; alt=&quot;iTunes Step 4&quot; /&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 25 Jun 2013 00:00:00 -0400</pubDate>
-        <link>http://gbradhopkins.com/pc/tutorials/2013/06/25/ripping-dvd-to-ipod-video.html</link>
-        <guid isPermaLink="true">http://gbradhopkins.com/pc/tutorials/2013/06/25/ripping-dvd-to-ipod-video.html</guid>
-        
-        
-        <category>PC</category>
         
         <category>Tutorials</category>
         

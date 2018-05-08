@@ -13,8 +13,8 @@
   <link href="https://file.myfontastic.com/HtdDgr9qYvgwoniccpdu3F/icons.css" rel="stylesheet">
   <link rel="stylesheet" href="/css/responsive-nav.css">
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://gbradhopkins.com/web/design/tutorials/2016/11/04/switching-to-jekyll-from-ee.html">
-  <link rel="alternate" type="application/rss+xml" title="gbradhopkins.com" href="http://gbradhopkins.com/feed.xml">
+  <link rel="canonical" href="http://localhost:4000/web/design/tutorials/2016/11/04/switching-to-jekyll-from-ee.html">
+  <link rel="alternate" type="application/rss+xml" title="gbradhopkins.com" href="http://localhost:4000/feed.xml">
     
 <!--Meta Data-->
     
@@ -124,23 +124,22 @@
 
 <p>I’ll admit, what follows is a bit of a cheat. I wanted to export my entries from EECMS to Jekyll but I just couldn’t figure out how without putting in a bunch of time that I didn’t have. So, instead, I came up with the following solution that I used to export <em>ALL</em> of my entries from EECMS to a single HTML file. This file exports each entry as a field in a table. Because most of my entries were old and no longer relevant, I was satisfied to use this as more of a time capsule, or archive, so that in the future I can look back at what I wrote.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>&lt;?php
-    header("Content-type: application/vnd.ms-excel");
-header("Content-Disposition: attachment; filename=gbradhopkins-entries-exports.xls");
-header("Pragma: no-cache");
-header("Expires: 0");
-?&gt;
-&lt;table&gt;
-&lt;tbody&gt;
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?php</span>
+    <span class="nb">header</span><span class="p">(</span><span class="s2">"Content-type: application/vnd.ms-excel"</span><span class="p">);</span>
+<span class="nb">header</span><span class="p">(</span><span class="s2">"Content-Disposition: attachment; filename=gbradhopkins-entries-exports.xls"</span><span class="p">);</span>
+<span class="nb">header</span><span class="p">(</span><span class="s2">"Pragma: no-cache"</span><span class="p">);</span>
+<span class="nb">header</span><span class="p">(</span><span class="s2">"Expires: 0"</span><span class="p">);</span>
+<span class="cp">?&gt;</span>
+<span class="nt">&lt;table&gt;</span>
+<span class="nt">&lt;tbody&gt;</span>
 {exp:channel:entries channel='tutorials' limit='500' disable="categories|member_data|pagination|trackbacks"}
-    &lt;tr&gt;
-	    &lt;td valign="top"&gt;{title}&lt;/td&gt;
-            &lt;td&gt;{tutorial_body}&lt;/td&gt;&lt;td&gt;{tutorial_image}&lt;/td&gt;&lt;td&gt;{tutorial_hero_image}&lt;/td&gt;
-    &lt;/tr&gt;
+    <span class="nt">&lt;tr&gt;</span>
+	    <span class="nt">&lt;td</span> <span class="na">valign=</span><span class="s">"top"</span><span class="nt">&gt;</span>{title}<span class="nt">&lt;/td&gt;</span>
+            <span class="nt">&lt;td&gt;</span>{tutorial_body}<span class="nt">&lt;/td&gt;&lt;td&gt;</span>{tutorial_image}<span class="nt">&lt;/td&gt;&lt;td&gt;</span>{tutorial_hero_image}<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
 {/exp:channel:entries}
-&lt;/tbody&gt;
-</code></pre>
-</div>
+<span class="nt">&lt;/tbody&gt;</span>
+</code></pre></div></div>
 
 <h2 id="exporting-individual-entries">Exporting Individual Entries</h2>
 
@@ -157,47 +156,45 @@ header("Expires: 0");
 
 <p>This is a very simple template but it gets the job done, creating a list of entries with links to download the individual files.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>&lt;ul&gt;
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;ul&gt;
 {exp:channel:entries channel="tutorials|reviews" dynamic="off" disable="member_data|pagination"}
 &lt;li&gt;&lt;a href="{title_permalink='exports/post'}" target="blank"&gt;{entry_date format='%Y-%m-%d'}-{url_title}.md&lt;/a&gt;&lt;/li&gt;
 {/exp:channel:entries}
 &lt;/ul&gt;
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p><strong>Entry Download Template</strong></p>
 
 <p>Clicking on the entry link from the list above, fires the template below which initiates the download process. If you are trying to use this template, make sure you turn on ‘Allow PHP’ in the template preferences in EE.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code><span class="p">{</span><span class="err">exp:channel:entries</span><span class="w"> </span><span class="err">channel=</span><span class="nt">"tutorials|reviews"</span><span class="w"> </span><span class="err">disable=</span><span class="nt">"member_data|pagination"</span><span class="err">}</span><span class="w">
-</span><span class="err">&lt;?php</span><span class="w">
-</span><span class="err">header(</span><span class="s2">"Content-type: text/markdown; charset=UTF-8"</span><span class="err">);</span><span class="w">
-</span><span class="err">header(</span><span class="s2">"Content-Disposition: attachment; filename={entry_date format='%Y-%m-%d'}-{url_title}.md"</span><span class="err">);</span><span class="w">
-</span><span class="err">header(</span><span class="s2">"Pragma: no-cache"</span><span class="err">);</span><span class="w">
-</span><span class="err">header(</span><span class="s2">"Expires: 0"</span><span class="err">);</span><span class="w">
-</span><span class="err">?&gt;</span><span class="w">
-</span><span class="err">---</span><span class="w">
-</span><span class="err">layout:</span><span class="w"> </span><span class="err">post</span><span class="w">
-</span><span class="err">title:</span><span class="w">  </span><span class="s2">"{title}"</span><span class="w">
-</span><span class="err">date:</span><span class="w">   </span><span class="p">{</span><span class="err">entry_date</span><span class="w"> </span><span class="err">format='%Y-%m-%d</span><span class="w"> </span><span class="err">%H-%i-%s'</span><span class="p">}</span><span class="w"> </span><span class="mi">-0500</span><span class="w">
-</span><span class="err">categories:</span><span class="w"> </span><span class="p">{</span><span class="err">categories</span><span class="p">}{</span><span class="err">category_name</span><span class="p">}{</span><span class="err">/categories</span><span class="p">}</span><span class="w">
-</span><span class="p">{</span><span class="err">if</span><span class="w"> </span><span class="err">tutorial_hero_image</span><span class="p">}</span><span class="err">image:</span><span class="w"> </span><span class="p">{</span><span class="err">tutorial_hero_image</span><span class="p">}{</span><span class="err">/if</span><span class="p">}</span><span class="w">
-</span><span class="p">{</span><span class="err">if</span><span class="w"> </span><span class="err">review_hero_image</span><span class="p">}</span><span class="err">image:</span><span class="w"> </span><span class="p">{</span><span class="err">review_hero_image</span><span class="p">}{</span><span class="err">/if</span><span class="p">}</span><span class="w">
-</span><span class="err">---</span><span class="w">
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{exp:channel:entries channel="tutorials|reviews" disable="member_data|pagination"}
+<span class="cp">&lt;?php</span>
+<span class="nb">header</span><span class="p">(</span><span class="s2">"Content-type: text/markdown; charset=UTF-8"</span><span class="p">);</span>
+<span class="nb">header</span><span class="p">(</span><span class="s2">"Content-Disposition: attachment; filename={entry_date format='%Y-%m-%d'}-</span><span class="si">{</span><span class="nv">url_title</span><span class="si">}</span><span class="s2">.md"</span><span class="p">);</span>
+<span class="nb">header</span><span class="p">(</span><span class="s2">"Pragma: no-cache"</span><span class="p">);</span>
+<span class="nb">header</span><span class="p">(</span><span class="s2">"Expires: 0"</span><span class="p">);</span>
+<span class="cp">?&gt;</span>
+---
+layout: post
+title:  "{title}"
+date:   {entry_date format='%Y-%m-%d %H-%i-%s'} -0500
+categories: {categories}{category_name}{/categories}
+{if tutorial_hero_image}image: {tutorial_hero_image}{/if}
+{if review_hero_image}image: {review_hero_image}{/if}
+---
 
-</span><span class="p">{</span><span class="err">exp:marker:tomarkdown</span><span class="p">}</span><span class="w">
-</span><span class="p">{</span><span class="err">tutorial_hero_image</span><span class="p">}</span><span class="w">
+{exp:marker:tomarkdown}
+{tutorial_hero_image}
 
-</span><span class="p">{</span><span class="err">tutorial_body</span><span class="p">}</span><span class="w">
+{tutorial_body}
 
-</span><span class="p">{</span><span class="err">tutorial_image</span><span class="p">}</span><span class="w">
+{tutorial_image}
 
-</span><span class="p">{</span><span class="err">review_body</span><span class="p">}</span><span class="w">
-</span><span class="p">{</span><span class="err">/exp:marker:tomarkdown</span><span class="p">}</span><span class="w">
+{review_body}
+{/exp:marker:tomarkdown}
 
-</span><span class="p">{</span><span class="err">/exp:channel:entries</span><span class="p">}</span><span class="w">
-</span></code></pre>
-</div>
+{/exp:channel:entries}
+</code></pre></div></div>
 
 <p>The one thing I couldn’t figure out was how to download the file with the .md file extension. Using the above code downloads a file with .md.html as the file extension. I simply used a renaming app to batch rename all of the files to .md.</p>
 
