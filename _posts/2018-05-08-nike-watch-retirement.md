@@ -11,7 +11,7 @@ On June 11, 2013 I ordered a [Nike+ SportWatch GPS Powered by TomTom ($168.27)](
 
 Initially, I used the Nike+ smartwatch almost exclusively but, after a bad experience in which a number of runs were not synchronized properly, I began to use the watch less frequently. I still used it on occassion, primarily when I wanted to get out and run without my phone (or, when the phone didn't have a sufficient charge).
 
-![Nike Sportwatch Image](../images/nike-watch-history.JPG)
+![Nike Sportwatch Image](/images/nike-watch-history.JPG)
 
 On April 16, 2018, I received the following email from Nike:
 
