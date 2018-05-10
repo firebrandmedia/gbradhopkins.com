@@ -9,7 +9,7 @@ I've been a dedicated user of running products in the Nike ecosystem since the o
 
 On June 11, 2013 I ordered a [Nike+ SportWatch GPS Powered by TomTom ($168.27)](https://amzn.to/2rrkcPW). This was around the time that smartwatches were starting to come on the market. I remember wearing my sportwatch to my son's field day and being asked if it was a smartwatch.
 
-Initially, I used the Nike+ smartwatch almost exclusively but, after a bad experience in which a number of runs were not synchronized properly, I began to use the watch less frequently. I still used it on occassion, primarily when I wanted to get out and run without my phone (or, when the phone didn't have a sufficient charge).
+Initially, I used the Nike+ Sportwatch almost exclusively but, after a bad experience in which a number of runs were not synchronized properly, I began to use the watch less frequently. I still used it on occassion, primarily when I wanted to get out and run without my phone (or, when the phone didn't have a sufficient charge).
 
 ![Nike Sportwatch Image](/images/nike-watch-history.JPG)
 
