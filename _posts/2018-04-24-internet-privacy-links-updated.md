@@ -15,7 +15,7 @@ Internet privacy and the way companies like Facebook, Google and Twitter use our
 *   [Why Privacy Matters Even if You Have ‘Nothing to Hide’][2]
 *   [Online Ads Can Now Follow You Home][3]
 *   [How ISPs can sell your Web history—and how to stop them][4]
-*   [DuckDuckGo Web Browser][5] An alternative to Google. Great results and they take you privacy seriously.
+*   [DuckDuckGo Search Engine][5] An alternative to Google. Great results and they take you privacy seriously.
 *   [Why you need a VPN][6] A VPN secures your computer’s internet connection to guarantee that all of the data you’re sending and receiving is encrypted and secured from prying eyes.
 *   [VPNs Ranked][7] 30+ different VPNs by their speed, reliability and logging policy
 *   [Are you ready? Here is all the data Facebook and Google have on you][8] This is eye-opening. I don't know if I'm more concerned with how they'd use the information or how someone else would.
