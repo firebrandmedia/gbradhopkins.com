@@ -1,0 +1,17 @@
+I"<p>How do search engines like google and yahoo! find a web site? How do they index the information on that web site to include it in their directory?</p>
+
+<p>It’s all done through the magic of spiders. According to webopedia.com [<a href="http://www.webopedia.com/TERM/s/spider.html">spider</a>] a spider, or web crawler, is “A program that automatically fetches Web pages. Spiders are used to feed pages to search engines. It’s called a spider because it crawls over the Web.”</p>
+
+<p>Spiders follow internal and external links on web pages to crawl the web and collect information. When you submit your site to a search engine, it is added to the list of sites to be crawled. Most web sites are found by being linked to from other web sites. That is why it is so important to have your web site linked to from other web sites. Especially sites that have a high ranking in your particular category or topic.</p>
+
+<p>But what does a spider see when it crawls your page? There are a number of different ‘Spider Simulators” that will let you see what a spider would see if it were to crawl your page. The results may be surprising.</p>
+
+<p>A google search for “Spider Simulators” will offer a number of results. The Search Engine Simulator I like is provided by <a href="http://www.1-hit.com/all-in-one/tool.search-engine-viewer.htm">1-hit.com</a>.</p>
+
+<p>The 1-Hit.com spider simulator not only shows you what a spider sees when it spiders your page, but also give feedback as to what you can do to help the spiders index your page properly.</p>
+
+<p>When I view <a href="http://www.1-hit.com/all-in-one/php/tool.search-engine-viewer.php?url=http%3A%2F%2Fgbrad.firebrand-media.com">my page through the eyes of a spider</a>, I am warned that I may have too many META tags and that only the keywords and description tag are useful. This may be something to consider changing if my page is not being indexed properly.</p>
+
+<p>Making sure that your pages are spidered properly is just one part of a comprehensive SEO (search engine optimization) plan.</p>
+
+:ET

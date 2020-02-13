@@ -1,0 +1,13 @@
+I"�<p>In a previous entry, I wrote about my use of Git and how I preferred to use a Git client (Tower) as opposed to the command line. In that entry, I listed some <a href="http://gbradhopkins.com/web/design/tutorials/2016/09/29/git-commit-workflow.html">basic Git commands</a>. These were the basic commands that I needed to push content to the repository for this site.</p>
+
+<p>Since then, I’ve been transitioning to the command line for more and more of my commits. I recently picked up the so-far, excellent book by David Demaree, <a href="https://abookapart.com/products/git-for-humans">Git for Humans</a> from A Book Apart. In this book, I’ve started to add some commands to my toolbox. I have decided to list the new commands that I am using, here, as much as a resource for myself, as anything else. Personally, I find that I run a few commands frequently but then forget some of the less used commands. This will be my go-to reference.</p>
+
+<p>Since we’re using the command line, these commands may not necessarily be specific to Git, but can be used with Git. If you are looking for tutorials on Git, check out the excellent <a href="https://www.atlassian.com/git/tutorials/what-is-git">Git tutorials from Atlassian</a>.</p>
+
+<h2 id="git-commands">Git Commands</h2>
+
+<p><code class="highlighter-rouge">mkdir</code></p>
+
+<p>Creates a new directory or folder within the directory that you are already in.</p>
+
+:ET

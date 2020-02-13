@@ -1,0 +1,77 @@
+I"d<p>Want to add some traffic to your web site? Try a Message Board (aka Forum). With a Message Board, visitors can discuss topics of interest. I have recently added a Message Board to my site, in hopes of helping people receive answers to their computer questions. In this tutorial, I’m going to show you how to add and customize a FREE Message Board.</p>
+
+<p>The message board that I am going to use is provided by <a href="http://www.bravenet.com/?afilid=492558309">Bravenet.com</a>. Bravenet offers a number of free web services for building site traffic. Another free service of theirs that I have used is their free email form. I chose Bravenet for two reasons 1)It’s Free and 2)Everything can be completely customized. You can integrate their services into your site by matching the look and feel of each tool.</p>
+
+<p><strong>Bravenet.com Sign Up</strong> : When you go to the Bravenet.com web site, you have to <a href="http://www.bravenet.com/?afilid=492558309">sign up for an account</a>. They ask you a minimal number of questions (Username, Password, Date of Birth, Zip Code, State, URL, Name of Site). Once you are signed in to their service, you then choose<img src="http://www.gbradhopkins.com/images/webdesign/message-board/first-click.gif" alt="" /> which resource you would like to add to your web site. Resources include mini-polls, java chat, <strong>Forums (Message Boards)</strong>, password protection, hit counters, news headline, site search and much more. To add a Message Board click on Register for the Forums (message boards) link (example above right). This will load a new page that says “New Service Registration Complete” and gives you the code to copy and paste into your page. <img src="http://www.gbradhopkins.com/images/webdesign/message-board/forum-manager.gif" alt="" /></p>
+
+<p><strong>Customize Your Forum</strong> : Once you have pasted the code into your page, you will want to customize the look and feel of the Message Board to match your web site. This is done using the forum manager (found on the same page as the New Service Registration Complete”. I’ll now give you a brief overview of each of the settings that can be changed.</p>
+
+<p><strong>General Settings</strong> : You can change the following parts of the forum to make it “your own”. Name of the Forum, add a description of what the forum is about, and add the URL of your web page. You can also turn on/off the following options for your forum:</p>
+
+<ul>
+  <li>Email Notification : be notified when a new post is added.
+    <ul>
+      <li>Allow HTML : allows users to add html to their posts.
+        <ul>
+          <li>Refuse Messages with swear words
+            <ul>
+              <li>Show users IP address in forum
+                <ul>
+                  <li>Disable Smilies
+                    <ul>
+                      <li>List site in forum index : help others to find your forum..
+                        <ul>
+                          <li>You can also add keywords, to help people find your forum
+                            <ul>
+                              <li>
+                                <p>Password Protection : Only want to allow certain people to access the forum? Here’s how.<br />
+&lt;/ul&gt;</p>
+
+                                <p><strong>Look &amp; Feel</strong> : This is where you will change the colors used in the forum. Options include, Font Face (Arial, Helvetica), Font size and Color used in the Title, and can also be set for the Forum itself.</p>
+
+                                <p><strong>Images</strong> : Here you can set the Title Image, Background Image and the Emoticon Set (see below) that you would like to use in your forum. To use title or background images you will need the URL to the image itself (<em>http://homepage.mac.com/bradhopkins/main-images/background.gif</em>).</p>
+
+                                <p>&lt;/div&gt;</p>
+
+                                <p><img src="http://www.gbradhopkins.com/images/webdesign/message-board/emoticon-set.gif" alt="" /></p>
+
+                                <p><strong>Other Options</strong> : The final four choices in the forum manager are more for maintenance purposes.</p>
+
+                                <ul>
+                                  <li>Delete Messages : Allows you to view and delete old or unwanted messages in the forum.
+                                    <ul>
+                                      <li>Copy/Paste Code : The code to add the forum to your web page.
+                                        <ul>
+                                          <li>Forum How-to : Tips on how to use the forum.
+                                            <ul>
+                                              <li>
+                                                <p>View Forum : Takes you to your forum to see the changes you have made.<br />
+&lt;/ul&gt;</p>
+
+                                                <p><strong>Final Thoughts</strong> : I decided not to use all of the features available (didn’t add a Title Image) but I really like the ease of use of the forum and the way it integrates with my web site. If there was one negative, it would have to be that when you go to the forum a pop-up ad comes up. This can be removed by using their pay service.</p>
+                                              </li>
+                                            </ul>
+                                          </li>
+                                        </ul>
+                                      </li>
+                                    </ul>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+:ET

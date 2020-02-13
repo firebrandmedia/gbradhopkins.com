@@ -1,0 +1,25 @@
+I"�<p>The ease with which you can create professional looking DVD’s using iDVD is one of the great advantages of using a Mac. In this tutorial. I’ll show you how to duplicated DVD’s that you have created using iDVD or DVD Studio Pro.</p>
+
+<p>The ease with which you can create professional looking DVD’s using iDVD is one of the great advantages of using a Mac. The only downside is that your DVD’s will look so good that members of your family are going to want their own copies. In this tutorial I will show you how to create a master copy of your DVD projects created in iDVD and DVD Studio Pro.<img src="http://gbradhopkins.com/images/mac/duplicate-dvds/therockdvd.gif" alt="" /><br />
+We’ll start with a DVD that you have created. <img src="http://gbradhopkins.com/images/mac/duplicate-dvds/diskutilityicon.gif" alt="" />In this example I am going to be using a project called ‘THE_ROCK’. This is a DVD that I created to chronicle my dads experience at the Buck Baker racing school in Rockingham, NC.First, insert your DVD. Once it mounts on the desktop, open up the Disk Utility [which can be found on your hard drive in Applications - Utilities - see icon right].Next, select your DVD from the list of drives in Disk Utility (see image right).Now, click on the Images menu and select new and then image from YOUR_PROJECT_HERE (see image below).<img src="http://gbradhopkins.com/images/mac/duplicate-dvds/selection.gif" alt="" /><img src="http://gbradhopkins.com/images/mac/duplicate-dvds/imagemenu.gif" alt="" />The Convert Image dialog box will open (see image below). Here, you will name the image (I gave mine the same name) and select the location to save it in. VERY IMPORTANT: You must also select the Image Format type. Select DVD/CD master from this drop down menu.</p>
+
+<p><img src="http://gbradhopkins.com/images/mac/duplicate-dvds/convertimage.gif" alt="" /></p>
+
+<p><img src="http://gbradhopkins.com/images/mac/duplicate-dvds/progress.gif" alt="" /></p>
+
+<p><img src="http://gbradhopkins.com/images/mac/duplicate-dvds/burn.gif" alt="" /></p>
+
+<p>You computer will then begin the process of converting (or duplicating) the image. The time it takes will vary depending on how much you have on the DVD.Once completed, you should now have a master DVD that can be used to burn multiple copies of any DVD that you have created.To burn a copy of your DVD, go back to Disk Utility and select the master copy that you created. It will be listed in the drive section (see image right).Finally, click on the burn icon in the Disk Utility tool bar, insert a blank DVD when prompted and burn away!</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>I’m sure the next question is, “Can I use it to copy a DVD that I bought?” Disk Utility will copy the DVD. The only problem seems to be that movies are ~ 8GB. Standard DVD-R that you would burn it on to are only ~ 4GB.</td>
+    </tr>
+    <tr>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+:ET

@@ -1,0 +1,28 @@
+I"b<p>Yesterday I wrote an article about my <a href="http://www.gbradhopkins.com/archives/2007/10/macos_105_leopa.html" title="First Impressions of MacOS 10.5 Leopard">first impressions of MacOS 10.5 ‘Leopard’</a>. Today, I have a slightly different perspective as for the first time ever, I’ve had a failure when installing a version of MacOS X. <br />
+In this article I’ll provide a way for you to (hopefully) recover the files that are on your system in the event that the same thing happens to you. </p>
+
+<p>The installation that I had trouble with was on an iMac G5 (I mentioned that I was having problems with the install in yesterday’s article). Fortunately, this is the least used computer in the house and serves only as a place to browse the web, keep our Quicken data and my wife uses it to check email and sync her Palm. (Why does it always seem that bad things happen to her computer?)</p>
+
+<p>Of course, I brazenly installed the new OS without doing any kind of backup (BIG MISTAKE) - if I’d have done a backup I wouldn’t be writing this article right now.</p>
+
+<p><strong>The Install Process</strong> </p>
+
+<p>The install process that I chose was a standard Upgrade (at one point I also chose to Archive and Install). The install begins as normal with an estimated completion time of 2 hours 30 minutes.  After a couple of hours I return to the computer to find the display is black so I hit the keyboard to wake it and then a big exclamation mark is displayed indicating that the install failed.  The first time that this happened, I thought “No big deal, let’s try it again.” After the third time I decided it was time to see if I could recover the files on the Mac.</p>
+
+<p><strong>The Recovery Process</strong></p>
+
+<p>I was unable to restart the Mac from the Hard Drive in 10.4 (it was not an option in the Startup Disk menu included with the Installation Disc). I started to panic here. I’ve lost my wife’s files before. It’s not a pretty site. I calmed myself and decided to try to start the computer in Firewire disk mode (Tutorial - <a href="http://www.gbradhopkins.com/archives/2004/10/using_firewire.html" title="Using Firewire Disk Mode">Using Firewire Disk Mode on Your Mac)</a>. It worked! I then connected a firewire cable from the unresponsive iMac to my PowerBook and viola, the seemingly dead drive (with all of my wife’s files no longer locked inside) sprang to life.</p>
+
+<p>Next, I had to find my wife’s User Folder - they were found in a folder called ‘Previous Systems,’ in a directory with the date and time of my first install attempt.  <a href="http://www.gbradhopkins.com/archives/upload/2007/10/directories.jpg" title="View Window">View the window and path.</a></p>
+
+<p>Once I found her User Folder, I simply started copying all of her files - Desktop, Documents, Pictures, Library (Mail and Widgets) over to the hard drive on my PowerBook (we’ll see if I can actually use the Library files once I get the new OS installed on the iMac - I hope so).</p>
+
+<p><strong>Final Thoughts </strong></p>
+
+<p>I believe the above process worked because I started with a standard upgrade as the install (as opposed to an archive and install). I’m not sure how successful this recovery process would have been had I performed a different install initially. The moral of the story is that you should always back up prior to doing an install of a new OS. I have one more installation to do tomorrow on a work computer and we’ll see if I take my own advice.</p>
+
+<p>If only Time Machine could actually take me forward in time so that I could have done a backup prior to installing   the new OS.</p>
+
+<p> </p>
+
+:ET

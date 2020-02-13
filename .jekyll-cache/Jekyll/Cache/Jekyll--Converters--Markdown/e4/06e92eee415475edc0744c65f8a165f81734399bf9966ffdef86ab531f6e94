@@ -1,0 +1,224 @@
+I"� <p>This is tutorial three (of what now looks like four) showing you how to install and customize a multi-user calendar on your web server/site. In this tutorial I will show you how to edit the CSS files to match the site calendar to your web site more exactly. For installation tips see tutorial 1 (<a href="http://gbrad.firebrand-media.com/archives/2004/10/install_a_multi.html">installing</a>) and 2 (<a href="http://gbrad.firebrand-media.com/archives/2004/10/installing_a_mu.html">adding to your web page</a>).</p>
+
+<p>As I recommended in part two of this tutorial, duplicate the .CSS files that you will be editing. For those unfamiliar with CSS, it is basically used to control the look (background, text, borders, links, roll overs, etc.) of the elements of your web page. It is especially useful because all of the styles for an entire web site can be contained within one or two files.</p>
+
+<p>I would recommend using a CSS editor. I’m using Adobe GoLive CS, which has a built in CSS editor. The benefit of a program like this is that you can visually see how the changes you are making will look. Macromedia Dreamweaver, and most other commercial web page design programs have a CSS editor included. If you are hand coding, you can download a CSS editor. A quick <a href="http://www.google.com/search?q=css+editor&amp;ie=UTF-8&amp;oe=UTF-8">google search</a> will provide a number of results.</p>
+
+<p>The CSS file that we will edit is default.css (see code below).</p>
+
+<p> </p>
+
+<style type="text/css">  
+
+
+<!—  
+
+
+/\*\*\*|\\*\*\*|\\*\*\*|\\*\*\*|\\*\*\*|\\*\*\*|\\*\*\*|\\*\*\*|\\*\*\*|\\*\*\*|\\*\*\*|\\*\*\*|\\*\*\*|\\*\*\*|\\*\*\*|\\*\*\*|\\*\*\*|\\*\*\*|\\*\*\*|\\*\*\*|\**  
+
+
+\*\*\*|\\*\*\*|\\***| Formatting For Month Table and Text \*\*\*|\\*\*\*|\\*\*\*|\\*\*\*|\\*\*\*|\*\*  
+
+
+\*\*\*|\\*\*\*|\\*\*\*|\\*\*\*|\\*\*\*|\\*\*\*|\\*\*\*|\\*\*\*|\\*\*\*|\\*\*\*|\\*\*\*|\\*\*\*|\\*\*\*|\\*\*\*|\\*\*\*|\\*\*\*|\\*\*\*|\\*\*\*|\\*\*\*|\\*\*\*|\**/  
+
+
+  
+
+
+A { font-family:arial, helvetica; color:#00F; text-decoration:underline }  
+
+
+SPAN { font-family:arial, helvetica }  
+
+
+TD { font-family:arial, helvetica }  
+
+
+BODY { background-color:#FFF }  
+
+
+  
+
+
+/\**\*|\* month and year header at top of calendar \**\*|\*/  
+
+
+.date_header { font-size:16px; font-family:arial, helvetica; font-weight:bold }  
+
+
+  
+
+
+/\**\*|\* color and size of calendar cells. \**\*|\*/  
+
+
+.day_cell { background-color:#EDECD8; height:80; width: 95; }  
+
+
+.empty\_day\_cell { background-color:#EEEEEE; height:80; width: 95; }  
+
+
+.today_cell { background-color:#F5F4ED; height:80; width: 95; }  
+
+
+  
+
+
+/\**\*|\* day number in upper left corner of each cell \**\*|\*/  
+
+
+.day_number { font-size:10px; font-family:verdana, arial, helvetica; color:#000 }  
+
+
+  
+
+
+/\**\*|\* title_txt is the text for each post on main page \**\*|\*/  
+
+
+.title_txt { font-size:10px; font-family:verdana, arial, helvetica; color:#000 }  
+
+
+.title_txt A:link { color:#00F; text-decoration:underline }  
+
+
+.title_txt A:active { color:#00F; text-decoration:underline }  
+
+
+.title_txt A:visited { color:#00F; text-decoration:underline }  
+
+
+.title_txt A:hover { color:#00F; text-decoration:underline }  
+
+
+  
+
+
+/\**\*|\* time line under title text when event time given \**\*|\*/  
+
+
+.time_str { font-size:9px; font-family:arial, helvetica }  
+
+
+  
+
+
+/\**\*|\* column headers or days of the week \**\*|\*/  
+
+
+.column_header { background-color:#2663E2; font-size:12px; font-family:arial, helvetica; color:#FFFFFF; font-weight:bold }  
+
+
+  
+
+
+/\**\*|\* footprint text \**\*|\*/  
+
+
+.footprint { font-size:10px; font-family:verdana, arial, helvetica; color:#000; font-weight:bold; }  
+
+
+.footprint A { font-size:10px; font-family:verdana, arial, helvetica; color:#00F; font-weight:bold; }  
+
+
+// end hiding—>  
+
+
+</style>
+
+<p>As you can see in the code above, the different parts of the code indicate what will be effected by the changes that we make. (<em>note - Any of the items in the code above can be changed to suit your needs or purposes.</em>) We are going to focus specifically on the cells for the days of the week (see code below).</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>/***</td>
+      <td>* color and size of calendar cells. ***</td>
+      <td>*/</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>.day_cell { background-color:#EDECD8; height:80; width: 95; }</p>
+
+<p>.empty_day_cell { background-color:#EEEEEE; height:80; width: 95; }</p>
+
+<p>.today_cell { background-color:#F5F4ED; height:80; width: 95; }</p>
+
+<p>As you can see, we can change the background color, and the height and width of each of the different cells here.</p>
+
+<ul>
+  <li>.day_cell (these are the cells for the days of the month.)
+    <ul>
+      <li>.empty_day_cell (these are the cells that fill out the beginning and end of the month but are empty [no date].)
+        <ul>
+          <li>
+            <p>.today_cell (this is, well, todays cell.) &lt;/ul&gt; 
+I want to make the cells match the color scheme of the site I am using it for (<a href="http://www.berkeleybaptistwv.net/phpEventCalendar/">Berkeley Baptist Church Calendar</a>) so I will leave the cell sizes as they are and focus on the background colors.</p>
+
+            <p>If you are coding by hand and need the web color palette, you may want to visit the Visibone site for their <a href="http://www.visibone.com/colorlab/">216-Color Webmaster’s Palette</a>. You can use it to find the colors you want, and simply type its value into the CSS code, in place of the bold text.</p>
+
+            <p>.day_cell { background-color:#<strong>EDECD8</strong>; height:80; width: 95; }</p>
+
+            <p>Here is the code for the colors that I chose:</p>
+
+            <table>
+              <tbody>
+                <tr>
+                  <td>/***</td>
+                  <td>* color and size of calendar cells. ***</td>
+                  <td>*/</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <p>.day_cell { background-color: #fffaf0; width: 95; height: 80 }</p>
+
+            <p>.empty_day_cell { background-color: #f5f5f5; width: 95; height: 80 }</p>
+
+            <p>.today_cell { background-color: #b0c4de; width: 95; height: 80 }</p>
+
+            <p>Next, you’ll probably want to change the column header. This includes the blue header and the text for the days of the week. We can change the background color, font size, font family and font color.</p>
+
+            <p>.column_header { color: #ffffff; font-size: 12px; font-family: arial, helvetica; font-weight: bold; background-color: #7cb3d2 }</p>
+
+            <p>Some other items you may want to change are as follows:</p>
+
+            <ul>
+              <li>date_header - bold black text that indicates which month you are currently viewing.
+                <ul>
+                  <li>day_number - the small number in the upper left of each day cell.
+                    <ul>
+                      <li>
+                        <p>title_txt - the text that is displayed when a user adds an item to the calendar. You will probably want to edit the .title_txt A:link, .title_txt A:active, .title_txt A:visited, and .title_txt A:hover code as well. &lt;/ul&gt; 
+As you can see from the before and after images (below) there are a number of changes that can be made by simply modifying a few lines of code in the default.css file.</p>
+
+                        <p><img src="http://gbradhopkins.com/images/webdesign/phpEventCalendar/cal-old.gif" alt="" /></p>
+
+                        <p><img src="http://gbradhopkins.com/images/webdesign/phpEventCalendar/cal-new.gif" alt="" /></p>
+
+                        <p>In the next part of this tutorial, we’ll modify the pop up windows that users see when logging in and viewing event information.</p>
+
+                        <p>Extra Resources:</p>
+
+                        <ul>
+                          <li><a href="http://www.visibone.com/colorlab/">Visibone 216-Color Webmaster’s Palette</a>
+                            <ul>
+                              <li><a href="http://ikemcg.com/scripts/pec/index.html">phpEventCalendar</a> &lt;/ul&gt; &lt;/div&gt;</li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+:ET

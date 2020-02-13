@@ -1,0 +1,35 @@
+I"^<p>The great thing about the internet is that if you have a problem, you can usually find a solution to that problem.  The problem I had was that my wife got a new Motorola V365 cell phone and we needed to transfer all of her contacts to the new phone and I thought iSync (via Bluetooth) would be the easiest way to do it. WRONG!</p>
+
+<p>iSync would not recognize the V365 (actually, it did recognize it - it just wouldn’t support it).</p>
+
+<p><img src="http://www.gbradhopkins.com/archives/upload/2007/07/Picture%201.png" alt="V365 Not Supported by iSync" title="V365 Not Supported by iSync" /></p>
+
+<p> </p>
+
+<p>Fortunately, a search provided a fast and easy solution to my problem.</p>
+
+<p>My search lead me to <a href="http://thefixer.org/v365.html" title="v365 iSync Plugin">thefixer.org/</a> and their v365 Plugin for iSync.</p>
+
+<p>Installation of the plugin was a breeze. Simply download the plugin (<a href="http://thefixer.org/v365.html" title="Download the V365 Plugin for iSync">download here</a>), drag the MotV365.phoneplugin to ~/Library/PhonePlugins (I actually had to create that directory) and then add the device through iSync. NOTE: The PhonePlugins directory should be created in the main Library on your Hard Drive, not the user Library that is found under your username (see image below). If the plugin does not work, verify that you have created the PhonePlugins directory in the correct location.</p>
+
+<p><a href="http://www.gbradhopkins.com/archives/upload/2007/07/Picture%202.png" title="Add v365 to Device List"><img src="http://www.gbradhopkins.com/archives/upload/2007/07/Picture%202.png" alt="Picture%203.png" title="Add v365 to Device List" /></a></p>
+
+<p>The actual image that iSync displays for the phone is not accurate (see below) but iSync will now allow you to sync all of your contacts and calendars.</p>
+
+<p> </p>
+
+<p><img src="http://www.gbradhopkins.com/archives/upload/2007/07/Picture%202.png" alt="Add v365 to Device List" title="Add v365 to Device List" /></p>
+
+<p> </p>
+
+<p>That’s all there is to it. You are now ready to start syncing! </p>
+
+<p> </p>
+
+<p> </p>
+
+<p> </p>
+
+<p> </p>
+
+:ET

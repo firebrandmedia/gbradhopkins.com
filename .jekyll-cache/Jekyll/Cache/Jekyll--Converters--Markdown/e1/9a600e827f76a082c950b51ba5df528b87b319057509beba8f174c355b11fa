@@ -1,0 +1,17 @@
+I"�	<p>Okay, so maybe horror story is a bit much. But, maybe not. Apple released an update to MacOS X Panther yesterday (<a href="http://www.apple.com/support/downloads/macosxupdate1038.html">10.3.8 - found here</a>) and as usual, I installed it without hesitation. Unfortunately, that’s where things went awry.</p>
+
+<p>The installation was done on an iMac G3, 400 MHZ, slot loading cd drive (pictured). <img src="http://www.gbradhopkins.com/images/mac/macosX/10_3_8_update/iMacGraphite.jpg" alt="" />The install was done through the Apple Software Update menu and went as usual. Unfortunately, after restarting the computer, the display was void of colors and seemed to be in a sort of grayscale mode. Beyond the fact that you could barely read what was on the screen, the computer behaved as it normally would. All of the applications responded as they should, the system preferences were available, just no color.</p>
+
+<p>After a little bit head scratching, I started to check some of the settings to see what was going on. I started at the Display preferences panel, where the color mode was set to 256 colors with no other options available. Normally, you would have the option of 256 colors, thousands or millions. Next, I launched the Apple System Profiler. Here, I checked the video card and found that it was set to 8 bit color depth, as opposed to 32-bit color depth as it should be.</p>
+
+<p>Next, I tried repairing disk permissions through the Disk Utility. Again, no luck. At this point the computer is stuck in Grayland. The next step will be to back it up and do a complete reinstall of MacOS 10.3. Luckily, this is not a primary computer. It’s basically used as a jukebox, a web browser and for email.</p>
+
+<p>A search of the Apple Discussions Forum wasn’t very helpful. Others have had problems related to installing 10.3.8 but none seem to be like my problem.</p>
+
+<p>Updates will follow throughout the entire process of cleaning up this mess left by MacOS 10.3.8.</p>
+
+<p>Have a similar upgrade issue? A suggestion? Something different?</p>
+
+<p><strong>Update:</strong> I never came up with the solution to this odd problem. Ultimately, I had to reinstall MacOS 10.3.  After doing a backup Idid a clean install of MacOS 10.3.  I then crossed my fingers and ran the combined update for 10.3.8. It worked as it was supposed to. No problems. If anyone comes up with the solution, please post it in the comments, so that others can solve the problem, should it arise.</p>
+
+:ET

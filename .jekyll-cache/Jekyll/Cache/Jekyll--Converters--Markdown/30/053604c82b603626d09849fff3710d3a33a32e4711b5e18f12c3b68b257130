@@ -1,0 +1,35 @@
+I"�<p>How do you find news on the internet? If you are like most people, then you probably have a few “Trusted” sites that you visit daily to keep up to date. This described me to a T. Here is an idea of what my browsing habits looked like, just one week ago.</p>
+
+<p>Launch Safari…<a href="http://www.macminute.com">MacMinute</a> (<em>home page</em>)…<a href="http://news.google.com">Google News</a> (<em>browse headlines</em>)…<a href="http://www.cnn.com">CNN.com</a> (<em>more headlines</em>)…<a href="http://www.wired.com">Wired</a>…<a href="http://www.news.com">News.com</a> (<em>tech headlines</em>)…<a href="http://www.espn.com">ESPN.com</a> (<em>browse sports headlines</em>)…<a href="http://www.macosrumors.com">MacOS Rumors</a> (<em>look for juicy Mac rumors, speculation</em>)…<a href="http://www.washingtonpost.com">Washington Post</a> (<em>Check out recent Tony Kornheiser, Michael Wilbon stories</em>)…<a href="http://www.baltimoresun.com">BaltimoreSun.com</a> (<em>check to see how the Baltimore Orioles did</em>)…Quit Safari.</p>
+
+<p>Browsing time - 20 minutes (10 on a slow news day).</p>
+
+<p>That’s it. But there has to be more…right? I mean, it’s the WORLD WIDE WEB for crying out loud. If you are using your web browser to get the bulk of your news then stay tuned. I’m about to show you how you can get more news, more efficiently. Oh, and did I mention for FREE!</p>
+
+<p>In this review / tutorial I’m going to take a look at <a href="http://ranchero.com/netnewswire/">NetNewsWire Lite by Ranchero Software</a>. NetNewsWire, according to the Ranchero web site, is ‘an easy-to-use RSS Web news reader for Mac OS X. Its familiar three-paned interface —similar to Apple Mail and Outlook Express—can fetch and display news from thousands of different web sites and weblogs, making it quick and easy to keep up with the latest news’. <em>NetNewsWire Lite is free while the full version offers additional features for $39.95 (USD). Click here for more information on <a href="http://ranchero.com/netnewswire/">NetNewsWire</a>.</em></p>
+
+<p><strong>Background</strong> What is RSS? RSS stands for <strong>R</strong>eally <strong>S</strong>imple <strong>S</strong>yndication and is an easy way for web sites to share headlines and stories so that other sites can integrate them into their pages. RSS is written in XML. Check out my tutorial on how to employ a simple RSS news feed for your own web site.</p>
+
+<p>NetNewsWire is an easy to use application that allows you to quickly subscribe, download, and browse stories from thousands of web sites. The beauty of an RSS feed is that it is generally free of layout code, heavy graphics and advertising. This makes downloading very fast.</p>
+
+<p><strong>Subscriptions</strong> :: Each site or feed that you subscribe to is listed in the first pane in NetNewsWire. The program comes with a preselected set of subscriptions. Subscriptions are removed by control clicking on them and selecting ‘Unsubscribe’ from the menu.</p>
+
+<p>NetNewsWire can be set to update at your preferred intervals. Any site with unread articles will be blue, with the number of unread articles in parentheses.</p>
+
+<p><strong>Site/Feed Headlines</strong> :: Each site will have a list of the recent articles that have been updated on their site. Unread articles are written in blue.</p>
+
+<p><strong>Article Summary</strong> :: To view the article summary simply click on the name of the article in the headlines pane. This will bring up a description of the article itself (if available). See image right. Clicking on the Title of the summary (pointed to with red arrow in image right) will open your web browser to that article.</p>
+
+<p><strong>Sites You Can Subscribe To</strong> :: There are two ways to subscribe to site feeds in NetNewsWire Lite. The first is to go to the Sites You Can Subscribe To pane and select sites from there.</p>
+
+<p>The second way is to go to the subscription menu and select ‘Subscribe’. This method is used to subscribe to sites that are not listed in the Subscription Pane. Once you select subscribe, you can then type in the address of the RSS feed. For example: I created a feed for this web site. To subscribe to it you would type the following into the subscription box.</p>
+
+<p><strong>http://gbradhopkins.com/index.rdf</strong></p>
+
+<p>Doing this will add gBradhopkins.com to your list of subscriptions.</p>
+
+<p><strong>You’ve Got News</strong> :: Like the MacOS X Mail application, NetNewsWire’s dock icon gives instant feedback without bringing the application forward. The dock icon displays the number of unread, new articles in a red box, similar to the new mail indicator.</p>
+
+<p><strong>Wrap Up</strong> :: In my opinion, NetNewsWire Lite is a <strong>must have utility</strong>. Programs like this make the internet more user friendly in a time when it seems we are overwhelmed with obtrusive advertising and people trying to get our attention (and money).</p>
+
+:ET

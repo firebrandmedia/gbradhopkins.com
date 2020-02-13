@@ -1,0 +1,34 @@
+I"�<p>Generally, I don’t use the command line to interact with my version controlled client accounts. In most cases, I prefer to use <a href="https://www.git-tower.com">Tower</a>, a great Git client for Mac and Windows but in the case of gbradhopkins.com, I decided to use the command line as a way of becoming more familiar with it. Below are the basic commands that I use to push content to my Github account.</p>
+
+<p>These are the steps for commiting new or updated content to my <a href="https://github.com/firebrandmedia">Github account</a>. As I use Git more, hopefully these will become muscle memory and I’ll no longer need this document. Until then…</p>
+
+<h2 id="commands-for-pushing-content">Commands for pushing content</h2>
+
+<p>After creating or editing a file, run the following commands in the Terminal.</p>
+
+<p><code class="highlighter-rouge">git status</code></p>
+
+<p>This is an optional command. It simply shows what has changed and results in something like this:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>modified:   _includes/head.html
+modified:   _sass/_gbradhopkins.scss
+modified:   css/main.scss
+</code></pre></div></div>
+<p>We can then review the list of changes and if satisfied, move to the next step.</p>
+
+<p><code class="highlighter-rouge">git add .</code></p>
+
+<p><code class="highlighter-rouge">git commit -m 'Commit message here'</code></p>
+
+<p>After adding our commit message and hitting enter, we receive a message indicating what we’ve done (or are about to do).</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[gh-pages c5656de] git article update
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+</code></pre></div></div>
+
+<p><code class="highlighter-rouge">git push </code></p>
+
+<p>That’s it. All done. The files are now commited to the repository that we’ve been working in.</p>
+
+<p>Next up, how to access that repository from another computer to continue working on it.</p>
+:ET

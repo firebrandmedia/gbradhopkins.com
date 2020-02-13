@@ -1,0 +1,28 @@
+I"l<p>In a previous post (<a href="http://www.gbradhopkins.com/archives/2005/11/why_test_your_w.html" title="Read: Why test your website in different browsers?">Why test your website in different browsers?</a>) I talked about the importance of testing your website in a variety of browsers to ensure that it will be rendered properly no matter what browser a visitor to your site is using.</p>
+
+<p>With the launch of the iPhone, mobile web browsing is going to be taken to a whole new level and you, as a web developer need to be sure that sites you develop render properly when viewed not only on the desktop but also on handheld devices like the iPhone (and other mobile phones). </p>
+
+<p>Luckily (unless you have an extra $499 lying around for testing purposes), <a href="http://www.marketcircle.com/iphoney/" title="iPhoney from Marketcircle.com">Marketcircle</a> has released an iPhone web simulator for designers which they are calling iPhoney. Best of all, iPhoney is open source - FREE.</p>
+
+<p>About iPhoney [from the Marketcircle website]:</p>
+
+<p><em><strong>Looking for a way to see how your web creations will look on iPhone?</strong> Look no further. iPhoney gives you a pixel-accurate web browsing environment—powered by Safari—that you can use when developing web sites for iPhone. It’s the perfect 320 by 480-pixel canvas for your iPhone development. And it’s free.</em> 
+<em>iPhoney is <strong>not an iPhone simulator</strong> but instead is designed for web developers who want to create 320 by 480 (or 480 by 320) websites for use with iPhone. It gives you a canvas on which to test the visual quality of your designs.</em></p>
+
+<p>iPhoney is a 1.4MB download </p>
+
+<p>In some brief testing, everything seems to work pretty well (hard to tell how accurate the iPhoney is without an actual iPhone to compare it to) but I did notice that a few of the Web Apps for iPhone (<a href="http://www.ilounge.com/index.php/iphone-software/P0/" title="iPhone web apps list from iLounge">a pretty good list of web apps here at iLounge</a>) did look a bit wonky.</p>
+
+<p>All of the links are clickable and as you would expect you can view the page in horizontal or vertical mode to truly simulate viewing your site as an iPhone user might. You can turn on / off Zoom To Fit which simulates viewing the site by tapping or pinching.</p>
+
+<p>With all of the hype surrounding the iPhone, I’m sure this open-source project will gain momentum in the coming weeks. </p>
+
+<p><strong>  iPhoney simulating gBradhopkins.com vertical mode with Zoom to Fit turned off.</strong></p>
+
+<p>  <img src="http://www.gbradhopkins.com/archives/upload/2007/06/iPhoney-01.jpg" alt="iPhoney-01.jpg" /> </p>
+
+<p><strong>iPhoney simulating gBradhopkins.com in horizontal mode with Zoom to Fit turned off.</strong></p>
+
+<p>  <img src="http://www.gbradhopkins.com/archives/upload/2007/06/iPhoney-02.jpg" alt="iPhoney-02.jpg" /></p>
+
+:ET

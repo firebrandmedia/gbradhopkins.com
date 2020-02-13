@@ -1,0 +1,41 @@
+I"�<p>In this Mac Tutorial, I’m going to show you how you can rip a DVD for playback on a new <a href="http://www.amazon.com/exec/obidos/redirect?link_code=ur2&amp;camp=1789&amp;tag=technologyfor-20&amp;creative=9325&amp;path=http://www.amazon.com/gp/product/B000A3WS20?v=glance%26n=172282%26n=507846%26s=electronics%26v=glance">iPod (5th Generation - Video)</a><img src="http://www.assoc-amazon.com/e/ir?t=technologyfor-20&amp;l=ur2&amp;o=1" alt="" />. To complete this we will need the “GPL’d multiplatform, multithreaded DVD to MPEG-4 ripper/converter,” <a href="http://handbrake.m0k.org/">HandBrake (version 0.7)</a>. <img src="http://www.gbradhopkins.com/archives/upload/2005/11/handbrake-icon.gif" alt="handbrake-icon.gif" /></p>
+
+<p><em>The instructions that I’m providing allow you to use the ripped video files on your iPod. If you would simply like to rip a DVD for playback on a laptop or only in iTunes itself, use the default settings set by HandBrake.</em><br />
+**<br />
+Ripping Content for iPod Video**</p>
+
+<p>First, insert the DVD that you would like to rip for use on the iPod. In this example I am ripping <a href="http://www.amazon.com/exec/obidos/redirect?link_code=ur2&amp;camp=1789&amp;tag=technologyfor-20&amp;creative=9325&amp;path=http://www.amazon.com/gp/product/B000A9QKRI?v=glance%26n=130%26n=507846%26s=dvd%26v=glance">Arrested Development Season 2, Disc 3 DVD</a><img src="http://www.assoc-amazon.com/e/ir?t=technologyfor-20&amp;l=ur2&amp;o=1" alt="" />.</p>
+
+<p>Upon insertion of the disc, the Apple DVD player will launch and we’ll subsequently quit that. Next, we’ll open HandBrake and click on Open DVD from the file menu. We will then select the Detected Volume and click Open. HandBrake will then scan the various chapters of the disc (see images below).</p>
+
+<p>[![http://www.gbradhopkins.com/archives/upload/2005/11/HandBrake_Select_Volume-thumb.gif][7]][7] [![http://www.gbradhopkins.com/archives/upload/2005/11/HandBrake_Scanning-thumb.gif][8]][8]</p>
+
+<p>We will now have to select the Title that contains the video that we want to rip. On the Arrested Development disc, I would rip the first six chapters in the Title Menu. On a full length movie we would have to look at the Duration to find the video that we want to rip (see images below).  [*On a full length movie we will know that the video is the correct video to rip because it will have the longest duration. *]</p>
+
+<p>[![http://www.gbradhopkins.com/archives/upload/2005/11/HandBrake_Title_Select-thumb.gif][9]][9] [![http://www.gbradhopkins.com/archives/upload/2005/11/HandBrake_Duration-thumb.gif][10]][10]</p>
+
+<p>Next, we’ll adjust the video settings to rip the video in the format that is required for the iPod. There are primarily three settings that will need to be adjusted. (1) Average bitrate, (2) 2-Pass Encoding and (3) Picture settings. Set Average bitrate to 400, select the check box for 2-Pass Encoding and in the Picture settings adjust the size of the image down to 320 x 176 (see images below).</p>
+
+<p>[![http://www.gbradhopkins.com/archives/upload/2005/11/Handbrake_settings-thumb.gif][11]][11]</p>
+
+<p>[![http://www.gbradhopkins.com/archives/upload/2005/11/HandBrake_Picture-thumb.gif][12]][12]</p>
+
+<p>Finally, adjust the Destination settings. Here we will change the File (name) and the location that the file will be saved to by typing in a name (make sure to add or keep the .mp4 file extension) and selecting browse to select the destination (see images below).</p>
+
+<p>[![http://www.gbradhopkins.com/archives/upload/2005/11/Handbrake_destination-thumb.gif][13]][13]</p>
+
+<p>Now, hit Rip and HandBrake will begin ripping the video (see image below). Each 22 minute episode of Arrested Development took roughly 30 minutes to rip.</p>
+
+<p><a href="http://technorati.com/tag/iPod"><img src="http://technorati.com/tag/iPod" alt="http://www.gbradhopkins.com/archives/upload/2005/11/Handbrake_encoding-thumb.gif" /></a></p>
+
+<p>Once the file has been ripped, drag it into iTunes (version 6 or higher), connect your <a href="http://technorati.com/tag/iPod">iPod</a> and do a sync. The file should now be available for viewing on your iPod.</p>
+
+<p><strong>Setting up the Queue in HandBrake</strong></p>
+
+<p>If you are going to be ripping multiple chapters of a DVD then you will want to set up the queue. Setting up the queue is simple as long as you remember that you have to adjust the settings for each Title (Chapter) of the DVD that you want to rip.</p>
+
+<p>In a nutshell, adjust the settings for the first Title that you want to add to the queue according to the steps above, and then click on Add to queue. Now, make the adjustments for the next Title that you want to rip and click Add to queue and continue for all Titles that you want to rip. <strong>NOTE - Picture settings and File name MUST be changed for each Title that you want to add to the queue.</strong></p>
+
+<p>Once you have added all of the Titles to the queue click Rip and HandBrake will begin Ripping the video.</p>
+
+:ET

@@ -1,0 +1,59 @@
+I"v<p>Phisher Schemes are on the rise. Are you at risk? <img src="http://www.gbradhopkins.com/images/internet/phishing/citi.gif" alt="Citibank Logo" />This is not a Windows problem or a Macintosh problem. This is an internet problem and anyone who spends time or money online needs to be aware of this growing trend. In this quick internet security tutorial, we’ll take a look at one of the ways that we’re all at risk and how we can avoid getting caught in the net.</p>
+
+<p>What is a Phisher Scheme? According to <a href="http://www.webopedia.com/TERM/p/phishing.html">Webopedia.com</a>, Phishing (fish´ing) is the act of sending an e-mail to a user falsely claiming to be an established legitimate enterprise in an attempt to scam the user into surrendering private information that will be used for identity theft. The e-mail directs the user to visit a Web site where they are asked to update personal information, such as passwords and credit card, social security, and bank account numbers, that the legitimate organization already has. The Web site, however, is bogus and set up only to steal the user’s information. For example, 2003 saw the proliferation of a phishing scam in which users received e-mails supposedly from eBay claiming that the user’s account was about to be suspended unless he clicked on the provided link and updated the credit card information that the genuine eBay already had. Because it is relatively simple to make a Web site look like a legitimate organizations site by mimicking the HTML code, the scam counted on people being tricked into thinking they were actually being contacted by eBay and were subsequently going to eBay’s site to update their account information. By spamming large groups of people, the “phisher” counted on the e-mail being read by a percentage of people who actually had listed credit card numbers with eBay legitimately.</p>
+
+<p>Phishing, also referred to as brand spoofing or carding, is a variation on “fishing,” the idea being that bait is thrown out with the hopes that while most will ignore the bait, some will be tempted into biting.</p>
+
+<p>Below you will see the text of an email message that I received just the other day. It is one of many ‘Phisher Schemes’ that are starting to populate inboxes around the world.</p>
+
+<p>From: Customer Support <a href="mailto:support@citibank.com">support@citibank.com</a><br />
+Date: November 12, 2004 12:01:57 AM EST<br />
+To: Info <a href="mailto:info@firebrand-media.com">info@firebrand-media.com</a><br />
+Subject: Dear customer your details have been compromised</p>
+
+<p>Dear Customer:</p>
+
+<p>Recently there have been a large number of cyber attacks pointing our database servers. In order to safeguard your account, we require you to sign on immediately.</p>
+
+<p>This personal check is requested of you as a precautionary measure and to ensure yourselves that everything is normal with your balance and personal information.</p>
+
+<p>This process is mandatory, and if you did not sign on within the nearest time your account may be subject to temporary suspension.</p>
+
+<p>Please make sure you have your Citibank(R) debit card number and your User ID and Password at hand.</p>
+
+<p>Please use our secure counter server to indicate that you have signed on, please click the link bellow:</p>
+
+<p>http://218.12.29.40/scripts/</p>
+
+<p>!! Note that we have no particular indications that your details have been compromised in any way.</p>
+
+<p>Thank you for your prompt attention to this matter and thank you for using Citibank(R)</p>
+
+<p>Regards,</p>
+
+<p>Citibank(R) Card Department</p>
+
+<p>(C)2004 Citibank. Citibank, N.A., Citibank, F.S.B.,<br />
+Citibank (West), FSB. Member FDIC.Citibank and Arc<br />
+Design is a registered service mark of Citicorp.</p>
+
+<p>Ultimately you have to have your skeptics hat on when checking your email. Here are some tips that can help you determine real from fake:</p>
+
+<ul>
+  <li>Look for spelling mistakes. This is a dead giveaway that the email is not legit.
+    <ul>
+      <li>Look at the date. The date of the above email is 11/12/2004. That would be no problem, except for the fact that I got it on 11/11/2004.
+        <ul>
+          <li>
+            <p>The email address in my message was also a give-away. While the address is legit, it a rarely used address that receives a lot of spam. It’s not an address that I would give a financial institution. &lt;/ul&gt;
+For more information on how not to get caught in a Phishers net, visit the web site for the <a href="http://www.ftc.gov/bcp/conline/pubs/alerts/phishingalrt.htm">Federal Trade Commission</a>.</p>
+
+            <p> </p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+:ET

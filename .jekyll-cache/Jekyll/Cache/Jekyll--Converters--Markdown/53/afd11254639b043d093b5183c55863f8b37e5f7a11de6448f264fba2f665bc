@@ -1,0 +1,30 @@
+I"D<p>Finally made the switch from the Safari web browser to Firefox? (BTW - If you haven’t yet, I recommend you give <a href="http://www.mozilla.org/products/firefox/">Firefox</a> a test drive). With this quick tutorial I’ll show you how to change your default web browser in MacOS X (Panther).</p>
+
+<p>Let’s get started.</p>
+
+<p>You would probably expect to find the setting for the default web browser in the System Preferences but alas, it’s not there. To change your default browser, open Safari and go to the Safari Menu (upper left of your screen -menu bar - see image 1 below) and click on Preferences (image 2 below).</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src="http://www.gbradhopkins.com/images/mac/system/safari-menubar.gif" alt="" /></td>
+    </tr>
+    <tr>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><img src="http://www.gbradhopkins.com/images/mac/system/safari-prefs-menu.gif" alt="" /></td>
+    </tr>
+    <tr>
+      <td><img src="http://www.gbradhopkins.com/images/mac/system/default-browser.gif" alt="" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Clicking on Preferences will bring up the preferences menu (image below). Finally, select the browser of your choice from the Default Browser Menu and click the close button. Now any time that you click on a URL in a email or on a disk, it will open in your newly set default browser.</p>
+
+<p><a href="http://www.mozilla.org/products/firefox/">Firefox Download</a> [Mozilla.org] 
+<a href="http://www.gbradhopkins.com/archives/2004/11/firefox_10_the.html">Firefox 1.0 - The IE Killer</a> [gBradhopkins.com]
+&lt;/div&gt;</p>
+
+:ET

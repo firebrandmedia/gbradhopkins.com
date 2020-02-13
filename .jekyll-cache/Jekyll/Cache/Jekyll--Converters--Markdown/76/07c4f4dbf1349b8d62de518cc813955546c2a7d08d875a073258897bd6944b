@@ -1,0 +1,28 @@
+I"�<p>My daughter decided to confound me this afternoon by hitting the option key 5 times on our MacMini. She did this accidentally, and without knowing that she did, but once she did, the keyboard no longer worked in its normal way. Unbeknownst to me, she enabled Mouse Keys.</p>
+
+<h2 id="what-are-mouse-keys">What Are Mouse Keys?</h2>
+
+<p>Mouse Keys allow you to use your keyboard to move your pointer around the screen instead of a mouse or trackpad.</p>
+
+<blockquote>
+  <p>“When Mouse Keys is enabled with one of these keyboards, you can use the keys 7,8,9, U, I, O, J, K, L, M, and ‘.’ (period) to control movement of the mouse pointer and mouse clicking, but other numbers, letters, and keys cannot be used. (Keyboards with no numeric keypad or Num Lock key include: Apple Wireless Keyboard (2007), the built-in keyboard on MacBook (Late 2007) or newer, MacBook Air, or MacBook Pro (Early 2008), or newer.) The following keys will continue to operate normally when Mouse Keys is enabled: Esc, Function keys, Eject, Delete, Tab, Shift, fn, Control, Option, Command, and the arrow keys.</p>
+</blockquote>
+
+<p>I had no idea such a feature existed and was racking my brain to figure out what the issue was. I restarted several times, disconnected the keyboard (bluetooth), zapped the <a href="https://support.apple.com/en-us/HT204063">NVRAM</a> and tried various other types of voodoo to no avail. Finally, I stumbled upon an article from <a href="https://www.cnet.com/news/mac-keyboard-not-working-mouse-keys-may-be-activated/">2009 on CNet</a> which described my issue.</p>
+
+<h2 id="enabline--disabling-mouse-keys">Enabline / Disabling Mouse Keys</h2>
+
+<p>If you have no intention of ever using Mouse Keys, I’d recommend disabling it altogether. Not surprisingly, the option is found under Accessibility, which seems to be a treasure trove of goodies to enhance (or, impair) your computer.</p>
+
+<p><img src="/images/mouse-keys-1.png" alt="&quot;Accessibility Menu Screen Capture&quot;" title="Accessibility Menu" /></p>
+
+<p>Once you are in the Accessibility system preference pane, click on ‘Mouse &amp; Trackpad’ to show the check-box for enabling / disabling Mouse Keys.</p>
+
+<p><img src="/images/mouse-keys-2.png" alt="&quot;Mouse &amp; Trackpad Preference Pane Screen Capture&quot;" title="Mouse &amp; Trackpad Preference Pane Screen Capture" /></p>
+
+<p>Ticking the checkbox enables Mouse Keys and reneders your keyboard otherwise useless. To set the option for enabling by tapping ‘option’ 5 times, click on the options button.</p>
+
+<p><img src="/images/mouse-keys-3.png" alt="&quot;Mouse &amp; Trackpad Preference Pane Screen Capture&quot;" title="Mouse &amp; Trackpad Preference Pane Screen Capture" /></p>
+
+<p>It’s a bit disappointing that they don’t actually indicate the keys to use to move the pointer around the screen. Without the guide of which keys to use, this feature seems less helpful than it could be.</p>
+:ET

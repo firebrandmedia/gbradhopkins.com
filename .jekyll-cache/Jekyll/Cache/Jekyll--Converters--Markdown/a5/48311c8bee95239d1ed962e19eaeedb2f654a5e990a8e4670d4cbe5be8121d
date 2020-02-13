@@ -1,0 +1,21 @@
+I"5<p>How do you display your web site logo in the address bar? Use favicon, a bit of code and this tutorial.</p>
+
+<p>What is favicon? Favicon is a custom site logo that can be added to your web site. This logo shows up in the address bar and can add a professional look to your site. See image below. <em>note - some browsers do not support favicon.</em></p>
+
+<p><img src="http://www.gbradhopkins.com/images/webdesign/favicon/Netscape-screenshot.gif" alt="" /></p>
+
+<p>gbradhopkins.com favicon in Netscape 7</p>
+
+<p>Adding favicon to your site is a fairly simple, two step process.</p>
+
+<p><strong>Create the file</strong> : First, you must create the favicon file. This file has to be a .ico (windows icon) file with dimensions of 16 x 16 pixels. <em>I used <a href="http://www.versiontracker.com/dyn/moreinfo/macosx/11559">Graphic Converter</a> (Mac) to create my .ico file but there are many programs available that will do the job (search for .ico at <a href="http://www.download.com">download.com</a>).</em></p>
+
+<p><strong>Implementing</strong> : Option 1) If you have root access then you can simply put the .ico file in the root level of your web site. This is the easiest way and will ensure that every page in your site will have the icon. When using this method, the file must be named favicon.ico.</p>
+
+<p>Option 2) If you do not have root access, then you can add a small snippet of code to each page that you would like the icon to be displayed on.</p>
+
+<p><em><link rel="SHORTCUT ICON" href="/~your_directory/logo.ico" /></em></p>
+
+<p>Add this code between the &lt;HEAD&gt; and &lt;/HEAD&gt; tags of your page, replacing <em>/~your_directory/logo.ico,</em> with the location and name of your .ico file. Using this method, you can name the file anything you like and can use different files for different sections of your site.</p>
+
+:ET

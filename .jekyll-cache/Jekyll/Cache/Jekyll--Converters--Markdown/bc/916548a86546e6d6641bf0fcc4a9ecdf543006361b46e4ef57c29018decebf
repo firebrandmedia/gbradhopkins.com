@@ -1,0 +1,41 @@
+I"<p>Changing the resolution of your screen can greatly change the way things look on your screen. Text too small? Change your screen resolution.</p>
+
+<p>Changing the size of your desktop is done by changing the resolution of your screen. Here are the steps:</p>
+
+<ol>
+  <li>Right Click on your desktop (anywhere except on an icon).
+    <ul>
+      <li>Select [click on] Properties. The <em>Display Properties</em> dialog box will open.
+        <ul>
+          <li>Click on the Settings Tab.
+            <ul>
+              <li>Find the <em>Screen Area</em> Slider.
+                <ul>
+                  <li>To make your screen area smaller, drag the slider toward <em>less</em>. To make your screen area larger, drag your slider toward <em>more</em>. [Generally, 800 X 600 or 1024 X 768 are the best settings.]
+                    <ul>
+                      <li>Once you have adjusted the screen to the desired size, click <em>Apply</em>.
+                        <ul>
+                          <li>You will get a message saying that Windows will now re size your desktop. Click <em>OK</em>.
+                            <ul>
+                              <li>Your computer will now re size your screen and then ask you if you want to keep the new setting.
+                                <ul>
+                                  <li>Click <em>Yes</em> or No and then click OK to close the display properties dialog box.&lt;/p&gt;</li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ol>
+
+:ET

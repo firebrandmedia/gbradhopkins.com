@@ -4,11 +4,11 @@
     <title>gbradhopkins.com</title>
     <description>An assortment of tutorials and thoughts on computers, web design and how the internet impacts us all.
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 11 Sep 2019 08:29:48 -0400</pubDate>
-    <lastBuildDate>Wed, 11 Sep 2019 08:29:48 -0400</lastBuildDate>
-    <generator>Jekyll v3.8.1</generator>
+    <link>http://gbradhopkins.com/</link>
+    <atom:link href="http://gbradhopkins.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 13 Feb 2020 12:33:46 -0500</pubDate>
+    <lastBuildDate>Thu, 13 Feb 2020 12:33:46 -0500</lastBuildDate>
+    <generator>Jekyll v4.0.0</generator>
     
       <item>
         <title>Jekyll Paginate Error</title>
@@ -17,8 +17,8 @@
 &lt;p&gt;https://github.com/jekyll/jekyll-paginate&lt;/p&gt;
 </description>
         <pubDate>Wed, 11 Sep 2019 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2019/09/11/jekyll-paginate-error.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/09/11/jekyll-paginate-error.html</guid>
+        <link>http://gbradhopkins.com/2019/09/11/jekyll-paginate-error.html</link>
+        <guid isPermaLink="true">http://gbradhopkins.com/2019/09/11/jekyll-paginate-error.html</guid>
         
         
       </item>
@@ -29,8 +29,8 @@
 
 </description>
         <pubDate>Wed, 11 Sep 2019 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/apple/2019/09/11/apple-innovation.html</link>
-        <guid isPermaLink="true">http://localhost:4000/apple/2019/09/11/apple-innovation.html</guid>
+        <link>http://gbradhopkins.com/apple/2019/09/11/apple-innovation.html</link>
+        <guid isPermaLink="true">http://gbradhopkins.com/apple/2019/09/11/apple-innovation.html</guid>
         
         
         <category>Apple</category>
@@ -76,8 +76,8 @@
 &lt;p&gt;I guess we call this progress.&lt;/p&gt;
 </description>
         <pubDate>Tue, 08 May 2018 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/gripes/2018/05/08/nike-watch-retirement.html</link>
-        <guid isPermaLink="true">http://localhost:4000/gripes/2018/05/08/nike-watch-retirement.html</guid>
+        <link>http://gbradhopkins.com/gripes/2018/05/08/nike-watch-retirement.html</link>
+        <guid isPermaLink="true">http://gbradhopkins.com/gripes/2018/05/08/nike-watch-retirement.html</guid>
         
         
         <category>Gripes</category>
@@ -107,8 +107,8 @@
 
 </description>
         <pubDate>Tue, 24 Apr 2018 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/internet/tutorials/2018/04/24/internet-privacy-links-updated.html</link>
-        <guid isPermaLink="true">http://localhost:4000/internet/tutorials/2018/04/24/internet-privacy-links-updated.html</guid>
+        <link>http://gbradhopkins.com/internet/tutorials/2018/04/24/internet-privacy-links-updated.html</link>
+        <guid isPermaLink="true">http://gbradhopkins.com/internet/tutorials/2018/04/24/internet-privacy-links-updated.html</guid>
         
         
         <category>Internet</category>
@@ -133,8 +133,8 @@
 
 </description>
         <pubDate>Wed, 08 Feb 2017 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/web/design/2017/02/08/more-git-commands.html</link>
-        <guid isPermaLink="true">http://localhost:4000/web/design/2017/02/08/more-git-commands.html</guid>
+        <link>http://gbradhopkins.com/web/design/2017/02/08/more-git-commands.html</link>
+        <guid isPermaLink="true">http://gbradhopkins.com/web/design/2017/02/08/more-git-commands.html</guid>
         
         
         <category>web</category>
@@ -168,8 +168,8 @@
 &lt;p&gt;This short story always makes me stop and think about how we have distorted the Christmas season.&lt;/p&gt;
 </description>
         <pubDate>Sat, 10 Dec 2016 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2016/12/10/xmas-and-christmas.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/12/10/xmas-and-christmas.html</guid>
+        <link>http://gbradhopkins.com/2016/12/10/xmas-and-christmas.html</link>
+        <guid isPermaLink="true">http://gbradhopkins.com/2016/12/10/xmas-and-christmas.html</guid>
         
         
       </item>
@@ -205,8 +205,8 @@
 &lt;p&gt;It’s a bit disappointing that they don’t actually indicate the keys to use to move the pointer around the screen. Without the guide of which keys to use, this feature seems less helpful than it could be.&lt;/p&gt;
 </description>
         <pubDate>Sat, 19 Nov 2016 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/mac/2016/11/19/turn-on-off-keyboard-keys-mac.html</link>
-        <guid isPermaLink="true">http://localhost:4000/mac/2016/11/19/turn-on-off-keyboard-keys-mac.html</guid>
+        <link>http://gbradhopkins.com/mac/2016/11/19/turn-on-off-keyboard-keys-mac.html</link>
+        <guid isPermaLink="true">http://gbradhopkins.com/mac/2016/11/19/turn-on-off-keyboard-keys-mac.html</guid>
         
         
         <category>mac</category>
@@ -299,8 +299,8 @@
 &lt;p&gt;I feel like this is a great time to experiment with alternative browsers. There seems to be a lot of vibrancy in the browser community. It’s work exploring what else is out there. At the very least, it may reinforce your love of a particular browser.&lt;/p&gt;
 </description>
         <pubDate>Tue, 15 Nov 2016 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/software/2016/11/15/alternative-browsers.html</link>
-        <guid isPermaLink="true">http://localhost:4000/software/2016/11/15/alternative-browsers.html</guid>
+        <link>http://gbradhopkins.com/software/2016/11/15/alternative-browsers.html</link>
+        <guid isPermaLink="true">http://gbradhopkins.com/software/2016/11/15/alternative-browsers.html</guid>
         
         
         <category>software</category>
@@ -392,8 +392,8 @@
 &lt;p&gt;Obviously, it would be a lot easier if you didn’t have to run your video file through multiple apps to prep it for viewing. I would assume that as the VR format matures and becomes more mainstream, tools like Premiere will do a better job of handling all of these steps. In the mean time, it’s a small price to pay for such an interesting technology.&lt;/p&gt;
 </description>
         <pubDate>Mon, 14 Nov 2016 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/vr/2016/11/14/working-with-ricoh-theta-s-vr-footage.html</link>
-        <guid isPermaLink="true">http://localhost:4000/vr/2016/11/14/working-with-ricoh-theta-s-vr-footage.html</guid>
+        <link>http://gbradhopkins.com/vr/2016/11/14/working-with-ricoh-theta-s-vr-footage.html</link>
+        <guid isPermaLink="true">http://gbradhopkins.com/vr/2016/11/14/working-with-ricoh-theta-s-vr-footage.html</guid>
         
         
         <category>vr</category>
@@ -431,8 +431,8 @@
 &lt;p&gt;I like the idea of having control of all of my data but if it’s too difficult to actually manage the data, what’s the point?&lt;/p&gt;
 </description>
         <pubDate>Sat, 12 Nov 2016 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/software/2016/11/12/why-I-cant-switch-to-ds-note-from-evernote.html</link>
-        <guid isPermaLink="true">http://localhost:4000/software/2016/11/12/why-I-cant-switch-to-ds-note-from-evernote.html</guid>
+        <link>http://gbradhopkins.com/software/2016/11/12/why-I-cant-switch-to-ds-note-from-evernote.html</link>
+        <guid isPermaLink="true">http://gbradhopkins.com/software/2016/11/12/why-I-cant-switch-to-ds-note-from-evernote.html</guid>
         
         
         <category>software</category>

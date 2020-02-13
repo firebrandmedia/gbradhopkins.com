@@ -1,0 +1,34 @@
+I"�<p>With the release of WindowsXP Service Pack 2, Microsoft has barricaded the doors and put plywood over the windows. But did they remember to check the back door?</p>
+
+<p>“<em>To get an idea of how Windows got to be such a mess, think of it as a house that was built on an island in the middle of a lake, deep in the countryside.</em></p>
+
+<p><em>Because you’re so isolated, you don’t need to worry about keeping strangers out—your security rests on being physically separate from the rest of the world.</em></p>
+
+<p><em>So it doesn’t matter that the windows can only be latched shut with great difficulty, that locks were picked to match the decor (no ugly deadbolts here!) and there’s an extra key hidden under the doormat.</em></p>
+
+<p><em>Now take that house and move it into the city. Shopping or socializing no longer requires a long drive; all the distractions you might want are right outside. But there are a few burglars in town, and they all know how easy your house is to break into.</em>” <a href="http://www.technewsworld.com/story/35836.html">Rob Pegoraro Technewsworld.com</a></p>
+
+<p>With the release of Windows XP Service Pack 2 (SP2), Microsoft has finally barricaded the doors left open by the original release of Windows XP. SP2 includes a built in firewall (<a href="http://www.webopedia.com/TERM/f/firewall.html">firewall</a> - webopedia.com) that is TURNED ON automatically. The firewall in SP2 monitors the flow of traffic on every port on your computer. If a program wants to open a port for communicating with the outside world, you will be prompted to approve this action. In theory this sounds like the good change. In practice? - we’ll see.</p>
+
+<p>In my experience, most users who see a dialog box that they don’t understand generally click ‘No’ or ‘Cancel’. Unfortunately, I envision thousands of tech support calls from novice users asking ‘Why is program X not working as advertised?’ when all they really need to do is click ‘Yes’ to allow the program to work.</p>
+
+<p>Another highlight of SP2 is the inclusion of a Pop-Up Blocker in Internet Explorer (IE). What year is it? 2004? What took so long. I’m sure most readers are using a pop-up blocker of some sort. The void of pop-up blockers in IE has created a robust pop-up blocker market in the Windows world. A quick search at <a href="http://www.download.com/3120-20-0.html?qt=pop-up+blocker&amp;tg=dl-20&amp;search.x=18&amp;search.y=8">Download.com</a> reveals that there are no less than 150 such programs available.</p>
+
+<p>Unfortunately, most computer users (novice to intermediate skill level) have no idea what a pop-up blocker is. In fact, they have no idea that there is more than one browser available. Hopefully, the pop-up blocker will be turned ON by default.</p>
+
+<p>SP2 is quite a hefty download. The download from the <a href="http://www.microsoft.com/downloads/details.aspx?FamilyId=049C9DBE-3B8E-4F30-8245-9E368D3CDB5A&amp;displaylang=en">Microsoft</a> site is a robust 266 MB. Users with Automatic Update turned on (Microsoft estimates 40% of users) will be able to download an 80MB patch starting 8/23/04. Users may experience some slow downloads initially.</p>
+
+<p>“We won’t be at full capacity on Monday. We’ll be throttling the number of users who can download it,” said Paul Randle, product marketing manager for SP2.</p>
+
+<p>The size of the update should cause worry for those with new computers. According to the <a href="http://isc.sans.org/survivalhistory.php">Internet Storm Center - SANS</a>. The current survival time for a Windows PC connected to the internet is currently 20 minutes. “The survivaltime is calculated as the average time between reports for an average target IP address.” Basically, they calculate how long it takes for your IP (<a href="http://www.webopedia.com/TERM/I/IP.html">IP</a> - webopedia.com) address to be targeted by a worm (<a href="http://www.webopedia.com/TERM/w/worm.html">worm</a> - webopedia.com) or malware (<a href="http://www.webopedia.com/TERM/M/malware.html">malware</a> - webopedia.com) bot.</p>
+
+<p>If we do the math I think the equation looks like this:</p>
+
+<p>266MB File ÷ Xmb/s Internet Connection = Ymin. 
+Ymin &gt; 20 Min. &lt;dt:angry: = Dead Computer &lt;/div&gt; &lt;/dl&gt; &lt;/div&gt; The SANS Institute Internet Storm Center has a great instruction manual called <a href="http://www.sans.org/rr/papers/index.php?id=1298">Windows XP: Surviving the First Day [PDF]</a> for those who are setting up a new computer. It will help you get your computer set up, while decreasing your vulnerability.</p>
+
+<p>As with all Microsoft Updates, there are sure to be bugs that will need worked out, and vulnerabilities that need patched. Two possible holes have been reported by the independent security firms Secunia and Heise according to this BBC News story [<a href="http://news.bbc.co.uk/2/hi/technology/3583860.stm">Holes found in Windows XP update</a>].</p>
+
+<p>For more information on the Windows XP update, check out the <a href="http://news.bbc.co.uk/2/hi/technology/3576378.stm">BBC news Q&amp;A</a> or the article about <a href="http://news.bbc.co.uk/2/hi/technology/3570636.stm">conflicts and headaches</a> caused by SP2.</p>
+
+:ET

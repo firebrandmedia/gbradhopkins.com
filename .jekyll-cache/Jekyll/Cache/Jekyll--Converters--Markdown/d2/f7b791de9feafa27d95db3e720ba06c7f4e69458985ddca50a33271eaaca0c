@@ -1,0 +1,26 @@
+I"{<p>Getting the hang of double-clicking is often a difficult task for new computer users. It can also be a problem for those with less than steady hands. In Windows, there is a simple solution to this problem and it is found in the Folder Options control panel.</p>
+
+<p>Do the following to find the Folder Options control panel:</p>
+
+<ol>
+  <li>Click on the <em>Start Menu</em>.
+    <ul>
+      <li>Go to the <em>Settings Menu</em> and then click on the <em>Control Panels</em> folder.
+        <ul>
+          <li>
+            <p>Find the <em>Folder Options</em> control panel and double click on it. [<em>In the image below, you can see that the icon for the Folder Options control panel has an orange square around it.</em>]<br />
+&lt;/ol&gt;</p>
+
+            <p><img src="http://www.gbradhopkins.com/images/pc/single-click/folder-options.jpg" alt="" /></p>
+
+            <p>In the General Tab of the Folder Options control panel find the section called ‘Click items as follows’ [<em>in the image above this section has an orange square around it</em>]. Select, <em>Single-Click to open an item</em>, to change from double-click to single-click. Click Apply and then OK.</p>
+
+            <p>Now, every icon on your desktop will have the name underlined, much like a link on a web page, and you will only have to click on it once.</p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ol>
+
+:ET

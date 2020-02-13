@@ -1,0 +1,53 @@
+I"D<p>One of the many advantages of the MacOS, is the fact that you can burn a cd from the finder, no extra software needed. This works best with internal CDRW drives but will also work with <a href="http://www.apple.com/itunes/compatibility/">supported external CDRW drives</a>. I was using my Powerbook G4 with combo drive for this tutorial.</p>
+
+<p><strong>CDR or CDRW?</strong> : Most cd writers support either CDR or CDRW discs. CDR stands for CD recordable and is the cheaper of the two. CDR discs can only be written to once. CDRW discs on the other hand are more expensive but can be written to, erased and then written to again. In this eexample, I am using a CDRW, but the steps are the same for a CDR.</p>
+
+<p><strong>Select Format</strong> : First, insert the blank cd into the writer. The Mac will recognize that it is a blank cd and needs to be formatted (prepared). There are three formats that you can choose from.</p>
+
+<ul>
+  <li><u>Standard</u> (HFS+ / ISO 9660) : Used for your typical data CD. Burning an assortment of files? Use this format.
+    <ul>
+      <li><u>MP3 CD</u> (ISO 9660) : Used for making CD’s full of MP3 files. To use this, you will need a player that can read / play mp3 files. Most standard CD players cannot.
+        <ul>
+          <li>
+            <p><u>iTunes</u> (Audio) : If you want to create a CD that can be played in a standard audio cd player, use this format.<br />
+&lt;/ul&gt;</p>
+
+            <p>Once you select the format, click prepare. This will format the cd according to your selection. Upon completion, you will see a CD icon on the desktop (or in your finder) that has CDR on it. This is your prepared, blank CD.</p>
+
+            <p><strong>Drag and Drop</strong> : To add files to the CD, simply drag and drop them on the blank CD. The file will be copied directly to the cd (actually, it’s not copied there until you select burn later so if you make a mistake you can take files off of the cd prior to burning). The amount of space that you have is limited by the size of the cd. A blank cd is typically 650 mb.</p>
+
+            <p><strong>Burn Baby, Burn</strong> : Now that you have all of the files on the CD, you are ready to burn it. There are a couple of ways to do this.</p>
+
+            <ul>
+              <li>Drag the cd to the trash can (actually once you start draggin the CD, the trash will change to the burn icon).
+                <ul>
+                  <li>In the Finder, go to the file menu and select Burn Disc?
+                    <ul>
+                      <li>Click the Burn button in the Finder Toolbar (if you have added it)
+                        <ul>
+                          <li>
+                            <p>Control (Right) Click on the CD and select Burn Disc from the menu.<br />
+&lt;/ul&gt;</p>
+
+                            <p>Once you select to burn the disc, the computer will burn it and the icon will change from a CD with CDR on it, to a blank CD icon.</p>
+
+                            <p>Erase a CDRW : If you are using a CDRW disc, then you probably will want to erase it eventually, so that you can put different data on it. To do this, you have to open the Disk Utility (found in the utilities folder, inside the applications folder). <a href="http://gbradhopkins.com/images/mac/burn-cd/burn-video.html">View a QuickTime demonstration of how to erase a CDRW.</a></p>
+
+                            <p>Once you open the Disk Utility, select the CD from the list on the left and then click on the erase tab at the top. You will then click on the erase button. This will completely erase the disc and now it is ready to be burned again.</p>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+:ET

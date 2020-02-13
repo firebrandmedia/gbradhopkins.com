@@ -1,0 +1,54 @@
+I"Ô<p>Mail Rules allow you to sort your mail using criteria like who the sender is, what the subject is and what is contained in the body of the message. Using Mail Rules can help you eliminate unwanted junk email (Spam).</p>
+
+<p>Follow these steps to access Mail Rules (See image below):</p>
+
+<ol>
+  <li>Click on the Tools Menu.
+    <ul>
+      <li>In the Tools menu, click on Message Rules.
+        <ul>
+          <li>
+            <p>Click on Mail <em>(image A)</em>. This will open the Message Rules Dialog Box <em>(image B)</em>. Here you will set the criteria for filtering your mail.<br />
+&lt;/ol&gt;</p>
+
+            <p><img src="http://www.gbradhopkins.com/images/pc/mail-rules-oe/tools-menu.jpg" alt="" /></p>
+
+            <p><em>image A</em></p>
+
+            <p><img src="http://www.gbradhopkins.com/images/pc/mail-rules-oe/rules-list.jpg" alt="" /></p>
+
+            <p><em>image B</em></p>
+
+            <p><strong>Setting Up Mail Rules</strong> : To set up a new mail rule, click on the New Button <em>(see image B above)</em>. This will open the New Mail Rule dialog box <em>(image C below)</em>. This is where you will set the criteria and the actions for Outlook Express to use when filtering your mail.</p>
+
+            <p><img src="http://www.gbradhopkins.com/images/pc/mail-rules-oe/new-mail-rule-1.jpg" alt="" /></p>
+
+            <p><em>image C : new mail rule dialog box</em></p>
+
+            <p>Setting up a rule is a three step process.</p>
+
+            <p><strong>Select the conditions for your rule</strong> : The conditions can include who the email is from, what is in the subject line, specific words to look for in the body, and more depending on your needs. You can select multiple criteria for filtering here, by clicking multiple check boxes.</p>
+
+            <p><strong>Select the Actions for your rule</strong> : What do you want done with the message after one of the criteria listed above have been met? You can move that file to a specific folder (a junk mail folder), delete it, forward it, whatever you want. In most cases you will either send it to a specific folder or delete the message. I prefer to have the message sent to a folder where I can review it to make sure that it is indeed junk.</p>
+
+            <p><strong>Edit the Rule Description</strong> : This is where you actually tell Outlook Express which criteria to use when filtering. To edit the description, click on an Underlined Value. Once you click on an Underlined Value, a Dialog Box will pop up that says Type Specific Words <em>(image D)</em>. Here will type in specific words that you want Outlook Express to look for in the Subject Line (or in the body of the message if you select that criteria). After you have specified all of the words, click add.</p>
+
+            <p><em><img src="http://www.gbradhopkins.com/images/pc/mail-rules-oe/edit-description.jpg" alt="" /></em></p>
+
+            <p><em>image D : Outlook Express will filter any messages that have a subject that contains these words (Money, Sex, Free, Love)</em></p>
+
+            <p><strong>Sample Rule</strong> : Here is a sample rule that I created for Outlook Express to deal with Get Rich Quick Emails.</p>
+
+            <p><img src="http://www.gbradhopkins.com/images/pc/mail-rules-oe/new-mail-rule.jpg" alt="" /></p>
+
+            <p>Here is how this rule works. A message comes in, Outlook Express looks for the words <em>Get Rich</em>, <em>You Win</em> or <em>Free</em> in the Body of the Message and then deletes it if it finds any of those words. If it does not, then the message is delivered as usual.</p>
+
+            <p><strong>Final Notes</strong> : This is a very powerful tool. I have created a number of rules to keep up with all of the new spam that I get. A good way to start would be to create a rule that filters out some of the most common spam items that you get. I generally use either the Sender or the Subject as criteria for filtering and I find that most of my junk mail is filtered.</p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ol>
+
+:ET

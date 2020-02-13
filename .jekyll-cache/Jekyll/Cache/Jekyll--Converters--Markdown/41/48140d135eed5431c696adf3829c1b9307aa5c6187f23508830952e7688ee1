@@ -1,0 +1,144 @@
+I"�+<p>Looking for an opportunity to play around with Git, Markdown and Jekyll, I have decided to move <a href="http://gbradhopkins.com">this site</a> from <a href="http://ellislab.com/expressionengine">ExpressionEngine (EECMS)</a> - which I love and use on most projects - to <a href="http://jekyllrb.com">Jekyll</a>, a static site generator.</p>
+
+<h2 id="static-site-generator">Static Site Generator?</h2>
+
+<p><em>What is a static site generator and why would you want to use it?</em> I’m glad you asked.</p>
+
+<p>A static site generator takes a template directory containing raw text files in various formats, runs it through a converter and a renderer, and spits out a complete, ready-to-publish static website suitable for serving with your favorite web server, or even for free using Github Pages (more on that later).</p>
+
+<p>A static website doesn’t require a database, which can increase security and will typically load faster. <em>Although, there are plenty of ways to slow down a static site.</em></p>
+
+<p>In addition to increased security and speed, Jekyll also creates a local server for testing purposes. Every time you make a change to a file or post, you can preview the change locally before pushing the site live. This is a great time saver, especially when testing a responsive design or a blog post.</p>
+
+<p>Finally, if you are using Jekyll, and have a Github account, you can host your site for free using <a href="https://pages.github.com">Github Pages</a>. You can even use your own domain - as I’m doing here.</p>
+
+<p>Of course, there are some restrictions, one being that many of the Jekyll plugins that are available can’t be used because Github runs Jekyll in safe mode. Another restriction that I found is the lack of a .htaccess file, meaning that I couldn’t redirect my pages from their old URL to their new URL. One way that I tried to overcome this was by creating a sitemap and submitting it to Google, using the Google Search Console (formerly Webmaster Tools).</p>
+
+<h2 id="caveat">Caveat</h2>
+
+<p>Besides the restrictions mentioned above, there is another major caveat regarding the usage of Jekyll.</p>
+
+<p><strong>The Command Line</strong></p>
+
+<p>Back in 2015, <a href="http://epwebtech.com/events/2015/08/12/getting-started-with-jekyll.html">I gave a talk on creating websites with Jekyll.</a> My first caveat was that you need to use the terminal / command line interface (CLI). I knew that would be a dealbreaker for some people but, if you can overcome your fear of the terminal, using Jekyll can help make you more comfortable with a CLI.</p>
+
+<p>Now that we’ve got the why and why not out of the way, let’s get started.</p>
+
+<h2 id="installing-jekyll-on-a-mac">Installing Jekyll on a Mac</h2>
+
+<p>For the full installation guide, <a href="https://jekyllrb.com/docs/installation/">check out the Jekyll install documentation</a>. Here is my quick overview.</p>
+
+<p>First make sure that you have <a href="https://itunes.apple.com/us/app/xcode/id497799835">Xcode</a> installed. It’s a free download from the app store.</p>
+
+<p>Using the terminal / command line, run the following command to install Jekyll.</p>
+
+<p><code class="highlighter-rouge">gem install jekyll</code></p>
+
+<p>If you run into an error, first make sure that you have Xcode installed. If Xcode is installed, try installing Jekyll again with this command (which will require that you supply the password for your computer).</p>
+
+<p><code class="highlighter-rouge">sudo gem install jekyll</code></p>
+
+<p>If everything goes well, Jekyll will now be installed on your computer and you can start using it.</p>
+
+<p>I’m not going to get into the ‘how’ of designing a site with Jekyll. That may be a later blog entry but for now I’m more concerned with the transition from ExpressionEngine to Jekyll.</p>
+
+<h2 id="bulk-entry-export">Bulk Entry Export</h2>
+
+<p>In addition to creating a blog in Jekyll, I wanted to move all/some of my posts from EECMS.</p>
+
+<p>I’ll admit, what follows is a bit of a cheat. I wanted to export my entries from EECMS to Jekyll but I just couldn’t figure out how without putting in a bunch of time that I didn’t have. So, instead, I came up with the following solution that I used to export <em>ALL</em> of my entries from EECMS to a single HTML file. This file exports each entry as a field in a table. Because most of my entries were old and no longer relevant, I was satisfied to use this as more of a time capsule, or archive, so that in the future I can look back at what I wrote.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?php</span>
+    <span class="nb">header</span><span class="p">(</span><span class="s2">"Content-type: application/vnd.ms-excel"</span><span class="p">);</span>
+<span class="nb">header</span><span class="p">(</span><span class="s2">"Content-Disposition: attachment; filename=gbradhopkins-entries-exports.xls"</span><span class="p">);</span>
+<span class="nb">header</span><span class="p">(</span><span class="s2">"Pragma: no-cache"</span><span class="p">);</span>
+<span class="nb">header</span><span class="p">(</span><span class="s2">"Expires: 0"</span><span class="p">);</span>
+<span class="cp">?&gt;</span>
+<span class="nt">&lt;table&gt;</span>
+<span class="nt">&lt;tbody&gt;</span>
+{exp:channel:entries channel='tutorials' limit='500' disable="categories|member_data|pagination|trackbacks"}
+    <span class="nt">&lt;tr&gt;</span>
+	    <span class="nt">&lt;td</span> <span class="na">valign=</span><span class="s">"top"</span><span class="nt">&gt;</span>{title}<span class="nt">&lt;/td&gt;</span>
+            <span class="nt">&lt;td&gt;</span>{tutorial_body}<span class="nt">&lt;/td&gt;&lt;td&gt;</span>{tutorial_image}<span class="nt">&lt;/td&gt;&lt;td&gt;</span>{tutorial_hero_image}<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+{/exp:channel:entries}
+<span class="nt">&lt;/tbody&gt;</span>
+</code></pre></div></div>
+
+<h2 id="exporting-individual-entries">Exporting Individual Entries</h2>
+
+<p>For most, exporting a single file that includes every entry is probably not practical and, honestly if I could figure it out, I wanted to maintain the entries as individual files as well.</p>
+
+<p>The thing I love most about ExpressionEngine is the ability to format and display your data however you need. Using two templates I was able to:</p>
+
+<ul>
+  <li>List all of my entries with the naming convention that Jekyll requires - “Year-Month-Day-Title.md” - I was set on using Markdown so the .md format was important.</li>
+  <li>Click a link to download each entry formatted for Jekyll with the <a href="https://pages.github.com">front matter</a> already in place - layout, title, categories, date, custom image field for hero images.</li>
+</ul>
+
+<p><strong>List of Entries Template</strong></p>
+
+<p>This is a very simple template but it gets the job done, creating a list of entries with links to download the individual files.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;ul&gt;
+{exp:channel:entries channel="tutorials|reviews" dynamic="off" disable="member_data|pagination"}
+&lt;li&gt;&lt;a href="{title_permalink='exports/post'}" target="blank"&gt;{entry_date format='%Y-%m-%d'}-{url_title}.md&lt;/a&gt;&lt;/li&gt;
+{/exp:channel:entries}
+&lt;/ul&gt;
+</code></pre></div></div>
+
+<p><strong>Entry Download Template</strong></p>
+
+<p>Clicking on the entry link from the list above, fires the template below which initiates the download process. If you are trying to use this template, make sure you turn on ‘Allow PHP’ in the template preferences in EE.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{exp:channel:entries channel="tutorials|reviews" disable="member_data|pagination"}
+<span class="cp">&lt;?php</span>
+<span class="nb">header</span><span class="p">(</span><span class="s2">"Content-type: text/markdown; charset=UTF-8"</span><span class="p">);</span>
+<span class="nb">header</span><span class="p">(</span><span class="s2">"Content-Disposition: attachment; filename={entry_date format='%Y-%m-%d'}-</span><span class="si">{</span><span class="nv">url_title</span><span class="si">}</span><span class="s2">.md"</span><span class="p">);</span>
+<span class="nb">header</span><span class="p">(</span><span class="s2">"Pragma: no-cache"</span><span class="p">);</span>
+<span class="nb">header</span><span class="p">(</span><span class="s2">"Expires: 0"</span><span class="p">);</span>
+<span class="cp">?&gt;</span>
+---
+layout: post
+title:  "{title}"
+date:   {entry_date format='%Y-%m-%d %H-%i-%s'} -0500
+categories: {categories}{category_name}{/categories}
+{if tutorial_hero_image}image: {tutorial_hero_image}{/if}
+{if review_hero_image}image: {review_hero_image}{/if}
+---
+
+{exp:marker:tomarkdown}
+{tutorial_hero_image}
+
+{tutorial_body}
+
+{tutorial_image}
+
+{review_body}
+{/exp:marker:tomarkdown}
+
+{/exp:channel:entries}
+</code></pre></div></div>
+
+<p>The one thing I couldn’t figure out was how to download the file with the .md file extension. Using the above code downloads a file with .md.html as the file extension. I simply used a renaming app to batch rename all of the files to .md.</p>
+
+<p>I then dropped the files in my _posts directory, rebuilt my site and pushed the changes to my Github account.</p>
+
+<h2 id="one-more-thing">One More Thing…</h2>
+
+<p>Remember to run <code class="highlighter-rouge">jekyll build</code> after you make changes to your site. Whether it be a post, config file, css file… whatever. This command rebuilds your site and all changes are made and regenerated to the static site files found in the _site directory.</p>
+
+<p>Remember, <code class="highlighter-rouge">jekyll build</code> and then push the site to Git, your server… wherever.</p>
+
+<h2 id="links-of-note">Links of note</h2>
+
+<ul>
+  <li><a href="https://expressionengine.stackexchange.com/questions/515/what-is-the-best-method-for-exporting-channel-entries-as-a-spreadsheet">Exporting entries from EECMS to an HTML file</a></li>
+  <li><a href="https://devot-ee.com/add-ons/marker">Marker Add-on for EECMS to convert entries to Markdown</a></li>
+  <li><a href="https://milanaryal.com/writing-and-formatting-with-markdown/">Formatting Markdown in Jekyll</a></li>
+  <li><a href="http://gitref.org/basic/#add">Git Reference Guide</a> - Basics of commiting and pushing content.</li>
+  <li><a href="http://epwebtech.com/blog/2015/08/17/jekyll-resources-and-links.html">Jekyll Links and Resources</a> - A list of resources that I pulled together for a talk that I gave back in 2015.</li>
+  <li><a href="http://epwebtech.com/blog/2015/08/18/publishing-site-to-github.html">Publishing a Jekyll Site on Gituhub</a> - Notes on publishing a Jekyll site on Github from the same talk.</li>
+  <li><a href="http://reyhan.org/2013/03/jekyll-archive-without-plugins.html">Creating Jekyll Archives with using Plugins</a> - A great snippet of code that allows you to list your entires by year and date. You can view <a href="http://gbradhopkins.com/archive.html">my site archives template</a> that is based on this code.</li>
+</ul>
+:ET

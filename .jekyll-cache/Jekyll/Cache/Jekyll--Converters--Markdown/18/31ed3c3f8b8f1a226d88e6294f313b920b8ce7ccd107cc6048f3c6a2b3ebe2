@@ -1,0 +1,85 @@
+I"�<p>In a previous tutorial (<a href="http://www.gbradhopkins.com/archives/2004/11/citibank_phishe_1.html">Citibank Phisher Scheme</a>) I talked about spoof emails and <img src="http://www.gbradhopkins.com/images/internet/ebay/ebay-logo.gif" alt="" />phisher schemes and what you could do to avoid them. This morning (March 12, 2005) I fell for an eBay related phisher scheme. As you can probably imagine I started to panic the minute I realized what I had done.</p>
+
+<p>In this tutorial I’ll show you what you can do if you find yourself in the same predicament.</p>
+
+<p>The first rule when checking email is (or should be) be suspicious. I have been doing a lot of selling on eBay recently and have been receiving a number of emails related to the auctions that I have been placing. I guess that’s why I fell for this scam. In retrospect, there were a number of red flags that should have been raised as I went through this encounter (which lasted all of 5 minutes).</p>
+
+<p><a href="http://www.gbradhopkins.com/images/internet/ebay/spoof-email.gif">Here is the email</a> that I received at 7:41 and 8:32 am on March 12, 2005 and below is the text of that email.</p>
+
+<p>Dear easyauctions-wv,</p>
+
+<p>During our regularly scheduled account maintenance and verification procedures, we have detected a slight error in your billing information.</p>
+
+<p>This might be due to either of the following reasons:</p>
+
+<ol>
+  <li>A recent change in your personal information ( i.e. change of address).</li>
+  <li>Submitting invalid information during the initial sign up process.</li>
+  <li>An inability to accurately verify your selected option of payment due to an internal error within our processors.</li>
+</ol>
+
+<p>Please update and verify your information by clicking the link below:</p>
+
+<p>https://arribada.ebay.com/saw-cgi/eBayISAPI.dll?PlaceCCInfo</p>
+
+<p>If your account information is not updated within 48 hours then your ability to sell or bid on eBay will become restricted.</p>
+
+<p>Thank you</p>
+
+<p>The eBay Billing Department .</p>
+
+<p>Copyright © 1995-2005 eBay Inc. All Rights Reserved.<br />
+Designated trademarks and brands are the property of their respective owners.<br />
+Use of this Web site constitutes acceptance of the eBay User Agreement and Privacy Policy.</p>
+
+<p>I made every rookie mistake during this entire transaction. I ignored the fact that I received two of the same message. I missed the fact that when clicking on the address in the email it took me to a completely different address. I neglected to verify that I was on a secure site. I forgot that eBay sends messages via your online account. I ignored the fact that my browser, which normally auto fills my user name, didn’t.</p>
+
+<p>With all of those red flags raised, I should have recognized the fact that this was a scam! But, I didn’t and here we are. So, what did I do (what can you do) in the minutes after falling for this scam? I’ll show you the steps I took to (hopefully) protect my account from any security breach that I may have caused.</p>
+
+<p>Use my mistake and learn from it.</p>
+
+<p><strong>8:30am</strong> - Logged on to computer. Checked email, read message from “Service@ebay.com”. <br />
+<strong>8:31am</strong> - Clicked on link to update and verify infomation. Typed in user name and password. Password was not accepted (Invalid).<br />
+View spoof site [<a href="http://www.gbradhopkins.com/images/internet/ebay/spoof-page.gif">image</a>].<br />
+<strong>8:31:45am</strong> - Sinking feeling in stomach. Realization that I had just entered my user name and password on a spoof site.<br />
+<strong>8:32am</strong> - Went to eBay account, logged in, changed password.<br />
+<strong>8:33am</strong> - Called Dad to warn him about Spoof email.<br />
+<strong>8:40am</strong> - Searched eBay help guide for information on securing account. Found: <a href="http://pages.ebay.com/help/tp/isgw-account-theft-reporting.html">Securing Your Account and Reporting Account Theft<br />
+</a><strong>8:42am</strong> - Took the following steps to secure the account:</p>
+
+<ul>
+  <li>Requested a new eBay password
+    <ul>
+      <li>Reviewed contact information within my eBay account to verify that it had not changed.
+        <ul>
+          <li>Changed the secret question and answer on my eBay account.
+            <ul>
+              <li>Searched my account for active bids or listings that were unauthorized.
+                <ul>
+                  <li>Reported spoof email to eBay [spoof@ebay.com].
+                    <ul>
+                      <li>
+                        <p>Changed password on PayPal account (just to be sure). &lt;/ul&gt;
+eBay got back to me quickly regarding the spoof email and verified that it was not sent by them, confirming my colossal blunder.</p>
+
+                        <p>By about 9am I started to feel better that everything was going to be okay. I believe I caught the problem quickly enough. By responding to the email in the first place I’ve probably opened myself up to getting more and more spoof emails like this one.</p>
+
+                        <p>For more information on how to protect yourself visit the following links, and keep your skeptics hat on.</p>
+
+                        <p>eBay.com: <a href="http://pages.ebay.com/help/confidence/isgw-account-theft-spoof.html">Email and Websites Impersonating eBay</a><br />
+eBay.com: <a href="http://pages.ebay.com/help/policies/rfe-spam-reducing.html">Suggestions for Minimizing Unwanted Email</a><br />
+eBay.com: <a href="http://pages.ebay.com/education/spooftutorial/">How to Spot Spoof (Fake) Emails</a> (Tutorial)</p>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+:ET
