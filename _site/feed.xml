@@ -6,34 +6,40 @@
 </description>
     <link>http://gbradhopkins.com/</link>
     <atom:link href="http://gbradhopkins.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 13 Feb 2020 12:33:46 -0500</pubDate>
-    <lastBuildDate>Thu, 13 Feb 2020 12:33:46 -0500</lastBuildDate>
+    <pubDate>Thu, 13 Feb 2020 16:45:23 -0500</pubDate>
+    <lastBuildDate>Thu, 13 Feb 2020 16:45:23 -0500</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
-        <title>Jekyll Paginate Error</title>
-        <description>&lt;p&gt;Dependency Error: Yikes! It looks like you don’t have jekyll-paginate or one of its dependencies installed. In order to use Jekyll as currently configured, you’ll need to install this gem. The full error message from Ruby is: ‘cannot load such file – jekyll-paginate’ If you run into trouble, you can find helpful resources at https://jekyllrb.com/help/!&lt;/p&gt;
+        <title>jekyll-paginate Dependency Error</title>
+        <description>&lt;p&gt;After a long period of inactivity (ie, not publishing anything here on gbradhopkins.com) I felt the urge to post and when I tried to rebuild my site, I received the following error.&lt;/p&gt;
 
-&lt;p&gt;https://github.com/jekyll/jekyll-paginate&lt;/p&gt;
-</description>
-        <pubDate>Wed, 11 Sep 2019 00:00:00 -0400</pubDate>
-        <link>http://gbradhopkins.com/2019/09/11/jekyll-paginate-error.html</link>
-        <guid isPermaLink="true">http://gbradhopkins.com/2019/09/11/jekyll-paginate-error.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Apple and Innovation</title>
-        <description>&lt;p&gt;Among longtime Apple fans, there’s an idea that Apple no longer innovates. &lt;em&gt;Among Apple haters, the idea is that they’ve stolen every great idea.&lt;/em&gt; I tend to disagree with both schools of thought.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Dependency Error: Yikes! It looks like you don’t have jekyll-paginate or one of its dependencies installed. In order to use Jekyll as currently configured, you’ll need to install this gem. The full error message from Ruby is: ‘cannot load such file – jekyll-paginate’ If you run into trouble, you can find helpful resources at https://jekyllrb.com/help/!&lt;/p&gt;
+&lt;/blockquote&gt;
 
+&lt;p&gt;A quick &lt;a href=&quot;https://duckduckgo.com/?t=ffab&amp;amp;q=you+don%27t+have+jekyll-paginate&amp;amp;ia=web&quot;&gt;search&lt;/a&gt; will lead you to &lt;a href=&quot;https://stackoverflow.com/questions/35401566/dont-have-jekyll-paginate-or-one-of-its-dependencies-installed&quot;&gt;StackOverflow&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;There, you will find various solutions. The one that worked for me was to simply run the following command to install the Jekyll Paginate gem.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem install jekyll-paginate
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Actually, I had to add sudo to the front of the command and supply my password to install it. So, it looked like this:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo gem install jekyll-paginate
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Once I did that, I was able to rebuild my site and push it to Github.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 11 Sep 2019 00:00:00 -0400</pubDate>
-        <link>http://gbradhopkins.com/apple/2019/09/11/apple-innovation.html</link>
-        <guid isPermaLink="true">http://gbradhopkins.com/apple/2019/09/11/apple-innovation.html</guid>
+        <pubDate>Thu, 13 Feb 2020 00:00:00 -0500</pubDate>
+        <link>http://gbradhopkins.com/web/design/2020/02/13/jekyll-paginate-error.html</link>
+        <guid isPermaLink="true">http://gbradhopkins.com/web/design/2020/02/13/jekyll-paginate-error.html</guid>
         
         
-        <category>Apple</category>
+        <category>web</category>
+        
+        <category>design</category>
         
       </item>
     
@@ -436,6 +442,165 @@
         
         
         <category>software</category>
+        
+      </item>
+    
+      <item>
+        <title>Moving gbradhopkins.com from ExpressionEngine to Jekyll</title>
+        <description>&lt;p&gt;Looking for an opportunity to play around with Git, Markdown and Jekyll, I have decided to move &lt;a href=&quot;http://gbradhopkins.com&quot;&gt;this site&lt;/a&gt; from &lt;a href=&quot;http://ellislab.com/expressionengine&quot;&gt;ExpressionEngine (EECMS)&lt;/a&gt; - which I love and use on most projects - to &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;, a static site generator.&lt;/p&gt;
+
+&lt;h2 id=&quot;static-site-generator&quot;&gt;Static Site Generator?&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;What is a static site generator and why would you want to use it?&lt;/em&gt; I’m glad you asked.&lt;/p&gt;
+
+&lt;p&gt;A static site generator takes a template directory containing raw text files in various formats, runs it through a converter and a renderer, and spits out a complete, ready-to-publish static website suitable for serving with your favorite web server, or even for free using Github Pages (more on that later).&lt;/p&gt;
+
+&lt;p&gt;A static website doesn’t require a database, which can increase security and will typically load faster. &lt;em&gt;Although, there are plenty of ways to slow down a static site.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;In addition to increased security and speed, Jekyll also creates a local server for testing purposes. Every time you make a change to a file or post, you can preview the change locally before pushing the site live. This is a great time saver, especially when testing a responsive design or a blog post.&lt;/p&gt;
+
+&lt;p&gt;Finally, if you are using Jekyll, and have a Github account, you can host your site for free using &lt;a href=&quot;https://pages.github.com&quot;&gt;Github Pages&lt;/a&gt;. You can even use your own domain - as I’m doing here.&lt;/p&gt;
+
+&lt;p&gt;Of course, there are some restrictions, one being that many of the Jekyll plugins that are available can’t be used because Github runs Jekyll in safe mode. Another restriction that I found is the lack of a .htaccess file, meaning that I couldn’t redirect my pages from their old URL to their new URL. One way that I tried to overcome this was by creating a sitemap and submitting it to Google, using the Google Search Console (formerly Webmaster Tools).&lt;/p&gt;
+
+&lt;h2 id=&quot;caveat&quot;&gt;Caveat&lt;/h2&gt;
+
+&lt;p&gt;Besides the restrictions mentioned above, there is another major caveat regarding the usage of Jekyll.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Command Line&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Back in 2015, &lt;a href=&quot;http://epwebtech.com/events/2015/08/12/getting-started-with-jekyll.html&quot;&gt;I gave a talk on creating websites with Jekyll.&lt;/a&gt; My first caveat was that you need to use the terminal / command line interface (CLI). I knew that would be a dealbreaker for some people but, if you can overcome your fear of the terminal, using Jekyll can help make you more comfortable with a CLI.&lt;/p&gt;
+
+&lt;p&gt;Now that we’ve got the why and why not out of the way, let’s get started.&lt;/p&gt;
+
+&lt;h2 id=&quot;installing-jekyll-on-a-mac&quot;&gt;Installing Jekyll on a Mac&lt;/h2&gt;
+
+&lt;p&gt;For the full installation guide, &lt;a href=&quot;https://jekyllrb.com/docs/installation/&quot;&gt;check out the Jekyll install documentation&lt;/a&gt;. Here is my quick overview.&lt;/p&gt;
+
+&lt;p&gt;First make sure that you have &lt;a href=&quot;https://itunes.apple.com/us/app/xcode/id497799835&quot;&gt;Xcode&lt;/a&gt; installed. It’s a free download from the app store.&lt;/p&gt;
+
+&lt;p&gt;Using the terminal / command line, run the following command to install Jekyll.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;gem install jekyll&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;If you run into an error, first make sure that you have Xcode installed. If Xcode is installed, try installing Jekyll again with this command (which will require that you supply the password for your computer).&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo gem install jekyll&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;If everything goes well, Jekyll will now be installed on your computer and you can start using it.&lt;/p&gt;
+
+&lt;p&gt;I’m not going to get into the ‘how’ of designing a site with Jekyll. That may be a later blog entry but for now I’m more concerned with the transition from ExpressionEngine to Jekyll.&lt;/p&gt;
+
+&lt;h2 id=&quot;bulk-entry-export&quot;&gt;Bulk Entry Export&lt;/h2&gt;
+
+&lt;p&gt;In addition to creating a blog in Jekyll, I wanted to move all/some of my posts from EECMS.&lt;/p&gt;
+
+&lt;p&gt;I’ll admit, what follows is a bit of a cheat. I wanted to export my entries from EECMS to Jekyll but I just couldn’t figure out how without putting in a bunch of time that I didn’t have. So, instead, I came up with the following solution that I used to export &lt;em&gt;ALL&lt;/em&gt; of my entries from EECMS to a single HTML file. This file exports each entry as a field in a table. Because most of my entries were old and no longer relevant, I was satisfied to use this as more of a time capsule, or archive, so that in the future I can look back at what I wrote.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Content-type: application/vnd.ms-excel&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Content-Disposition: attachment; filename=gbradhopkins-entries-exports.xls&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Pragma: no-cache&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Expires: 0&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;?&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;table&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;tbody&amp;gt;&lt;/span&gt;
+{exp:channel:entries channel='tutorials' limit='500' disable=&quot;categories|member_data|pagination|trackbacks&quot;}
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+	    &lt;span class=&quot;nt&quot;&gt;&amp;lt;td&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;valign=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;top&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;{title}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;{tutorial_body}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&lt;/span&gt;{tutorial_image}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&lt;/span&gt;{tutorial_hero_image}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+{/exp:channel:entries}
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/tbody&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;exporting-individual-entries&quot;&gt;Exporting Individual Entries&lt;/h2&gt;
+
+&lt;p&gt;For most, exporting a single file that includes every entry is probably not practical and, honestly if I could figure it out, I wanted to maintain the entries as individual files as well.&lt;/p&gt;
+
+&lt;p&gt;The thing I love most about ExpressionEngine is the ability to format and display your data however you need. Using two templates I was able to:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;List all of my entries with the naming convention that Jekyll requires - “Year-Month-Day-Title.md” - I was set on using Markdown so the .md format was important.&lt;/li&gt;
+  &lt;li&gt;Click a link to download each entry formatted for Jekyll with the &lt;a href=&quot;https://pages.github.com&quot;&gt;front matter&lt;/a&gt; already in place - layout, title, categories, date, custom image field for hero images.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;List of Entries Template&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This is a very simple template but it gets the job done, creating a list of entries with links to download the individual files.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;ul&amp;gt;
+{exp:channel:entries channel=&quot;tutorials|reviews&quot; dynamic=&quot;off&quot; disable=&quot;member_data|pagination&quot;}
+&amp;lt;li&amp;gt;&amp;lt;a href=&quot;{title_permalink='exports/post'}&quot; target=&quot;blank&quot;&amp;gt;{entry_date format='%Y-%m-%d'}-{url_title}.md&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+{/exp:channel:entries}
+&amp;lt;/ul&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Entry Download Template&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Clicking on the entry link from the list above, fires the template below which initiates the download process. If you are trying to use this template, make sure you turn on ‘Allow PHP’ in the template preferences in EE.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{exp:channel:entries channel=&quot;tutorials|reviews&quot; disable=&quot;member_data|pagination&quot;}
+&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Content-type: text/markdown; charset=UTF-8&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Content-Disposition: attachment; filename={entry_date format='%Y-%m-%d'}-&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;url_title&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.md&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Pragma: no-cache&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Expires: 0&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;?&amp;gt;&lt;/span&gt;
+---
+layout: post
+title:  &quot;{title}&quot;
+date:   {entry_date format='%Y-%m-%d %H-%i-%s'} -0500
+categories: {categories}{category_name}{/categories}
+{if tutorial_hero_image}image: {tutorial_hero_image}{/if}
+{if review_hero_image}image: {review_hero_image}{/if}
+---
+
+{exp:marker:tomarkdown}
+{tutorial_hero_image}
+
+{tutorial_body}
+
+{tutorial_image}
+
+{review_body}
+{/exp:marker:tomarkdown}
+
+{/exp:channel:entries}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The one thing I couldn’t figure out was how to download the file with the .md file extension. Using the above code downloads a file with .md.html as the file extension. I simply used a renaming app to batch rename all of the files to .md.&lt;/p&gt;
+
+&lt;p&gt;I then dropped the files in my _posts directory, rebuilt my site and pushed the changes to my Github account.&lt;/p&gt;
+
+&lt;h2 id=&quot;one-more-thing&quot;&gt;One More Thing…&lt;/h2&gt;
+
+&lt;p&gt;Remember to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll build&lt;/code&gt; after you make changes to your site. Whether it be a post, config file, css file… whatever. This command rebuilds your site and all changes are made and regenerated to the static site files found in the _site directory.&lt;/p&gt;
+
+&lt;p&gt;Remember, &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll build&lt;/code&gt; and then push the site to Git, your server… wherever.&lt;/p&gt;
+
+&lt;h2 id=&quot;links-of-note&quot;&gt;Links of note&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://expressionengine.stackexchange.com/questions/515/what-is-the-best-method-for-exporting-channel-entries-as-a-spreadsheet&quot;&gt;Exporting entries from EECMS to an HTML file&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://devot-ee.com/add-ons/marker&quot;&gt;Marker Add-on for EECMS to convert entries to Markdown&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://milanaryal.com/writing-and-formatting-with-markdown/&quot;&gt;Formatting Markdown in Jekyll&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://gitref.org/basic/#add&quot;&gt;Git Reference Guide&lt;/a&gt; - Basics of commiting and pushing content.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://epwebtech.com/blog/2015/08/17/jekyll-resources-and-links.html&quot;&gt;Jekyll Links and Resources&lt;/a&gt; - A list of resources that I pulled together for a talk that I gave back in 2015.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://epwebtech.com/blog/2015/08/18/publishing-site-to-github.html&quot;&gt;Publishing a Jekyll Site on Gituhub&lt;/a&gt; - Notes on publishing a Jekyll site on Github from the same talk.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://reyhan.org/2013/03/jekyll-archive-without-plugins.html&quot;&gt;Creating Jekyll Archives with using Plugins&lt;/a&gt; - A great snippet of code that allows you to list your entires by year and date. You can view &lt;a href=&quot;http://gbradhopkins.com/archive.html&quot;&gt;my site archives template&lt;/a&gt; that is based on this code.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 04 Nov 2016 00:00:00 -0400</pubDate>
+        <link>http://gbradhopkins.com/web/design/tutorials/2016/11/04/switching-to-jekyll-from-ee.html</link>
+        <guid isPermaLink="true">http://gbradhopkins.com/web/design/tutorials/2016/11/04/switching-to-jekyll-from-ee.html</guid>
+        
+        
+        <category>Web</category>
+        
+        <category>Design</category>
+        
+        <category>Tutorials</category>
         
       </item>
     

@@ -6,25 +6,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Jekyll Paginate Error | gbradhopkins.com</title>
-  <meta name="description" content="An assortment of tutorials and thoughts on computers, web design and how the internet impacts us all.
-">
+  <title>jekyll-paginate Dependency Error | gbradhopkins.com</title>
+  <meta name="description" content="A quick solution to the jekyll-pageinate Dependency Error">
 
   <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700|Rubik:300,400,900" rel="stylesheet">
-  <link href="https://file.myfontastic.com/HtdDgr9qYvgwoniccpdu3F/icons.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/949e38d1b4.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="/css/responsive-nav.css">
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://gbradhopkins.com/2019/09/11/jekyll-paginate-error.html">
+  <link rel="canonical" href="http://gbradhopkins.com/web/design/2020/02/13/jekyll-paginate-error.html">
   <link rel="alternate" type="application/rss+xml" title="gbradhopkins.com" href="http://gbradhopkins.com/feed.xml">
     
 <!--Meta Data-->
-    
-<!--
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@gbradhopkins" />
-  <meta name="twitter:title" content="Jekyll Paginate Error - gbradhopkins.com" />
-  <meta name="twitter:description" content="Dependency Error: Yikes! It looks like you don’t have jekyll-paginate or one of its dependencies ..." />
--->
     
   <script type='application/ld+json'> 
     {
@@ -52,10 +44,9 @@
     <a class="site-title" href="/">gbradhopkins.com</a>
     <nav class="nav-collapse">
       <ul>
-        <li><a href="/archive.html" title="gBradhopkins.com Archives"><i class="icon-archives"></i><span class="nav-text">Complete archives of gbradhopkins.com</span> </a></li>
-        <li><a href="/feed.xml" title="Subscribe to the RSS feed"><i class="icon-rss"></i><span class="nav-text">RSS Feed for gbradhopkins.com</span> </a></li>
-        <li><a href="https://github.com/firebrandmedia" title="My Github account"><i class="icon-github-square"></i><span class="nav-text">My work on Github</span> </a></li>
-        <li><a href="http://firebrand.media" title="My Business Website - Firebrand.Media"><i class="icon-firebrand-media-logo"></i><span class="nav-text">My day job - Firebrand.Media</span> </a></li>
+        <li><a href="/archive.html" title="gBradhopkins.com Archives"><i class="fal fa-scroll-old"></i><span class="nav-text">Complete archives of gbradhopkins.com</span> </a></li>
+        <li><a href="/feed.xml" title="Subscribe to the RSS feed"><i class="fal fa-rss-square"></i><span class="nav-text">RSS Feed for gbradhopkins.com</span> </a></li>
+        <li><a href="https://github.com/firebrandmedia" title="My Github account"><i class="fab fa-github"></i><span class="nav-text">My work on Github</span> </a></li>
       </ul>
     </nav>
 
@@ -69,14 +60,30 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Jekyll Paginate Error</h1>
-    <p class="post-meta"><time datetime="2019-09-11T00:00:00-04:00" itemprop="datePublished">Sep 11, 2019</time></p>
+    <h1 class="post-title" itemprop="name headline">jekyll-paginate Dependency Error</h1>
+    <p class="post-meta"><time datetime="2020-02-13T00:00:00-05:00" itemprop="datePublished">Feb 13, 2020</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-      <p>Dependency Error: Yikes! It looks like you don’t have jekyll-paginate or one of its dependencies installed. In order to use Jekyll as currently configured, you’ll need to install this gem. The full error message from Ruby is: ‘cannot load such file – jekyll-paginate’ If you run into trouble, you can find helpful resources at https://jekyllrb.com/help/!</p>
+      <p>After a long period of inactivity (ie, not publishing anything here on gbradhopkins.com) I felt the urge to post and when I tried to rebuild my site, I received the following error.</p>
 
-<p>https://github.com/jekyll/jekyll-paginate</p>
+<blockquote>
+  <p>Dependency Error: Yikes! It looks like you don’t have jekyll-paginate or one of its dependencies installed. In order to use Jekyll as currently configured, you’ll need to install this gem. The full error message from Ruby is: ‘cannot load such file – jekyll-paginate’ If you run into trouble, you can find helpful resources at https://jekyllrb.com/help/!</p>
+</blockquote>
+
+<p>A quick <a href="https://duckduckgo.com/?t=ffab&amp;q=you+don%27t+have+jekyll-paginate&amp;ia=web">search</a> will lead you to <a href="https://stackoverflow.com/questions/35401566/dont-have-jekyll-paginate-or-one-of-its-dependencies-installed">StackOverflow</a>.</p>
+
+<p>There, you will find various solutions. The one that worked for me was to simply run the following command to install the Jekyll Paginate gem.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem install jekyll-paginate
+</code></pre></div></div>
+
+<p>Actually, I had to add sudo to the front of the command and supply my password to install it. So, it looked like this:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo gem install jekyll-paginate
+</code></pre></div></div>
+
+<p>Once I did that, I was able to rebuild my site and push it to Github.</p>
 
       
       <address class="author">Have a question? Found this useful? Let me know at <a rel="author" href="mailto:gbradwebsite@icloud.com">gbradwebsite@icloud.com</a>.</address>
@@ -87,7 +94,7 @@
 
 <div class="postnavigation">
       
-        <i class="icon-back"></i><a class="prev" href="/apple/2019/09/11/apple-innovation.html"> Apple and Innovation</a>
+        <i class="fad fa-backward"></i><a class="prev" href="/gripes/2018/05/08/nike-watch-retirement.html"> Remember that Nike running watch you bought? Sorry, we killed it.</a>
       
     
       
