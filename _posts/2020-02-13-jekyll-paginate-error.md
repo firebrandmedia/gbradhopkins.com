@@ -15,4 +15,10 @@ There, you will find various solutions. The one that worked for me was to simply
 gem install jekyll-paginate
 ```
 
+Actually, I had to add sudo to the front of the command and supply my password to install it. So, it looked like this:
+
+```
+sudo gem install jekyll-paginate
+```
+
 Once I did that, I was able to rebuild my site and push it to Github.
