@@ -24,7 +24,7 @@ We had played with the [FUT Card Creator 20](https://apps.apple.com/us/app/fut-c
 
 The Illustrator file consists of five layers, one for each element of the card. Each of the layers are editable.
 
-- Team Crest (Image file)
+- Team Crest / Badge (Image file)
 - Country (Vector file)
 - Text (Ratings, Position, Name)
 - Photo (Masked image file)
