@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "FIFA Ultimate Team Gold Card Template"
-categories: web design
+categories: graphic design
 description: An Illustrator template to create your own Gold FUT card
 image: ./images/FUT20-card.jpg
 ---
