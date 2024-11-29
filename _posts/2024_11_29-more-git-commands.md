@@ -5,7 +5,7 @@ categories: web design
 description: More terminal commands for when you are using Git
 ---
 
-After a long period of inactivity, I decided to play around with the Terminal, Git and Jekyll. My past self didn't anticipate this and forgot to leave instructions on some of the basic, basic commands. 2024 me is leaving these here for 2029 me. -Nov. 25, 2024
+_After a long period of inactivity, I decided to play around with the Terminal, Git and Jekyll. My past self didn't anticipate this and forgot to leave instructions on some of the basic, basic commands. 2024 me is leaving these here for 2029 me. -Nov. 25, 2024_
 
 In a previous entry, I wrote about my use of Git and how I preferred to use a Git client (Tower) as opposed to the command line. In that entry, I listed some [basic Git commands](http://gbradhopkins.com/web/design/tutorials/2016/09/29/git-commit-workflow.html). These were the basic commands that I needed to push content to the repository for this site.
 
@@ -35,7 +35,15 @@ Moves you into that directory.
 
 `git status`
 
-Displays changes to git directory
+Displays changes to git directory.
+
+`git add .`
+
+Adds / stages all of the changed files in the current directory.
+
+`git push`
+
+Pushes the changes.
 
 ## Markdown
 
