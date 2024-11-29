@@ -31,6 +31,12 @@ Moves you up one directory within your file system.
 
 Moves you into that directory.
 
+## Git Commands for Publishing
+
+`git status`
+
+Displays changes to git directory
+
 ## Markdown
 
 While I'm at it, here is a link to a Markown cheatsheet since I forgot those commands as well.

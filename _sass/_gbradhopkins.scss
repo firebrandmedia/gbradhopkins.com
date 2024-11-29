@@ -36,17 +36,17 @@ h2 {
 }
 
 .site-header a:link {
-    color: $brand-color;
+    color: #282C34;
     text-decoration: none;
 }
 
 .site-header a:visited {
-    color: $brand-color;
+    color: #282C34;
     text-decoration: none;
 }
 
 .site-header a:hover {
-    color: color.adjust($brand-color, 20%);
+    color: #282C34;
     text-decoration: none;
 }
 
@@ -64,7 +64,7 @@ h2 {
 
 .nav-collapse {
     width: 100%;
-    border-top: 1px solid color.adjust($brand-color, 50%);
+    border-top: 1px solid #282C34;
     margin-top: 20px;
 }
 
@@ -142,58 +142,58 @@ h2 {
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: $brand-color;
+    background-color: #282C34;
     padding: 10%;
     color: #fff;
     border-bottom: 1px solid RGBA(241, 241, 241, 0.20);
 }
 
 .post-list li:nth-of-type(1) {
-    background-color: color.adjust($brand-color, 1%);
+    background-color: color.adjust(#282C34, 1%);
 }
 
 .post-list li:nth-of-type(2) {
-    background-color: color.adjust($brand-color, 3%);
+    background-color: color.adjust(#282C34, 3%);
 }
 
 .post-list li:nth-of-type(3) {
-    background-color: color.adjust($brand-color, 5%);
+    background-color: color.adjust(#282C34, 5%);
 }
 
 .post-list li:nth-of-type(4) {
-    background-color: color.adjust($brand-color, 8%);
+    background-color: color.adjust(#282C34, 8%);
 }
 
 .post-list li:nth-of-type(5) {
-    background-color: color.adjust($brand-color, 11%);
+    background-color: color.adjust(#282C34, 11%);
 }
 
 .post-list li:nth-of-type(6) {
-    background-color: color.adjust($brand-color, 14%);
+    background-color: color.adjust(#282C34, 14%);
 }
 
 .post-list li:nth-of-type(7) {
-    background-color: color.adjust($brand-color, 17%);
+    background-color: color.adjust(#282C34, 17%);
 }
 
 .post-list li:nth-of-type(8) {
-    background-color: color.adjust($brand-color, 20%);
+    background-color: color.adjust(#282C34, 20%);
 }
 
 .post-list li:nth-of-type(9) {
-    background-color: color.adjust($brand-color, 23%);
+    background-color: color.adjust(#282C34, 23%);
 }
 
 .post-list li:nth-of-type(10) {
-    background-color: color.adjust($brand-color, 26%);
+    background-color: color.adjust(#282C34, 26%);
 }
 
 .post-list li:nth-of-type(11) {
-    background-color: color.adjust($brand-color, 29%);
+    background-color: color.adjust(#282C34, 29%);
 }
 
 .post-list li:nth-of-type(12) {
-    background-color: color.adjust($brand-color, 32%);
+    background-color: color.adjust(#282C34, 32%);
 }
 
 .post-list li:last-of-type {
@@ -263,7 +263,7 @@ article .post-meta {
 .pagination {
     text-align: center;
     padding: 20px 0;
-    background-color: color.adjust($brand-color, 26%);
+    background-color: color.adjust(#282C34, 26%);
     color: RGBA(241, 241, 241, 0.40);
     font-family: 'Quattrocento Sans', sans-serif;
     border-bottom: 1px solid #fff;
@@ -524,7 +524,7 @@ h1.post-title {
 .site-footer p {
     width: 90%;
     margin: 0 auto;
-    color: $brand-color;
+    color: #282C34;
 }
 
 @media screen and (min-width: $width-tablet) {
