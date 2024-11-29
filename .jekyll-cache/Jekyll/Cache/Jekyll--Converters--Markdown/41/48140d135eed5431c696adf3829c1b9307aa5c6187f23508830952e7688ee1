@@ -1,4 +1,4 @@
-I"�+<p>Looking for an opportunity to play around with Git, Markdown and Jekyll, I have decided to move <a href="http://gbradhopkins.com">this site</a> from <a href="http://ellislab.com/expressionengine">ExpressionEngine (EECMS)</a> - which I love and use on most projects - to <a href="http://jekyllrb.com">Jekyll</a>, a static site generator.</p>
+I"B'<p>Looking for an opportunity to play around with Git, Markdown and Jekyll, I have decided to move <a href="http://gbradhopkins.com">this site</a> from <a href="http://ellislab.com/expressionengine">ExpressionEngine (EECMS)</a> - which I love and use on most projects - to <a href="http://jekyllrb.com">Jekyll</a>, a static site generator.</p>
 
 <h2 id="static-site-generator">Static Site Generator?</h2>
 
@@ -32,11 +32,11 @@
 
 <p>Using the terminal / command line, run the following command to install Jekyll.</p>
 
-<p><code class="highlighter-rouge">gem install jekyll</code></p>
+<p><code class="language-plaintext highlighter-rouge">gem install jekyll</code></p>
 
 <p>If you run into an error, first make sure that you have Xcode installed. If Xcode is installed, try installing Jekyll again with this command (which will require that you supply the password for your computer).</p>
 
-<p><code class="highlighter-rouge">sudo gem install jekyll</code></p>
+<p><code class="language-plaintext highlighter-rouge">sudo gem install jekyll</code></p>
 
 <p>If everything goes well, Jekyll will now be installed on your computer and you can start using it.</p>
 
@@ -48,21 +48,21 @@
 
 <p>I’ll admit, what follows is a bit of a cheat. I wanted to export my entries from EECMS to Jekyll but I just couldn’t figure out how without putting in a bunch of time that I didn’t have. So, instead, I came up with the following solution that I used to export <em>ALL</em> of my entries from EECMS to a single HTML file. This file exports each entry as a field in a table. Because most of my entries were old and no longer relevant, I was satisfied to use this as more of a time capsule, or archive, so that in the future I can look back at what I wrote.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?php</span>
-    <span class="nb">header</span><span class="p">(</span><span class="s2">"Content-type: application/vnd.ms-excel"</span><span class="p">);</span>
-<span class="nb">header</span><span class="p">(</span><span class="s2">"Content-Disposition: attachment; filename=gbradhopkins-entries-exports.xls"</span><span class="p">);</span>
-<span class="nb">header</span><span class="p">(</span><span class="s2">"Pragma: no-cache"</span><span class="p">);</span>
-<span class="nb">header</span><span class="p">(</span><span class="s2">"Expires: 0"</span><span class="p">);</span>
-<span class="cp">?&gt;</span>
-<span class="nt">&lt;table&gt;</span>
-<span class="nt">&lt;tbody&gt;</span>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;?php
+    header("Content-type: application/vnd.ms-excel");
+header("Content-Disposition: attachment; filename=gbradhopkins-entries-exports.xls");
+header("Pragma: no-cache");
+header("Expires: 0");
+?&gt;
+&lt;table&gt;
+&lt;tbody&gt;
 {exp:channel:entries channel='tutorials' limit='500' disable="categories|member_data|pagination|trackbacks"}
-    <span class="nt">&lt;tr&gt;</span>
-	    <span class="nt">&lt;td</span> <span class="na">valign=</span><span class="s">"top"</span><span class="nt">&gt;</span>{title}<span class="nt">&lt;/td&gt;</span>
-            <span class="nt">&lt;td&gt;</span>{tutorial_body}<span class="nt">&lt;/td&gt;&lt;td&gt;</span>{tutorial_image}<span class="nt">&lt;/td&gt;&lt;td&gt;</span>{tutorial_hero_image}<span class="nt">&lt;/td&gt;</span>
-    <span class="nt">&lt;/tr&gt;</span>
+    &lt;tr&gt;
+	    &lt;td valign="top"&gt;{title}&lt;/td&gt;
+            &lt;td&gt;{tutorial_body}&lt;/td&gt;&lt;td&gt;{tutorial_image}&lt;/td&gt;&lt;td&gt;{tutorial_hero_image}&lt;/td&gt;
+    &lt;/tr&gt;
 {/exp:channel:entries}
-<span class="nt">&lt;/tbody&gt;</span>
+&lt;/tbody&gt;
 </code></pre></div></div>
 
 <h2 id="exporting-individual-entries">Exporting Individual Entries</h2>
@@ -80,7 +80,7 @@
 
 <p>This is a very simple template but it gets the job done, creating a list of entries with links to download the individual files.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;ul&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;ul&gt;
 {exp:channel:entries channel="tutorials|reviews" dynamic="off" disable="member_data|pagination"}
 &lt;li&gt;&lt;a href="{title_permalink='exports/post'}" target="blank"&gt;{entry_date format='%Y-%m-%d'}-{url_title}.md&lt;/a&gt;&lt;/li&gt;
 {/exp:channel:entries}
@@ -91,13 +91,13 @@
 
 <p>Clicking on the entry link from the list above, fires the template below which initiates the download process. If you are trying to use this template, make sure you turn on ‘Allow PHP’ in the template preferences in EE.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{exp:channel:entries channel="tutorials|reviews" disable="member_data|pagination"}
-<span class="cp">&lt;?php</span>
-<span class="nb">header</span><span class="p">(</span><span class="s2">"Content-type: text/markdown; charset=UTF-8"</span><span class="p">);</span>
-<span class="nb">header</span><span class="p">(</span><span class="s2">"Content-Disposition: attachment; filename={entry_date format='%Y-%m-%d'}-</span><span class="si">{</span><span class="nv">url_title</span><span class="si">}</span><span class="s2">.md"</span><span class="p">);</span>
-<span class="nb">header</span><span class="p">(</span><span class="s2">"Pragma: no-cache"</span><span class="p">);</span>
-<span class="nb">header</span><span class="p">(</span><span class="s2">"Expires: 0"</span><span class="p">);</span>
-<span class="cp">?&gt;</span>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{exp:channel:entries channel="tutorials|reviews" disable="member_data|pagination"}
+&lt;?php
+header("Content-type: text/markdown; charset=UTF-8");
+header("Content-Disposition: attachment; filename={entry_date format='%Y-%m-%d'}-{url_title}.md");
+header("Pragma: no-cache");
+header("Expires: 0");
+?&gt;
 ---
 layout: post
 title:  "{title}"
@@ -126,9 +126,9 @@ categories: {categories}{category_name}{/categories}
 
 <h2 id="one-more-thing">One More Thing…</h2>
 
-<p>Remember to run <code class="highlighter-rouge">jekyll build</code> after you make changes to your site. Whether it be a post, config file, css file… whatever. This command rebuilds your site and all changes are made and regenerated to the static site files found in the _site directory.</p>
+<p>Remember to run <code class="language-plaintext highlighter-rouge">jekyll build</code> after you make changes to your site. Whether it be a post, config file, css file… whatever. This command rebuilds your site and all changes are made and regenerated to the static site files found in the _site directory.</p>
 
-<p>Remember, <code class="highlighter-rouge">jekyll build</code> and then push the site to Git, your server… wherever.</p>
+<p>Remember, <code class="language-plaintext highlighter-rouge">jekyll build</code> and then push the site to Git, your server… wherever.</p>
 
 <h2 id="links-of-note">Links of note</h2>
 

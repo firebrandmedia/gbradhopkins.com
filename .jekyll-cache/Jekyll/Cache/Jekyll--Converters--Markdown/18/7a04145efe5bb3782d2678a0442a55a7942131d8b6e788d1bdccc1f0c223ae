@@ -1,4 +1,4 @@
-I"ý<p>Need a quick way to toggle between tabs in Safari (or, pretty much any other browser) using keyboard shortcuts?</p>
+I"#<p>Need a quick way to toggle between tabs in Safari (or, pretty much any other browser) using keyboard shortcuts?</p>
 
 <p><img src="/images/tabs.JPG" alt="Safari Tabs" /></p>
 
@@ -14,11 +14,11 @@
 
 <p><strong>Toggle Forward</strong></p>
 
-<p><code class="highlighter-rouge">Command - Shift - ]</code></p>
+<p><code class="language-plaintext highlighter-rouge">Command - Shift - ]</code></p>
 
 <p><strong>Toggle Backward</strong></p>
 
-<p><code class="highlighter-rouge">Command - Shift - [</code></p>
+<p><code class="language-plaintext highlighter-rouge">Command - Shift - [</code></p>
 
 <p>This keyboard combination also works in Firefox and Chrome as well.</p>
 :ET
