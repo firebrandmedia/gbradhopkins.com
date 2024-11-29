@@ -200,51 +200,51 @@ h2 {
 }
 
 .post-list li:nth-of-type(1) {
-    background-color: color.adjust(#282C34, 1%);
+    background-color: rgba(40, 44, 52, 0.01);
 }
 
 .post-list li:nth-of-type(2) {
-    background-color: color.adjust(#282C34, 3%);
+    background-color: rgba(40, 44, 52, 0.03);
 }
 
 .post-list li:nth-of-type(3) {
-    background-color: color.adjust(#282C34, 5%);
+    background-color: rgba(40, 44, 52, 0.05);
 }
 
 .post-list li:nth-of-type(4) {
-    background-color: color.adjust(#282C34, 8%);
+    background-color: rgba(40, 44, 52, 0.08);
 }
 
 .post-list li:nth-of-type(5) {
-    background-color: color.adjust(#282C34, 11%);
+    background-color: rgba(40, 44, 52, 0.11);
 }
 
 .post-list li:nth-of-type(6) {
-    background-color: color.adjust(#282C34, 14%);
+    background-color: rgba(40, 44, 52, 0.14);
 }
 
 .post-list li:nth-of-type(7) {
-    background-color: color.adjust(#282C34, 17%);
+    background-color: rgba(40, 44, 52, 0.17);
 }
 
 .post-list li:nth-of-type(8) {
-    background-color: color.adjust(#282C34, 20%);
+    background-color: rgba(40, 44, 52, 0.20);
 }
 
 .post-list li:nth-of-type(9) {
-    background-color: color.adjust(#282C34, 23%);
+    background-color: rgba(40, 44, 52, 0.23);
 }
 
 .post-list li:nth-of-type(10) {
-    background-color: color.adjust(#282C34, 26%);
+    background-color: rgba(40, 44, 52, 0.26);
 }
 
 .post-list li:nth-of-type(11) {
-    background-color: color.adjust(#282C34, 29%);
+    background-color: rgba(40, 44, 52, 0.29);
 }
 
 .post-list li:nth-of-type(12) {
-    background-color: color.adjust(#282C34, 32%);
+    background-color: rgba(40, 44, 52, 0.32);
 }
 
 .post-list li:last-of-type {
@@ -314,7 +314,7 @@ article .post-meta {
 .pagination {
     text-align: center;
     padding: 20px 0;
-    background-color: color.adjust(#282C34, 26%);
+    background-color: rgba(40, 44, 52, 0.26);
     color: RGBA(241, 241, 241, 0.40);
     font-family: 'Quattrocento Sans', sans-serif;
     border-bottom: 1px solid #fff;
@@ -449,7 +449,7 @@ article .post-meta {
 }
 
 .post img {
-    border: 1ps solid color.adjust($grey-color, 20%);
+    border: 1ps solid rgba(130, 130, 130, 0.20);
     border-radius: 5px;
 }
 
