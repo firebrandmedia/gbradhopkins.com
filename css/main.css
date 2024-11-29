@@ -40,6 +40,10 @@ h2 {
   line-height: 1.8em;
 }
 
+.page-content {
+  background-color: #282C34;
+}
+
 /* HEADER STYLES
 -----------------------------*/
 .site-header {
