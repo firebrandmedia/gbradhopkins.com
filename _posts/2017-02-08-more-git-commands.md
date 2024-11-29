@@ -5,7 +5,7 @@ categories: web design
 description: More terminal commands for when you are using Git
 ---
 
-_After a long period of inactivity, I decided to play around with the Terminal, Git and Jekyll. My past self didn't anticipate this and forgot to leave instructions on some of the basic, basic commands. 2024 me is leaving these here for 2029 me. -Nov. 25, 2024_
+After a long period of inactivity, I decided to play around with the Terminal, Git and Jekyll. My past self didn't anticipate this and forgot to leave instructions on some of the basic, basic commands. 2024 me is leaving these here for 2029 me. -Nov. 25, 2024
 
 In a previous entry, I wrote about my use of Git and how I preferred to use a Git client (Tower) as opposed to the command line. In that entry, I listed some [basic Git commands](http://gbradhopkins.com/web/design/tutorials/2016/09/29/git-commit-workflow.html). These were the basic commands that I needed to push content to the repository for this site.
 
