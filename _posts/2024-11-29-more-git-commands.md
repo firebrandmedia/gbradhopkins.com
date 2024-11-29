@@ -41,6 +41,10 @@ Displays changes to git directory.
 
 Adds / stages all of the changed files in the current directory.
 
+`git commmit -m`
+
+Commits the changes and the -m allows us to add a message to indicate what the change is.
+
 `git push`
 
 Pushes the changes.
